@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container mt-5">
+	  {{ .Content }}
+
+    <ul class="nav nav-pills nav-fill" id="downloadTabs" role="tablist">
+        {{ range where (where .Site.Pages "Section" .Page.Section) ".Params.iconhtml" "!=" nil }}
+        {{ $id := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+        <li class="nav-item">
+            <a class="nav-link" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true"> {{ safeHTML .Params.iconhtml }} {{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+
+    <div class="tab-content" id="downloadTabContent">
+        {{ range where (where .Site.Pages "Section" .Page.Section) ".Params.iconhtml" "!=" nil }}
+        {{ $id := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+
+        <div class="tab-pane fade active py-4" id="{{ $id }}" role="tabpanel" aria-labelledby="{{ $id }}-tab">
+            {{ .Content }}
+			  </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ define "pagescript" }}
+<script>
+ function OSDetect(){
+     var OSName = "unknown";
+     if (window.navigator.userAgent.indexOf("Windows") != -1) OSName="windows";
+     if (window.navigator.userAgent.indexOf("Mac") != -1) OSName="mac";
+     if (window.navigator.userAgent.indexOf("X11") != -1) OSName="unix";
+     if (window.navigator.userAgent.indexOf("Linux") != -1) OSName="linux";
+     return OSName;
+ }
+
+ $(function() {
+     var osName = OSDetect();
+     console.log('OS=' + osName);
+     if (osName === "unknown" || osName === 'mac') {
+         osName = "source";
+     }
+
+     $('#downloadTabs a[href="#' + osName + '"]').tab('show')
+ });
+</script>
+{{ end }}

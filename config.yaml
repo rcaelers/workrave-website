@@ -1,0 +1,97 @@
+baseURL: https://test.workrave.org/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+enableEmoji: true
+footnotereturnlinkcontents: ↩
+metaDataFormat: yaml
+theme: workrave
+
+paginate: 5
+paginatePath: "page"
+
+title: Workrave
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+languageCode: en-us
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 1
+    description: >
+      Workrave is a program that assists in the recovery and prevention of
+      Repetitive Strain Injury (RSI). The program frequently alerts you to take
+      micro-pauses, rest breaks and restricts you to your daily limit. The
+      program runs on GNU/Linux and Microsoft Windows.
+    menu:
+      main:
+        - identifier: about
+          url: /
+          name: About
+          weight: 10
+        - identifier: help
+          url: /docs/
+          name: Getting Help
+          weight: 20
+        - identifier: development
+          url: /
+          name: Get Involved
+          weight: 30
+        - identifier: download
+          url: /download/
+          name: Download
+          weight: 40
+        - identifier: blog
+          url: /blog/
+          name: Blog
+          weight: 50
+  nl:
+    contentDir: content/nl
+    languageName: Nederlands
+    weight: 2
+    description: >
+      Workrave is een programma dat helpt bij het herstel en de preventie van
+      Repetitive Strain Injury (RSI). Het programma waarschuwt u regelmatig om
+      micro-pauzes en rustpauzes te nemen en beperkt u tot uw dagelijkse limiet.
+      Het programma draait op GNU / Linux en Microsoft Windows.
+    menu:
+      main:
+        - identifier: about
+          url: /
+          name: Over
+          weight: 10
+        - identifier: help
+          url: /
+          name: Hulp
+          weight: 20
+        - identifier: development
+          url: /
+          name: Ontwikkeling
+          weight: 30
+        - identifier: blog
+          url: /
+          name: Blog
+          weight: 40
+
+params:
+  github_repo: "https://github.com/rcaelers/workrave-website/issues/new"
+  date_format: Jan 2, 2006
+
+permalinks:
+  blog: /:year/:month/:day/:slug/
+
+outputFormats:
+  RSS:
+    baseName: feed
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  page:
+  - HTML
+  section:
+  - HTML

@@ -1,0 +1,30 @@
+:root {
+    --text-color:               rgba(32, 32, 32, 1);
+    --light-text-color:         rgba(90, 90, 90, 1);
+    --muted-text-color:         rgba(150, 150, 150, 1);
+
+    --background-color:         rgba(255, 255, 255, 1);
+    --muted-background-color:   rgba(240, 240, 240, 1);
+
+    --border-color:             rgba(220, 220, 220, 1);
+    --shadow-color:             rgba(230, 230, 230, 1);
+
+    --link-color:               #5577cc;
+    --link-visited-color:       #3366aa;
+    --link-hover-color:         #000000;
+
+    --navbar-hover-text-color:  rgba(0, 0, 0, 1);
+    --navbar-text-color:        rgba(255,255,255,1);
+    --navbar-hilight-bg-color:  rgba(255,255,255,.3);
+    --navbar-menu-bg-color:     rgba(20, 162, 247, 0.85);
+    --navbar-bg-color:          rgba(20, 162, 247, 0.95);
+
+    --header-bg-color:          rgba(78, 154, 6, 1);
+
+
+    --feature-color:            rgba(78, 154, 6, 0.07);
+
+    --section-color-1:          rgba(78, 154, 6, 0.5);
+    --section-color-2:          rgba(114, 159, 207, 0.5)
+
+}

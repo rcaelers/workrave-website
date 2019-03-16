@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container">
+    <div class="mx-auto text-center lead">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ partial "features/featured.html" . }}
+
+<div class="py-5">
+    <div class="container">
+        {{ partial "blog/recent.html" . }}
+    </div>
+</div>
+{{ end }}
+
+{{ define "header" }}
+<div class="page-header-frontpage">
+    {{ with .Site.GetPage "/banner" }}
+    {{ .Content }}
+    {{ end }}
+</div>
+{{ end }}

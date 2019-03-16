@@ -1,0 +1,3 @@
+{{ with .Site.Home.OutputFormats.Get "RSS" -}}
+<p>{{ i18n "blog_subscribe" . | safeHTML }}</p>
+{{ end  }}

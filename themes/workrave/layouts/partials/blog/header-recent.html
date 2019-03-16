@@ -1,0 +1,7 @@
+<header>
+    <div class="blog-subtitle text-secondary">
+        {{ if not .Date.IsZero }}
+        {{ .Date.Format .Site.Params.date_format }}
+        {{ end }}
+    </div>
+</header>

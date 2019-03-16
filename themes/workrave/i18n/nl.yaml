@@ -1,0 +1,20 @@
+languages:
+  other: Talen
+blog_recent_posts:
+  other: Recente Blog Posts
+blog_read_more:
+  other: Lees verder
+blog_subscribe:
+  other: Abonneer via <a href="{{ .Permalink }}">RSS</a>
+last_updated:
+  other: Laatst bijgewerkt
+tags:
+  other: Tags
+categories:
+  other: Categorieen
+posted_by:
+  other: 'door'
+posted_on:
+  other: 'op'
+posted_in:
+  other: 'in'

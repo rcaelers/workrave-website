@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-9 blog-list">
+            {{ partial "blog/list.html" . }}
+        </div>
+        <div class="col-md-3 blog-sidebar">
+            {{ partial "blog/sidebar.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

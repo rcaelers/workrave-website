@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+    <head>
+        {{ partial "base/metas.html" . }}
+        {{ partial "base/styles.html" . }}
+
+        <link rel="canonical" href="{{ .Permalink }}">
+        <title>{{ block "title" . }}{{ if ne .Title .Site.Title }}{{ .Title }} &middot; {{ end }} {{ .Site.Title }}{{ end }}</title>
+    </head>
+	  <body class="bg-light">
+        {{ block "navbar" . }}{{ partial "site/navbar.html" .}}{{ end }}
+        {{ block "header" . }}{{ partial "site/header.html" .}}{{ end }}
+
+        <div class="page-content bg-white">
+            {{ block "main" . }}{{ end }}
+        </div>
+
+        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+
+        {{ partial "base/scripts.html" . }}
+        {{ block "pagescript" . }}{{ end }}
+	  </body>
+</html>

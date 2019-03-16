@@ -1,0 +1,20 @@
+languages:
+  other: Languages
+blog_recent_posts:
+  other: Recent Blog Posts
+blog_read_more:
+  other: Read more
+blog_subscribe:
+  other: Subscribe via <a href="{{ .Permalink }}">RSS</a>
+last_updated:
+  other: Last updated
+tags:
+  other: Tags
+categories:
+  other: Categories
+posted_by:
+  other: 'by'
+posted_on:
+  other: 'on'
+posted_in:
+  other: 'in'

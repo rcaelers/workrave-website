@@ -1,0 +1,30 @@
+{{ $features := where (where .Site.RegularPages "Type" "features") ".Params.featured" true }}
+{{if gt (len $features) 0}}
+{{ range $index, $page := first 6 (sort $features ".Params.weight") }}
+<div class="feature">
+    <div class="container py-5">
+        {{if not (modBool $index 2)}}
+        <div class="row feature-even">
+            <div class="col-12 col-md-7 align-self-center">
+                <h3 class="feature-title">{{ $page.Params.title }}</h3>
+                {{ $page.Summary }}
+            </div>
+            <div class="col-12 col-md-5 text-center align-self-center">
+                <div class="feature-image"><img class="img-fluid" alt="{{ $page.Params.title }} logo" src="{{ $page.Params.image }}" /></div>
+            </div>
+        </div>
+        {{ else }}
+        <div class="row feature-odd">
+            <div class="col-12 col-md-5 text-center align-self-center">
+                <div class="feature-image"><img class="img-fluid" alt="{{ $page.Params.title }} logo" src="{{ $page.Params.image }}" /></div>
+            </div>
+            <div class="col-12 col-md-7 align-self-centere">
+                <h3 class="feature-title">{{ $page.Params.title }}</h3>
+                {{ $page.Summary }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+{{ end }}

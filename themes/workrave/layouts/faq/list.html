@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{ $faq_sections := slice }}
+{{ range $page := .Pages }}
+{{ range $section := $page.Params.section }}
+{{ $faq_sections = $faq_sections | append $section }}
+{{ end }}
+{{ end }}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
+                {{ range $index, $section := $faq_sections | uniq }}
+                <a href="#tab{{ $section }}" class="nav-link{{ if not $index }} active{{ end }}" data-toggle="pill" role="tab" aria-controls="tab{{ $section }}" aria-selected="false">
+                    {{ i18n ( print "faq_" $section) }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="tab-content faq-tab-content" id="faq-tab-content">
+                {{ $top := . }}
+                {{ range $section_index, $section := $faq_sections | uniq }}
+                <div class="tab-pane{{ if not $section_index }} show active{{ end }}" id="tab{{ $section }}" role="tabpanel" aria-labelledby="tab{{ $section }}">
+                    <div class="accordion" id="accordion-{{ $section }}">
+                        {{ range $page_index, $page := where $top.Pages ".Params.section" "intersect" (slice $section)}}
+                        <div class="card">
+                            <div class="card-header" id="accordion-tab-{{$section_index}}-heading-{{$page_index}}">
+                                <h5>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_index }}-content-{{$page_index}}" aria-expanded="false" aria-controls="accordion-tab-{{ $section_index }}-content-{{$page_index}}">
+                                        {{- replace (replace (replaceRE "Q:(.+)(.|\n)*" "$1" $page.Content ) "<p>" "") "</p>" "" | safeHTML -}}
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="accordion-tab-{{ $section_index }}-content-{{$page_index}}" aria-labelledby="accordion-tab-{{ $section_index }}-heading-{{$page_index}}" data-parent="#accordion-{{ $section }}">
+                                <div class="card-body">
+                                    {{ replaceRE "(.|\n)*A:((.|\n)+)" "$2" $page.Content | safeHTML}}
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

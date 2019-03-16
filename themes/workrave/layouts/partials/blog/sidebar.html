@@ -1,0 +1,23 @@
+<div class="card border-0 faq-sidebar">
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+
+    {{ $total := 0 }}
+    {{ range $name, $value := $taxonomy }}
+    {{ $total = (add $total (len (where $value.Pages "Section" "blog"))) }}
+    {{ end }}
+
+    {{ if gt $total 0 }}
+    <div class="card-body faq-taxonomy">
+        <h3 class="card-title">{{ i18n $taxonomyname }}</h3>
+
+        <ul class="nav flex-column">
+            {{ range $name, $value := $taxonomy }}
+            <li>
+                <a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $value }})</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>

@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ range .Paginator.Pages }}
+{{ .Render "content" }}
+{{ end }}
+{{ partial "widgets/paginator" . }}
+{{ end }}

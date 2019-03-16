@@ -1,0 +1,15 @@
+{{- $type := .Get 0 -}}
+
+{{- with (eq $type "win32-download-link") -}}
+{{- $version :=$.Site.Data.workrave.version -}}
+{{- $tag := replace $version "." "_" -}}
+https://github.com/rcaelers/workrave/releases/download/v{{ $tag }}/workrave-win32-v{{ $version }}.exe
+{{- end -}}
+
+{{- with (eq $type "date-latest-release") -}}
+{{- $.Site.Data.workrave.date -}}
+{{- end -}}
+
+{{- with (eq $type "version-latest-release") -}}
+{{- $.Site.Data.workrave.version -}}
+{{- end -}}

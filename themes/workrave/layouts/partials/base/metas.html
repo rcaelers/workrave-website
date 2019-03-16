@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+{{ .Hugo.Generator }}
+
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+<meta name="robots" content="index, follow">
+{{ else }}
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}" />
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}" />
+{{ end }}
+
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
+{{ end }}
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
