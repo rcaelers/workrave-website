@@ -16,7 +16,7 @@ linkTitle: Documentation
 
     The section explains Workrave's main timer window.
 
-    ![Main Window](/images/screenshots/overdue.png "The main window")
+    ![Main Window](/images/screenshots/main.png "The main window")
 
 - [Menus](menus)
 
