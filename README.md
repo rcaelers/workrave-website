@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dba397bd-55a2-45be-a108-312778094973/deploy-status)](https://app.netlify.com/sites/workrave-test/deploys)
+
 # Workrave's (upcoming) website
 
 This is an attempt to redesign Workrave's website using Hugo. A preview can be
