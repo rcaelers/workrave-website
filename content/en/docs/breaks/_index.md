@@ -4,13 +4,25 @@ title: Breaks
 
 This section contains information on the different kind of breaks that Workrave supports.
 
-![Micro-Break](/images/screenshots/prelude-daily.png "The micro break warning window")
-![Micro-Break](/images/screenshots/microbreak.png "The micro break window")
+# Micro breaks
 
-![Micro-Break](/images/screenshots/prelude-micro.png "The rest break warning window")
-![Rest Break](/images/screenshots/restbreak.png "The rest break window")
-![Rest Break](/images/screenshots/restbreak-active.png "The rest break window")
-![Rest Break](/images/screenshots/restbreak-exercise.png "The rest break window")
+![Microbreak prelude window](/images/screenshots/prelude-microbreak.png)
+![Microbreak prelude window](/images/screenshots/prelude-microbreak-warn.png)
+![Microbreak prelude window](/images/screenshots/prelude-microbreak-warn-red.png)
 
-![Micro-Break](/images/screenshots/prelude-daily.png "The daily limit window")
-![Dailiy Linit](/images/screenshots/daily-limit.png "The daily limit window")
+![Microbreak](/images/screenshots/microbreak.png)
+
+![Microbreak with warning](/images/screenshots/microbreak-warn.png)
+
+# Restbreaks
+
+![Rest break prelude winxow](/images/screenshots/prelude-restbreak.png)
+![Restbreak with exercises](/images/screenshots/restbreak-exercise.png)
+![Restbreak](/images/screenshots/restbreak.png)
+![Restbreak with warning](/images/screenshots/restbreak-warn.png)
+
+# Daily limit
+
+![Daily limit prelude winxow](/images/screenshots/prelude-daily.png)
+![Daily Limit](/images/screenshots/daily.png)
+![Lock screen](/images/screenshots/daily-lock.png)
