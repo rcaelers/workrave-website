@@ -1,6 +1,6 @@
 ---
 title: Break timer window
-image: "/images/screenshots/overdue.png"
+image: "/images/screenshots/main.png"
 featured: true
 weight: 5
 ---
