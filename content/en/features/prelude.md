@@ -1,6 +1,6 @@
 ---
 title: Break warning
-image: /images/screenshots/prelude-micro.png
+image: /images/screenshots/prelude-microbreak.png
 featured: false
 weight: 1
 ---
