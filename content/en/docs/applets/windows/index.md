@@ -2,7 +2,7 @@
 title: Windows applet
 ---
 
-On Windows, Workrave supports a toolbat that shows all timer values in the
+On Windows, Workrave supports a toolbar that shows all timer values in the
 status bar. This toolbar can be enabled by right clicking in the status bar. In
 the popup menu that appears, go to the `Toolbars` menu and select `Workrave`:
 
