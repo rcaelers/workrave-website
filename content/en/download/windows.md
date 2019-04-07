@@ -22,6 +22,4 @@ Even older versions are available from SourceForge:
 
 # Development Builds
 
-Development builds can be downloaded from:
-
-[https://snapshots.workrave.org/v1_10/](https://snapshots.workrave.org/v1_10/)
+[Development builds](/snapshots) are also available.

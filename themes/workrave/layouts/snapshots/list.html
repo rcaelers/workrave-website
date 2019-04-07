@@ -1,0 +1,142 @@
+{{ define "main" }}
+<div class="container">
+    <table id="table"></table>
+</div>
+{{ end }}
+
+{{ define "pagescript" }}
+
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.12.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.js" integrity="sha256-rxtN7ax6JOI0GBbjjD5jd3nR92PQypBOaWpK2K6GPeo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/extensions/treegrid/bootstrap-table-treegrid.js" integrity="sha256-ySKjqtNMozBZjR+i1G0LkCwtDDZ9QlFFjv/wLt03mUw=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.css" integrity="sha256-8IKgrrbaFCkgrjZ2fncqWIc4ztZojMqXVtNVzcWA/mQ=" crossorigin="anonymous" />
+
+<script src="/jquery.treegrid.js"></script>
+<link rel="stylesheet" href="/jquery.treegrid.css"></script>
+
+<script>
+ var $table = $('#table')
+ $table.bootstrapTable({
+     striped: true,
+     sidePagination: 'client',
+     showColumns: false,
+     columns: [
+         {
+             field: 'Name',
+             title: 'Filename',
+             sortable: true,
+         },
+         {
+             field: 'LastModified',
+             title: 'Timestamp',
+             align: 'center',
+         },
+         {
+             field: 'Size',
+             title: 'Size'
+         }
+     ],
+
+     idField: 'Id',
+     parentIdField: 'Pid',
+     treeShowField: 'Name',
+
+     onPostBody: function() {
+         var columns = $table.bootstrapTable('getOptions').columns
+         if (columns && columns[0][1].visible) {
+             $table.treegrid({
+                 treeColumn: 0,
+                 onChange: function() {
+                     $table.bootstrapTable('resetWidth')
+                 }
+             })
+         }
+     }
+ })
+
+ var BUCKET_URL  = "https://org-workrave.s3-eu-central-1.amazonaws.com/";
+
+ jQuery(function($) {
+     listBucket(null, "snapshots/v1.10/", [])
+     .then(function(items) {
+        var $table = $('#table');
+        $table.bootstrapTable('append', items);
+     });
+ });
+
+ function listBucket(marker, prefix, items) {
+    var params = {};
+    if (prefix) {
+        params['prefix'] = prefix.replace(/\/$/, '') + '/';
+    }
+    if (marker) {
+         params['marker'] = marker;
+    }
+
+    var url = BUCKET_URL;
+    var p = $.param(params);
+    if (p != "") {
+        url += '?' + p;
+    }
+
+    return $.get(url)
+        .then(function(xml, status, jqXhr) {
+            var result = $(xml).find('ListBucketResult');
+            var truncated = result.find('IsTruncated').text() == 'true';
+
+            var files = {};
+            var lastKey = ''
+            result.find('Contents').each( function( index, element ) {
+			    var item = $(element);
+			    var key = item.find('Key').text();
+                var name = key.replace(prefix, '');
+
+                lastKey = key;
+                var levels = name.split('/');
+
+                for (var i = 1; i <= levels.length; i++) {
+                    id = levels.slice(0, i).join('_').replace('.', '_');
+
+                    if (!(id in files)) {
+                        pid =  levels.slice(0, i - 1).join('_').replace('.', '_');
+                        entry =  levels.slice(i - 1, i)[0];
+
+                        if ( i == levels.length) {
+                            url = encodeURI( BUCKET_URL + key );
+
+                            files[id] = {
+                                Key: key,
+                                Name: entry,
+                                LastModified: item.find('LastModified').text(),
+                                Size: item.find('Size').text(),
+                                Url: url,
+                                Id: id,
+                                Pid: pid,
+                            };
+                        } else {
+                            files[id] = {
+                                Key: key,
+                                Name: entry,
+                                LastModified: '',
+                                Size: '',
+                                Id: id,
+                                Pid: pid,
+                            };
+                        }
+                    }
+                }
+            });
+
+            var values = $.map(files, function(v) { return v; });
+            items = items.concat(values);
+            if ($(result.find('IsTruncated')[0]).text() == 'true') {
+                var nextMarker = lastKey;
+                return listBucket(nextMarker, prefix, items);
+            } else {
+                return items;
+            }
+        });
+ }
+ 
+</script>
+{{ end }}
