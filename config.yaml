@@ -34,7 +34,7 @@ languages:
           weight: 10
         - identifier: help
           url: /docs/
-          name: Getting Help
+          name: Get Help
           weight: 20
         - identifier: development
           url: /
