@@ -5,20 +5,20 @@
     <div class="container py-5">
         {{if not (modBool $index 2)}}
         <div class="row feature-even">
-            <div class="col-12 col-md-7 align-self-center">
+            <div class="col-12 col-md-7 align-self-center order-first">
                 <h3 class="feature-title">{{ $page.Params.title }}</h3>
                 {{ $page.Summary }}
             </div>
-            <div class="col-12 col-md-5 text-center align-self-center">
+            <div class="col-12 col-md-5 text-center align-self-center order-last">
                 <div class="feature-image"><img class="img-fluid" alt="{{ $page.Params.title }} logo" src="{{ $page.Params.image }}" /></div>
             </div>
         </div>
         {{ else }}
         <div class="row feature-odd">
-            <div class="col-12 col-md-5 text-center align-self-center">
+            <div class="col-12 col-md-5 text-center align-self-center order-last order-md-first">
                 <div class="feature-image"><img class="img-fluid" alt="{{ $page.Params.title }} logo" src="{{ $page.Params.image }}" /></div>
             </div>
-            <div class="col-12 col-md-7 align-self-centere">
+            <div class="col-12 col-md-7 align-self-center order-first order-md-last">
                 <h3 class="feature-title">{{ $page.Params.title }}</h3>
                 {{ $page.Summary }}
             </div>
