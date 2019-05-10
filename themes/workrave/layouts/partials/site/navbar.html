@@ -10,7 +10,6 @@
 
         <div class="collapse navbar-collapse" id="mainNavBar">
             <ul class="navbar-nav ml-auto">
-                {{ $url := .URL | relLangURL }}
                 {{ range .Site.Menus.main.ByWeight }}
                 {{ if .HasChildren }}
                 <li class="nav-item dropdown">
@@ -31,7 +30,7 @@
                 {{ if .IsTranslated }}
                 {{ range .Translations }}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL }}" title="{{ .Lang | upper }} version page">
+                    <a class="nav-link" href="{{ .Permalink }}" title="{{ .Lang | upper }} version page">
                         {{ .Lang | upper }}
                     </a>
                 </li>
