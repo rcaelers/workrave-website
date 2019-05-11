@@ -36,13 +36,13 @@ languages:
           url: /docs/
           name: Get Help
           weight: 20
-        - identifier: development
-          url: /get-involved
-          name: Get Involved
+        - identifier: contribute
+          url: /contribute
+          name: Contribute
           weight: 30
         - identifier: download
           url: /download/
-          name: Download
+          name: Downloads
           weight: 40
         - identifier: blog
           url: /blog/
@@ -64,15 +64,15 @@ languages:
           name: Over
           weight: 10
         - identifier: help
-          url: /
+          url: /docs/
           name: Hulp
           weight: 20
-        - identifier: development
-          url: /
+        - identifier: contribute
+          url: /contribute
           name: Ontwikkeling
           weight: 30
         - identifier: blog
-          url: /
+          url: /blog/
           name: Blog
           weight: 40
 

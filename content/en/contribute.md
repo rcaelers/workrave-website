@@ -1,6 +1,6 @@
 ---
-slug: get-involved
-title: Get Involved
+slug: contribute
+title: Contribute
 ---
 ## Code
 
