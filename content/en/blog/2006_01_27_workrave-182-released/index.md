@@ -17,4 +17,3 @@ support on Unix.
   was hidden.
 - Fixed translations.
 - Better hibernate/standby support on Unix
-

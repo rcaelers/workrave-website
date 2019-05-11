@@ -1,7 +1,6 @@
 ---
 title: Settings
 ---
-
 - [Timers](timers)
 
 - [User Interface](ui)

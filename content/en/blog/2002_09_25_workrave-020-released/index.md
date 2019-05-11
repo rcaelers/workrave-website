@@ -10,4 +10,3 @@ Version 0.2.0 is here, released soon after 0.1.0.
 
 Lots of bugs have been fixed, and the Windows version now has support for the
 system tray.
-

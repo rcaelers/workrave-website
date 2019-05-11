@@ -6,9 +6,8 @@ title: Swedish and Brazilian-Portugese leaflet
 categories:
   - release
 ---
-More leaflet translations are available: Swedish and Brazilian Portugese.
+More leaflet translations are available: Swedish and Brazilian Portuguese.
 <!--more-->
 
-The leaflet is now also available in Swedish and Brazilian Portugese, thanks to
+The leaflet is now also available in Swedish and Brazilian Portuguese, thanks to
 Daniel Nylander and Eber do Carmo.
-

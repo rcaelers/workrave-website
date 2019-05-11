@@ -19,7 +19,7 @@ new sound theme has been added.
 
 - Many small bugfixes
 - Fixed transparency of tray icon on Linux.
-- New alternate activity moniting for Windows (Ray Satiro)
+- New alternate activity monitoring for Windows (Ray Satiro)
 - Additional tooltips (Ray Satiro)
 - Improved 64 bit support (Ray Satiro)
 - Improved Vista support (Ray Satiro)

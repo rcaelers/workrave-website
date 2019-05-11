@@ -5,7 +5,7 @@ headless: true
 weight: 0
 ---
 The recommended way of installing Workrave on Linux or a Unix-Linux distribution
-is by using the offcial package of the distribution, if available.
+is by using the official package of the distribution, if available.
 
 ## [Debian](https://www.debian.org/)
 
@@ -39,17 +39,16 @@ pkg install workrave
 sudo emerge --ask --verbose workrave
 {{< / highlight >}}
 
-## [Open SUSE](https://www.opensuse.org/) 
+## [Open SUSE](https://www.opensuse.org/)
 
 {{< highlight bash >}}
 zypper install workrave
 {{< / highlight >}}
 
-## Ubuntu
+## [Ubuntu](https://www.ubuntu.com/)
 
 {{< highlight bash >}}
 sudo apt-get install workrave
 {{< / highlight >}}
 
 For Ubuntu, we also have a [PPA](ubuntu).
-

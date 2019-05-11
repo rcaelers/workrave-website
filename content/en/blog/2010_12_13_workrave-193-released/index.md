@@ -10,12 +10,12 @@ Workrave 1.9.3 has been released, featuring a number of improvements,
 new translations and the usual bug fixes.
 <!--more-->
 
-# New translations:
+## New translations
 
 - Seanán Ó Coistín translated Workrave into Irish.
 - 김재용 translated Workrave into Korean.
 
-# Improvements:
+## Improvements
 
 - Workrave now stops all timers when the screen is locked. When the screen in
   unlocked, a natural restbreak is started.
@@ -26,7 +26,7 @@ new translations and the usual bug fixes.
 - By default, the RECORD extention is now mandatory on X windows
   systems.
 
-# Bug fixes:
+## Bug fixes
 
 - Fixed crash on Windows systems without audio installed.
 - Fixed translucency of Deskband applet on Windows 7/Vista.

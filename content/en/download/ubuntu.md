@@ -18,7 +18,7 @@ sudo apt-get install workrave
 
 If you need a newer version than what is included in your distribution, use the official Workrave PPA.
 
-# Official Workrave PPA
+## Official Workrave PPA
 
 1. Open the Ubuntu Software Manager.
 2. Select 'Edit' -> 'Software Sources...'.

@@ -7,12 +7,12 @@ categories:
   - release
 ---
 Workrave 1.9.4 has been released. It features keyboard shortcuts on break
-windows and a number of other small improvements. Furthermore, anumber of
+windows and a number of other small improvements. Furthermore, a number of
 crashes have been fixed and hibernate/standby should now be handled properly on
 Windows 7.
 <!--more-->
 
-# Improvements:
+## Improvements
 
 - The skip and postpone button now have keyboard shortcuts (Alt-S and Alt-P in
   the English version).
@@ -23,7 +23,7 @@ Windows 7.
 - The (un)installer now automatically shuts down Workrave before
   (un)installation.
 
-# Bug fixes:
+## Bug fixes
 
 - Fixed crash when the 'mute all audio during breaks' option is enabled.
 - Fixed issue where Workrave remains suspended after hibernate/standby on Window

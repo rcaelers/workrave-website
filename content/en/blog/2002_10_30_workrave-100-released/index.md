@@ -12,4 +12,3 @@ After extensive testing we finally present our first production release.
 Version 1.0.0 is rock solid and ready for daily usage at the office. New in this
 release is a Dutch translation, and the daily limit window is fully operational
 now.
-

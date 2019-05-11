@@ -12,4 +12,3 @@ source tarball, and a Windows installer version.
 
 Interesting to note is that the Windows version is completely built on a
 GNU/Linux system, using a cross-compiler and Wine to create the final setup.exe.
-

@@ -14,4 +14,4 @@ I spent the last few nights moving the site over to my new provider. The site is
 finally 100% up and running again. So now I can continue to work on Miss
 Workrave. I am currently focusing on her face, here's a first snapshot:
 
-![](workrave-face.png)
+![Face](workrave-face.png)

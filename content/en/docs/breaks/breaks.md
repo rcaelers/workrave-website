@@ -1,7 +1,6 @@
 ---
 title: Break announcements
 ---
-
 ## Microbreaks
 
 ![Microbreak with warning](/images/screenshots/microbreak-warn.png)

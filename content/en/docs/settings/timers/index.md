@@ -1,7 +1,6 @@
 ---
 title: Timer settings
 ---
-
 ![Preferences - Timer - Microbreak](/images/screenshots/preferences-timers-micro.png)
 
 ![Preferences - Timer - Restbreak](/images/screenshots/preferences-timers-restbreak.png)

@@ -10,4 +10,3 @@ We now have a Italian [leaflet](/leaflet) available.
 <!--more-->
 
 The leaflet was translated by Giulio Sorrentino, thanks.
-

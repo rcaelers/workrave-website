@@ -1,5 +1,5 @@
 ---
-title: Opereration Mode
+title: Operation Mode
 section:
  - general
 ---

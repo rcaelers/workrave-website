@@ -10,7 +10,7 @@ Workrave 1.10 has been released. It features support for Gnome 3 and Unity. On
 Windows, resuming from hibernate/sleep should no longer keep Workrave suspended.
 <!--more-->
 
-# Improvements:
+## Improvements
 
 - Split "show 'postpone' and 'skip'" checkbox into two checkboxes.
 - Add the capability to delete all stored statistics (Ray Satiro)
@@ -21,7 +21,7 @@ Windows, resuming from hibernate/sleep should no longer keep Workrave suspended.
   an external program.
 - Many new translations and translation updates.
 
-# Bug fixes:
+## Bug fixes
 
 - On Windows, Workrave does not stay in the 'suspended' mode after resuming from
   hibernate/sleep.

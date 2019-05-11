@@ -10,7 +10,7 @@ Workrave 1.9.1 has been released. It features updated translations and,
 ofcourse, the usual bug fixing.
 <!--more-->
 
-# Updated translations:
+## Updated translations
 
 - new Romanian translation (Alexandru Szasz)
 - new Estonian translation (Marko Väljaots)
@@ -18,7 +18,7 @@ ofcourse, the usual bug fixing.
 - Removed extra "2" character in the Hungarian translation (Márton Németh)
 - Update of Swedish translation
 
-# Many bug fixes:
+## Many bug fixes
 
 - Fix saving the username in the networking preferences (Francois Marier)
 - Fix KDE compilation errors (Stanislav Brabec)
@@ -31,4 +31,3 @@ ofcourse, the usual bug fixing.
   windows (Ray Satiro)
 - Fixed tray icon tranparency
 - Improved volume control on Windows
-

@@ -12,4 +12,3 @@ A Greek translation of both Workrave and its leaflet are in the pipeline.
 The leaflet is now also available in Greek. Furthermore, the next version will
 also feature a complete Greek translation of Workrave. Thanks, Prokopis
 Prokopidis.
-

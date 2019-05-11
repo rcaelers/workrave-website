@@ -15,4 +15,3 @@ Ferreira Filh.
 - Upgraded GTK runtime to version 2.4, fixing some minor UI quirks.
 - Fixed some high-profile bugs, especially activity monitoring
   problems when running X.
-

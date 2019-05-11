@@ -11,4 +11,3 @@ disappear.
 <!--more-->
 
 Version 1.6.1 is only a minor bug fix release that addresses this problem.
-

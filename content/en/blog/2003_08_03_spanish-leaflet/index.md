@@ -10,4 +10,3 @@ We now have a Spanish leaflet available.
 <!--more-->
 
 The leaflet was translated by Pablo Rodriguez, thanks.
-

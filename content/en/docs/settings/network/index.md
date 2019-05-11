@@ -1,7 +1,6 @@
 ---
 title: Networking
 ---
-
 ![Preferences - Network - General](/images/screenshots/preferences-network-general.png)
 
 ![Preferences - Network - Hosts](/images/screenshots/preferences-network-hosts.png)

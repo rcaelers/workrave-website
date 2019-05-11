@@ -9,7 +9,6 @@ A:Workrave should automatically use the native Windows font size. Changing the
 font size cannot be done using the user interface. You can change the fonts size
 by creating a file called `.gtkrc-2.0` in your home directory containing:
 
-
 {{< highlight config >}}
 gtk-font-name = "Arial 14"
 

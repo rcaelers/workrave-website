@@ -12,4 +12,3 @@ A Japanese translation of both Workrave and its leaflet are in the pipeline.
 The leaflet is now also available in Japanese. Furthermore, the next version
 will also feature a complete Japanese translation of Workrave. Thanks, Masanobu
 Yokota.
-

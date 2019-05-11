@@ -10,4 +10,3 @@ We now have a French [leaflet](/leaflet) available.
 <!--more-->
 
 The leaflet was translated by Pierre-Henri Trivier, thanks.
-

@@ -7,19 +7,19 @@ headless: true
 If no binary packages are available for you distribution, you can compile
 Workrave yourself from source.
 
-# Stable Releases
+## Stable Releases
 
 Source code for the latest releases can be found on Github:
 
 [https://github.com/rcaelers/workrave/releases](https://github.com/rcaelers/workrave/releases)
 
-# Developement
+## Development
 
-The most recent source code for Workrav can be found on Github:
+The most recent source code for Workrave can be found on Github:
 
 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
 
-# Building Workrave
+## Building Workrave
 
 Instructions for building Workrave on Linux/Unix and Windows are available:
 

@@ -8,4 +8,3 @@ We opened an online Workrave shop.
 
 Buy original Workrave items (T-shirts, mugs, caps, ...) to sponsor the Workrave
 project.
-

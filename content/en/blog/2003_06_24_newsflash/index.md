@@ -19,4 +19,3 @@ near future. You'll have to be a bit more patient for the exercises, but here's
 a sneak preview of how "Miss Workrave" is going to look...
 
 ![Workrave](workrave.png)
-

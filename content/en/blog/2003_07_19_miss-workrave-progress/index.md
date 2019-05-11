@@ -11,5 +11,4 @@ More progress on Miss Workrave and office items.
 More progress on Miss Workrave. I have added armatures (bones). Also new is an
 office chair, which still needs some nice colors though...:
 
-![](workrave-chair.png)
-
+![Chair](workrave-chair.png)

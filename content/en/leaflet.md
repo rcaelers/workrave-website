@@ -15,16 +15,15 @@ for other patients.
 Download Leaflet
 ----------------
 
--   [English](/leaflet//leaflet.pdf)
--   [Dutch](/leaflet//leaflet-nl.pdf)
--   [German](/leaflet//leaflet-de.pdf)
--   [Spanish](/leaflet//leaflet-es.pdf)
--   [French](/leaflet//leaflet-fr.pdf)
--   [Hungarian](/leaflet//leaflet-hu.pdf)
--   [Italian](/leaflet//leaflet-it.pdf)
--   [Swedish](/leaflet//leaflet-sv.pdf)
--   [Brazilian Portuguese](/leaflet//leaflet-pt_BR.pdf)
--   [Japanese](/leaflet//leaflet-ja.pdf)
--   [Turkish](/leaflet//leaflet-tr.pdf)
--   [Greek](/leaflet//leaflet-el.pdf)
-
+- [English](/leaflet//leaflet.pdf)
+- [Dutch](/leaflet//leaflet-nl.pdf)
+- [German](/leaflet//leaflet-de.pdf)
+- [Spanish](/leaflet//leaflet-es.pdf)
+- [French](/leaflet//leaflet-fr.pdf)
+- [Hungarian](/leaflet//leaflet-hu.pdf)
+- [Italian](/leaflet//leaflet-it.pdf)
+- [Swedish](/leaflet//leaflet-sv.pdf)
+- [Brazilian Portuguese](/leaflet//leaflet-pt_BR.pdf)
+- [Japanese](/leaflet//leaflet-ja.pdf)
+- [Turkish](/leaflet//leaflet-tr.pdf)
+- [Greek](/leaflet//leaflet-el.pdf)

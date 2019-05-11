@@ -13,4 +13,4 @@ Windows taskbar.
 GNU/Linux users have had the privilege to enjoy this feature for quite some time
 now, but it is finally coming to the Windows world. Here's a snapshot:
 
-![](workrave-applet.png)
+![Applet](workrave-applet.png)

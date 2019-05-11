@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dba397bd-55a2-45be-a108-312778094973/deploy-status)](https://app.netlify.com/sites/workrave-test/deploys)
-
 # Workrave's (upcoming) website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dba397bd-55a2-45be-a108-312778094973/deploy-status)](https://app.netlify.com/sites/workrave-test/deploys)
 
 This is an attempt to redesign Workrave's website using Hugo. A preview can be
 found at [https://test.workrave.org/](https://test.workrave.org/)
@@ -38,13 +38,13 @@ Open `localhost:1313` in your browser.
 The Workrave Hugo theme (everything below the `themes\workrave` directory) is
 MIT licensed. All other content is GPLv3.
 
-#### Website content
+### Website content
 
 Copyright (C) 2001 - 2019 Raymond Penners and Rob Caelers
 
 License: GPL3
 
-#### Hugo workrave theme
+### Hugo workrave theme
 
 Copyright (C) 2018, 2019 Rob Caelers
 

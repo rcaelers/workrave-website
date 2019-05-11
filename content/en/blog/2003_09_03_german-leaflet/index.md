@@ -10,4 +10,3 @@ We now have a German [leaflet](/leaflet) available.
 <!--more-->
 
 The [leaflet](/leaflet) was translated by Johannes Rohr, thanks.
-

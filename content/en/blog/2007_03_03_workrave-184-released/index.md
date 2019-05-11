@@ -40,4 +40,3 @@ support), and the usual bug fixing.
   datadir=.\\Data
 
 - Daily limit now properly resets when hibernated.
-

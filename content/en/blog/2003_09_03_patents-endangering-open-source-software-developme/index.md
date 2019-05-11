@@ -16,4 +16,3 @@ and might forbid independent development of innovative (Open Source and not)
 software-based solutions. For further information please see
 <http://swpat.ffii.org> and <http://petition.eurolinux.org>. Please show your
 support there.
-

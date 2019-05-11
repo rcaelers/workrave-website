@@ -29,4 +29,3 @@ Lithuanian, Portuguese, Norwegian, Czech, Hebrew).
   events.
 - Decent tooltips for Workrave system tray icon.
 - Miscellaneous distribution improvements.
-

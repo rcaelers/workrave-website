@@ -1,6 +1,7 @@
 ---
 headless: true
 ---
+<!-- markdownlint-disable MD041 -->
 <div class="row my-2">
   <div class="col-12 col-md">
     <img src="/images/workrave-logo.svg" alt="Workrave" style="width: auto; height: 20px">

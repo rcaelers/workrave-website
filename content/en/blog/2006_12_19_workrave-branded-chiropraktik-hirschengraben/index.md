@@ -15,4 +15,3 @@ photography, audible (spoken) exercises, and preconfigured fixed settings. The
 branded version was created by IntenCT, a company started by Raymond Penners. In
 compliance to the GPL, all modifications are available in our source archive as
 well.
-
