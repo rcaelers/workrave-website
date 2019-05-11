@@ -37,7 +37,7 @@ languages:
           name: Get Help
           weight: 20
         - identifier: development
-          url: /
+          url: /get-involved
           name: Get Involved
           weight: 30
         - identifier: download
