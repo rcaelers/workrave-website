@@ -1,142 +1,85 @@
 {{ define "main" }}
-<div class="container">
-    <table id="table"></table>
+<div class="container mt-5">
+    {{ .Content }}
+    <ul class="nav nav-pills nav-fill snapshots-nav" id="snapshot-tabs" role="tablist">
+        {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
+        {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+        <li class="nav-item">
+            <a class="nav-link{{ if not $section_index }} active{{ end }}" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true">
+                {{ safeHTML $section.Params.iconhtml }} {{ $section.Title }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+
+    <div class="tab-content snapshots-tab-content" id="snapshots-tab-content">
+        {{ $top := . }}
+        {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
+        {{ $section_id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+
+        {{ $base := "https://snapshots.workrave.org/" }}
+        {{ $catalog := getJSON (print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json") }}
+
+        <div class="tab-pane{{ if not $section_index }} show active{{ end }} fade py-4" id="{{ $section_id }}" role="tabpanel" aria-labelledby="{{ $section_id }}-tab}">
+            {{ $section.Content }}
+
+            <div class="accordion" id="accordion-{{ $section_id }}">
+                {{ range $item_index, $item := $catalog.builds }}
+                {{ $item_id := $item_index }}
+                <div class="card mb-3">
+                    <div class="card-header" id="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_id }}-content-{{ $item_id }}"
+                            aria-expanded="false" aria-controls="accordion-tab-{{ $section_id }}-content-{{ $item_id }}">
+
+                            <div class="clearfix card-header-body">
+                                <div class="snapshots-header">
+                                    {{ $timestamp := printf $item.date | time }}
+                                    <p>{{ $timestamp.Format "Jan 2 2006, 15:04:05 MST" }}</p>
+                                    <p>{{ replace $item.tag "_" "." }} {{ if $item.increment }} + {{ $item.increment}} commits {{ end }}</p>
+                                </div>
+
+                                <div class="snapshots-downloads">
+                                    {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "release") }}
+                                    {{ with $winInstallRelease }}
+                                    <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
+                                    {{ end}}
+                                    {{ end}}
+
+                                    {{/* range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
+                                    {{ with $winInstallDebug }}
+                                    <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
+                                    {{ end }}
+                                    {{ end */}}
+
+                                    {{ range $sources := first 1 (where (where $item.artifacts ".platform" "all") ".kind" "source")  }}
+                                    {{ with $sources }}
+                                    <a href="{{ $base }}{{ .url }}"><i class='fas fa-code fa-3x m-2'></i></a>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="collapse" id="accordion-tab-{{ $section_id }}-content-{{ $item_id }}" aria-labelledby="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}"
+                        data-parent="#accordion-{{ $section_id }}">
+                        <div class="card-body text-monospace">
+                            {{ range $item.commits }}
+                            {{ $ts := int (.author.timestamp) | time }}
+                            <div class="border mb-2 p-2">
+                                commit {{ .oid }}<br>
+                                Author: {{ .author.name | htmlEscape}}<br>
+                                Date: {{ $ts.Format "Jan 2 2006, 15:04:05 MST" }}</br><br>
+                                {{ if ne .author.name .committer.name }}{{ .committer.name | htmlEscape}}{{ end }}
+                                {{ replace (trim (htmlEscape .message) " \n\t") "\n" "<p>" | safeHTML}}
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
 </div>
-{{ end }}
-
-{{ define "pagescript" }}
-
-<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.12.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.js" integrity="sha256-rxtN7ax6JOI0GBbjjD5jd3nR92PQypBOaWpK2K6GPeo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/extensions/treegrid/bootstrap-table-treegrid.js" integrity="sha256-ySKjqtNMozBZjR+i1G0LkCwtDDZ9QlFFjv/wLt03mUw=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.css" integrity="sha256-8IKgrrbaFCkgrjZ2fncqWIc4ztZojMqXVtNVzcWA/mQ=" crossorigin="anonymous" />
-
-<script src="/jquery.treegrid.js"></script>
-<link rel="stylesheet" href="/jquery.treegrid.css"></script>
-
-<script>
- var $table = $('#table')
- $table.bootstrapTable({
-     striped: true,
-     sidePagination: 'client',
-     showColumns: false,
-     columns: [
-         {
-             field: 'Name',
-             title: 'Filename',
-             sortable: true,
-         },
-         {
-             field: 'LastModified',
-             title: 'Timestamp',
-             align: 'center',
-         },
-         {
-             field: 'Size',
-             title: 'Size'
-         }
-     ],
-
-     idField: 'Id',
-     parentIdField: 'Pid',
-     treeShowField: 'Name',
-
-     onPostBody: function() {
-         var columns = $table.bootstrapTable('getOptions').columns
-         if (columns && columns[0][1].visible) {
-             $table.treegrid({
-                 treeColumn: 0,
-                 onChange: function() {
-                     $table.bootstrapTable('resetWidth')
-                 }
-             })
-         }
-     }
- })
-
- var BUCKET_URL  = "https://org-workrave.s3-eu-central-1.amazonaws.com/";
-
- jQuery(function($) {
-     listBucket(null, "snapshots/v1.10/", [])
-     .then(function(items) {
-        var $table = $('#table');
-        $table.bootstrapTable('append', items);
-     });
- });
-
- function listBucket(marker, prefix, items) {
-    var params = {};
-    if (prefix) {
-        params['prefix'] = prefix.replace(/\/$/, '') + '/';
-    }
-    if (marker) {
-         params['marker'] = marker;
-    }
-
-    var url = BUCKET_URL;
-    var p = $.param(params);
-    if (p != "") {
-        url += '?' + p;
-    }
-
-    return $.get(url)
-        .then(function(xml, status, jqXhr) {
-            var result = $(xml).find('ListBucketResult');
-            var truncated = result.find('IsTruncated').text() == 'true';
-
-            var files = {};
-            var lastKey = ''
-            result.find('Contents').each( function( index, element ) {
-			    var item = $(element);
-			    var key = item.find('Key').text();
-                var name = key.replace(prefix, '');
-
-                lastKey = key;
-                var levels = name.split('/');
-
-                for (var i = 1; i <= levels.length; i++) {
-                    id = levels.slice(0, i).join('_').replace('.', '_');
-
-                    if (!(id in files)) {
-                        pid =  levels.slice(0, i - 1).join('_').replace('.', '_');
-                        entry =  levels.slice(i - 1, i)[0];
-
-                        if ( i == levels.length) {
-                            url = encodeURI( BUCKET_URL + key );
-
-                            files[id] = {
-                                Key: key,
-                                Name: entry,
-                                LastModified: item.find('LastModified').text(),
-                                Size: item.find('Size').text(),
-                                Url: url,
-                                Id: id,
-                                Pid: pid,
-                            };
-                        } else {
-                            files[id] = {
-                                Key: key,
-                                Name: entry,
-                                LastModified: '',
-                                Size: '',
-                                Id: id,
-                                Pid: pid,
-                            };
-                        }
-                    }
-                }
-            });
-
-            var values = $.map(files, function(v) { return v; });
-            items = items.concat(values);
-            if ($(result.find('IsTruncated')[0]).text() == 'true') {
-                var nextMarker = lastKey;
-                return listBucket(nextMarker, prefix, items);
-            } else {
-                return items;
-            }
-        });
- }
- 
-</script>
 {{ end }}

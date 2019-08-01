@@ -299,3 +299,105 @@ a {
 .feature {
     background-image: linear-gradient(to bottom, #fafafa, var(--feature-color));
 }
+
+
+/*
+ *  SNAPSHOTS
+ */
+
+ .snapshots-nav {
+    flex-direction: row;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 5px var(--shadow-color);
+
+    & .nav-link {
+        position: relative;
+        margin: 0;
+        background-color: var(--background-color);
+        border: 0;
+        border-bottom: 1px solid var(--border-color);
+        border-radius: 0;
+        color: var(--light-text-color);
+        transition: background-color .2s ease;
+        font-weight: 700;
+
+        &:hover {
+            background-color: var(--shadow-color);
+        }
+
+        &.active {
+            background-color: var(--muted-background-color);
+            color: rgba(0,0,0,.87);
+        }
+
+        &:last-of-type {
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border-bottom: 0;
+        }
+    }
+}
+ 
+.snapshots-tab-content {
+    /* box-shadow: 0 1px 5px var(--shadow-color); */
+
+    & .accordion>.card .card-header {
+        margin: 0;
+    }
+
+    & .card-header {
+        margin: 0;
+        padding: 0;
+
+        & button {
+            display: block;
+            width: 100%;
+            padding: 10px 10px 5px 10px;
+            border: 0;
+            color: var(--text-color);
+            text-align: left;
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:hover:active {
+                text-decoration: none;
+            }
+
+            & .snapshots-header {
+                float: left;
+                font-size: 18px;
+                letter-spacing: 0.04em;
+
+                & p {
+                    margin-right: .4rem;
+                    margin-bottom: 0;
+                }
+            
+            }
+            
+            & .snapshots-downloads {
+                color: var(--light-text-color);
+                float: right;
+                font-size: 16px;
+            }
+            
+
+
+        }
+    }
+    
+    & .card-body {
+        color: var(--light-text-color);
+
+        & p {
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+    }
+
+    
+}
+
