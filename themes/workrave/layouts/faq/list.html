@@ -17,9 +17,11 @@
         <div class="col-md-3">
             <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
                 {{ range $index, $section := $faq_sections | uniq }}
-                <a href="#tab{{ $section }}" class="nav-link{{ if not $index }} active{{ end }}" data-toggle="pill" role="tab" aria-controls="tab{{ $section }}" aria-selected="false">
+                <li class="nav-item">
+                        <a href="#tab{{ $section }}" class="nav-link{{ if not $index }} active{{ end }}" data-toggle="pill" role="tab" aria-controls="tab{{ $section }}" aria-selected="false">
                     {{ i18n ( print "faq_" $section) }}
-                </a>
+                    </a>
+                </li>
                 {{ end }}
             </div>
         </div>
@@ -28,18 +30,23 @@
             <div class="tab-content faq-tab-content" id="faq-tab-content">
                 {{ $top := . }}
                 {{ range $section_index, $section := $faq_sections | uniq }}
-                <div class="tab-pane{{ if not $section_index }} show active{{ end }}" id="tab{{ $section }}" role="tabpanel" aria-labelledby="tab{{ $section }}">
+                <div class="tab-pane{{ if not $section_index }} show active{{ end }}" id="tab{{ $section }}" role="tabpanel"
+                    aria-labelledby="tab{{ $section }}">
                     <div class="accordion" id="accordion-{{ $section }}">
                         {{ range $page_index, $page := where $top.Pages ".Params.section" "intersect" (slice $section)}}
+                        {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
                         <div class="card">
-                            <div class="card-header" id="accordion-tab-{{$section_index}}-heading-{{$page_index}}">
+                            <div class="card-header" id="accordion-tab-{{ $section }}-heading-{{$id}}">
                                 <h5>
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_index }}-content-{{$page_index}}" aria-expanded="false" aria-controls="accordion-tab-{{ $section_index }}-content-{{$page_index}}">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#accordion-tab-{{ $section }}-content-{{$id}}" aria-expanded="false"
+                                        aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
                                         {{- replace (replace (replaceRE "Q:(.+)(.|\n)*" "$1" $page.Content ) "<p>" "") "</p>" "" | safeHTML -}}
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="accordion-tab-{{ $section_index }}-content-{{$page_index}}" aria-labelledby="accordion-tab-{{ $section_index }}-heading-{{$page_index}}" data-parent="#accordion-{{ $section }}">
+                            <div class="collapse" id="accordion-tab-{{ $section }}-content-{{$id}}"
+                                aria-labelledby="accordion-tab-{{ $section }}-heading-{{$id}}" data-parent="#accordion-{{ $section }}">
                                 <div class="card-body">
                                     {{ replaceRE "(.|\n)*A:((.|\n)+)" "$2" $page.Content | safeHTML}}
                                 </div>
@@ -54,3 +61,22 @@
     </div>
 </div>
 {{ end }}
+
+{{ define "pagescript" }}
+
+<script>
+    $(document).ready(() => {
+        let url = location.href.replace(/\/$/, "");
+        console.log('faq:' + url + ' ' + location.hash);
+        if (location.hash) {
+            const hash = url.split("#");
+            const parts = hash[1].split(";");
+            console.log('part 0:' + parts[0]);
+            $('#faq-tabs a[href="#tab' + parts[0] + '"]').tab("show");
+            if (parts[1]) {
+                $('#accordion-tab-' + parts[0] + '-content-' + parts[1]).collapse("show");
+            }
+        }
+    });
+</script>
+{{end}}
