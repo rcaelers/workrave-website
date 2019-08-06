@@ -7,9 +7,8 @@
     {{ end }}
 
     {{ if gt $total 0 }}
-    <div class="card-body faq-taxonomy">
+    <div class="card-body">
         <h3 class="card-title">{{ i18n $taxonomyname }}</h3>
-
         <ul class="nav flex-column">
             {{ range $name, $value := $taxonomy }}
             <li>

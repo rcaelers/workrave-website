@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 a {
@@ -148,210 +147,34 @@ a {
 }
 
 /*
- *  PAGINATION
- */
-
-.pagination {
-    margin-top: 3rem;
-    margin-bottom: 5em;
-
-    & li {
-        display: inline-block;
-        margin-right: .4rem;
-
-        &.disabled {
-            display: none;
-        }
-
-        & a {
-            color: var(--text-color);
-            border-radius: 3px;
-        }
-    }
-}
-
-
-/*
- *  FAQ
- */
-
-.faq-nav {
-    flex-direction: column;
-    margin: 0 0 32px;
-    border-radius: 2px;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 1px 5px var(--shadow-color);
-
-    & .nav-link {
-        position: relative;
-        display: block;
-        margin: 0;
-        padding: 10px 15px;
-        background-color: var(--background-color);
-        border: 0;
-        border-bottom: 1px solid var(--border-color);
-        border-radius: 0;
-        color: var(--light-text-color);
-        transition: background-color .2s ease;
-
-        &:hover {
-            background-color: var(--muted-background-color);
-        }
-
-        &.active {
-            background-color: var(--muted-background-color);
-            font-weight: 700;
-            color: rgba(0,0,0,.87);
-        }
-
-        &:last-of-type {
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-            border-bottom: 0;
-        }
-    }
-}
-
-.faq-tab-content {
-    box-shadow: 0 1px 5px var(--shadow-color);
-
-    & .card-header {
-        background-color: var(--muted-background-color);
-
-        & h5 {
-            margin: 0;
-
-            & button {
-                display: block;
-                width: 100%;
-                padding: 0;
-                border: 0;
-                font-weight: 700;
-                color: var(--text-color);
-                text-align: left;
-
-                &:hover,
-                &:focus,
-                &:active,
-                &:hover:active {
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-
-    & .card-body {
-        color: var(--light-text-color);
-
-        & p {
-            &:last-of-type {
-                margin: 0;
-            }
-        }
-    }
-}
-
-
-/*
  *  SNAPSHOTS
  */
 
- .snapshots-nav {
-    flex-direction: row;
-    border-radius: 2px;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 1px 5px var(--shadow-color);
-
-    & .nav-link {
-        position: relative;
-        margin: 0;
-        background-color: var(--background-color);
-        border: 0;
-        border-bottom: 1px solid var(--border-color);
-        border-radius: 0;
-        color: var(--light-text-color);
-        transition: background-color .2s ease;
-        font-weight: 700;
-
-        &:hover {
-            background-color: var(--shadow-color);
-        }
-
-        &.active {
-            background-color: var(--muted-background-color);
-            color: rgba(0,0,0,.87);
-        }
-
-        &:last-of-type {
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-            border-bottom: 0;
-        }
+ .nav-pills .nav-link {
+    background-color: var(--background-color);
+    color: var(--light-text-color);
+    transition: background-color .2s ease;
     }
-}
  
-.snapshots-tab-content {
-    /* box-shadow: 0 1px 5px var(--shadow-color); */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--muted-background-color);
+    color: rgba(0,0,0,.87);
+ }
 
-    & .accordion>.card .card-header {
-        margin: 0;
-    }
-
-    & .card-header {
-        margin: 0;
-        padding: 0;
-
-        & button {
-            display: block;
-            width: 100%;
-            padding: 10px 10px 5px 10px;
-            border: 0;
-            color: var(--text-color);
-            text-align: left;
-
-            &:hover,
-            &:focus,
-            &:active,
-            &:hover:active {
-                text-decoration: none;
-            }
-
-            & .snapshots-header {
-                float: left;
-                font-size: 18px;
-                letter-spacing: 0.04em;
-
-                & p {
-                    margin-right: .4rem;
-                    margin-bottom: 0;
-                }
-            
-            }
-            
-            & .snapshots-downloads {
-                color: var(--light-text-color);
-                float: right;
-                font-size: 16px;
-            }
-        }
-    }
-    
-    & .card-body {
-        color: var(--light-text-color);
-
-        & p {
-            &:last-of-type {
-                margin: 0;
-            }
-        }
+.card-header {
+    & button {
+        color: var(--text-color);
     }
 }
-
 
 /*
  *  TWEAKS
  */
 
-.letter-space-wide {
+.letter-spacing-wide {
     letter-spacing: 0.04em;
+}
+
+.font-md {
+    font-size: 1.2em;
 }

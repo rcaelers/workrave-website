@@ -4,10 +4,10 @@
     <div class="row">
         {{ range where .Data.Pages "Section" "blog" | first 3 }}
         <div class="col-md-4">
-            <h5 class="text-uppercase letter-space-wide mb-1">{{ .Title | markdownify }}</h5>
+            <h5 class="text-uppercase letter-spacing-wide mb-1">{{ .Title | markdownify }}</h5>
             {{ partial "blog/header.html" . }}
             {{ .Summary }}
-            <a class="btn blog-readmore text-left letter-space-wide" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
+            <a class="btn blog-readmore text-left letter-spacing-wide" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
         </div>
         {{ end }}
     </div>

@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="container mt-5">
     {{ .Content }}
-    <ul class="nav nav-pills nav-fill snapshots-nav" id="snapshot-tabs" role="tablist">
+    <ul class="nav nav-pills nav-fill shadow-sm mb-2" id="snapshot-tabs" role="tablist">
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
         {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
-        <li class="nav-item">
+        <li class="nav-item border bg-white font-weight-bold">
             <a class="nav-link{{ if not $section_index }} active{{ end }}" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true">
                 {{ safeHTML $section.Params.iconhtml }} {{ $section.Title }}
             </a>
@@ -12,7 +12,8 @@
         {{ end }}
     </ul>
 
-    <div class="tab-content snapshots-tab-content" id="snapshots-tab-content">
+
+    <div class="tab-content" id="snapshots-tab-content">
         {{ $top := . }}
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
         {{ $section_id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
@@ -27,18 +28,18 @@
                 {{ range $item_index, $item := $catalog.builds }}
                 {{ $item_id := $item_index }}
                 <div class="card mb-3">
-                    <div class="card-header" id="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_id }}-content-{{ $item_id }}"
+                    <div class="card-header p-1" id="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}">
+                        <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_id }}-content-{{ $item_id }}"
                             aria-expanded="false" aria-controls="accordion-tab-{{ $section_id }}-content-{{ $item_id }}">
 
                             <div class="clearfix card-header-body">
-                                <div class="snapshots-header">
+                                <div class="float-left font-md letter-spacing-wide">
                                     {{ $timestamp := printf $item.date | time }}
-                                    <p>{{ $timestamp.Format "Jan 2 2006, 15:04:05 MST" }}</p>
-                                    <p>{{ replace $item.tag "_" "." }} {{ if $item.increment }} + {{ $item.increment}} commits {{ end }}</p>
+                                    <p class="mb-0">{{ $timestamp.Format "Jan 2 2006, 15:04:05 MST" }}</p>
+                                    <p class="mb-0">{{ replace $item.tag "_" "." }} {{ if $item.increment }} + {{ $item.increment}} commits {{ end }}</p>
                                 </div>
 
-                                <div class="snapshots-downloads">
+                                <div class="float-right">
                                     {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "release") }}
                                     {{ with $winInstallRelease }}
                                     <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
@@ -62,7 +63,7 @@
                     </div>
                     <div class="collapse" id="accordion-tab-{{ $section_id }}-content-{{ $item_id }}" aria-labelledby="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}"
                         data-parent="#accordion-{{ $section_id }}">
-                        <div class="card-body text-monospace">
+                        <div class="card-body text-muted text-monospace">
                             {{ range $item.commits }}
                             {{ $ts := int (.author.timestamp) | time }}
                             <div class="border mb-2 p-2">
@@ -70,7 +71,7 @@
                                 Author: {{ .author.name | htmlEscape}}<br>
                                 Date: {{ $ts.Format "Jan 2 2006, 15:04:05 MST" }}</br><br>
                                 {{ if ne .author.name .committer.name }}{{ .committer.name | htmlEscape}}{{ end }}
-                                {{ replace (trim (htmlEscape .message) " \n\t") "\n" "<p>" | safeHTML}}
+                                {{ replace (trim (htmlEscape .message) " \n\t") "\n" "<br>" | safeHTML}}
                             </div>
                             {{ end }}
                         </div>
