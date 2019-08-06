@@ -1,10 +1,13 @@
 {{ define "main" }}
 <div class="container mt-5">
-	  {{ .Content }}
-
+    {{ .Content }}
+    
+    {{ $headless := .Site.GetPage "/download/data" }}
+    {{ $pages := $headless.Resources.ByType "page" }}
+    
     <ul class="nav nav-pills nav-fill" id="downloadTabs" role="tablist">
-        {{ range where (where .Site.Pages "Section" .Page.Section) ".Params.iconhtml" "!=" nil }}
-        {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+        {{ range where $pages ".Params.iconhtml" "!=" nil }}
+        {{ $id := strings.TrimSuffix ".md" .Name }}
         <li class="nav-item">
             <a class="nav-link" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true"> {{ safeHTML .Params.iconhtml }} {{ .Title }}</a>
         </li>
@@ -12,8 +15,8 @@
     </ul>
 
     <div class="tab-content" id="downloadTabContent">
-        {{ range where (where .Site.Pages "Section" .Page.Section) ".Params.iconhtml" "!=" nil }}
-        {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+        {{ range where $pages ".Params.iconhtml" "!=" nil }}
+        {{ $id := strings.TrimSuffix ".md" .Name }}
 
         <div class="tab-pane fade active py-4" id="{{ $id }}" role="tabpanel" aria-labelledby="{{ $id }}-tab">
             {{ .Content }}

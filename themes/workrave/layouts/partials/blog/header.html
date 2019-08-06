@@ -1,18 +1,18 @@
 <div class="clearfix">
-    <p class="blog-author-category">
+    <p class="text-uppercase float-left text-muted letter-space-wide">
         {{ with .Params.author }}
-        {{ i18n "posted_by" }}<span class="blog-author"> {{ . }} </span>
+        {{ i18n "posted_by" }} {{ . }}
         {{ end }}
         {{ if isset .Params "categories" }}
         {{ if gt (len .Params.categories) 0 }}
-        {{ i18n "posted_in" }} <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+        {{ i18n "posted_in" }} <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}" >{{ index .Params.categories 0 }}</a>
         {{ end }}
         {{ end }}
     </p>
 
-    <p class="blog-date">
+    <p class="float-right text-muted  text-uppercase">
         {{ if not .Date.IsZero }}
-        <i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}
+        {{ .Date.Format .Site.Params.date_format }}
         {{ end }}
     </p>
 </div>

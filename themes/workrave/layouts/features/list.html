@@ -6,7 +6,9 @@
         </div>
     </div>
 
-    {{ $features := (where .Site.RegularPages "Type" "features") }}
+    {{ $headless := .Site.GetPage "/features/data" }}
+    {{ $features := $headless.Resources.ByType "page" }}
+
     {{if gt (len $features) 0}}
     {{ range $index, $page := first 6 (sort $features ".Params.weight") }}
     <div class="row mb-4">

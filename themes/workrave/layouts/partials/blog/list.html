@@ -1,12 +1,10 @@
 {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
 {{ range $paginator.Pages }}
-<div class="blog-post">
-    <div class="blog-header">
-        <h2 class="pb-2">{{ .Title | markdownify }}</h2>
-        {{ partial "blog/header.html" . }}
-    </div>
-    <div class="blog-summary">{{ .Summary }}</div>
-    <div class="blog-readmore"><a class="btn" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a></div>
+<div class="mb-5">
+    <h3 class="text-uppercase letter-space-wide">{{ .Title | markdownify }}</h3>
+    {{ partial "blog/header.html" . }}
+    <div class="text-left">{{ .Summary }}</div>
+    <a class="btn blog-readmore text-left letter-space-wide" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
 </div>
 {{ end }}
 

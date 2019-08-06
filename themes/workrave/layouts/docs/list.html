@@ -7,3 +7,8 @@
     {{ if not .Page.Lastmod.IsZero }}<p>{{ i18n "last_updated" . | safeHTML }}: {{ .Page.Lastmod.Format .Site.Params.date_format }}</p>{{ end }}
 </div>
 {{ end }}
+
+{{ define "header" }}
+<div class="jumbotron jumbotron-fluid banner-style-small">
+</div>
+{{ end }}

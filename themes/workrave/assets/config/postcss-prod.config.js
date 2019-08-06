@@ -7,6 +7,7 @@ module.exports = {
                 'nesting-rules': true
             }
         },
+        'cssnano': { autoprefixer: true },
         'autoprefixer': {
         }
     },

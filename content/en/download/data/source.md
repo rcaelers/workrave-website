@@ -2,7 +2,6 @@
 title: Source code
 iconhtml: "<div><i class='fas fa-code fa-5x mb-2'></i></div>"
 weight: 3
-headless: true
 ---
 If no binary packages are available for you distribution, you can compile
 Workrave yourself from source.

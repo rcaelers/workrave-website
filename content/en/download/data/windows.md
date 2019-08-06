@@ -1,7 +1,6 @@
 ---
 title: Windows
 iconhtml: "<div><i class='fab fa-windows fa-5x mb-2'></i></div>"
-headless: true
 weight: 1
 ---
 ## Stable Release

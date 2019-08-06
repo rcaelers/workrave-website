@@ -1,22 +1,16 @@
-html,
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-body {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    min-height: 100vh;
-}
-
 html {
     width: 100vw;
     overflow-x:hidden;
 }
 
-h1, h2, h3, h4, h5, h66 {
-    font-weight: 700;
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 a {
@@ -34,7 +28,6 @@ a {
  *  GENERAL SITE PAGES
  */
 
-
 .page-content {
     flex: 1 0 auto;
 }
@@ -43,45 +36,64 @@ a {
     flex-shrink: 0;
 }
 
-.page-header-frontpage {
+.jumbotron {
     background-color: var(--header-bg-color);
+    padding-top: 80px;
+    padding-bottom: 40px;
 
-    padding-top: 70px;
-    min-height: 100px;
-
-    & h1 {
-        font-size: 3em;
-        font-weight: 700;
+    &.banner-style-small {
+        padding-top: 90px;
+        padding-bottom: 10px;
     }
 
-    & h2 {
-        font-weight: 600;
+    & .btn {
+        background-color: var(--background-color);
+        color: var(--link-color);
+        border-color: var(--link-color);
+        border-radius: 0;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+    .jumbotron {
+        padding-top: 140px;
+        padding-bottom: 80px;
+
+        &.banner-style-small {
+            padding-bottom: 10px;
+        }
     }
 }
 
-.page-header {
-    background-color: var(--header-bg-color);
-    padding-top: 70px;
-}
 
-.page-navbar {
+.homepage {
+    /* padding-top: 70px; */
 }
-
 
 /*
  *  NAVBAR
  */
 
 .navbar-vertical {
-    background-color: var(--navbar-hilight-bg-color);
+    background-color: var(--navbar-highlight-bg-color);
 }
 
 .navbar {
-    transition: all 0.4s ease-out;
+    transition: height 0.3s ease-out, top 0.2s ease-out, background 0.3s ease-out;
+    height: 100px;
 }
 
 .navbar.scrolled {
     background: var(--navbar-bg-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    height: 66px;
+}
+
+.navbar.hidden {
+    top: -100px;
 }
 
 .navbar .dropdown-menu {
@@ -103,7 +115,7 @@ a {
 .navbar .dropdown-item:hover,
 .navbar .dropdown-item:focus {
     color: var(--navbar-hover-text-color);
-    background-color: var(--navbar-hilight-bg-color);
+    background-color: var(--navbar-highlight-bg-color);
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link:not(.btn),
@@ -111,7 +123,7 @@ a {
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
     color: var(--navbar-hover-text-color);
-    background-color: var(--navbar-hilight-bg-color);
+    background-color: var(--navbar-highlight-bg-color);
     border-radius: 0.25em;
 }
 
@@ -125,54 +137,6 @@ a {
  *  BLOG
  */
 
-.blog-sidebar .blog-taxonomy h3 {
-    display: inline-block;
-    border-bottom: solid 5px var(--link-color);
-    padding-bottom: 4px;
-}
-
-.blog-header h2 {
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 0.04em;
-}
-
-.blog-post {
-    margin-bottom: 60px;
-}
-
-.blog-author-category {
-    color: var(--muted-text-color);
-    float: left;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-.blog-author-category a {
-    color: var(--link-color);
-}
-
-.blog-author {
-    color: var(--link-color);
-}
-
-.blog-date {
-    color: var(--light-text-color);
-    float: right;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.blog-summary {
-    font-size: 16px;
-    text-align: left;
-}
-
-.blog-readmore {
-    text-align: right;
-}
-
 .blog-readmore .btn {
     color: var(--link-color);
     border-color: var(--link-color);
@@ -182,6 +146,10 @@ a {
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
+
+/*
+ *  PAGINATION
+ */
 
 .pagination {
     margin-top: 3rem;
@@ -285,23 +253,6 @@ a {
 
 
 /*
- *  FEATURES
- */
-
-.feature-even {
-    min-height: 200px;
-}
-
-.feature-odd {
-    min-height: 200px;
-}
-
-.feature {
-    background-image: linear-gradient(to bottom, #fafafa, var(--feature-color));
-}
-
-
-/*
  *  SNAPSHOTS
  */
 
@@ -382,9 +333,6 @@ a {
                 float: right;
                 font-size: 16px;
             }
-            
-
-
         }
     }
     
@@ -397,7 +345,13 @@ a {
             }
         }
     }
-
-    
 }
 
+
+/*
+ *  TWEAKS
+ */
+
+.letter-space-wide {
+    letter-spacing: 0.04em;
+}

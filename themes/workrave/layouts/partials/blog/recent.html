@@ -1,20 +1,14 @@
-<div class="row">
-    <div class="col mx-auto text-center lead border-bottom">
-        <h1>{{ i18n "blog_recent_posts" }}</h1>
-    </div>
-</div>
+<div class="container py-5">
+    <h2 class="font-weight-light pb-3 text-uppercase">{{ i18n "blog_recent_posts" }}</h2>
 
-<div class="row">
-    {{ range where .Data.Pages "Section" "blog" | first 3 }}
-    <div class="col-md-4">
-        <div class="recent-posts mt-xl">
-	          <article>
-                <h2 class="pb-2">{{ .Title | markdownify }}</h2>
-                {{ partial "blog/header.html" . }}
-                {{ .Summary }}
-                <div class="blog-readmore"><a class="btn" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a></div>
-            </article>
+    <div class="row">
+        {{ range where .Data.Pages "Section" "blog" | first 3 }}
+        <div class="col-md-4">
+            <h5 class="text-uppercase letter-space-wide mb-1">{{ .Title | markdownify }}</h5>
+            {{ partial "blog/header.html" . }}
+            {{ .Summary }}
+            <a class="btn blog-readmore text-left letter-space-wide" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
         </div>
+        {{ end }}
     </div>
-    {{ end }}
 </div>

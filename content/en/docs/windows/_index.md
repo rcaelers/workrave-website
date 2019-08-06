@@ -1,7 +1,7 @@
 ---
 title: Windows
 ---
-- [Break Windows](breaks)
+- [Break Windows](/docs/breaks)
 
 - [Statistics](statistics)
 
