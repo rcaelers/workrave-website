@@ -1,31 +1,13 @@
 html {
     width: 100vw;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 body {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
-a {
-    color: var(--link-color);
-
-    &:visited {
-        color: var(--link-visited-color);
-    }
-    &:hover {
-        color: var(--link-hover-color);
-    }
-}
-
-/*
- *  GENERAL SITE PAGES
- */
 
 .page-content {
     flex: 1 0 auto;
@@ -36,7 +18,6 @@ a {
 }
 
 .jumbotron {
-    background-color: var(--header-bg-color);
     padding-top: 80px;
     padding-bottom: 40px;
 
@@ -44,16 +25,6 @@ a {
         padding-top: 90px;
         padding-bottom: 10px;
     }
-
-    & .btn {
-        background-color: var(--background-color);
-        color: var(--link-color);
-        border-color: var(--link-color);
-        border-radius: 0;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    
 }
 
 @media screen and (min-width: 576px) {
@@ -69,16 +40,26 @@ a {
 
 
 .homepage {
-    /* padding-top: 70px; */
+    /* background: url(/images/hourglass.svg) top left no-repeat var(--background-color);
+    background-size: auto 100%; */
 }
 
 /*
+.homepage:after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    right: -20px;
+    height: 30%;
+    width: 30%;
+    background: url(/images/hourglass.svg) right 0px bottom 0px no-repeat;
+    z-index: 0;
+    opacity: 0.4;
+}
+*/
+/*
  *  NAVBAR
  */
-
-.navbar-vertical {
-    background-color: var(--navbar-highlight-bg-color);
-}
 
 .navbar {
     transition: height 0.3s ease-out, top 0.2s ease-out, background 0.3s ease-out;
@@ -101,14 +82,10 @@ a {
 
 .navbar .navbar-nav .nav-link {
     color: var(--navbar-text-color);
-    text-transform: uppercase;
-    font-size: 16px;
 }
 
 .navbar .dropdown-item {
     color: var(--navbar-text-color);
-    text-transform: uppercase;
-    font-size: 16px;
 }
 
 .navbar .dropdown-item:hover,
@@ -130,41 +107,6 @@ a {
 .navbar .navbar-collapse.show {
     background-color: var(--navbar-menu-bg-color);
     padding: 0px 10px;
-}
-
-/*
- *  BLOG
- */
-
-.blog-readmore .btn {
-    color: var(--link-color);
-    border-color: var(--link-color);
-    border-radius: 0;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-/*
- *  SNAPSHOTS
- */
-
- .nav-pills .nav-link {
-    background-color: var(--background-color);
-    color: var(--light-text-color);
-    transition: background-color .2s ease;
-    }
- 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: var(--muted-background-color);
-    color: rgba(0,0,0,.87);
- }
-
-.card-header {
-    & button {
-        color: var(--text-color);
-    }
 }
 
 /*

@@ -1,7 +1,6 @@
 ---
 title: Break timer window
 image: "/images/screenshots/main.png"
-featured: true
 weight: 5
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

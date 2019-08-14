@@ -18,8 +18,7 @@
             <ul class="nav nav-pills flex-column shadow-sm mb-2" id="faq-tabs" role="tablist">
                 {{ range $index, $section := $faq_sections | uniq }}
                 <li class="nav-item border bg-white">
-                    <a href="#tab{{ $section }}" class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-toggle="tab" aria-controls="tab{{ $section }}"
-                        aria-selected="false">
+                    <a class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-toggle="tab" href="#tab{{ $section }}" aria-controls="tab{{ $section }}" aria-selected="true">
                         {{ i18n ( print "faq_" $section) }}
                     </a>
                 </li>
@@ -28,17 +27,17 @@
         </div>
 
         <div class="col-md-9">
-            <div class="tab-contentshadow-sm" id="faq-tab-content">
+            <div class="tab-content shadow-sm" id="faq-tab-content">
                 {{ $top := . }}
                 {{ range $section_index, $section := $faq_sections | uniq }}
-                <div class="tab-pane{{ if not $section_index }} show active{{ end }}" id="tab{{ $section }}" role="tabpanel" aria-labelledby="tab{{ $section }}">
+                <div class="tab-pane{{ if not $section_index }} show active{{ end }}" id="tab{{ $section }}" role="tabpanel" aria-labelledby="{{ $section }}-tab">
                     <div class="accordion" id="accordion-{{ $section }}">
                         {{ range $page_index, $page := where $top.Pages ".Params.section" "intersect" (slice $section)}}
                         {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
                         <div class="card">
                             <div class="card-header p-1" id="accordion-tab-{{ $section }}-heading-{{$id}}">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link text-left text-decoration-none font-weight-bold w-100"  type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section }}-content-{{$id}}"
+                                    <button class="btn btn-light text-left text-decoration-none font-weight-bold w-100"  type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section }}-content-{{$id}}"
                                         aria-expanded="false" aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
                                         {{- replace (replace (replaceRE "Q:(.+)(.|\n)*" "$1" $page.Content ) "<p>" "") "</p>" "" | safeHTML -}}
                                     </button>

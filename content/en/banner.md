@@ -11,10 +11,11 @@ headless: true
         information, it frequently alerts you to take micro-pauses, rest breaks and
         restricts you to your daily computer usage.
         </p>
-        <a href="/download" class="btn btn-lg">Download Workrave</a>
+        <a href="/download" class="btn btn-sm btn-light btn-outline-dark text-uppercase font-weight-bold">Download Workrave</a>
     </div>
     <div class="col-3 align-self-center">
-      <img src="/images/workrave-sheep.svg" alt="Workrave" width="90%">
+      <!--<img src="/images/workrave-sheep.svg" alt="Workrave" width="90%">-->
+      <img src="/images/hourglass.png" alt="Workrave" width="90%" style="opacity:0.9">
     </div>
   </div>
 </div>

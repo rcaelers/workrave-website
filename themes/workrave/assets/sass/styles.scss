@@ -1,0 +1,10 @@
+.nav-pills .nav-link {
+    background-color: var(--background-color);
+    color: var(--light-text-color);
+    transition: background-color .2s ease;
+    }
+ 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--muted-background-color);
+    color: rgba(0,0,0,.87);
+ }

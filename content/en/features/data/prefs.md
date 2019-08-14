@@ -1,7 +1,7 @@
 ---
-title: Break settings
+title: Settings
 image: "/images/screenshots/preferences-timers-micro.png"
-headless: true
+featured: true
 weight: 6
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
