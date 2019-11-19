@@ -34,8 +34,8 @@ body {
 
 @media screen and (min-width: 576px) {
     .jumbotron {
-        padding-top: 140px;
-        padding-bottom: 80px;
+        padding-top: 120px;
+        padding-bottom: 60px;
 
         &.banner-style-small {
             padding-bottom: 10px;
