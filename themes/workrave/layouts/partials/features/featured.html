@@ -1,16 +1,21 @@
 <div class="container">
-    <h2 class="font-weight-light pb-3">KEY FEATURES</h2>
-    {{ $headless := .Site.GetPage "/features/data" }}
+    <h2 class="font-weight-light pb-2">KEY FEATURES</h2>
+    {{ $headless := .Site.GetPage "/about/data" }}
     {{ $features := where ($headless.Resources.ByType "page") ".Params.featured" true  }}
 
     {{if gt (len $features) 0}}
-        <div class="row py-2">
-            {{ range $index, $page := first 6 (sort $features ".Params.weight") }}
-            <div class="col-4 order-first ">
-                <h4 class="font-weight-light">{{ $page.Params.title }}</h4>
+    <div class="row py-4">
+        {{ range $index, $page := first 6 (sort $features ".Params.weight") }}
+        <div class="col-6 order-first py-4">
+            <h3 class="font-weight-light">{{ with $page.Params.icon }}<img src="{{ . }}" class="pb-3 mr-3">{{ end }}{{ $page.Params.title }}</h3>
+            <div class="font-weight-light">
                 {{ $page.Summary }}
             </div>
-            {{ end }}
         </div>
+        {{ end }}
+    </div>
     {{ end }}
+    <a href="/about" class="font-weight-light pb-2">more features...</a>
+    <p></p>
+    <p></p>
 </div>

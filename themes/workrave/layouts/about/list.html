@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 mx-auto text-center lead">
+            {{ .Content }}
+        </div>
+    </div>
+
+    {{ $headless := .Site.GetPage "/about/data" }}
+    {{ $features := $headless.Resources.ByType "page" }}
+
+    {{if gt (len $features) 0}}
+    {{ range $index, $page := sort $features ".Params.weight" }}
+    <h3 class="feature-title">{{ $page.Params.title }}</h3>
+    <div class="row mb-4">
+        <div class="col-12 col-md-7">
+            {{ $page.Summary }}
+        </div>
+        <div class="col-12 col-md-5 text-center align-self-top">
+        <div class="feature-image"><img class="img-fluid" alt="{{ $page.Params.title }} logo" src="{{ $page.Params.screenshot }}" /></div>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+{{ end }}

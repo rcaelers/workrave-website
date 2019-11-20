@@ -29,7 +29,7 @@ languages:
     menu:
       main:
         - identifier: about
-          url: /
+          url: /about
           name: About
           weight: 10
         - identifier: help
