@@ -1,8 +1,4 @@
 ---
-menu:
-  main:
-    parent: about
-    weight: 20
 slug: leaflet
 title: Leaflet
 ---
