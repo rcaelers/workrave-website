@@ -1,6 +1,12 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container text-center">
-        <h1 class="display-4">{{ .Title }}</h1>
+        <h1 class="display-4">
+        {{ if eq .Kind "taxonomy" }}
+        Blog
+        {{ else }}
+        {{ .Title }}
+        {{ end }}
+        </h1>
         {{ with .Params.lead}}<p class="lead">{{ . }}</p>{{ end }}
     </div>
 </div>

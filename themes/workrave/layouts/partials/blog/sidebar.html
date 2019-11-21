@@ -1,4 +1,5 @@
 <div class="card border-0 blog-sidebar">
+    {{ $top := . }}
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
 
     {{ $total := 0 }}
@@ -12,7 +13,7 @@
         <ul class="nav flex-column">
             {{ range $name, $value := $taxonomy }}
             <li>
-                <a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $value }})</a>
+                <a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}" class="{{ if eq $name $top.Title }}font-weight-bold{{ end }}">{{ $name }} ({{ len $value }})</a>
             </li>
             {{ end }}
         </ul>
