@@ -60,7 +60,7 @@ languages:
     menu:
       main:
         - identifier: about
-          url: /
+          url: /about
           name: Over
           weight: 10
         - identifier: help
