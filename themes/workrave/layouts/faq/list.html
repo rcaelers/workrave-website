@@ -16,9 +16,15 @@
     <div class="row">
         <div class="col-md-3">
             <ul class="nav nav-pills flex-column shadow-sm mb-2" id="faq-tabs" role="tablist">
+                <li class="nav-item border bg-white">
+                    <a class="nav-link disabled" id="category-tab" data-toggle="tab" href="#tabcategoty" aria-controls="tabcategory" aria-selected="true">
+                        {{ i18n ( print "faq_category" ) }}
+                    </a>
+                </li>
                 {{ range $index, $section := $faq_sections | uniq }}
                 <li class="nav-item border bg-white">
-                    <a class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-toggle="tab" href="#tab{{ $section }}" aria-controls="tab{{ $section }}" aria-selected="true">
+                    <a class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-toggle="tab" href="#tab{{ $section }}" aria-controls="tab{{ $section }}"
+                        aria-selected="true">
                         {{ i18n ( print "faq_" $section) }}
                     </a>
                 </li>
@@ -36,8 +42,8 @@
                         {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
                         <div class="card">
                             <h5 class="card-header p-1" id="accordion-tab-{{ $section }}-heading-{{$id}}">
-                                <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section }}-content-{{$id}}"
-                                    aria-expanded="false" aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
+                                <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse"
+                                    data-target="#accordion-tab-{{ $section }}-content-{{$id}}" aria-expanded="false" aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
                                     <i class="fa fa-chevron-down pull-right"></i>&nbsp;
                                     {{- replace (replace (replaceRE "Q:(.+)(.|\n)*" "$1" $page.Content ) "<p>" "") "</p>" "" | safeHTML -}}
                                 </button>

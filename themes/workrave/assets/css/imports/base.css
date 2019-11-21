@@ -125,6 +125,16 @@ body {
     transform: rotate(-90deg);
 }
 
+.nav-pills .disabled {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+}
+
 /*
  *  TWEAKS
  */
