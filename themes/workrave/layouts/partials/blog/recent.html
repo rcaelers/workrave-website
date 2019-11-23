@@ -1,14 +1,14 @@
 <div class="bg-dark recent">
     <div class="container mb-5">
         <div class="row  no-gutters">
-            {{ range first 4 (sort (where .Site.RegularPages "Section" "blog") "Date" "desc")}}
-            <div class="col-md-3 col-ms-6">
+            {{ range $index, $post := first 4 (sort (where .Site.RegularPages "Section" "blog") "Date" "desc")}}
+            <div class="col-lg-3 col-md-6 col-sm-12 {{ if gt $index 1 }}d-none d-lg-block{{ else if gt $index 0 }}d-none d-md-block{{end}}">
                 <a href="{{ .RelPermalink }}" class="small text-decoration-none d-block p-3">
                     <div class="text-muted">
-                        {{ .Date.Format "January 2, 2006" }}
+                        {{ $post.Date.Format "January 2, 2006" }}
                     </div>
                     <div class="text-light">
-                        {{ .Title | markdownify | truncate 100 "…"}}
+                        {{ $post.Title | markdownify | truncate 100 "…"}}
                     </div>
                 </a>
             </div>
