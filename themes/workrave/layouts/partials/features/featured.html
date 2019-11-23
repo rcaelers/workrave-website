@@ -1,5 +1,4 @@
 <div class="container">
-    <h2 class="font-weight-light pb-2">KEY FEATURES</h2>
     {{ $headless := .Site.GetPage "/about/data" }}
     {{ $features := where ($headless.Resources.ByType "page") ".Params.featured" true  }}
 
