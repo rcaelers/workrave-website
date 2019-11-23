@@ -106,6 +106,21 @@ body {
     background-color: var(--navbar-highlight-bg-color);
 }
 
+.navbar-nav > li {
+    float: left;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-item:hover::after,
+.navbar-light .navbar-nav .nav-item.active::after {
+    border-bottom: 3px solid var(--navbar-menu-bg-color);;
+    bottom: 0px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
 /*
  *  FAQ
  */
