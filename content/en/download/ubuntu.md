@@ -1,10 +1,10 @@
 ---
 title: Ubuntu
 ---
+{{< repology ubuntu_19_10 >}}
 {{< repology ubuntu_19_04 >}}
 {{< repology ubuntu_18_10 >}}
 {{< repology ubuntu_18_04 >}}
-{{< repology ubuntu_17_10 >}}
 {{< repology ubuntu_16_04 >}}
 {{< repology ubuntu_14_04 >}}
 <br>
