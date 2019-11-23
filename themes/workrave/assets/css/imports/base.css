@@ -48,6 +48,10 @@ body {
     background: url(/images/hero1.jpg) bottom center no-repeat var(--background-color);
     background-size: auto auto;
 }
+
+.recent a:hover{
+    background-color: rgba(108, 184, 26, 1);
+    color: #000000;
 }
 
 /*
