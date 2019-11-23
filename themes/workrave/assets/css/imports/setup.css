@@ -19,9 +19,9 @@
     --navbar-text-color:        rgba(255,255,255,1);
     --navbar-highlight-bg-color:  rgba(94, 139, 207, 0.8);
     --navbar-menu-bg-color:     rgba(94, 139, 207, 0.8);
-    --navbar-bg-color:          rgba(114, 159, 207, 0.95); /* rgba(20, 162, 247, 0.95); */
+    --navbar-bg-color:          rgba(30, 64, 90, 0.95);
 
-    --header-bg-color:          rgba(114, 159, 207, 1); /* rgba(78, 154, 6, 1); */
+    --header-bg-color:          rgba(30, 64, 90, 1);
 
     --feature-color:            rgba(78, 154, 6, 0.07);
 
