@@ -43,12 +43,11 @@ body {
     }
 }
 
-
 .homepage {
 }
 
 .hero {
-    background: url(/images/hero1.jpg) bottom center no-repeat var(--background-color);
+    background: url(/images/hero1.jpg) bottom center no-repeat rgba(30, 64, 90, 1);
     background-size: auto auto;
 }
 
@@ -57,19 +56,6 @@ body {
     color: #000000;
 }
 
-/*
-.homepage:after {
-    content: '';
-    position: absolute;
-    top: 100px;
-    right: -20px;
-    height: 30%;
-    width: 30%;
-    background: url(/images/hourglass.svg) right 0px bottom 0px no-repeat;
-    z-index: 0;
-    opacity: 0.4;
-}
-*/
 /*
  *  NAVBAR
  */
