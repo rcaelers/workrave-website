@@ -22,5 +22,5 @@ The most recent source code for Workrave can be found on Github:
 
 Instructions for building Workrave on Linux/Unix and Windows are available:
 
-- [Linux/Unix](docs/build/linux)
-- [Windows](docs/build/windows)
+- [Linux/Unix](/docs/build/linux)
+- [Windows](/docs/build/windows)
