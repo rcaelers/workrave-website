@@ -14,16 +14,8 @@ sudo apt-get install workrave
 
 ## [Fedora](https://getfedora.org/)
 
-Fedora 22 and later:
-
 {{< highlight bash >}}
 sudo dnf install workrave
-{{< / highlight >}}
-
-Up to Fedora 21:
-
-{{< highlight bash >}}
-sudo yum install workrave
 {{< / highlight >}}
 
 ## [FreeBSD](https://www.freebsd.org/)
