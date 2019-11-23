@@ -3,7 +3,7 @@ headless: true
 ---
 <div class="container">
   <div class="row">
-    <div class="col-9 align-self-center">
+    <div class="col-9 align-self-center text-light">
       <h1 class="display-4">Take a break and relax</h1>
       <p class="lead">
         Workrave is a free program that assists in the recovery and prevention of Repetitive
