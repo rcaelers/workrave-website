@@ -48,33 +48,33 @@ languages:
           url: /blog/
           name: Blog
           weight: 50
-  nl:
-    contentDir: content/nl
-    languageName: Nederlands
-    weight: 2
-    description: >
-      Workrave is een programma dat helpt bij het herstel en de preventie van
-      Repetitive Strain Injury (RSI). Het programma waarschuwt u regelmatig om
-      micro-pauzes en rustpauzes te nemen en beperkt u tot uw dagelijkse limiet.
-      Het programma draait op GNU / Linux en Microsoft Windows.
-    menu:
-      main:
-        - identifier: about
-          url: /about
-          name: Over
-          weight: 10
-        - identifier: help
-          url: /docs/
-          name: Hulp
-          weight: 20
-        - identifier: contribute
-          url: /contribute
-          name: Ontwikkeling
-          weight: 30
-        - identifier: blog
-          url: /blog/
-          name: Blog
-          weight: 40
+  # nl:
+  #   contentDir: content/nl
+  #   languageName: Nederlands
+  #   weight: 2
+  #   description: >
+  #     Workrave is een programma dat helpt bij het herstel en de preventie van
+  #     Repetitive Strain Injury (RSI). Het programma waarschuwt u regelmatig om
+  #     micro-pauzes en rustpauzes te nemen en beperkt u tot uw dagelijkse limiet.
+  #     Het programma draait op GNU / Linux en Microsoft Windows.
+  #   menu:
+  #     main:
+  #       - identifier: about
+  #         url: /about
+  #         name: Over
+  #         weight: 10
+  #       - identifier: help
+  #         url: /docs/
+  #         name: Hulp
+  #         weight: 20
+  #       - identifier: contribute
+  #         url: /contribute
+  #         name: Ontwikkeling
+  #         weight: 30
+  #       - identifier: blog
+  #         url: /blog/
+  #         name: Blog
+  #         weight: 40
 
 params:
   github_repo: "https://github.com/rcaelers/workrave-website/issues/new"
