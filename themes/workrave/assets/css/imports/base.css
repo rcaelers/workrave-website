@@ -45,6 +45,9 @@ body {
 
 
 .homepage {
+}
+
+.hero {
     background: url(/images/hero1.jpg) bottom center no-repeat var(--background-color);
     background-size: auto auto;
 }
@@ -136,10 +139,35 @@ body {
     background-color: rgba(230, 230, 230, 1);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+.nav-pills .nav-link:not(.disabled) {
+    background-color: var(--background-color);
+    color: var(--light-text-color);
+    transition: background-color .2s ease;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
     background-color: #fff;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 700;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    background-color: var(--muted-background-color);
+    color: rgba(0,0,0,.87); 
+ }
+
+/*
+ *  DOWNLOADS
+ */
+
+.downloads .nav-pills .nav-link.active, 
+.downloads .nav-pills .show > .nav-link {
+    background-color: var(--muted-background-color);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
 }
 
 /*

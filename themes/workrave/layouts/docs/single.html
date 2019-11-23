@@ -1,9 +1,8 @@
 {{ define "main" }}
 <div class="container mt-5">
-
     {{ partial "site/breadcrumbs.html" . }}
 
-	  {{ .Content }}
+    {{ .Content }}
 
     {{ if not .Page.Lastmod.IsZero }}<p>{{ i18n "last_updated" . | safeHTML }}: {{ .Page.Lastmod.Format .Site.Params.date_format }}</p>{{ end }}
 </div>
