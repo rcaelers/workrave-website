@@ -4,13 +4,7 @@
         {{ .Content }}
     </div>
 </div>
-
 {{ partial "features/featured.html" . }}
-{{/*
-<div class="bg-light">
-{{ partial "blog/recent.html" . }}
-</div>
-*/}}
 {{ end }}
 
 {{ define "header" }}
@@ -19,4 +13,5 @@
     {{ .Content }}
     {{ end }}
 </div>
+{{ partial "blog/recent.html" . }}
 {{ end }}
