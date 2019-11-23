@@ -1,42 +1,30 @@
 ---
 title: Breaks
 ---
-Workrave supports three kind of breaks:
+Workrave frequently reminds you take at break from your computer. Workrave supports three kind of breaks:
 
 - Microbreaks
 
+    Microbreaks are short breaks that occur frequently. Typically, every 3 minutes you get a microbreak that lasts about 30 seconds.
+    The extact duration and frequency of a microbreak is configurable. During a microbreak you can let go of keyboard and mouse, look away from the screen, and relax a bit.
+
 - Restbreaks
+
+    A restbreak is a longer break that occurs less frequently, Typically, these breaks last about 10 minutes and occur every 45 minutes.
+    During a rest break you can walk around, stretch, and relax.
 
 - Daily limit
 
-## Break announcement
+    Workrave keeps track of the amount of time you use your computer.
+    When you have reach the configured daily computer usage limit, you are prompted to stop using the computer for the day.
 
-When it is time to take a break, Workave will first gently announce the break by
-means of a small non-intrusive window. This window will automatically move out
-of the way if you choose to ignore it, for example to finish your current
-activity.
+[More Information](/docs/breaks/breaks) on the different windows that Workave use to show a break.
+
+When it is time to take a break, Workrave presents a gentle non-obtrusive reminder.
+This reminder automatically moves out-of-the way, which allows you to finish your activity before the break starts.
+If you ignore the reminder for more than 30 seconds, the reminder window will disappear.
+Depending on configuration and the amount of times you ignored a break Workrave will either force you to take the break, or try again a few minutes later.
 
 ![Microbreak prelude window](/images/screenshots/prelude-microbreak.png)
 
-[More Information](/docs/breaks/preludes)
-
-## Breaks
-
-Each break type has a different break window. All breaks windows have a postpone and skip button.  
-
-![Microbreak](/images/screenshots/microbreak.png)
-
-[More Information](/docs/breaks/breaks)
-
-![Microbreak with warning](/images/screenshots/microbreak-warn.png)
-
-## Restbreaks
-
-![Restbreak with exercises](/images/screenshots/restbreak-exercise.png)
-![Restbreak](/images/screenshots/restbreak.png)
-![Restbreak with warning](/images/screenshots/restbreak-warn.png)
-
-## Daily limit
-
-![Daily Limit](/images/screenshots/daily.png)
-![Lock screen](/images/screenshots/daily-lock.png)
+[More Information](/docs/breaks/preludes) on the break reminder window.
