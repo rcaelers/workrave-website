@@ -18,6 +18,8 @@ Workrave frequently reminds you take at break from your computer. Workrave suppo
     Workrave keeps track of the amount of time you use your computer.
     When you have reach the configured daily computer usage limit, you are prompted to stop using the computer for the day.
 
+[TODO: explain that break depend on actual keyboard/mouse usage]
+
 [More Information](/docs/breaks/breaks) on the different windows that Workave use to show a break.
 
 When it is time to take a break, Workrave presents a gentle non-obtrusive reminder.
