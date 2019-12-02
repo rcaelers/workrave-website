@@ -7,32 +7,35 @@ title: Documentation
 slug: docs
 linkTitle: Documentation
 ---
+
 - [Breaks](breaks)
 
-    This section contains information on the different kind of breaks that Workrave supports.
+  This section contains information on the different kind of breaks that Workrave supports.
 
-- [The Main Window](windows/main)
+- [Timer window](windows/main)
 
-    This section explains Workrave's main timer window.
+  This section explains Workrave's main timer window.
 
-    ![Main Window](/images/screenshots/main.png "The main window")
+  ![Main window](/images/screenshots/main.png "The main window")
 
 - [Menus](menus)
 
-    Workrave can be controlled from a menu. This section explain all the menu items.
+  Workrave can be controlled from a menu. This section explain all the menu items.
 
-- [Settings](settings)
+- [Preferences](settings)
 
-    Workrave is highly configurable. This section explains all the settings.
+  Workrave is highly configurable. This section explains all the settings.
 
 - [Exercises](windows/exercises)
 
+  Workrave can show a number of exercises at the start of the break.
+
 - [Statistics](windows/statistics)
 
-    Workrave collects statistics on your break compliance and keyboard mouse usage.
+  Workrave collects statistics on your break compliance and keyboard mouse usage.
 
 - [Applets](applets)
 
-    On Windows and several Linux desktop environments, Workrave can show the
-    timers values in the status bar or panel. This way the timer values are
-    always visible without using precious space on your desktop.
+  On Windows and several Linux desktop environments, Workrave can show the
+  timers values in the status bar or panel. This way the timer values are
+  always visible without using precious space on your desktop.

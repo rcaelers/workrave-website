@@ -1,5 +1,5 @@
 ---
-title: Break announcements
+title: Reminder window
 ---
 When it is time to take a break, Workave will first gently announce the break by
 means of a small non-intrusive window. This window will automatically move out

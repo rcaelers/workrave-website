@@ -2,7 +2,7 @@
 title: Menus
 ---
 Workrave has a popup menu that can be used to control several of its funcions.
-It accessed from different locations: from the main window, from the taskbar icon, and from an [applet](../applets).
+It can be accessed from different locations: from the main window, from the taskbar icon, and from an [applet](../applets).
 The image below shows the menu on the main window.
 In case the main window has been closed, you can alway access Workrave from the [tray icon](windows-tray).
 
