@@ -95,3 +95,8 @@ outputs:
   - HTML
   section:
   - HTML
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
