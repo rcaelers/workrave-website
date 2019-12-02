@@ -4,13 +4,13 @@
 
     {{ $headless := .Site.GetPage "/download/data" }}
     {{ $pages := $headless.Resources.ByType "page" }}
-
-    <ul class="nav nav-pills nav-fill" id="downloadTabs" role="tablist">
+    <ul class="nav nav-pills nav-fill shadow-sm mb-2" id="downloadTabs" role="tablist">
         {{ range where $pages ".Params.iconhtml" "!=" nil }}
         {{ $id := strings.TrimSuffix ".md" .Name }}
-        <li class="nav-item">
-            <a class="nav-link" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true"> {{ safeHTML .Params.iconhtml }}
-                {{ .Title }}</a>
+        <li class="nav-item border bg-white">
+            <a class="nav-link" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true"> 
+                {{ safeHTML .Params.iconhtml }} {{ .Title }}
+            </a>
         </li>
         {{ end }}
     </ul>

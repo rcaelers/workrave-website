@@ -12,7 +12,6 @@
         {{ end }}
     </ul>
 
-
     <div class="tab-content" id="snapshots-tab-content">
         {{ $top := . }}
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
