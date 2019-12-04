@@ -31,7 +31,7 @@ If you need a newer version than what is included in your distribution, use the 
 If you prefer to use the shell, you can enter these commands into a terminal:
 
 {{< highlight bash >}}
-sudo add-apt-repository --yes ppa:rcaelers/workrave
+sudo add-apt-repository --yes ppa:rob-caelers/workrave
 sudo apt update
 sudo apt install workrave
 {{< / highlight >}}
