@@ -11,6 +11,7 @@ linkTitle: Documentation
 - [Breaks](breaks)
 
   This section contains information on the different kind of breaks that Workrave supports.
+  A number of fundamental concepts of Workrave are explained in this section.
 
 - [Timer window](windows/main)
 

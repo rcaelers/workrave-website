@@ -1,7 +1,7 @@
 ---
 title: Applets
 ---
-On Windows and several Linux desktop environments, Workrave can show the timers
+On Windows and several Linux desktop environments, Workrave can show the timer
 values in the status bar or panel. This way the timer values are always visible
 without using precious space on your screen.
 

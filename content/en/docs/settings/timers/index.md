@@ -13,6 +13,8 @@ The following settings can be configured for the microbreak.
 
 - Enable Timer
 
+  This checkbox can be used to enable or disable the microbreak. If the microbreak is disabled, it will not be visible on screen and you will not be reminded to take microbreaks.
+
 - Time between breaks
 
 - Break duration

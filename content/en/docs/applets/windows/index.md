@@ -13,9 +13,9 @@ only a sheep icon is shown.
 
 ![Enable Windows applet](/images/screenshots/win32-applet-handle.png)
 
-The two vertical bars can be used to move the Workrave toolbar in the status
+The two vertical bars on the left can be used to move the Workrave toolbar in the status
 bar. If the handle bars are not visible, the taskbar needs to be unlocked. Right
-click on the Workrave toolbar and unselect `Lock the taskbar'.
+click on the Workrave toolbar and unselect `Lock the taskbar`.
 
 ![Unlock Windows applet](/images/screenshots/win32-applet-unlock.png)
 

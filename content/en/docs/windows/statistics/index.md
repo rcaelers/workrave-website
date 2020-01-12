@@ -12,7 +12,7 @@ Workrave collects statistics on your break compliance and keyboard mouse usage. 
 
 - Repeated prompted
 
-  Total number of times Workrave reminded you to take a break. This includes repeated reminder in case you ignore a break reminder.
+  Total number of times Workrave reminded you to take a break. This includes repeated reminder in case you ignored a break reminder.
 
 - Prompted breaks taken
 
@@ -28,7 +28,7 @@ Workrave collects statistics on your break compliance and keyboard mouse usage. 
 
 - Breaks postpones
 
-  Number of times you postpones a break by pressing the `Postpone` button.
+  Number of times you postponed a break by pressing the `Postpone` button.
 
 - Overdue time
 

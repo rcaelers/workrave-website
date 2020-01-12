@@ -37,7 +37,7 @@ Workrave can configured to show a number of exercises at the start of a break.
 
 The `Exercises player` buttons can be used to go to the previous exercise, to pause the exercises, to go to the next exercise and to stop showning exercises.
 
-After the number of configured exercises, the exercises will disappear:
+After the number of configured exercises have finished, the exercises will disappear:
 
 ![Restbreak](/images/screenshots/restbreak.png)
 
@@ -48,4 +48,4 @@ The following window is shown when it is time to stop using you computer for the
 ![Daily Limit](/images/screenshots/daily.png)
 
 The `Postpone` button can be used to postpone the daily limit. You will reminded again in a few minutes,
-The `Skip` button can be used to skip the daily limit for this day. You will not be reminded again.
+The `Skip` button can be used to skip the daily limit for this day. You will not be reminded again until the next day.
