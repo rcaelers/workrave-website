@@ -17,17 +17,19 @@ jobs:
         run: npm install
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.2.4
+        uses: peaceiris/actions-hugo@v2.3.2
         with:
-          hugo-version: "0.59.1"
+          hugo-version: "0.62.2"
           extended: true
 
       - name: Build
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.1
+        uses: peaceiris/actions-gh-pages@v2.6.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
+        with:
+          forceOrphan: true
