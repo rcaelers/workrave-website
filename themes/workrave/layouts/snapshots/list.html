@@ -38,6 +38,11 @@
                                     <p class="mb-0">{{ replace $item.tag "_" "." }} {{ if $item.increment }} + {{ $item.increment}} commits {{ end }}</p>
                                 </div>
 
+                                <style>
+                                 .fa-stack { font-size: 1.5em; }
+                                 i { vertical-align: middle;}
+                                </style>
+
                                 <div class="float-right">
                                     {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "release") }}
                                     {{ with $winInstallRelease }}
@@ -45,11 +50,11 @@
                                     {{ end}}
                                     {{ end}}
 
-                                    {{/* range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
+                                    {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
                                     {{ with $winInstallDebug }}
-                                    <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
+                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i class="fas fa-bug fa-stack-1x fa-inverse"></i></span>
                                     {{ end }}
-                                    {{ end */}}
+                                    {{ end }}
 
                                     {{ range $sources := first 1 (where (where $item.artifacts ".platform" "all") ".kind" "source")  }}
                                     {{ with $sources }}
