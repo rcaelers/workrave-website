@@ -52,7 +52,7 @@
 
                                     {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
                                     {{ with $winInstallDebug }}
-                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i class="fas fa-bug fa-stack-1x fa-inverse"></i></span>
+                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
                                     {{ end }}
                                     {{ end }}
 
