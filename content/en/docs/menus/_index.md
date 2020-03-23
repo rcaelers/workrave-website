@@ -18,7 +18,7 @@ Opens a new window that shows you how to perform a number of [exercises](../wind
 
 #### Statistics
 
-Opens a new window that shows some [statistics](../windows/statistics) of your daily computer usage.
+Opens a new window that shows [statistics](../windows/statistics) of your daily computer usage.
 
 #### Mode
 

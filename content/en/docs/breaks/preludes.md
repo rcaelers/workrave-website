@@ -32,10 +32,8 @@ start the break, or try again in a few minutes.
 Similar announcements will be given for restbreaks,
 </div>
 
-
 <div class="clearfix">
 
 ![Daily limit prelude window](/images/screenshots/prelude-daily.png#floatright)
 and for the daily limit.
 </div>
-

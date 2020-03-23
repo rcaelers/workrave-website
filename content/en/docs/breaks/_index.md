@@ -43,4 +43,3 @@ When the *Idle Time* reaches the configured *Break duration*, you are have taken
 [More Information](/docs/breaks/preludes) on the break reminder window.
 
 [More Information](/docs/breaks/breaks) on the different windows that Workave use to show a break.
-
