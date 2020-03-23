@@ -1,7 +1,7 @@
 ---
 title: Timer
 ---
-The section contains all settings for the three breaks and also allows changing the activity monitoring.
+This section contains all settings for the three breaks and also allows changing the activity monitoring.
 
 ## Microbreak
 

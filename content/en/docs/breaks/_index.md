@@ -1,7 +1,6 @@
 ---
 title: Breaks
 ---
-
 Workrave frequently reminds you take at break from your computer. Workrave supports three kind of breaks:
 
 - Microbreaks
@@ -33,7 +32,7 @@ When the *Active Time* reaches the configured *Time between breaks*, you are pro
 
 ![Microbreak prelude window](/images/screenshots/prelude-microbreak.png#floatleft)
 When it is time to take a break, Workrave presents a gentle non-obtrusive reminder.
-This reminder automatically moves out-of-the way. This allows you to finish your activity before the break starts.
+This reminder automatically moves out of the way. This allows you to finish your activity before the break starts.
 If you ignore the reminder for more than 30 seconds, the reminder window will disappear.
 Depending on configuration and the amount of times you ignored a break, Workrave will either force you to take the break, or try again a few minutes later.
 

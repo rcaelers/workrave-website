@@ -3,11 +3,11 @@ title: Break windows
 ---
 Each of the three breaks has a different break window. Although the break windows look slightly different, the behavior of these windows is almost the same.
 
-All breaks windows have a green 'time' bar. This green time bar shows the progress of the break.
+All breaks windows have a green time bar. This green time bar shows the progress of the break.
 When the bar is completely full, you have taken the break and the break window closes.
 
 If you ignore the break (by using the mouse of keyboard), a flashing orange border will appear to warn you.
-As long as you are ignoreing the break, the break timer is frozen.
+As long as you are ignoring the break, the break timer is frozen.
 
 All break windows have a `Postpone` and `Skip` button.
 The `Postpone` button can be used to postpone the break. When a break is postponed, Workrave will immediately close the break window. After a few minutes, Workrave will again remind you to take the break.
@@ -31,7 +31,7 @@ When you ignore the break and start using the mouse of keyboard, a flashing oran
 #### Restbreaks
 
 The following window is shown when you are taking a restbreak.
-Workrave can configured to show a number of exercises at the start of a break.
+Workrave can be configured to show a number of exercises at the start of a break.
 
 ![Restbreak with exercises](/images/screenshots/restbreak-exercise.png)
 

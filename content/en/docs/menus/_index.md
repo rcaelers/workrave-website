@@ -3,18 +3,18 @@ title: Menus
 ---
 Workrave has a popup menu that can be used to control several of its funcions.
 It can be accessed from different locations: from the main window, from the taskbar icon, and from an [applet](../applets).
-The image below shows the menu on the main window.
 In case the main window has been closed, you can alway access Workrave from the [tray icon](windows-tray).
+The image below shows the menu on the main window.
 
 ![Menu](/images/screenshots/menu-main.png)
 
 #### Restbreak
 
-This start a restbreak. A restbreak started from this menu will always shows a postpone and skip button, even if these buttons have been disabled for the restbreak.
+This starts a restbreak. A restbreak started from this menu will always shows a postpone and skip button, even if these buttons have been disabled for the restbreak.
 
 ### Exercises
 
-Opens a new window that instructs you how to perform a number of [exercises](../windows/exercises).
+Opens a new window that shows you how to perform a number of [exercises](../windows/exercises).
 
 #### Statistics
 
