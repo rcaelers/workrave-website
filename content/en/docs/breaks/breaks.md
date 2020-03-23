@@ -41,6 +41,14 @@ After the number of configured exercises have finished, the exercises will disap
 
 ![Restbreak](/images/screenshots/restbreak.png)
 
+When it is time to take a micro break, Workrave may start a rest break
+instead. This happens when the rest break would start within 30 seconds of
+the micro break. If the postpone or skip buttons are disabled on the micro
+break, they will be temporarily disabled on the rest break window. A small
+progress bar indicates how long the buttons are disabled:
+
+![Restbreak with locked Skip](/images/screenshots/restbreak-locked-skip.png)
+
 #### Daily limit
 
 The following window is shown when it is time to stop using you computer for the day.
