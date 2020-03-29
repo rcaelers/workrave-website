@@ -6,7 +6,7 @@ title: Workrave 1.10.37 Released
 categories:
   - release
 ---
-Workrave 1.10.37 has been released with same small improvement and translation updates.
+Workrave 1.10.37 has been released with same small improvements and translation updates.
 <!--more-->
 
 Changes since Workrave 1.10.34:
