@@ -7,12 +7,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #555;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 120%;
     font-weight: 300;
     line-height: 1.5;
 }
+
 
 .page-content {
     flex: 1 0 auto;
