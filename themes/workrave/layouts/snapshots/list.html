@@ -1,6 +1,8 @@
 {{ define "main" }}
 <div class="container mt-5">
-    {{ .Content }}
+    <div class="markdown">
+        {{ .Content }}
+    </div>
     <ul class="nav nav-pills nav-fill shadow-sm mb-2" id="snapshot-tabs" role="tablist">
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
         {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
@@ -21,7 +23,9 @@
         {{ $catalog := getJSON (print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json") }}
 
         <div class="tab-pane{{ if not $section_index }} show active{{ end }} fade py-4" id="{{ $section_id }}" role="tabpanel" aria-labelledby="{{ $section_id }}-tab}">
-            {{ $section.Content }}
+            <div class="markdown">
+                {{ $section.Content }}
+            </div>
 
             <div class="accordion" id="accordion-{{ $section_id }}">
                 {{ range $item_index, $item := $catalog.builds }}
@@ -39,8 +43,13 @@
                                 </div>
 
                                 <style>
-                                 .fa-stack { font-size: 1.5em; }
-                                 i { vertical-align: middle;}
+                                    .fa-stack {
+                                        font-size: 1.5em;
+                                    }
+
+                                    i {
+                                        vertical-align: middle;
+                                    }
                                 </style>
 
                                 <div class="float-right">
@@ -52,7 +61,8 @@
 
                                     {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
                                     {{ with $winInstallDebug }}
-                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
+                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i
+                                                class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
                                     {{ end }}
                                     {{ end }}
 

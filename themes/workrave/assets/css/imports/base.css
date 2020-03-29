@@ -20,6 +20,12 @@ body {
     flex: 1 0 auto;
 }
 
+.markdown {
+    & li {
+        margin: 0.25em 0;
+    }
+}
+
 .page-footer {
     flex-shrink: 0;
 }
