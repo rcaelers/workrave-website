@@ -1,8 +1,9 @@
 ---
 title: Break duration research
 section:
- - breaks
+  - breaks
 ---
+
 Q:Has anyone done any physiological studies to determine good break lengths?
 
 A:Computer terminal work and the benefits of microbreaks

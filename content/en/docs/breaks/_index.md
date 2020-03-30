@@ -18,7 +18,7 @@ Workrave frequently reminds you take at break from your computer. Workrave suppo
 - Daily limit
 
   Workrave keeps track of the amount of time you use your computer.
-  When you have reach the configured daily computer usage limit, you are prompted to stop using the computer for the day.
+  When you have reached the configured daily computer usage limit, you are prompted to stop using the computer for the day.
 
 ![Timer Window - Full rested](/images/screenshots/main-rested.png#floatright)
 

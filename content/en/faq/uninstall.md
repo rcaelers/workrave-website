@@ -3,6 +3,7 @@ title: Uninstallation on Windows
 section:
   - installation
 ---
+
 Q:Uninstallation fails on Windows because the program is still running. How do I proceed?
 
 A:Workrave should automatically quit before uninstallation. If this somehow

@@ -3,6 +3,7 @@ title: Break timer settings
 section:
   - breaks
 ---
+
 Q:What are good values for the micropause, restbreak and daily limit timers?
 
 A:The main problem here is that the settings that are required are different

@@ -7,6 +7,7 @@ title: Documentation
 slug: docs
 linkTitle: Documentation
 ---
+
 - [Breaks](breaks)
 
   This section contains information on the different kind of breaks that Workrave supports.

@@ -1,8 +1,9 @@
 ---
 title: Workrave in Citrix/Virtual environment
 section:
- - general
+  - general
 ---
+
 Q:Is Workrave compatible with Citrix or Windows Terminal Server?
 
 A:Testing Workrave on any of these systems is not part of our development cycle.

@@ -1,7 +1,7 @@
 ---
 title: XFCE applet
 ---
-In the XFCE desktop environment, a Workrave applet that shows all timer values can be added to a panel. This applet can be added by right clicking in panel. In the popup menu, from the `Panel` menu select `Add new items...`:
+In the XFCE desktop environment, a Workrave applet that shows all timer values can be added to a panel. This applet can be added by right clicking in the panel. In the popup menu, from the `Panel` menu select `Add new items...`:
 
 ![Enable XFCE applet](/images/screenshots/xfce-applet-activate-1.png)
 

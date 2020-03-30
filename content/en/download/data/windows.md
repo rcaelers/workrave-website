@@ -3,6 +3,7 @@ title: Windows
 iconhtml: "<div><i class='fab fa-windows fa-5x mb-2'></i></div>"
 weight: 1
 ---
+
 ## Stable Release
 
 The latest version is {{% workrave-meta "version-latest-release" %}}.

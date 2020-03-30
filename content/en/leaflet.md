@@ -8,8 +8,7 @@ awareness of Workrave. For example, if you are seeing a doctor/therapist because
 you are suffering from RSI, please give him/her a number of copies to hand out
 for other patients.
 
-Download Leaflet
-----------------
+## Download Leaflet
 
 - [English](/leaflet//leaflet.pdf)
 - [Dutch](/leaflet//leaflet-nl.pdf)

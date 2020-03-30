@@ -1,8 +1,9 @@
 ---
 title: Reading during breaks
 section:
- - breaks
+  - breaks
 ---
+
 Q:Could you implement support for reading the screen during a break?
 
 A:We often receive requests from users that would like to keep on reading the

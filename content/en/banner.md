@@ -1,6 +1,7 @@
 ---
 headless: true
 ---
+
 <div class="container">
   <div class="row">
     <div class="col-12 align-self-center text-light">

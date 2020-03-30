@@ -39,7 +39,7 @@ Hugo, NodeJS and a number of NodeJS packages are required to verify your changes
 
 - Install [NodeJS](https://nodejs.org/)
 
-- Install tools to process CSS by running:
+- Install tools used to process CSS by running:
 
   ```shell
   cd workrave-website

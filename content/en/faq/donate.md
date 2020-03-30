@@ -1,8 +1,9 @@
 ---
 title: Donations
 section:
- - contributing
+  - contributing
 ---
+
 Q:I really like your software, do you accept donations?
 
 A:I am glad that you like our software. We appreciate any donations, however, we

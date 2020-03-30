@@ -3,6 +3,7 @@ slug: download
 title: Download Workrave
 linkTitle: download
 ---
+
 Workrave {{% workrave-meta "version-latest-release" %}} was released on
 {{%workrave-meta "date-latest-release" %}}. See the announcement on the
 [blog](/blog/).

@@ -1,8 +1,9 @@
 ---
 title: Operation Mode
 section:
- - general
+  - general
 ---
+
 Q:What is the difference between normal, quiet and suspended mode?
 
 A:Normal "Normal" mode is for normal usage. It will prompt you to break and, if
