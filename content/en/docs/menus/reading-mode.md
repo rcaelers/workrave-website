@@ -1,8 +1,9 @@
 ---
 title: Reading Mode
 ---
+
 Workrave has a special mode for reading. While reading, you usually do not use the keyboard and mouse.
-Therefore, Workrave will assume you are not using the computer and will not ask you to take breaks.
+Therefore, Workrave would normally not ask you to take breaks.
 When the reading mode is active, Workrave will also remind you to take breaks while reading.
 
 In reading mode, Workrave will start the break timers as soon as you start using keyboard or mouse.

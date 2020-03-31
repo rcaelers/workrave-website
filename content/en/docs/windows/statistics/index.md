@@ -2,17 +2,21 @@
 title: Statistics
 ---
 
-Workrave collects statistics on your break compliance and keyboard mouse usage. Statistics are collected per day. On the left you can select the day for which the statistics are shown.
+Workrave collects statistics on your break compliance and keyboard mouse usage.
+Statistics are collected per day. On the left you can select the day for which the statistics are shown.
 
-![Statistics](/images/screenshots/statistics.png)
+![Statistics](/images/screenshots/statistics.png#center)
 
 - Break prompts
 
-  Number of times Workrave reminded you to take a break. This only includes unique breaks. In case you ignored a break reminder, Workrave will remind you again few minutes later. These repeated break reminders are not taken into account for this statistic.
+  Number of times Workrave reminded you to take a break. This only includes unique breaks.
+  In case you ignored a break reminder, Workrave will remind you again few minutes later.
+  These repeated break reminders are not taken into account for this statistic.
 
 - Repeated prompted
 
-  Total number of times Workrave reminded you to take a break. This includes repeated reminder in case you ignored a break reminder.
+  Total number of times Workrave reminded you to take a break.
+  This includes repeated reminders in case you ignored a break reminder.
 
 - Prompted breaks taken
 

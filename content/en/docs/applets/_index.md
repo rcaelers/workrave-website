@@ -1,18 +1,18 @@
 ---
 title: Applets
 ---
-On Windows and several Linux desktop environments, Workrave can show the timer
-values in the status bar or panel. This way the timer values are always visible
+On Windows and several Linux desktop environments, Workrave can show the timers
+in the status bar or panel. This way the timers are always visible
 without using precious space on your screen.
 
 Currently this is supported on the following platforms:
 
-- [Windows](windows)
+- [Cinnamon](cinnamon)
 
 - [Gnome](gnome)
 
-- [XFCE](xfce)
-
 - [MATE](mate)
 
-- [Cinnamon](cinnamon)
+- [Windows](windows)
+
+- [Xfce](xfce)

@@ -1,5 +1,5 @@
 # Hugo workrave theme
 
-Copyright (C) 2018, 2019 Rob Caelers
+Copyright (C) 2018 - 2020 Rob Caelers
 
 License: MIT

@@ -40,12 +40,12 @@ MIT licensed. All other content is GPLv3.
 
 ### Website content
 
-Copyright (C) 2001 - 2019 Raymond Penners and Rob Caelers
+Copyright (C) 2001 - 2020 Raymond Penners and Rob Caelers
 
 License: GPL3
 
 ### Hugo workrave theme
 
-Copyright (C) 2018, 2019 Rob Caelers
+Copyright (C) 2018 - 2020 Rob Caelers
 
 License: MIT

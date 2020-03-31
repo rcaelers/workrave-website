@@ -1,6 +1,7 @@
 ---
 title: Breaks
 ---
+
 Workrave frequently reminds you take at break from your computer. Workrave supports three kind of breaks:
 
 - Microbreaks
@@ -22,24 +23,26 @@ Workrave frequently reminds you take at break from your computer. Workrave suppo
 
 ![Timer Window - Full rested](/images/screenshots/main-rested.png#floatright)
 
-Each break counts the amount of time you are using the computer (your *Active Time*), but also the amount of time you are ***not*** using the computer (your *Idle Time*).
-The *Active Time* is shown in the user interface as a blue bar; the *Idle Time* as a green bar.
+Each break counts the amount of time you are using the computer (your _Active Time_), but also the amount of time you are **_not_** using the computer (your _Idle Time_).
+The [timer window](/docs/windows/main), shown on the right, shows the timers of the three breaks.
+The _Active Time_ is shown as a blue bar; the _Idle Time_ as a green bar.
 Note that both bars can overlap, resulting in a green/blue color.
 
-Your *Active Time* starts increasing when you start using the keyboard or mouse and keeps increasing as long as you are using keyboard or mouse.
-As soon as you stop using the keyboard or mouse, the *Active Time* stops increasing.
-When the *Active Time* reaches the configured *Time between breaks*, you are prompted to take a break.
+Your _Active Time_ starts increasing when you start using the keyboard or mouse and keeps increasing as long as you are using keyboard or mouse.
+As soon as you stop using the keyboard or mouse, the _Active Time_ stops increasing.
+When the _Active Time_ reaches the configured _Time between breaks_, you are prompted to take a break.
 
 ![Microbreak prelude window](/images/screenshots/prelude-microbreak.png#floatleft)
+
 When it is time to take a break, Workrave presents a gentle non-obtrusive reminder.
 This reminder automatically moves out of the way. This allows you to finish your activity before the break starts.
 If you ignore the reminder for more than 30 seconds, the reminder window will disappear.
 Depending on configuration and the amount of times you ignored a break, Workrave will either force you to take the break, or try again a few minutes later.
 
-Your *Idle Time* increases when you are ***not*** using the keyboard or mouse.
-As soon as you start using the keyboard or mouse, the *Idle Time* resets to zero.
-When the *Idle Time* reaches the configured *Break duration*, you are have taken the break and the *Active Time* resets to zero.
+Your _Idle Time_ increases when you are **_not_** using the keyboard or mouse.
+As soon as you start using the keyboard or mouse, the _Idle Time_ resets to zero.
+When the _Idle Time_ reaches the configured _Break duration_, you are have taken the break and the _Active Time_ resets to zero.
 
-[More Information](/docs/breaks/preludes) on the break reminder window.
+[More Information](/docs/breaks/reminder) on the break reminder window.
 
-[More Information](/docs/breaks/breaks) on the different windows that Workave use to show a break.
+[More Information](/docs/breaks/breaks) on the different windows that Workave uses to show a break.

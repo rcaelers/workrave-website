@@ -1,7 +1,10 @@
 ---
 title: Network
 ---
-TBD
+The networking functionality is deprecated and will be removed in a next version.
 
-![Menu - Networking](/images/screenshots/menu-main-network.png)
+It is currently not documented.
 
+<!--
+![Menu - Networking](/images/screenshots/menu-main-network.png#center)
+-->

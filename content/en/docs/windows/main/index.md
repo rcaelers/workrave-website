@@ -1,7 +1,7 @@
 ---
 title: The main window
 ---
-The timer window shows the status of all breaks.
+The timer window (sometimes also called main window, or status window) shows the status of all breaks.
 Each bar represents one break. From top to bottom: the microbreak, restbreak and daily limit.
 Note that breaks that are disabled are not shown.
 

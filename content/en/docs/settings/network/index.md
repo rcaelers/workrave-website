@@ -1,8 +1,15 @@
 ---
 title: Networking
 ---
-![Preferences - Network - General](/images/screenshots/preferences-network-general.png)
 
-![Preferences - Network - Hosts](/images/screenshots/preferences-network-hosts.png)
+The networking functionality is deprecated and will be removed in a next version.
 
-![Preferences - Network - Advanced](/images/screenshots/preferences-network-advanced.png)
+It is currently not documented.
+
+<!--
+![Preferences - Network - General](/images/screenshots/preferences-network-general.png#center)
+
+![Preferences - Network - Hosts](/images/screenshots/preferences-network-hosts.png#center)
+
+![Preferences - Network - Advanced](/images/screenshots/preferences-network-advanced.png#center)
+-->

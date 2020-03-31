@@ -18,4 +18,4 @@ Workrave's settings are divided into three sections.
 
 The section can be selected on the left:
 
-![Preferences - Timer - Microbreak](/images/screenshots/preferences-timers-micro.png)
+![Preferences - Timer - Microbreak](/images/screenshots/preferences-timers-micro.png#center)
