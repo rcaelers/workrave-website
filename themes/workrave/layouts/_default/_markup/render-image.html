@@ -1,0 +1,2 @@
+{{ $url := urls.Parse .Destination }}
+<img class="img-fluid  {{$url.Fragment }}" src="{{ .Destination }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
