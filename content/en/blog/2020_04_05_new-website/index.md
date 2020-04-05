@@ -6,8 +6,18 @@ title: New website online
 categories:
   - news
 ---
-After months of preparation, the new Workrave website is now finally online.
-One major addition compared to the previous the website is [documentation](/docs) for Workrave.
+The new Workrave website is now finally online.
+The previous website was no longer actively maintained and the content was out of date.
+The new site is designed from scratch using [Hugo](https://www.gohugo.io).
+One major addition compared to the previous website is [documentation](/docs) for Workrave.
 <!--more-->
 
 Please report any issues on the documentation or this website via our [bugtracker](https://github.com/rcaelers/workrave-website/issues) at Github, or [help](/contribute-docs) us improve this website.
+
+For those who do not remember our previous site:
+
+![](oldsite-home.png#center)
+
+And the download page:
+
+![](oldsite-download.png#center)
