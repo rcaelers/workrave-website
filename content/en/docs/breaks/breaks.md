@@ -13,10 +13,10 @@ As long as you are ignoring the break, the break timer is frozen.
 
 All break windows have a `Postpone` and `Skip` button.
 The `Postpone` button can be used to postpone the break. When a break is postponed, Workrave will immediately close the break window. After a few minutes, Workrave will again remind you to take the break.
-The `Skip` button can be used to skip the break alltogether. When pressed, Workrave closes the break window, and will also reset the break's timer as if you had taken the break.
+The `Skip` button can be used to skip the break all together. When pressed, Workrave closes the break window, and will also reset the break's timer as if you had taken the break.
 Workrave can be configured to omit the `Postpone` and `Skip` buttons.
 
-Some breaks have a `Lock` button. The `Lock` button can be used to lock you screen, or to suspend, or shutdown your computer.
+Some breaks have a `Lock` button. The `Lock` button can be used to lock your screen, or to suspend, or shutdown your computer.
 
 ## Microbreaks
 
@@ -53,9 +53,9 @@ progress bar indicates how long the buttons are disabled:
 
 ## Daily limit
 
-The following window is shown when it is time to stop using you computer for the day.
+The following window is shown when it is time to stop using your computer for the day.
 
 ![Daily Limit](/images/screenshots/daily.png#center)
 
-The `Postpone` button can be used to postpone the daily limit. You will reminded again in a few minutes,
+The `Postpone` button can be used to postpone the daily limit. You will be reminded again in a few minutes,
 The `Skip` button can be used to skip the daily limit for this day. You will not be reminded again until the next day.

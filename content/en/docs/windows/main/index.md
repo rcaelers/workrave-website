@@ -21,7 +21,7 @@ The amount of time it takes to get the blue bar completely full is called the *T
 The green bar indicates your *Idle Time* and counts the time you are resting.
 It only increases when you are not using keyword and mouse.
 Note that the blue and green bar may overlap, as shown in the screenshot.
-As soon as you start using keyboard or mouse, your *Idle Time* resets and te green bar disappears.
+As soon as you start using keyboard or mouse, your *Idle Time* resets and the green bar disappears.
 
 </div>
 

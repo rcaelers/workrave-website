@@ -6,7 +6,7 @@ title: Workrave 1.10.31 Released
 categories:
   - release
 ---
-Workrave 1.10.31 has been released. This releases fixes a few issues in
+Workrave 1.10.31 has been released. This release fixes a few issues in
 combination with Linux desktop environments and has a few minor improvements.
 
 <!--more-->

@@ -20,7 +20,7 @@ sudo apt-get install workrave
 
 If you need a newer version than what is included in your distribution, use the official Workrave PPA.
 
-The Workrave PPA can be enable by entering these commands into a terminal:
+The Workrave PPA can be enabled by entering these commands into a terminal:
 
 {{< highlight bash >}}
 sudo add-apt-repository --yes ppa:rob-caelers/workrave

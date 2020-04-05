@@ -16,7 +16,7 @@ We gladly accept contributions from everyone. There are a number of ways you can
 The best way to suggest a new feature is to file an issue on [GitHub](https://github.com/rcaelers/workrave/issues).
 Please add the `feature` tag and the following information to the issue:
 
-- Explain in detail how the new feature would would work.
+- Explain in detail how the new feature would work.
 - Keep the scope of the new feature as small as possible. This makes it easier to implement the feature.
 - Remember that Workrave is a (one person) volunteer-driven project, and that contributions are welcome!
 
@@ -26,7 +26,7 @@ The best way to report a bug in Workrave is to file an issue on [GitHub](https:/
 In the bug report please include the following information:
 
 - The version of Workrave you are using.
-- The operation system you are using (e.g. Linux, Window 10).
+- The operating system you are using (e.g. Linux, Window 10).
 - In case the operating system is Linux:
   - The distribution you are using, including its version (e.g. Ubuntu 19.10).
   - The desktop environment you are using, including its version (e.g. Gnome 3.36).
@@ -34,15 +34,15 @@ In the bug report please include the following information:
 - What you are expecting to happen compared with what is actually happening.
 - Screenshots, if applicable, to help explain the problem.
 
-You can also report issues in Workrave's [documentation](/docs) on on [GitHub](https://github.com/rcaelers/workrave-website/issues)
+You can also report issues in Workrave's [documentation](/docs) on [GitHub](https://github.com/rcaelers/workrave-website/issues)
 
 ## Translate Workrave
 
-If you are proficient in a non-English language, you can help translating the text in Workrave's user interface.
+If you are proficient in a non-English language, you can help to translate the text in Workrave's user interface.
 
 Workrave uses 'GNU gettext' for dealing with translations.
 Translating Workrave boils down to providing a translated text for each and every English text used in Workrave.
-All of the texts to be translated are listed in one file (.po). For each text you need to provide the translation by inserting it in that very same .po file.
+All the texts to be translated are listed in one file (.po). For each text you need to provide the translation by inserting it in that very same .po file.
 Translating can be a very tedious job. Luckily there is tooling available to help you.
 
 For example, for GNU/Linux, there is 'kbabel', 'gtranslator' and many others. For Windows, there is 'poEdit'.

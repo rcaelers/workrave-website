@@ -2,7 +2,7 @@
 title: Break reminder
 ---
 
-When it is time to take a break, Workave will first gently announce the break by
+When it is time to take a break, Workrave will first gently announce the break by
 means of a small non-intrusive window. This window will automatically move out
 of the way if you choose to ignore it, for example to finish your current
 activity.

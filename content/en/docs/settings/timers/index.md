@@ -48,7 +48,7 @@ The following settings can be configured for the microbreak.
 - Maximum number of prompts
 
   When a break reminder window is ignored, Workrave will try again in a few minutes.
-  This settings defines how often you can ignore a break reminder until a break is forced.
+  This setting defines how often you can ignore a break reminder until a break is forced.
   If the value is 0, breaks cannot be ignored and Workrave always starts the break after showing the break reminder window.
 
 ## Restbreak
@@ -73,7 +73,7 @@ In addition to the settings that are also available for the microbreak:
 
 - Enable shutting down the computer from the rest screen
 
-  If enabled, a button that allows you to shutdown the computer will be added to the restbreak window.
+  If enabled, a button that allows you to shut down the computer will be added to the restbreak window.
   This button will also allow you to put your computer into sleep mode.
 
 ## Daily limit
@@ -86,14 +86,14 @@ In addition to the settings that are also available for the microbreak:
 
 - Time before end
 
-  The time at which the daily break is reset. By default this is at 4:00 (am).
+  The time at which the daily break is reset. By default, this is at 4:00 (am).
 
 - Regard micro-breaks as activity
 
   During a micro break, you usually remain seated behind your computer.
   If this option is enabled, the daily limit timer also includes the time you are taking a micro-break.
-  In other words, enable this option if you want the have a daily limit on the amount of time you spend behind your computer.
-  Disable this option if you want the have a daily limit on the the amount of time you are actually using the computer.
+  In other words, enable this option if you want to have a daily limit on the amount of time you spend behind your computer.
+  Disable this option if you want to have a daily limit on the amount of time you are actually using the computer.
   
 ## Monitoring
 

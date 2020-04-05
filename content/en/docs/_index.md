@@ -21,7 +21,7 @@ linkTitle: Documentation
 
 - [Menus](menus)
 
-  Workrave can be controlled from a menu. This section explain all the menu items.
+  Workrave can be controlled from a menu. This section explains all the menu items.
 
 - [Preferences](settings)
 

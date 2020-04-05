@@ -15,7 +15,7 @@ Source code for the latest stable releases can be found on Github:
 
 ## Development
 
-The most recent source code for the developement version Workrave can also be found on Github:
+The most recent source code for the development version Workrave can also be found on Github:
 
 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
 

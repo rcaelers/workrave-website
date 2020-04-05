@@ -27,10 +27,10 @@ Optionally, create a feature branch for your changes:
 % git checkout -b my-feature-branch
 ```
 
-## Install all prequisites
+## Install all prerequisites
 
 The Workrave website is generated using [Hugo](https://gohugo.io/).
-Please verify your edits locally before commiting any changes.
+Please verify your edits locally before committing any changes.
 Hugo, NodeJS and a number of NodeJS packages are required to verify your changes:
 
 - Install [Hugo](http://gohugo.io)
@@ -50,7 +50,7 @@ Hugo, NodeJS and a number of NodeJS packages are required to verify your changes
 
 Use your favorite editor to improve this website, or Workrave's documentation.
 The documentation is located in folder `content/en/docs`.
-All pages are are written in [Markdown](https://en.wikipedia.org/wiki/Markdown).
+All pages are written in [Markdown](https://en.wikipedia.org/wiki/Markdown).
 
 Some sites to get you started with Markdown:
 

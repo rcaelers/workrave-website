@@ -2,12 +2,12 @@
 title: Breaks
 ---
 
-Workrave frequently reminds you take at break from your computer. Workrave supports three kind of breaks:
+Workrave frequently reminds you take at break from your computer. Workrave supports three kinds of breaks:
 
 - Microbreaks
 
   Microbreaks are short breaks that occur frequently. Typically, every 3 minutes you get a microbreak that lasts about 30 seconds.
-  The extact duration and frequency of a microbreak is configurable.
+  The exact duration and frequency of a microbreak is configurable.
   During a microbreak you can let go of keyboard and mouse, look away from the screen, and relax a bit.
 
 - Restbreaks
@@ -45,4 +45,4 @@ When the _Idle Time_ reaches the configured _Break duration_, you are have taken
 
 [More Information](/docs/breaks/reminder) on the break reminder window.
 
-[More Information](/docs/breaks/breaks) on the different windows that Workave uses to show a break.
+[More Information](/docs/breaks/breaks) on the different windows that Workrave uses to show a break.

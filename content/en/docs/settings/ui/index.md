@@ -28,7 +28,7 @@ This tab contains general user interface settings.
 
 - Language
 
-  Sets the language of the user inferface. You select a specific language, or choose 'system default' to select the default language of your operating system and/or desktop environment.
+  Sets the language of the user interface. You can select a specific language, or choose 'system default' to select the default language of your operating system and/or desktop environment.
 
 - Start Workrave on logon (Windows only)
 
@@ -40,7 +40,7 @@ This tab contains general user interface settings.
 
 ## Sounds
 
-Workrave plays a number of sounds to inform you of certain events. This tab allow you to configure these sounds.
+Workrave plays a sound to inform you of certain events. This tab allows you to configure these sounds.
 
 ![Preferences - UI - Sounds](/images/screenshots/preferences-ui-sounds.png#center)
 
@@ -50,11 +50,12 @@ Workrave plays a number of sounds to inform you of certain events. This tab allo
 
 - Sound
 
-  Device used to play sounds. Can be set to sound card or PC speaker.
+  Device used to play sounds. Can be set to sound card or PC speaker. 
+  Support for PC speaker will be removed in a future version of Workrave.
 
 - Mute sounds during rest break and daily limit
 
-  If enabled, Workrave will mute all audio during a rest break and daily limmit.
+  If enabled, Workrave will mute all audio during a rest break and daily limit.
   This can be used, for example, to mute music playback during such a break.
 
 - Sound theme
@@ -77,7 +78,7 @@ Settings for the main [timer window](/docs/windows/main).
 
 - The status window stays always on top of other windows
 
-  Whether the [timer window](/docs/windows/main) should be always on top of other windows..
+  Whether the [timer window](/docs/windows/main) should be always on top of other windows.
 
 - Placement
 
@@ -95,11 +96,11 @@ Settings for the main [timer window](/docs/windows/main).
 - Cycle time
 
   In case multiple timers are on the same position, Workrave will alternatingly show these timers on that position.
-  This settings configures how long each timer is visible before switching to the next one.
+  This setting configures how long each timer is visible before switching to the next one.
 
 - Timers
 
-  Specifies for each timer whether the it is visible in the timer window. For each timer the following options are available:
+  Specifies for each timer whether it is visible in the timer window. For each timer the following options are available:
 
   - Hide
 
