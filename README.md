@@ -1,9 +1,6 @@
-# Workrave's (upcoming) website
+# Workrave's website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dba397bd-55a2-45be-a108-312778094973/deploy-status)](https://app.netlify.com/sites/workrave-test/deploys)
-
-This is an attempt to redesign Workrave's website using Hugo. A preview can be
-found at [https://test.workrave.org/](https://test.workrave.org/)
 
 ## Install Prequisites
 
@@ -32,6 +29,8 @@ hugo server -F -w
 Open `localhost:1313` in your browser.
 
 ## Contributing
+
+See [our website](https://workrave.org/contribute-docs/).
 
 ## License
 
