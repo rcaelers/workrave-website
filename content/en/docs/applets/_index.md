@@ -11,6 +11,8 @@ Currently, this is supported on the following platforms:
 
 - [Gnome](gnome)
 
+- [KDE](kde)
+
 - [MATE](mate)
 
 - [Windows](windows)
