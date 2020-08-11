@@ -14,7 +14,7 @@ We gladly accept contributions from everyone. There are a number of ways you can
 ## Suggest new features
 
 The best way to suggest a new feature is to file an issue on [GitHub](https://github.com/rcaelers/workrave/issues).
-Please add the `feature` tag and the following information to the issue:
+Please add the following information to the issue:
 
 - Explain in detail how the new feature would work.
 - Keep the scope of the new feature as small as possible. This makes it easier to implement the feature.
