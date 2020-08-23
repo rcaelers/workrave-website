@@ -66,6 +66,19 @@
                                     {{ end }}
                                     {{ end }}
 
+                                    {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "portable") ".configuration" "release") }}
+                                    {{ with $winInstallRelease }}
+                                    <a href="{{ $base }}{{ .url }}"><i class="fas fa-file-archive fa-3x m-2"></i></a>
+                                    {{ end}}
+                                    {{ end}}
+
+                                    {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "portable") ".configuration" "debug") }}
+                                    {{ with $winInstallDebug }}
+                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fas fa-file-archive fa-stack-2x"></i><i
+                                                class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
+                                    {{ end }}
+                                    {{ end }}
+
                                     {{ range $sources := first 1 (where (where $item.artifacts ".platform" "all") ".kind" "source")  }}
                                     {{ with $sources }}
                                     <a href="{{ $base }}{{ .url }}"><i class='fas fa-code fa-3x m-2'></i></a>
