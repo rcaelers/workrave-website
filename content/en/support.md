@@ -20,4 +20,4 @@ Join the mailing list to engage in discussion with other Workrave users and its 
 Please file issues at our [issue tracker](https://github.com/rcaelers/workrave/issues) on Github. This is the preferred way
 to report bugs or request new features. See [how to contribute](/contribute) for more information.
 
-Our old [issue tracker](http://issues.workrave.org) is also still available.
+Issues from Bugzilla, our previous issue tracker, have been [archived](/bugzilla).

@@ -1,0 +1,233 @@
+{{ define "main" }}
+{{ $bugs := getJSON "data/workrave-bugs.json" }}
+{{ $bug := index $bugs .File.BaseFileName }}
+
+<div class="container-lg mt-5 bugzilla" style="max-width: 1280px">
+    <div class="row">
+        <div class="h3 col-md-12 bg-light font-weight-bold">
+            Bug&nbsp;{{ $bug.id }} - {{ $bug.summary }}
+        </div>
+    </div>
+
+    <div class="row py-5">
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Status:</div>
+                <div class="col-8">{{ $bug.status }} {{ $bug.resolution }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Component:</div>
+                <div class="col-8">{{ $bug.component }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Version:</div>
+                <div class="col-8">{{ $bug.version }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Hardware:</div>
+                <div class="col-8">{{ $bug.platform}} {{ $bug.op_sys }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Importance:</div>
+                <div class="col-8">{{ $bug.priority}} {{ $bug.severity }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Target Milestone:</div>
+                <div class="col-8">{{ $bug.target_milestone }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Assignee:</div>
+                <div class="col-8">{{ $bug.assigned_to }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">URL:</div>
+                <div class="col-8">{{ $bug.url }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Depends on:</div>
+                <div class="col-8">
+                    {{ range $index, $dep := $bug.depends_on }}
+                    {{ $refbugid := string $dep }}
+                    {{ $refbug := index $bugs $refbugid }}
+                    <a href="{{ $.Site.BaseURL }}bugzilla/{{ $dep }}" {{ if eq $refbug.is_open false}}style="text-decoration: line-through;" {{end}}>
+                        {{ $dep }}</a>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Blocks:</div>
+                <div class="col-8">
+                    {{ range $index, $dep := $bug.blocks }}
+                    {{ $refbugid := string $dep }}
+                    {{ $refbug := index $bugs $refbugid }}
+                    <a href="{{ $.Site.BaseURL }}bugzilla/{{ $dep }}" {{ if eq $refbug.is_open false}}style="text-decoration: line-through;" {{end}}>
+                        {{ $dep }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Reported:</div>
+                {{ $d := (time $bug.creation_time) }}
+                <div class="col-8">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">by:</div>
+                <div class="col-8">{{ $bug.creator }}</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-right font-weight-bold">Modified:</div>
+                {{ $d := (time $bug.last_change_time) }}
+                <div class="col-8   ">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
+            </div>
+            {{ range $index, $cc := $bug.cc }}
+            <div class="row">
+                {{ if eq $index 0 }}
+                <div class="col-4 text-right font-weight-bold">CC List:</div>
+                {{ else }}
+                <div class="col-4 text-right font-weight-bold"></div>
+                {{ end }}
+                <div class="col-8">{{ $cc }}</div>
+            </div>
+            {{ end }}
+            {{ range $index, $sa := $bug.see_also }}
+            <div class="row">
+                {{ if eq $index 0 }}
+                <div class="col-4 text-right font-weight-bold">See Also:</div>
+                {{ else }}
+                <div class="col-4 text-right font-weight-bold"></div>
+                {{ end }}
+                <div class="col-8">{{ $sa }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    {{ if gt (len $bug.attachments) 0}}
+    <div class="row pb-4">
+        <div class="col-12">
+            <div class="card">
+                <h5 class="card-header p-1" id="attachments-header">
+                    <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse" data-target="#attachments-content" aria-expanded="false"
+                        aria-controls="attachments-content">
+                        <i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments
+                    </button>
+                </h5>
+                <div class="collapse" id="attachments-content" aria-labelledby="attachments-header">
+                    <div class="card-body p-0">
+                        <table class="table table-dark table-bordered mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Who</th>
+                                    <th scope="col">When</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{ range $index, $attachment := $bug.attachments }}
+                                <tr>
+
+                                    <th scope="row" rowspan=2>{{ $attachment.id }}</th>
+                                    <td colspan="4">
+                                        <a href="{{ $.Site.BaseURL }}bugzilla/attachments/{{ $attachment.file_name }}">{{ $attachment.summary }}</a>
+                                        {{ if  hasPrefix $attachment.content_type "image/" }}
+                                        <br>
+                                        <img src="{{ $.Site.BaseURL }}bugzilla/attachments/{{ $attachment.file_name }}" class="img-fluid img-thumbnail pt-2"
+                                            alt="{{ $attachment.summary }}">
+                                    </td>
+                                </tr>
+                                {{ end }}
+                                <tr>
+                                    <td>{{ $attachment.creator }}</td>
+                                    {{ $d := (time $attachment.creation_time) }}
+                                    <td>{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</td>
+                                    <td>{{ $attachment.size }}</td>
+                                    <td>{{ $attachment.content_type }}</td>
+                                </tr>
+                                {{ end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    <div class="row pb-4">
+        <div class="col-12">
+            <div class="card">
+                <h5 class="card-header p-1" id="history-header">
+                    <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse" data-target="#history-content" aria-expanded="false"
+                        aria-controls="history-content">
+                        <i class="fa fa-chevron-down pull-right"></i>&nbsp;history
+                    </button>
+                </h5>
+                <div class="collapse p-0" id="history-content" aria-labelledby="history-header">
+                    <div class="card-body p-0">
+                        <table class="table table-dark table-bordered mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Who</th>
+                                    <th scope="col">When</th>
+                                    <th scope="col">What</th>
+                                    <th scope="col">Removed</th>
+                                    <th scope="col">Added</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{ range $hindex, $hist := $bug.history }}
+                                {{ range $cindex, $change := $hist.changes }}
+                                <tr>
+                                    {{ if eq $cindex 0 }}
+                                    <th scope="row" rowspan="{{ len $hist.changes}}">{{ $hist.who }}</th>
+                                    {{ $d := (time $hist.when) }}
+                                    <td rowspan="{{ len $hist.changes}}">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</td>
+                                    {{ else }}
+                                    {{ end }}
+                                    <td>{{ $change.field_name }}</td>
+                                    <td>{{ $change.removed }}</td>
+                                    <td>{{ $change.added }}</td>
+                                </tr>
+                                {{ end }}
+                                {{ end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ range $index, $comment := $bug.comments }}
+    <div class="row pt-2">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header h4 p-2">
+                    {{ if eq $index 0 }}
+                    <div class="float-right">Description</div>
+                    {{ else }}
+                    <div class="float-right">Comment {{ $index }}</div>
+                    {{ end }}
+                    {{ $d := (time $comment.time) }}
+                    <div class="float-left">{{ $comment.creator }}&nbsp;&nbsp;{{ $d.Format "Jan 2 2006 15:04:05 UTC"  }}</div>
+                </div>
+                <div class="card-body p-2">
+                    <pre style="white-space: pre-wrap;">{{ $comment.text }}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    <div class="row pb-5">
+    </div>
+</div>
+{{ end }}
+
+{{ define "header" }}
+<div class="jumbotron jumbotron-fluid banner-style-small">
+</div>
+{{ end }}

@@ -1,0 +1,16 @@
+diff --git a/contrib/plot/workrave-dump b/contrib/plot/workrave-dump
+old mode 100644
+new mode 100755
+index 7240d9c..c432bcd
+--- a/contrib/plot/workrave-dump
++++ b/contrib/plot/workrave-dump
+@@ -85,7 +85,8 @@ my $step = 24 * 3600;	# 24-hr steps
+ my $heartbeat = 4 * $step;
+ 
+ my (@DS);
+-foreach my $breaktype qw(micro rest daily) {
++my @breaktypes qw(micro rest daily);
++foreach my $breaktype (@breaktypes) {
+ 	foreach my $breakstat (@breakstats) {
+ 		my $key = "$breaktype$breakstat";
+ 		push @DS, "DS:$key:GAUGE:$heartbeat:0:U";

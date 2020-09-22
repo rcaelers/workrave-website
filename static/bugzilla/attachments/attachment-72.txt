@@ -1,0 +1,166 @@
+Crash log created on 01/03/2007 at 14:43:07.
+
+version = 1.8.4-rc1
+compile date = Feb 19 2007
+compile time = 22:14:57
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 434068
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 00434068 in module C:\Program Files\Workrave\lib\Workrave.exe reading from location 00000000
+
+Registers:
+
+eax=00000002 ebx=00000000 ecx=00000000 edx=01933d5c esi=00000000 edi=00000000
+eip=00434068 esp=0022f934 ebp=0022f940 iopl=0         nv up ei ng nz ac pe cy
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00210293
+
+Stack trace:
+
+PC        Frame     Ret
+00434068  0022F940  00440DDF
+00440DDF  0022F964  004434C1
+004434C1  0022F984  00443644
+00443644  0022F99C  0072D8F7
+0072D8F7  0022F9EC  0072EDCB
+0072EDCB  0022FA2C  0072EFAA
+0072EFAA  0022FA5C  00AB43BE
+00AB43BE  0022FAAC  004698F3
+004698F3  0022FABC  00405011
+00405011  0022FAE0  00420C9B
+00420C9B  0022FAF4  00420CEE
+00420CEE  0022FEF8  005680EA
+005680EA  0022FF78  00401237
+00401237  0022FFB0  004012A8
+004012A8  0022FFC0  7C816FD7
+7C816FD7  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = enabled
+  string data = 1
+  value = username
+  string data = kees-jan
+  value = password
+  string data = <hidden>
+
+key = Software\Workrave\gui
+  value = operation-mode
+  string data = 0
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = flags
+  string data = 2
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = flags
+  string data = 2
+
+key = Software\Workrave\gui\applet\rest_break
+  value = flags
+  string data = 2
+
+key = Software\Workrave\gui\breaks
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 1
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 0
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = -96
+  value = y
+  string data = 32
+  value = head
+  string data = 1
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 16200
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1800
+  value = activity_sensitive
+  string data = 1
+  value = monitor
+  string data = micro_pause
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 150
+  value = auto_reset
+  string data = 25
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 1200
+  value = auto_reset
+  string data = 450
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 300
+  value = activity_sensitive
+  string data = 1
+

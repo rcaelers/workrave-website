@@ -1,0 +1,311 @@
+diff --git a/frontend/gtkmm/src/MainWindow.cc b/frontend/gtkmm/src/MainWindow.cc
+index 4baf875..9a567fe 100644
+--- a/frontend/gtkmm/src/MainWindow.cc
++++ b/frontend/gtkmm/src/MainWindow.cc
+@@ -68,6 +68,9 @@
+ 
+ const string MainWindow::CFG_KEY_MAIN_WINDOW               = "gui/main_window";
+ const string MainWindow::CFG_KEY_MAIN_WINDOW_ALWAYS_ON_TOP = "gui/main_window/always_on_top";
++const string MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_PAGER    = "gui/main_window/skip_pager";
++const string MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_TASKBAR  = "gui/main_window/skip_taskbar";
++const string MainWindow::CFG_KEY_MAIN_WINDOW_UNDECORATED   = "gui/main_window/undecorated";
+ const string MainWindow::CFG_KEY_MAIN_WINDOW_START_IN_TRAY = "gui/main_window/start_in_tray";
+ const string MainWindow::CFG_KEY_MAIN_WINDOW_X             = "gui/main_window/x";
+ const string MainWindow::CFG_KEY_MAIN_WINDOW_Y             = "gui/main_window/y";
+@@ -261,9 +264,15 @@ MainWindow::setup()
+ 
+   bool new_enabled = TimerBoxControl::is_enabled("main_window");
+   bool always_on_top = get_always_on_top();
++  bool skip_pager = get_skip_pager();
++  bool skip_taskbar = get_skip_taskbar();
++  bool undecorated = get_undecorated();
+ 
+   TRACE_MSG("enabled " << new_enabled);
+   TRACE_MSG("on top " << always_on_top);
++  TRACE_MSG("skip pager " << skip_pager);
++  TRACE_MSG("skip taskbar " << skip_taskbar);
++  TRACE_MSG("undecorated " << undecorated);
+ 
+   if (enabled != new_enabled)
+     {
+@@ -281,6 +290,9 @@ MainWindow::setup()
+   if (is_visible())
+     {
+       WindowHints::set_always_on_top(this, always_on_top);
++      WindowHints::set_skip_pager_hint(this, skip_pager);
++      WindowHints::set_skip_taskbar_hint(this, skip_taskbar);
++      WindowHints::set_undecorated(this, undecorated);
+     }
+   
+   if (is_visible() && always_on_top)
+@@ -493,6 +505,64 @@ MainWindow::set_always_on_top(bool b)
+     ->set_value(MainWindow::CFG_KEY_MAIN_WINDOW_ALWAYS_ON_TOP, b);
+ }
+ 
++bool
++MainWindow::get_skip_pager()
++{
++  bool rc;
++  CoreFactory::get_configurator()
++    ->get_value_with_default(MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_PAGER,
++                             rc,
++                             false);
++  return rc;
++}
++
++
++void
++MainWindow::set_skip_pager(bool b)
++{
++  CoreFactory::get_configurator()
++    ->set_value(MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_PAGER, b);
++}
++
++
++bool
++MainWindow::get_skip_taskbar()
++{
++  bool rc;
++  CoreFactory::get_configurator()
++    ->get_value_with_default(MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_TASKBAR,
++                             rc,
++                             false);
++  return rc;
++}
++
++
++void
++MainWindow::set_skip_taskbar(bool b)
++{
++  CoreFactory::get_configurator()
++    ->set_value(MainWindow::CFG_KEY_MAIN_WINDOW_SKIP_TASKBAR, b);
++}
++
++bool
++MainWindow::get_undecorated()
++{
++  bool rc;
++  CoreFactory::get_configurator()
++    ->get_value_with_default(MainWindow::CFG_KEY_MAIN_WINDOW_UNDECORATED,
++                             rc,
++                             false);
++  return rc;
++}
++
++
++void
++MainWindow::set_undecorated(bool b)
++{
++  CoreFactory::get_configurator()
++    ->set_value(MainWindow::CFG_KEY_MAIN_WINDOW_UNDECORATED, b);
++}
++
+ 
+ bool
+ MainWindow::get_start_in_tray()
+diff --git a/frontend/gtkmm/src/MainWindow.hh b/frontend/gtkmm/src/MainWindow.hh
+index e137d43..d4cbcb3 100644
+--- a/frontend/gtkmm/src/MainWindow.hh
++++ b/frontend/gtkmm/src/MainWindow.hh
+@@ -66,6 +66,12 @@ public:
+ 
+   static bool get_always_on_top();
+   static void set_always_on_top(bool b);
++  static bool get_skip_pager();
++  static void set_skip_pager(bool b);
++  static bool get_skip_taskbar();
++  static void set_skip_taskbar(bool b);
++  static bool get_undecorated();
++  static void set_undecorated(bool b);
+ 
+ protected:
+   bool on_button_press_event(GdkEventButton *event);
+@@ -129,6 +135,9 @@ public:
+ 
+   static const std::string CFG_KEY_MAIN_WINDOW;
+   static const std::string CFG_KEY_MAIN_WINDOW_ALWAYS_ON_TOP;
++  static const std::string CFG_KEY_MAIN_WINDOW_SKIP_PAGER;
++  static const std::string CFG_KEY_MAIN_WINDOW_SKIP_TASKBAR;
++  static const std::string CFG_KEY_MAIN_WINDOW_UNDECORATED;
+   static const std::string CFG_KEY_MAIN_WINDOW_START_IN_TRAY;
+   static const std::string CFG_KEY_MAIN_WINDOW_X;
+   static const std::string CFG_KEY_MAIN_WINDOW_Y;
+diff --git a/frontend/gtkmm/src/TimerBoxPreferencePage.cc b/frontend/gtkmm/src/TimerBoxPreferencePage.cc
+index 599cb88..06fabca 100644
+--- a/frontend/gtkmm/src/TimerBoxPreferencePage.cc
++++ b/frontend/gtkmm/src/TimerBoxPreferencePage.cc
+@@ -47,7 +47,10 @@
+ TimerBoxPreferencePage::TimerBoxPreferencePage(string n)
+   : Gtk::HBox(false, 6),
+     name(n),
+-    ontop_cb(NULL)
++    ontop_cb(NULL),
++    skippager_cb(NULL),
++    skiptaskbar_cb(NULL),
++    undecorated_cb(NULL)
+ {
+   TRACE_ENTER("TimerBoxPreferencePage::TimerBoxPreferencePage");
+ 
+@@ -139,6 +142,27 @@ TimerBoxPreferencePage::create_page()
+          (_("The status window stays always on top of other windows")));
+       ontop_cb->signal_toggled().connect(sigc::mem_fun(*this, &TimerBoxPreferencePage::on_always_on_top_toggled));
+       ontop_cb->set_active(MainWindow::get_always_on_top());
++
++      // Skip Pager
++      skippager_cb = Gtk::manage
++        (new Gtk::CheckButton
++         (_("Sets the skip pager hint")));
++      skippager_cb->signal_toggled().connect(sigc::mem_fun(*this, &TimerBoxPreferencePage::on_skip_pager_toggled));
++      skippager_cb->set_active(MainWindow::get_skip_pager());
++
++      // Skip taskbar
++      skiptaskbar_cb = Gtk::manage
++        (new Gtk::CheckButton
++         (_("Hide workrave window in taskbar")));
++      skiptaskbar_cb->signal_toggled().connect(sigc::mem_fun(*this, &TimerBoxPreferencePage::on_skip_taskbar_toggled));
++      skiptaskbar_cb->set_active(MainWindow::get_skip_taskbar());
++
++      // Undecorated
++      undecorated_cb = Gtk::manage
++        (new Gtk::CheckButton
++         (_("Disable decorations on window")));
++      undecorated_cb->signal_toggled().connect(sigc::mem_fun(*this, &TimerBoxPreferencePage::on_undecorated_toggled));
++      undecorated_cb->set_active(MainWindow::get_undecorated());
+     }
+   else if (name == "applet")
+     {
+@@ -157,6 +181,21 @@ TimerBoxPreferencePage::create_page()
+       hig->add(*ontop_cb);
+     }
+ 
++  if (skippager_cb != NULL)
++    {
++      hig->add(*skippager_cb);
++    }
++
++  if (skiptaskbar_cb != NULL)
++    {
++      hig->add(*skiptaskbar_cb);
++    }
++
++  if (undecorated_cb != NULL)
++    {
++      hig->add(*undecorated_cb);
++    }
++
+   hig->add(_("Placement:"), *place_button);
+   hig->add(_("Cycle time:"), *cycle_entry);
+ 
+@@ -371,6 +410,9 @@ TimerBoxPreferencePage::enable_buttons(void)
+       place_button->set_sensitive(count != 3);
+       cycle_entry->set_sensitive(count != 3);
+       ontop_cb->set_sensitive(count != 3);
++      skippager_cb->set_sensitive(count != 3);
++      skiptaskbar_cb->set_sensitive(count != 3);
++      undecorated_cb->set_sensitive(count != 3);
+     }
+ }
+ 
+@@ -390,6 +432,24 @@ TimerBoxPreferencePage::on_always_on_top_toggled()
+   MainWindow::set_always_on_top(ontop_cb->get_active());
+ }
+ 
++void
++TimerBoxPreferencePage::on_skip_pager_toggled()
++{
++  MainWindow::set_skip_pager(skippager_cb->get_active());
++}
++
++void
++TimerBoxPreferencePage::on_skip_taskbar_toggled()
++{
++  MainWindow::set_skip_taskbar(skiptaskbar_cb->get_active());
++}
++
++void
++TimerBoxPreferencePage::on_undecorated_toggled()
++{
++  MainWindow::set_undecorated(undecorated_cb->get_active());
++}
++
+ 
+ void
+ TimerBoxPreferencePage::config_changed_notify(const string &key)
+diff --git a/frontend/gtkmm/src/TimerBoxPreferencePage.hh b/frontend/gtkmm/src/TimerBoxPreferencePage.hh
+index 047f389..997e14e 100644
+--- a/frontend/gtkmm/src/TimerBoxPreferencePage.hh
++++ b/frontend/gtkmm/src/TimerBoxPreferencePage.hh
+@@ -56,12 +56,18 @@ private:
+   void on_display_changed(int break_id);
+   void on_cycle_time_changed();
+   void on_always_on_top_toggled();
++  void on_skip_pager_toggled();
++  void on_skip_taskbar_toggled();
++  void on_undecorated_toggled();
+ 
+   void config_changed_notify(const string &key);
+ 
+   string name;
+ 
+   Gtk::CheckButton *ontop_cb;
++  Gtk::CheckButton *skippager_cb;
++  Gtk::CheckButton *skiptaskbar_cb;
++  Gtk::CheckButton *undecorated_cb;
+   Gtk::CheckButton *enabled_cb;
+   Gtk::OptionMenu *place_button;
+   Gtk::OptionMenu *timer_display_button[BREAK_ID_SIZEOF];
+diff --git a/frontend/gtkmm/src/WindowHints.cc b/frontend/gtkmm/src/WindowHints.cc
+index bd475c3..e497ec3 100644
+--- a/frontend/gtkmm/src/WindowHints.cc
++++ b/frontend/gtkmm/src/WindowHints.cc
+@@ -61,6 +61,36 @@ WindowHints::set_always_on_top(Gtk::Window *window, bool on_top)
+ #endif
+ }
+ 
++void
++WindowHints::set_skip_pager_hint(Gtk::Window *window, bool skip_pager)
++{
++#if !defined(PLATFORM_OS_WIN32)
++
++  window->set_skip_pager_hint(skip_pager);
++
++#endif
++}
++
++void
++WindowHints::set_skip_taskbar_hint(Gtk::Window *window, bool skip_taskbar)
++{
++#if !defined(PLATFORM_OS_WIN32)
++
++  window->set_skip_taskbar_hint(skip_taskbar);
++
++#endif
++}
++
++void
++WindowHints::set_undecorated(Gtk::Window *window, bool undecorated)
++{
++#if !defined(PLATFORM_OS_WIN32)
++
++  window->set_decorated(!undecorated);
++
++#endif
++}
++
+ 
+ #ifdef PLATFORM_OS_WIN32
+ static void
+diff --git a/frontend/gtkmm/src/WindowHints.hh b/frontend/gtkmm/src/WindowHints.hh
+index 0014f92..5310a05 100644
+--- a/frontend/gtkmm/src/WindowHints.hh
++++ b/frontend/gtkmm/src/WindowHints.hh
+@@ -38,6 +38,9 @@ public:
+   typedef void *Grab;
+ 
+   static void set_always_on_top(Gtk::Window *window, bool ontop);
++  static void set_skip_pager_hint(Gtk::Window *window, bool skip_pager);
++  static void set_skip_taskbar_hint(Gtk::Window *window, bool skip_taskbar);
++  static void set_undecorated(Gtk::Window *window, bool undecorated);
+   static Grab *grab(int num_windows, GdkWindow **window);
+   static void ungrab(Grab *grab);
+ #if defined(PLATFORM_OS_WIN32)

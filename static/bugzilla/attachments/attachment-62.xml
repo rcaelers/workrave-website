@@ -1,0 +1,71 @@
+  <exercise>
+    <title>Pray</title>
+    <title xml:lang="nl">Bidden</title>
+    <description>Lower your head so your chin rests on your chest, but keep your shoulders straight. Keep it their for 5 seconds and relax. Then lift your head slowly and try to keep your chin close to your body and shoulders straight until your head is up with its crown as high as possible.  To stretch the long back muscles better, try to turn your pelvis by pushing your bottom down Repeat this exercise 3 times.  </description>
+    <description xml:lang="nl">Laat je hoofd naar voren zakken, zodat je kin op je borst rust.  Houd daarbij je schouders recht. Laat je hoofd 5 seconden ontspannen hangen.  Til vervolgens je hoofd langzaam op en probeer je kin dicht bij je lichaam te houden totdat je hoofd rechtop is met je kruin zo ver mogelijk omhoog.  Om de lange rugspieren beter op te rekken, kun je je bekken kantelen door je billen naar beneden te duwen.  Herhaal deze oefening 3 keer.  </description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>The champion</title>
+    <title xml:lang="nl">De kampioen</title>
+    <description>Put your hands together above your head like you have won something. Then lower your hands in front of your face and push them back up. Now lower your hands behind your head and push them back up. To tone the muscles in your arms, try to push your arms in opposite directions. Repeat 10 times.</description>
+    <description xml:lang="nl">Houd je handen vast boven je hoofd, alsof je gewonnen hebt. Laat je handen voor je gezicht zakken en duw ze weer naar boven. Vervolgens laat je je handen achter je hoofd zakken en duw je ze weer omhoog. Om de spieren in je armen te trainen, kun je proberen je armen in tegenovergestelde richting te duwen. Herhaal 10 keer.</description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>Fly like a plane</title>
+    <title xml:lang="nl">Ik ben niet gek, ik ben een vliegtuig</title>
+    <description>Stand with your hands hanging next to your body. Lift them up sideways untill they are horizontal. Try to push your hands as far apart as possible for 5 seconds. Then lower them back down and relax 5 seconds. Repeat 10 times.</description>
+    <description xml:lang="nl">Ga staan met je handen langs je lichaam. Till ze op naar opzij totdat ze horizontaal gestrekt zijn. Probeer je handen 5 seconden zo ver mogelijk van elkaar weg te duwen. Laat ze daarna weer rustig zakken en ontspan voor 5 seconden. Herhaal 10 keer.</description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>Headroll</title>
+    <title xml:lang="nl">Het hoofd rollen</title>
+    <description>Lower your head to your left shoulder and keep it there for 2 seconds. Now let it roll down to the front and end with your chin on your chest. Relax for 2 seconds. Now lift your head slowly and keep your chin close to your body until your head is straight again. Now repeat this the other way, to your right shoulder. Repeat 10 times. Warning: only roll your head to the front, otherwise you might injure your neck muscles.</description>
+    <description xml:lang="nl">Laat je hoofd zakken naar je linker schouder en houd dat 2 seconden vast. Laat je hoofd nu naar voren naar beneden rollen totdat je kin op je borst rust. Ontspan 2 seconden. Till je hoofd nu langzaam op en houd je kin dicht bij je lichaam totdat je hoofd weer rechtop is. Herhaal de oefening de andere kant op, richting je rechterschouder. Herhaal 10 keer. Let op: laat je hoofd alleen naar voren rollen, anders loop je het risico je nek spieren te beschadigen.</description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>Fist roll</title>
+    <title xml:lang="nl">Vuist rollen</title>
+    <description>Put your underarm on a table and make a fist. Roll your fist away from your body untill it rests on your nuckles. Keep it for 2 seconds and roll it back. Repeat this 5 times for each hand.</description>
+    <description xml:lang="nl">Leg je onderarm op tafel en maak een vuist. Rol je vuist nu van je af, totdat deze op de knokkels steunt. Houd je arm 2 seconden vast en laat hem terug rollen. Herhaal dit 5 keer voor elke hand.</description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>Move your chair</title>
+    <title xml:lang="nl">Verplaats je stoel</title>
+    <description></description>
+    <description xml:lang="nl"></description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+  <exercise>
+    <title>Strangle</title>
+    <title xml:lang="nl">Wurggreep</title>
+    <description>Put your right forearm on your left shoulder. Press with your left hand your elbow backwards en keep the pressure for 2 seconds. Now lift your right arm and lower your right forearm behind your head. Again, press your right elbow with your left hand, this time downwards en keep the pressure for 2 seconds. Now do the exercies with opposite arms. Repeat 10 times.</description>
+    <description xml:lang="nl">Leg je rechteronderarm op je linkerschouder. Druk nu met je linker hand je elleboog naar achteren en houdt dit 2 seconden vast. Til je rechterarm nu op en laat je onderarm achter je hoofd zakken. Duw opnieuw met je linkerhand tegen je rechter elleboog, zodat je arm naar beneden gedrukt wordt en houdt dit 2 seconden vast. Doe nu hetzelfde maar dan met de armen omgekeerd. Herhaal 10 keer.</description>
+    <sequence duration="30">
+      <image src="shoulder-arm-stretch.png" duration="10"/>
+      <image src="shoulder-arm-stretch.png" mirrorx="yes" duration="10"/>
+    </sequence>
+  </exercise>
+

@@ -1,0 +1,261 @@
+==31195== Memcheck, a memory error detector
+==31195== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==31195== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==31195== Command: ./workrave
+==31195== 
+==31195== Invalid write of size 8
+==31195==    at 0x4CB482: Thread::wait() (GlibThread.cc:75)
+==31195==    by 0x49E9C7: Core::~Core() (Core.cc:133)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4CB474: Thread::wait() (GlibThread.cc:72)
+==31195==    by 0x4C3E2C: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:121)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4C3E36: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid write of size 8
+==31195==    at 0x4CB49B: Thread::~Thread() (GlibThread.cc:37)
+==31195==    by 0x4CB4B8: Thread::~Thread() (GlibThread.cc:40)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4CB474: Thread::wait() (GlibThread.cc:72)
+==31195==    by 0x4CB4B8: Thread::~Thread() (GlibThread.cc:40)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid free() / delete / delete[] / realloc()
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== 
+==31195== HEAP SUMMARY:
+==31195==     in use at exit: 2,852,510 bytes in 31,823 blocks
+==31195==   total heap usage: 166,410 allocs, 134,588 frees, 25,751,039 bytes allocated
+==31195== 
+==31195== LEAK SUMMARY:
+==31195==    definitely lost: 19,237 bytes in 15 blocks
+==31195==    indirectly lost: 14,713 bytes in 600 blocks
+==31195==      possibly lost: 144,942 bytes in 2,649 blocks
+==31195==    still reachable: 2,515,554 bytes in 27,722 blocks
+==31195==         suppressed: 0 bytes in 0 blocks
+==31195== Rerun with --leak-check=full to see details of leaked memory
+==31195== 
+==31195== For counts of detected and suppressed errors, rerun with: -v
+==31195== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 4 from 3)==31195== Memcheck, a memory error detector
+==31195== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==31195== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==31195== Command: ./workrave
+==31195== 
+==31195== Invalid write of size 8
+==31195==    at 0x4CB482: Thread::wait() (GlibThread.cc:75)
+==31195==    by 0x49E9C7: Core::~Core() (Core.cc:133)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4CB474: Thread::wait() (GlibThread.cc:72)
+==31195==    by 0x4C3E2C: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:121)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4C3E36: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid write of size 8
+==31195==    at 0x4CB49B: Thread::~Thread() (GlibThread.cc:37)
+==31195==    by 0x4CB4B8: Thread::~Thread() (GlibThread.cc:40)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid read of size 8
+==31195==    at 0x4CB474: Thread::wait() (GlibThread.cc:72)
+==31195==    by 0x4CB4B8: Thread::~Thread() (GlibThread.cc:40)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== Invalid free() / delete / delete[] / realloc()
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free'd
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+==31195== 
+==31195== 
+==31195== HEAP SUMMARY:
+==31195==     in use at exit: 2,852,510 bytes in 31,823 blocks
+==31195==   total heap usage: 166,410 allocs, 134,588 frees, 25,751,039 bytes allocated
+==31195== 
+==31195== LEAK SUMMARY:
+==31195==    definitely lost: 19,237 bytes in 15 blocks
+==31195==    indirectly lost: 14,713 bytes in 600 blocks
+==31195==      possibly lost: 144,942 bytes in 2,649 blocks
+==31195==    still reachable: 2,515,554 bytes in 27,722 blocks
+==31195==         suppressed: 0 bytes in 0 blocks
+==31195== Rerun with --leak-check=full to see details of leaked memory
+==31195== 
+==31195== For counts of detected and suppressed errors, rerun with: -v
+==31195== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 4 from 3)

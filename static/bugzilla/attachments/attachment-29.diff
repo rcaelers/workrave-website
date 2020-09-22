@@ -1,0 +1,265 @@
+diff -ur workrave-1.4.1/src/core/BreakControl.cc workrave-1.4.1-debian-worky/src/core/BreakControl.cc
+--- workrave-1.4.1/src/core/BreakControl.cc	2003-10-20 15:19:50.000000000 -0400
++++ workrave-1.4.1-debian-worky/src/core/BreakControl.cc	2003-12-13 10:44:05.000000000 -0500
+@@ -60,8 +60,12 @@
+   prelude_time(0),
+   forced_break(false),
+   prelude_count(0),
++  total_preludes(0),
++  reached_total_preludes(false),
+   number_of_preludes(2),
++  max_number_of_preludes(2),
+   ignorable_break(true),
++  config_ignorable_break(true),
+   insist_policy(BreakInterface::INSIST_POLICY_HALT),
+   active_insist_policy(BreakInterface::INSIST_POLICY_INVALID),
+   fake_break(false),
+@@ -275,6 +279,7 @@
+     case STAGE_PRELUDE:
+       {
+         prelude_count++;
++	total_preludes++;
+         prelude_time = 0;
+         application->hide_break_window();
+ 
+@@ -294,6 +299,17 @@
+         monitor->force_idle();
+         break_timer->stop_timer();
+ 
++	// Check if we have reached the maximum number of preludes and force
++	// break
++	if (reached_total_preludes)
++	  {
++	    ignorable_break = false;
++	  }
++	else
++	  {
++	    ignorable_break = config_ignorable_break;
++	  }
++
+         // Start the break.
+         break_window_start();
+         application->refresh_break_window();
+@@ -354,7 +370,7 @@
+ 
+       if (fake_break_count <= 0)
+         {
+-          stop_break();
++          stop_break(false);
+         }
+ 
+       fake_break_count--;
+@@ -385,8 +401,11 @@
+   user_abort = false;
+   
+   final_prelude = number_of_preludes >= 0 && prelude_count + 1 >= number_of_preludes;
++  reached_total_preludes = max_number_of_preludes >= 0
++    && total_preludes + 1 >= max_number_of_preludes;
+ 
+-  if (number_of_preludes >= 0 && prelude_count >= number_of_preludes)
++  if ((number_of_preludes >= 0 && prelude_count >= number_of_preludes) ||
++      (max_number_of_preludes >= 0 && total_preludes >= max_number_of_preludes))
+     {
+       // Forcing break without prelude.
+       goto_stage(STAGE_TAKING);
+@@ -454,12 +473,18 @@
+  *  wrt, "max-preludes", the break will start over when it comes back.
+  */
+ void
+-BreakControl::stop_break()
++BreakControl::stop_break(bool forced_stop)
+ {
+   TRACE_ENTER_MSG("BreakControl::stop_break", break_id);
+ 
++  TRACE_MSG(" forced stop = " << forced_stop);
++
+   suspend_break();
+   prelude_count = 0;
++  if (!forced_stop)
++    {
++      total_preludes = 0;
++    }
+ 
+   TRACE_EXIT();
+ }
+@@ -537,7 +562,7 @@
+   user_abort = true;
+ 
+   // and stop the break.
+-  stop_break();
++  stop_break(true);
+ }
+ 
+ 
+@@ -576,7 +601,7 @@
+   stats->increment_break_counter(break_id, Statistics::STATS_BREAKVALUE_SKIPPED);
+ 
+   // and stop the break.
+-  stop_break();
++  stop_break(false);
+ }
+ 
+ 
+@@ -601,7 +626,7 @@
+ void
+ BreakControl::set_ignorable_break(bool i)
+ {
+-  ignorable_break = i;
++  config_ignorable_break = i;
+ }
+ 
+ 
+@@ -766,6 +791,8 @@
+             " prelude = " << data.prelude_count <<
+             " stage = " <<  data.break_stage <<
+             " final = " << final_prelude <<
++	    " total preludes = " << total_preludes <<
++	    " force ignorable break = " << reached_total_preludes <<
+             " time = " << data.prelude_time);
+   
+   application->hide_break_window();
+@@ -773,6 +800,7 @@
+   forced_break = data.forced_break;
+   prelude_count = data.prelude_count;
+   prelude_time = data.prelude_time;
++  total_preludes = data.total_preludes;
+ 
+   BreakStage new_break_stage = (BreakStage) data.break_stage;
+   
+@@ -848,6 +876,8 @@
+   data.break_stage = break_stage;
+   data.final_prelude = final_prelude;
+   data.prelude_time = prelude_time;
++  data.total_preludes = total_preludes;
++  data.reached_total_preludes = reached_total_preludes;
+ }
+ 
+ 
+diff -ur workrave-1.4.1/src/core/BreakControl.hh workrave-1.4.1-debian-worky/src/core/BreakControl.hh
+--- workrave-1.4.1/src/core/BreakControl.hh	2003-10-20 14:52:14.000000000 -0400
++++ workrave-1.4.1-debian-worky/src/core/BreakControl.hh	2003-12-13 10:44:54.000000000 -0500
+@@ -41,10 +41,12 @@
+   {
+     bool forced_break;
+     int prelude_count;
++    int total_preludes;
+ 
+     int break_stage;
+     bool final_prelude;
+     int prelude_time;
++    bool reached_total_preludes;
+   };
+   
+   BreakControl(BreakId id, Core *core, AppInterface *app, Timer *timer);
+@@ -53,7 +55,7 @@
+   // BreakInterface
+   void start_break();
+   void force_start_break();
+-  void stop_break();
++  void stop_break(bool forced_stop);
+   bool need_heartbeat();
+   void heartbeat();
+   BreakState get_break_state();
+@@ -123,12 +125,24 @@
+   //! How many times have we preluded (since the limit was reached)
+   int prelude_count;
+ 
++  //! Total number of preludes seen
++  int total_preludes;
++
++  //! Have we seen too many preludes and need to make the break non-ignorable
++  bool reached_total_preludes;
++
+   //! After how many preludes do we force a break or give up?
+   int number_of_preludes;
+ 
+-  //! Can the use explicitly ignore the break?
++  //! After how many preludes do we make the break not ignorable?
++  int max_number_of_preludes;
++
++  //! Can the use explicitly ignore the break? (window setting)
+   bool ignorable_break;
+ 
++  //! Can the use explicitly ignore the break? (configuration setting)
++  bool config_ignorable_break;
++
+   //! What to do with activity during insisted break?
+   BreakInterface::InsistPolicy insist_policy;
+ 
+diff -ur workrave-1.4.1/src/core/Core.cc workrave-1.4.1-debian-worky/src/core/Core.cc
+--- workrave-1.4.1/src/core/Core.cc	2003-10-31 18:21:15.000000000 -0500
++++ workrave-1.4.1-debian-worky/src/core/Core.cc	2003-12-13 10:40:10.000000000 -0500
+@@ -822,7 +822,7 @@
+         case BREAK_ACTION_STOP_BREAK:
+           if (breaker->get_break_state() == BreakControl::BREAK_ACTIVE)
+             {
+-              handle_stop_break(breaker, id, timer);
++              handle_stop_break(breaker, id, timer, false);
+             }
+           break;
+       
+@@ -830,7 +830,7 @@
+           {
+             if (breaker->get_break_state() == BreakControl::BREAK_ACTIVE)
+               {
+-                handle_stop_break(breaker, id, timer);
++                handle_stop_break(breaker, id, timer, false);
+               }
+             statistics->increment_break_counter(id, Statistics::STATS_BREAKVALUE_NATURAL_TAKEN);
+           }
+@@ -844,7 +844,7 @@
+             if (id == BREAK_ID_REST_BREAK
+                 && (micropause_control->get_break_state() == BreakControl::BREAK_ACTIVE))
+               {
+-                micropause_control->stop_break();
++                micropause_control->stop_break(false);
+               }
+             breaker->force_start_break();
+           }
+@@ -914,7 +914,7 @@
+     {
+       if (breaks[bi].get_break_control()->get_break_state() == BreakControl::BREAK_ACTIVE)
+         {
+-          breaks[bi].get_break_control()->stop_break();
++          breaks[bi].get_break_control()->stop_break(false);
+         }
+     }
+   
+@@ -929,13 +929,14 @@
+  *  \param timer Interface to the timer the caused the break.
+  */
+ void
+-Core::handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer)
++Core::handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer,
++			bool forced_stop)
+ {
+   (void) breaker;
+   (void) break_id;
+   (void) timer;
+   
+-  breaker->stop_break();
++  breaker->stop_break(forced_stop);
+ }
+ 
+ 
+@@ -966,7 +967,7 @@
+       BreakControl *bc = breaks[i].get_break_control();
+       if (bc != NULL)
+         {
+-          bc->stop_break();
++          bc->stop_break(false);
+         }
+     }
+ }
+diff -ur workrave-1.4.1/src/core/Core.hh workrave-1.4.1-debian-worky/src/core/Core.hh
+--- workrave-1.4.1/src/core/Core.hh	2003-10-14 16:35:49.000000000 -0400
++++ workrave-1.4.1-debian-worky/src/core/Core.hh	2003-12-13 09:23:58.000000000 -0500
+@@ -138,7 +138,7 @@
+   void process_timers(TimerInfo *infos);
+   void break_action(BreakId id, BreakAction action);
+   void handle_start_break(BreakControl *breaker, BreakId break_id, Timer *timer);
+-  void handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer);
++  void handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer, bool forced_stop);
+   void stop_all_breaks();
+   void daily_reset();
+   void save_state() const;

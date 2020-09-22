@@ -1,0 +1,181 @@
+Crash log created on 13/10/2003 at 10:06:13.
+
+version = 1.4.1
+compile date = Oct 13 2003
+compile time = 00:23:30
+features = DISTRIBUTION EXERCISES GNET GNET2 
+
+
+code = c0000005
+flags = 0
+address = 504b63
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 00504b63 reading from location 00000000
+
+Registers:
+
+eax=00000000 ebx=00000000 ecx=00000000 edx=00000004 esi=00f96de0 edi=00000000
+eip=00504b63 esp=0022fba4 ebp=0022fba8 iopl=0         nv up ei pl nz ac po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=0038  gs=0000             efl=00010216
+
+Stack trace:
+
+PC        Frame     Ret
+00504B63  0022FBA8  00408789
+00408789  0022FC1C  0040157B
+0040157B  0022FC2C  00401CF5
+00401CF5  0022FC3C  00403673
+00403673  0022FC78  0042CAE6
+0042CAE6  0022FC94  0042C76F
+0042C76F  0022FCBC  0042C5A5
+0042C5A5  0022FCD4  00424AD8
+00424AD8  0022FD2C  004029C2
+004029C2  0022FD3C  00502FDF
+00502FDF  0022FD4C  004DDF67
+004DDF67  0022FD7C  672DDE8B
+672DDE8B  0022FDAC  672DE67E
+672DE67E  0022FDFC  672DEC9F
+672DEC9F  0022FE3C  672DB959
+672DB959  0022FE7C  6056FF69
+6056FF69  0022FE9C  0045B481
+0045B481  0022FEBC  004028B4
+004028B4  0022FEE0  0041B066
+0041B066  0022FEF4  0041B0D3
+0041B0D3  0022FF08  004FB2EB
+004FB2EB  0022FF80  00401182
+00401182  0022FFB0  00401038
+00401038  0022FFC0  77E5EB69
+77E5EB69  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = enabled
+  string data = 1
+  value = username
+  string data = kees-jan
+  value = password
+  string data = <hidden>
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\breaks
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 0
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 1
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 0
+  value = ignorable_break
+  string data = 0
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 0
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+  value = x
+  string data = 1964
+  value = y
+  string data = 32
+  value = always_on_top
+  string data = 0
+  value = head_x
+  string data = -85
+  value = head_y
+  string data = 32
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = monitor
+  string data = micro_pause
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 150
+  value = auto_reset
+  string data = 25
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 600
+  value = auto_reset
+  string data = 300
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 300
+

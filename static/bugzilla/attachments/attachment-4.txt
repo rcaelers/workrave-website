@@ -1,0 +1,1460 @@
+>>> 0x127163000 | GUI:GUI
+>>> 0x127163000 | GUIControl:GUIControl
+<<< 0x127163000 | GUIControl:GUIControl
+<<< 0x127163000 | GUI:GUI
+>>> 0x127163000 | XMLConfigurator::load
+>>> 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+>>> 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::init
+<<< 0x127163000 | XMLConfigurator::load
+>>> 0x127163000 | GUIControl::verify_config
+    0x127163000 | GUIControl::verify_config micro_pause
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+    0x127163000 | GUIControl::verify_config rest_break
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+    0x127163000 | GUIControl::verify_config daily_limit
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | GUIControl::verify_config
+>>> 0x127163000 | ActivityMonitor::ActivityMonitor
+>>> 0x127163000 | Win32InputMonitor::init
+<<< 0x127163000 | ActivityMonitor::ActivityMonitor
+>>> 0x127163000 | XMLConfigurator::get_child monitor/(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |monitor||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value noise
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child monitor(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |monitor||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value noise
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value1
+<<< 0x127163000 | XMLConfigurator::get_value1
+>>> 0x127163000 | XMLConfigurator::get_value activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child monitor(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |monitor||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value2
+<<< 0x127163000 | XMLConfigurator::get_value2
+>>> 0x127163000 | XMLConfigurator::get_value idle
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child monitor(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |monitor||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value idle
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value5
+<<< 0x127163000 | XMLConfigurator::get_value5
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | Control::create_timers
+>>> 0x127163000 | XMLConfigurator::get_child timers(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+    0x127163000 | Control::create_timers ID=daily_limit
+>>> 0x127163000 | Control::configure_timer daily_limit
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-daily.png
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-daily.png
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value14400
+<<< 0x127163000 | XMLConfigurator::get_value14400
+>>> 0x127163000 | Timer::compute_next_limit_time daily_limit
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | Timer::compute_next_limit_time daily_limit
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value0
+<<< 0x127163000 | XMLConfigurator::get_value0
+daily_limit 0
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_valueday/4:00
+<<< 0x127163000 | XMLConfigurator::get_valueday/4:00
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value1
+<<< 0x127163000 | XMLConfigurator::get_value1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/daily_limit(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|daily_limit|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child daily_limit(timers)
+    0x127163000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | Control::configure_timer
+    0x127163000 | Control::create_timers ID=micro_pause
+>>> 0x127163000 | Control::configure_timer micro_pause
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-micropause.png
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-micropause.png
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value150
+<<< 0x127163000 | XMLConfigurator::get_value150
+>>> 0x127163000 | Timer::compute_next_limit_time micro_pause
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | Timer::compute_next_limit_time micro_pause
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value20
+<<< 0x127163000 | XMLConfigurator::get_value20
+micro_pause 20
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value30
+<<< 0x127163000 | XMLConfigurator::get_value30
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value1
+<<< 0x127163000 | XMLConfigurator::get_value1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/micro_pause(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|micro_pause|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child micro_pause(timers)
+    0x127163000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | Control::configure_timer
+    0x127163000 | Control::create_timers ID=rest_break
+>>> 0x127163000 | Control::configure_timer rest_break
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value icon
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-restbreak.png
+<<< 0x127163000 | XMLConfigurator::get_valueimages/timer-restbreak.png
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value limit
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value1200
+<<< 0x127163000 | XMLConfigurator::get_value1200
+>>> 0x127163000 | Timer::compute_next_limit_time rest_break
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | Timer::compute_next_limit_time rest_break
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value auto_reset
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value600
+<<< 0x127163000 | XMLConfigurator::get_value600
+rest_break 600
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value reset_pred
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value snooze
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value60
+<<< 0x127163000 | XMLConfigurator::get_value60
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value count_activity
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value1
+<<< 0x127163000 | XMLConfigurator::get_value1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+>>> 0x127163000 | XMLConfigurator::get_child timers/rest_break(workrave)
+    0x127163000 | XMLConfigurator::get_child new = |timers|rest_break|
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child recursing
+>>> 0x127163000 | XMLConfigurator::get_child rest_break(timers)
+    0x127163000 | XMLConfigurator::get_child new = |rest_break||
+    0x127163000 | XMLConfigurator::get_child found
+    0x127163000 | XMLConfigurator::get_child this
+<<< 0x127163000 | XMLConfigurator::get_child 1
+<<< 0x127163000 | XMLConfigurator::get_child 1
+>>> 0x127163000 | XMLConfigurator::get_value restore
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | XMLConfigurator::get_value
+<<< 0x127163000 | Control::configure_timer
+>>> 0x127163000 | Control::load_state
+1 0 1 -2 461
+1 20 0 18 6
+1 600 0 598 461
+<<< 0x127163000 | Control::load_state
+>>> 0x127163000 | Timer::compute_next_limit_time daily_limit
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | Timer::compute_next_limit_time micro_pause
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | Timer::compute_next_limit_time rest_break
+<<< 0x127163000 | Timer::compute_next_limit_time0
+>>> 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | XMLConfigurator::strip_path
+<<< 0x127163000 | Control::create_timers
+>>> 0x127163000 | Control::run
+>>> 0x127529000 | GUI:run
+>>> 0x127529000 | MainWindow::init
+>>> 0x127529000 | XMLConfigurator::get_value always_on_top
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/main_window(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|main_window|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child main_window(gui)
+    0x127529000 | XMLConfigurator::get_child new = |main_window||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value always_on_top
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+>>> 0x127529000 | XMLConfigurator::set_value always_on_top 1
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/main_window(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|main_window|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child main_window(gui)
+    0x127529000 | XMLConfigurator::get_child new = |main_window||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::set_value always_on_top 1
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::changed gui/main_window/always_on_top gui/main_window/
+>>> 0x127529000 | XMLConfigurator::changed gui/main_window/always_on_top gui/
+>>> 0x127529000 | XMLConfigurator::changed gui/main_window/always_on_top 
+>>> 0x127529000 | Configurator::fire_configurator_event gui/main_window/always_on_top
+<<< 0x127529000 | Configurator::fire_configurator_event
+<<< 0x127529000 | XMLConfigurator::changed
+>>> 0x127529000 | Configurator::fire_configurator_event gui/main_window/always_on_top
+<<< 0x127529000 | Configurator::fire_configurator_event
+<<< 0x127529000 | XMLConfigurator::changed
+>>> 0x127529000 | Configurator::fire_configurator_event gui/main_window/always_on_top
+<<< 0x127529000 | Configurator::fire_configurator_event
+<<< 0x127529000 | XMLConfigurator::changed
+<<< 0x127529000 | XMLConfigurator::set_value
+<<< 0x127529000 | XMLConfigurator::set_value
+>>> 0x127529000 | XMLConfigurator::save_to workrave
+>>> 0x127529000 | XMLConfigurator::save_to gui
+>>> 0x127529000 | XMLConfigurator::save_to breaks
+>>> 0x127529000 | XMLConfigurator::save_to daily_limit
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to micro_pause
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to rest_break
+<<< 0x127529000 | XMLConfigurator::save_to
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to main_window
+<<< 0x127529000 | XMLConfigurator::save_to
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to monitor
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to timers
+>>> 0x127529000 | XMLConfigurator::save_to daily_limit
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to micro_pause
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::save_to rest_break
+<<< 0x127529000 | XMLConfigurator::save_to
+<<< 0x127529000 | XMLConfigurator::save_to
+<<< 0x127529000 | XMLConfigurator::save_to
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | TimeBar::on_size_request
+    0x127529000 | TimeBar::on_size_request 61 21
+<<< 0x127529000 | TimeBar::on_size_request
+>>> 0x127529000 | TimeBar::on_size_request
+    0x127529000 | TimeBar::on_size_request 61 21
+<<< 0x127529000 | TimeBar::on_size_request
+>>> 0x127529000 | TimeBar::on_size_request
+    0x127529000 | TimeBar::on_size_request 61 21
+<<< 0x127529000 | TimeBar::on_size_request
+>>> 0x127529000 | MainWindow::setup
+<<< 0x127529000 | MainWindow::setup
+<<< 0x127529000 | MainWindow::init
+>>> 0x127529000 | GUIControl::load_config
+    0x127529000 | GUIControl::load_config micro_pause
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | GUIControl::load_break_control_config micro_pause
+    0x127529000 | GUIControl::load_break_control_config micro_pause
+>>> 0x127529000 | XMLConfigurator::get_value has_prelude
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value has_prelude
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+>>> 0x127529000 | XMLConfigurator::get_value max_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value max_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value
+<<< 0x127529000 | XMLConfigurator::get_value
+>>> 0x127529000 | XMLConfigurator::get_value force_after_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value force_after_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value
+<<< 0x127529000 | XMLConfigurator::get_value
+>>> 0x127529000 | XMLConfigurator::get_value ignorable_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value ignorable_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value0
+<<< 0x127529000 | XMLConfigurator::get_value0
+>>> 0x127529000 | XMLConfigurator::get_value insist_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/micro_pause(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/micro_pause(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|micro_pause|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child micro_pause(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |micro_pause||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value insist_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | GUIControl::load_break_control_config
+    0x127529000 | GUIControl::load_config rest_break
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | GUIControl::load_break_control_config rest_break
+    0x127529000 | GUIControl::load_break_control_config rest_break
+>>> 0x127529000 | XMLConfigurator::get_value has_prelude
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value has_prelude
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+>>> 0x127529000 | XMLConfigurator::get_value max_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value max_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value
+<<< 0x127529000 | XMLConfigurator::get_value
+>>> 0x127529000 | XMLConfigurator::get_value force_after_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value force_after_preludes
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value
+<<< 0x127529000 | XMLConfigurator::get_value
+>>> 0x127529000 | XMLConfigurator::get_value ignorable_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value ignorable_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+>>> 0x127529000 | XMLConfigurator::get_value insist_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/rest_break(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/rest_break(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|rest_break|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child rest_break(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |rest_break||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::get_value insist_break
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | XMLConfigurator::get_value1
+<<< 0x127529000 | GUIControl::load_break_control_config
+    0x127529000 | GUIControl::load_config daily_limit
+>>> 0x127529000 | XMLConfigurator::get_child gui/breaks/daily_limit(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui|breaks/daily_limit|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child breaks/daily_limit(gui)
+    0x127529000 | XMLConfigurator::get_child new = |breaks|daily_limit|
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child recursing
+>>> 0x127529000 | XMLConfigurator::get_child daily_limit(breaks)
+    0x127529000 | XMLConfigurator::get_child new = |daily_limit||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | GUIControl::load_break_control_config daily_limit
+<<< 0x127529000 | GUIControl::load_break_control_config
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+>>> 0x127529000 | XMLConfigurator::get_child gui(workrave)
+    0x127529000 | XMLConfigurator::get_child new = |gui||
+    0x127529000 | XMLConfigurator::get_child found
+    0x127529000 | XMLConfigurator::get_child this
+<<< 0x127529000 | XMLConfigurator::get_child 1
+>>> 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | XMLConfigurator::strip_path
+<<< 0x127529000 | GUIControl::load_config
+    0x127163000 | Control::run run
+    0x127163000 | Control::run run
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (150, 154)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (150, 154)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (145, 141)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (145, 141)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (142, 131)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (142, 131)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (138, 123)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (138, 123)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (136, 118)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (136, 118)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (134, 116)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (134, 116)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (134, 115)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (134, 115)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (133, 115)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (133, 115)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (133, 114)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (133, 114)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (130, 110)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (130, 110)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (123, 102)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (123, 102)
+    0x127163000 | Control::run run
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (115, 94)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (115, 94)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (111, 89)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (111, 89)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 88)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 88)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 87)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 87)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 86)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 86)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 85)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (110, 85)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (109, 84)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (109, 84)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (108, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (108, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 161, (108, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 161, (108, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (108, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (110, 83)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (110, 83)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (112, 85)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (116, 87)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (118, 89)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (125, 94)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (136, 98)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (147, 102)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (161, 107)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (174, 110)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (191, 113)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (211, 115)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (233, 118)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (257, 121)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (280, 122)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (306, 124)
+    0x127163000 | Control::run run
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (334, 124)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (368, 122)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (405, 120)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (444, 118)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (483, 116)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (525, 114)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (567, 112)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (608, 108)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (650, 106)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (689, 102)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (723, 99)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (756, 93)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (785, 88)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (813, 83)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (838, 79)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (861, 75)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (881, 69)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (897, 63)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (913, 58)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (927, 57)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (941, 55)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (952, 54)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (962, 53)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 53)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 53)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (987, 53)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (995, 56)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1002, 58)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1008, 59)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1014, 62)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1020, 65)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1026, 67)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1030, 68)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1034, 70)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1037, 71)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1042, 73)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1047, 75)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1052, 76)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1057, 77)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1063, 79)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1065, 79)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1067, 79)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1068, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1069, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1070, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1071, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1072, 80)
+    0x127163000 | Control::run run
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1073, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1075, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1076, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1076, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1076, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1077, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1077, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1079, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1079, 82)
+    0x127163000 | Control::run run
+>>> 0x127163000 | Timer::compute_next_limit_time daily_limit
+<<< 0x127163000 | Timer::compute_next_limit_time1031577050
+>>> 0x127163000 | Control::process_timer_event daily_limit 2
+>>> 0x127163000 | GUI::timer_action daily_limit started
+<<< 0x127163000 | GUI::timer_action
+<<< 0x127163000 | Control::process_timer_event
+>>> 0x127163000 | Timer::compute_next_limit_time micro_pause
+<<< 0x127163000 | Timer::compute_next_limit_time1031563255
+>>> 0x127163000 | Control::process_timer_event micro_pause 2
+>>> 0x127163000 | GUI::timer_action micro_pause started
+<<< 0x127163000 | GUI::timer_action
+<<< 0x127163000 | Control::process_timer_event
+>>> 0x127163000 | Timer::compute_next_limit_time rest_break
+<<< 0x127163000 | Timer::compute_next_limit_time1031563850
+>>> 0x127163000 | Control::process_timer_event rest_break 2
+>>> 0x127163000 | GUI::timer_action rest_break started
+<<< 0x127163000 | GUI::timer_action
+<<< 0x127163000 | Control::process_timer_event
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1085, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1085, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1094, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1094, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1104, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1104, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1112, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1112, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1118, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1118, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1122, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1122, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1125, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1125, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1125, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1125, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1126, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1126, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 82)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 80)
+    0x127163000 | Control::run run
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 161, (1127, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 161, (1127, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (1127, 80)
+>>> 0x127529000 | MainWindow::on_delete_event
+>>> 0x127529000 | Control::terminate
+<<< 0x127529000 | Control::terminate
+<<< 0x127529000 | MainWindow::on_delete_event
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 80)
+    0x127163000 | Control::run signal
+<<< 0x127163000 | Control::run
+>>> 0x127163000 | Control::~Control
+    0x127163000 | Control::~Control terminating gui
+>>> 0x127163000 | GUI::terminate
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 80)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 81)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 83)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 83)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 85)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 85)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 88)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1127, 88)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 90)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 90)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 93)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 93)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 97)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 97)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 102)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 102)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 109)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 109)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 116)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1127, 116)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 123)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 123)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 132)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 132)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 144)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 144)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1126, 157)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1126, 157)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 172)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1126, 187)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1125, 203)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1125, 221)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1124, 239)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1123, 257)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1123, 257)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1123, 276)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1123, 276)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1121, 295)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 313)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1115, 331)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1112, 350)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1109, 368)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1105, 388)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1100, 406)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1100, 406)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1100, 406)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1093, 423)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1084, 440)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1076, 456)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1068, 469)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1061, 481)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1055, 490)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1048, 501)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1038, 512)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1027, 523)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1019, 535)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1015, 547)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1011, 559)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1007, 572)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1004, 584)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1001, 597)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (996, 611)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (990, 622)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (990, 624)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (989, 624)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (985, 631)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (979, 632)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (974, 634)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 639)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 646)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 655)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 667)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (974, 682)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (975, 698)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 712)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 725)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 738)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 750)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 763)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (977, 776)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (978, 790)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (980, 802)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (980, 809)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (980, 814)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 816)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 818)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 821)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 824)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 827)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 828)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 829)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (981, 830)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (981, 832)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (981, 833)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (982, 834)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (983, 835)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (984, 836)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (985, 838)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (987, 840)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (989, 842)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (991, 844)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (992, 844)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (992, 845)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 845)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 846)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 846)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 844)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 841)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (994, 837)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (994, 832)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 828)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 823)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 819)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 815)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 810)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 805)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 799)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 795)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 793)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 792)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 790)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (994, 787)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 786)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 785)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 784)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 513, (993, 784)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (993, 784)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (993, 784)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (992, 784)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (990, 783)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (988, 782)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (983, 780)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (978, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (973, 775)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (967, 772)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (961, 770)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (957, 768)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (954, 766)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (950, 764)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (948, 762)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (944, 760)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (941, 758)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (937, 756)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (935, 753)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (933, 751)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (932, 750)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (931, 749)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (931, 748)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (930, 747)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (930, 746)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (933, 744)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (940, 742)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (948, 741)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (957, 738)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (966, 735)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (975, 733)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (984, 730)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (995, 728)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1005, 726)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1014, 723)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1023, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1031, 719)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1037, 717)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1045, 716)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1052, 714)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1059, 712)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1064, 711)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1066, 711)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1067, 710)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1068, 709)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1069, 709)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1071, 709)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1074, 709)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1079, 708)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1083, 708)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1087, 706)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1088, 706)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1089, 706)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1090, 705)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1091, 704)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1092, 703)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1092, 702)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1093, 700)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1094, 699)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1095, 696)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1097, 693)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1100, 690)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1103, 688)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1104, 687)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1104, 686)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1105, 685)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1106, 685)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1107, 685)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1107, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1109, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1110, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1111, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1112, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1113, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1114, 683)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1115, 683)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1116, 683)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 161, (1116, 683)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1116, 684)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1116, 686)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1116, 688)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1116, 690)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1116, 693)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1117, 697)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1117, 702)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 706)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 709)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 712)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 715)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 716)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 718)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 719)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 720)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1118, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (1118, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1118, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1117, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1115, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1112, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1103, 721)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1088, 722)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1070, 723)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1048, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1025, 725)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1004, 726)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (983, 727)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (960, 728)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (935, 729)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (914, 730)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (898, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (883, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (871, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (861, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (856, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (853, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (852, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (851, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (850, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (849, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (848, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (847, 731)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (845, 730)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (844, 730)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (842, 729)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (841, 729)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (840, 728)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (839, 727)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (838, 727)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (837, 726)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (837, 725)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (837, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 513, (837, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (837, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (837, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (837, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (840, 724)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (844, 725)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (851, 726)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (860, 727)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (869, 728)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (882, 730)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (903, 736)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (923, 741)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (945, 746)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (966, 751)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (985, 754)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1006, 758)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1022, 762)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1031, 765)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1034, 768)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1035, 770)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1037, 771)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1038, 772)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1040, 772)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1041, 773)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1042, 773)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1043, 773)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1044, 773)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1046, 773)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1047, 774)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1048, 775)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1049, 775)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1049, 776)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1050, 777)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 513, (1050, 777)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1050, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (1051, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 514, (1051, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1051, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1051, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1050, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1048, 778)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1045, 776)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1034, 771)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (1017, 763)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (996, 753)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (970, 742)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (938, 729)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (906, 716)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (877, 703)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (852, 689)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (827, 673)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (800, 657)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (776, 640)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (751, 625)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (728, 612)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (707, 600)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (688, 587)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (671, 577)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (654, 568)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (640, 562)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (625, 556)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (611, 552)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (599, 547)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (589, 543)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (584, 539)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (579, 535)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (574, 532)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (569, 530)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (563, 528)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (557, 526)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (552, 524)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 521)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (548, 518)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (547, 516)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 160, (546, 513)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (546, 510)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (546, 508)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (548, 507)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (548, 505)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 504)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (550, 502)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (550, 501)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (550, 500)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (550, 499)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 498)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 496)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 495)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 494)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 492)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 491)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 512, (549, 490)
+>>> 0x12ae87000 | Win32InputMonitor::mouse_hook 513, (549, 490)

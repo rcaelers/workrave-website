@@ -1,0 +1,12 @@
+Index: backend/src/Statistics.cc
+===================================================================
+--- backend/src/Statistics.cc	(révision 1425)
++++ backend/src/Statistics.cc	(copie de travail)
+@@ -24,6 +24,7 @@
+ #endif
+ 
+ 
++#include <cstring>
+ #include <sstream>
+ #include <assert.h>
+ #include <math.h>

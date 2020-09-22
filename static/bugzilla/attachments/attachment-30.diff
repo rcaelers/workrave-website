@@ -1,0 +1,568 @@
+diff -ur workrave-1.4.1/src/app/gtkmm/TimerPreferencesPanel.cc workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.cc
+--- workrave-1.4.1/src/app/gtkmm/TimerPreferencesPanel.cc	2003-10-20 14:52:10.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.cc	2003-12-14 18:35:52.000000000 -0500
+@@ -44,6 +44,7 @@
+ 
+ TimerPreferencesPanel::TimerPreferencesPanel(BreakId t,Glib::RefPtr<Gtk::SizeGroup> size_group)
+   : Gtk::VBox(false, 6),
++    force_break_limit_adjustment(2, 2, 100),
+     max_prelude_adjustment(0, 1, 100)
+ #ifdef HAVE_EXERCISES
+   ,exercises_adjustment(0, 0, 10)
+@@ -74,6 +75,7 @@
+ 
+   enable_buttons();
+   set_prelude_sensitivity();
++  set_force_break_sensitivity();
+   
+   // Overall box
+   box->pack_start(*categories, false, false, 0);
+@@ -145,6 +147,29 @@
+     .connect(SigC::slot(*this, &TimerPreferencesPanel::on_ignorable_toggled));
+   hig->add(*ignorable_cb);
+ 
++  // Force break (no postpone button)
++  int force_break_limit = break_data->get_break_force_limit();
++  force_break_cb = manage(new Gtk::CheckButton
++			  (_("Force break after the following number of prompts:")));
++
++  force_break_cb->set_active(force_break_limit > 0);
++  force_break_limit_adjustment.set_value(force_break_limit > 0 ? force_break_limit : 1);
++  force_break_limit_spin = manage(new Gtk::SpinButton(force_break_limit_adjustment));
++
++  set_force_break_sensitivity();
++
++  force_break_cb->signal_toggled()
++    .connect(SigC::slot(*this, &TimerPreferencesPanel::on_force_break_toggled));
++  force_break_limit_adjustment.signal_value_changed()
++    .connect(SigC::slot(*this,
++                        &TimerPreferencesPanel::on_force_break_limit_changed));
++  hig->add(*force_break_cb);
++
++  Gtk::HBox *max_box = manage(new Gtk::HBox());
++  max_box->pack_start(*force_break_cb, false, false, 0);
++  max_box->pack_start(*force_break_limit_spin, false, false, 0);
++  hig->add(*max_box);
++
+   // Break specific options
+   monitor_cb = NULL;
+ #ifdef HAVE_EXERCISES
+@@ -239,6 +264,16 @@
+ }
+ 
+ void
++TimerPreferencesPanel::set_force_break_sensitivity()
++{
++  bool on = enabled_cb->get_active();
++  bool ignorable = ignorable_cb->get_active();
++  bool has_force_break = force_break_cb->get_active();
++  force_break_cb->set_sensitive(ignorable && on);
++  force_break_limit_spin->set_sensitive(has_force_break && ignorable && on);
++}
++
++void
+ TimerPreferencesPanel::on_preludes_active_toggled()
+ {
+   int mp;
+@@ -268,6 +303,13 @@
+   break_data->set_break_max_preludes(mp);
+ }
+ 
++void
++TimerPreferencesPanel::on_force_break_limit_changed()
++{
++  int fbl = (int) force_break_limit_adjustment.get_value();
++  break_data->set_break_force_limit(fbl);
++}
++
+ #ifdef HAVE_EXERCISES
+ void
+ TimerPreferencesPanel::on_exercises_changed()
+@@ -350,6 +392,23 @@
+ TimerPreferencesPanel::on_ignorable_toggled()
+ {
+   break_data->set_break_ignorable(ignorable_cb->get_active());
++  set_force_break_sensitivity();
++}
++
++void
++TimerPreferencesPanel::on_force_break_toggled()
++{
++  int fbl;
++  if (force_break_cb->get_active())
++    {
++      fbl = (int)force_break_limit_adjustment.get_value();
++    }
++  else
++    {
++      fbl = -1;
++    }
++  break_data->set_break_force_limit(fbl);
++  set_force_break_sensitivity();
+ }
+ 
+ void
+@@ -376,4 +435,6 @@
+   auto_reset_tim->set_sensitive(on);
+   snooze_tim->set_sensitive(on);
+   max_prelude_spin->set_sensitive(on);
++  force_break_cb->set_sensitive(on);
++  force_break_limit_spin->set_sensitive(on);
+ }
+diff -ur workrave-1.4.1/src/app/gtkmm/TimerPreferencesPanel.hh workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.hh
+--- workrave-1.4.1/src/app/gtkmm/TimerPreferencesPanel.hh	2003-10-20 14:52:10.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.hh	2003-12-14 17:08:06.000000000 -0500
+@@ -54,6 +54,8 @@
+   void on_auto_reset_changed();
+   void on_limit_changed();
+   void on_ignorable_toggled();
++  void on_force_break_toggled();
++  void on_force_break_limit_changed();
+   void on_monitor_toggled();
+   void on_preludes_active_toggled();
+   void on_preludes_maximum_toggled();
+@@ -65,6 +67,7 @@
+   Gtk::Widget *create_options_panel();
+   Gtk::Widget *create_timers_panel(Glib::RefPtr<Gtk::SizeGroup> size_group);
+   void set_prelude_sensitivity();
++  void set_force_break_sensitivity();
+ 
+   void on_enabled_toggled();
+   void enable_buttons();
+@@ -73,6 +76,9 @@
+   BreakInterface *break_data;
+ 
+   Gtk::CheckButton *ignorable_cb;
++  Gtk::CheckButton *force_break_cb;
++  Gtk::SpinButton *force_break_limit_spin;
++  Gtk::Adjustment force_break_limit_adjustment;
+   Gtk::CheckButton *monitor_cb;
+   Gtk::CheckButton *prelude_cb;
+   Gtk::CheckButton *has_max_prelude_cb;
+diff -ur workrave-1.4.1/src/core/Break.cc workrave-1.4.1-complete-attempt2/src/core/Break.cc
+--- workrave-1.4.1/src/core/Break.cc	2003-10-20 14:52:14.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/Break.cc	2003-12-14 17:53:05.000000000 -0500
+@@ -41,6 +41,7 @@
+ const string Break::CFG_KEY_BREAK_PREFIX = "gui/breaks/";
+ 
+ const string Break::CFG_KEY_BREAK_MAX_PRELUDES = "/max_preludes";
++const string Break::CFG_KEY_BREAK_FORCE_LIMIT = "/force_limit";
+ const string Break::CFG_KEY_BREAK_IGNORABLE = "/ignorable_break";
+ const string Break::CFG_KEY_BREAK_ENABLED = "/enabled";
+ const string Break::CFG_KEY_BREAK_EXERCISES = "/exercises";
+@@ -57,6 +58,7 @@
+ 
+   // Break settings
+   int max_preludes;
++  int force_limit;
+   bool ignorable_break;
+   int exercises;
+ 
+@@ -65,21 +67,21 @@
+     {
+       "micro_pause",
+       3*60, 30, "", 150,
+-      3, true,  
++      3, 2, true,  
+       0,
+     },
+ 
+     {
+       "rest_break",
+       45*60, 10*60, "", 180,
+-      3, true,
++      3, 2, true,
+       3
+     },
+     
+     {
+       "daily_limit",
+       14400, 0, "day/4:00", 20 * 60,
+-      3, true,
++      3, 3, true,
+       0
+     }
+   };
+@@ -264,6 +266,7 @@
+ Break::update_break_config()
+ {
+   set_break_max_preludes(get_break_max_preludes());
++  set_break_force_limit(get_break_force_limit());
+   set_break_ignorable(get_break_ignorable());
+   set_break_enabled(get_break_enabled());
+   set_break_exercises(get_break_exercises());
+@@ -274,6 +277,7 @@
+ Break::load_break_control_config()
+ {
+   break_control->set_max_preludes(get_break_max_preludes());
++  break_control->set_force_break_limit(get_break_force_limit());
+   break_control->set_ignorable_break(get_break_ignorable());
+ 
+   enabled = get_break_enabled();
+@@ -413,6 +417,26 @@
+   configurator->set_value(break_prefix + CFG_KEY_BREAK_MAX_PRELUDES, n);
+ }
+ 
++//!
++int
++Break::get_break_force_limit() const
++{
++  int rc;
++  bool b = configurator->get_value(break_prefix + CFG_KEY_BREAK_FORCE_LIMIT, &rc);
++  if (! b)
++    {
++      rc = default_config[break_id].force_limit;
++    }
++  
++  return rc;
++}
++
++//!
++void
++Break::set_break_force_limit(int n)
++{
++  configurator->set_value(break_prefix + CFG_KEY_BREAK_FORCE_LIMIT, n);
++}
+ 
+ 
+ //!
+diff -ur workrave-1.4.1/src/core/Break.hh workrave-1.4.1-complete-attempt2/src/core/Break.hh
+--- workrave-1.4.1/src/core/Break.hh	2003-10-20 14:52:14.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/Break.hh	2003-12-14 17:20:16.000000000 -0500
+@@ -85,6 +85,8 @@
+   void set_timer_monitor(string n);
+   int get_break_max_preludes() const;
+   void set_break_max_preludes(int n);
++  int get_break_force_limit() const;
++  void set_break_force_limit(int n);
+   bool get_break_ignorable() const;
+   void set_break_ignorable(bool b);
+   int get_break_exercises() const;
+@@ -118,6 +120,7 @@
+   static const string CFG_KEY_BREAK_PREFIX;
+   
+   static const string CFG_KEY_BREAK_MAX_PRELUDES;
++  static const string CFG_KEY_BREAK_FORCE_LIMIT;
+   static const string CFG_KEY_BREAK_FORCE_AFTER_PRELUDES;
+   static const string CFG_KEY_BREAK_IGNORABLE;
+   static const string CFG_KEY_BREAK_ENABLED;
+diff -ur workrave-1.4.1/src/core/BreakControl.cc workrave-1.4.1-complete-attempt2/src/core/BreakControl.cc
+--- workrave-1.4.1/src/core/BreakControl.cc	2003-10-20 15:19:50.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/BreakControl.cc	2003-12-14 17:51:15.000000000 -0500
+@@ -60,8 +60,12 @@
+   prelude_time(0),
+   forced_break(false),
+   prelude_count(0),
+-  number_of_preludes(2),
++  total_preludes(0),
++  reached_total_preludes(false),
++  max_number_of_preludes(2),
++  max_number_of_postponable_preludes(2),
+   ignorable_break(true),
++  config_ignorable_break(true),
+   insist_policy(BreakInterface::INSIST_POLICY_HALT),
+   active_insist_policy(BreakInterface::INSIST_POLICY_INVALID),
+   fake_break(false),
+@@ -189,8 +193,8 @@
+         // We go back to prelude IF
+         // 1) the user is NOT idle, and
+         // 2) this is NO forced (user initiated) break, and
+-        // 3) we don't have number_of_preludes set (i.e. >= 0)
+-        // 4) we hasn't reached the number_of_preludes
++        // 3) we don't have max_number_of_preludes set (i.e. >= 0)
++        // 4) we hasn't reached the max_number_of_preludes
+ 
+ #if 0 // insist_break is no more, so if proven stable the if can be removed.
+         if (!is_idle && !forced_break && !final_prelude /*&& !insist_break*/)
+@@ -275,6 +279,7 @@
+     case STAGE_PRELUDE:
+       {
+         prelude_count++;
++	total_preludes++;
+         prelude_time = 0;
+         application->hide_break_window();
+ 
+@@ -294,6 +299,17 @@
+         monitor->force_idle();
+         break_timer->stop_timer();
+ 
++	// Check if we have reached the maximum number of preludes and force
++	// break
++	if (reached_total_preludes)
++	  {
++	    ignorable_break = false;
++	  }
++	else
++	  {
++	    ignorable_break = config_ignorable_break;
++	  }
++
+         // Start the break.
+         break_window_start();
+         application->refresh_break_window();
+@@ -354,7 +370,7 @@
+ 
+       if (fake_break_count <= 0)
+         {
+-          stop_break();
++          stop_break(false);
+         }
+ 
+       fake_break_count--;
+@@ -384,9 +400,12 @@
+   prelude_time = 0;
+   user_abort = false;
+   
+-  final_prelude = number_of_preludes >= 0 && prelude_count + 1 >= number_of_preludes;
++  final_prelude = max_number_of_preludes >= 0 && prelude_count + 1 >= max_number_of_preludes;
++  reached_total_preludes = max_number_of_postponable_preludes >= 0
++    && total_preludes + 1 >= max_number_of_postponable_preludes;
+ 
+-  if (number_of_preludes >= 0 && prelude_count >= number_of_preludes)
++  if ((max_number_of_preludes >= 0 && prelude_count >= max_number_of_preludes) ||
++      (max_number_of_postponable_preludes >= 0 && total_preludes >= max_number_of_postponable_preludes))
+     {
+       // Forcing break without prelude.
+       goto_stage(STAGE_TAKING);
+@@ -454,12 +473,18 @@
+  *  wrt, "max-preludes", the break will start over when it comes back.
+  */
+ void
+-BreakControl::stop_break()
++BreakControl::stop_break(bool forced_stop)
+ {
+   TRACE_ENTER_MSG("BreakControl::stop_break", break_id);
+ 
++  TRACE_MSG(" forced stop = " << forced_stop);
++
+   suspend_break();
+   prelude_count = 0;
++  if (!forced_stop)
++    {
++      total_preludes = 0;
++    }
+ 
+   TRACE_EXIT();
+ }
+@@ -537,7 +562,7 @@
+   user_abort = true;
+ 
+   // and stop the break.
+-  stop_break();
++  stop_break(true);
+ }
+ 
+ 
+@@ -576,7 +601,7 @@
+   stats->increment_break_counter(break_id, Statistics::STATS_BREAKVALUE_SKIPPED);
+ 
+   // and stop the break.
+-  stop_break();
++  stop_break(false);
+ }
+ 
+ 
+@@ -588,9 +613,15 @@
+ void
+ BreakControl::set_max_preludes(int m)
+ {
+-  number_of_preludes = m;
++  max_number_of_preludes = m;
+ }
+ 
++//! Sets the maximum number of preludes before making the break not ignorable
++void
++BreakControl::set_force_break_limit(int m)
++{
++  max_number_of_postponable_preludes = m;
++}
+ 
+ 
+ 
+@@ -601,7 +632,7 @@
+ void
+ BreakControl::set_ignorable_break(bool i)
+ {
+-  ignorable_break = i;
++  config_ignorable_break = i;
+ }
+ 
+ 
+@@ -766,6 +797,8 @@
+             " prelude = " << data.prelude_count <<
+             " stage = " <<  data.break_stage <<
+             " final = " << final_prelude <<
++	    " total preludes = " << total_preludes <<
++	    " force ignorable break = " << reached_total_preludes <<
+             " time = " << data.prelude_time);
+   
+   application->hide_break_window();
+@@ -773,6 +806,7 @@
+   forced_break = data.forced_break;
+   prelude_count = data.prelude_count;
+   prelude_time = data.prelude_time;
++  total_preludes = data.total_preludes;
+ 
+   BreakStage new_break_stage = (BreakStage) data.break_stage;
+   
+@@ -780,7 +814,7 @@
+     {
+       TRACE_MSG("TAKING -> PRELUDE");
+       new_break_stage = STAGE_PRELUDE;
+-      prelude_count = number_of_preludes - 1;
++      prelude_count = max_number_of_preludes - 1;
+     }
+   
+   if (active)
+@@ -809,9 +843,9 @@
+   
+           forced_break = false;
+           prelude_time = 0;
+-          final_prelude = number_of_preludes >= 0 && prelude_count + 1 >= number_of_preludes;
++          final_prelude = max_number_of_preludes >= 0 && prelude_count + 1 >= max_number_of_preludes;
+ 
+-          if (number_of_preludes >= 0 && prelude_count >= number_of_preludes)
++          if (max_number_of_preludes >= 0 && prelude_count >= max_number_of_preludes)
+             {
+               TRACE_MSG("TAKING");
+               goto_stage(STAGE_TAKING);
+@@ -848,6 +882,8 @@
+   data.break_stage = break_stage;
+   data.final_prelude = final_prelude;
+   data.prelude_time = prelude_time;
++  data.total_preludes = total_preludes;
++  data.reached_total_preludes = reached_total_preludes;
+ }
+ 
+ 
+diff -ur workrave-1.4.1/src/core/BreakControl.hh workrave-1.4.1-complete-attempt2/src/core/BreakControl.hh
+--- workrave-1.4.1/src/core/BreakControl.hh	2003-10-20 14:52:14.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/BreakControl.hh	2003-12-14 17:52:11.000000000 -0500
+@@ -41,10 +41,12 @@
+   {
+     bool forced_break;
+     int prelude_count;
++    int total_preludes;
+ 
+     int break_stage;
+     bool final_prelude;
+     int prelude_time;
++    bool reached_total_preludes;
+   };
+   
+   BreakControl(BreakId id, Core *core, AppInterface *app, Timer *timer);
+@@ -53,7 +55,7 @@
+   // BreakInterface
+   void start_break();
+   void force_start_break();
+-  void stop_break();
++  void stop_break(bool forced_stop);
+   bool need_heartbeat();
+   void heartbeat();
+   BreakState get_break_state();
+@@ -62,6 +64,7 @@
+ 
+   // Configuration
+   void set_max_preludes(int m);
++  void set_force_break_limit(int m);
+   void set_insist_policy(BreakInterface::InsistPolicy p);
+   void set_ignorable_break(bool i);
+   BreakInterface::InsistPolicy get_insist_policy() const;
+@@ -123,12 +126,24 @@
+   //! How many times have we preluded (since the limit was reached)
+   int prelude_count;
+ 
++  //! Total number of preludes seen
++  int total_preludes;
++
++  //! Have we seen too many preludes and need to make the break non-ignorable
++  bool reached_total_preludes;
++
+   //! After how many preludes do we force a break or give up?
+-  int number_of_preludes;
++  int max_number_of_preludes;
+ 
+-  //! Can the use explicitly ignore the break?
++  //! After how many preludes do we make the break not ignorable?
++  int max_number_of_postponable_preludes;
++
++  //! Can the use explicitly ignore the break? (window setting)
+   bool ignorable_break;
+ 
++  //! Can the use explicitly ignore the break? (configuration setting)
++  bool config_ignorable_break;
++
+   //! What to do with activity during insisted break?
+   BreakInterface::InsistPolicy insist_policy;
+ 
+diff -ur workrave-1.4.1/src/core/Core.cc workrave-1.4.1-complete-attempt2/src/core/Core.cc
+--- workrave-1.4.1/src/core/Core.cc	2003-10-31 18:21:15.000000000 -0500
++++ workrave-1.4.1-complete-attempt2/src/core/Core.cc	2003-12-14 18:47:28.000000000 -0500
+@@ -844,7 +844,7 @@
+             if (id == BREAK_ID_REST_BREAK
+                 && (micropause_control->get_break_state() == BreakControl::BREAK_ACTIVE))
+               {
+-                micropause_control->stop_break();
++                micropause_control->stop_break(false);
+               }
+             breaker->force_start_break();
+           }
+@@ -914,7 +914,7 @@
+     {
+       if (breaks[bi].get_break_control()->get_break_state() == BreakControl::BREAK_ACTIVE)
+         {
+-          breaks[bi].get_break_control()->stop_break();
++          breaks[bi].get_break_control()->stop_break(false);
+         }
+     }
+   
+@@ -929,13 +929,14 @@
+  *  \param timer Interface to the timer the caused the break.
+  */
+ void
+-Core::handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer)
++Core::handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer,
++			bool forced_stop)
+ {
+   (void) breaker;
+   (void) break_id;
+   (void) timer;
+   
+-  breaker->stop_break();
++  breaker->stop_break(forced_stop);
+ }
+ 
+ 
+@@ -966,7 +967,7 @@
+       BreakControl *bc = breaks[i].get_break_control();
+       if (bc != NULL)
+         {
+-          bc->stop_break();
++          bc->stop_break(false);
+         }
+     }
+ }
+diff -ur workrave-1.4.1/src/core/Core.hh workrave-1.4.1-complete-attempt2/src/core/Core.hh
+--- workrave-1.4.1/src/core/Core.hh	2003-10-14 16:35:49.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/Core.hh	2003-12-14 18:47:48.000000000 -0500
+@@ -138,7 +138,7 @@
+   void process_timers(TimerInfo *infos);
+   void break_action(BreakId id, BreakAction action);
+   void handle_start_break(BreakControl *breaker, BreakId break_id, Timer *timer);
+-  void handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer);
++  void handle_stop_break(BreakControl *breaker, BreakId break_id, Timer *timer, bool forced_stop = false);
+   void stop_all_breaks();
+   void daily_reset();
+   void save_state() const;
+diff -ur workrave-1.4.1/src/core/intf/BreakInterface.hh workrave-1.4.1-complete-attempt2/src/core/intf/BreakInterface.hh
+--- workrave-1.4.1/src/core/intf/BreakInterface.hh	2003-10-20 14:52:14.000000000 -0400
++++ workrave-1.4.1-complete-attempt2/src/core/intf/BreakInterface.hh	2003-12-14 17:58:27.000000000 -0500
+@@ -61,6 +61,8 @@
+   virtual void set_timer_monitor(string n) = 0;
+   virtual int get_break_max_preludes() const = 0;
+   virtual void set_break_max_preludes(int n) = 0;
++  virtual int get_break_force_limit() const = 0;
++  virtual void set_break_force_limit(int n) = 0;
+   virtual bool get_break_ignorable() const = 0;
+   virtual void set_break_ignorable(bool b) = 0;
+   virtual int get_break_exercises() const = 0;

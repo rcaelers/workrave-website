@@ -1,0 +1,687 @@
+===>  Found saved configuration for workrave-1.9.0
+===>  Extracting for workrave-1.9.0
+=> MD5 Checksum OK for workrave-1.9.0-3.tar.gz.
+=> SHA256 Checksum OK for workrave-1.9.0-3.tar.gz.
+===>  Patching for workrave-1.9.0
+===>  Applying FreeBSD patches for workrave-1.9.0
+===>   workrave-1.9.0 depends on executable: gmake - found
+===>   workrave-1.9.0 depends on file: /usr/local/libdata/pkgconfig/x11.pc - found
+===>   workrave-1.9.0 depends on file: /usr/local/libdata/pkgconfig/xmu.pc - found
+===>   workrave-1.9.0 depends on file: /usr/local/bin/intltool-extract - found
+===>   workrave-1.9.0 depends on executable: pkg-config - found
+===>   workrave-1.9.0 depends on shared library: gdome.8 - found
+===>   workrave-1.9.0 depends on shared library: gtkmm-2.4.1 - found
+===>   workrave-1.9.0 depends on shared library: dbus-1.3 - found
+===>   workrave-1.9.0 depends on shared library: intl - found
+===>   workrave-1.9.0 depends on shared library: atk-1.0.0 - found
+===>   workrave-1.9.0 depends on shared library: gconf-2.4 - found
+===>   workrave-1.9.0 depends on shared library: glib-2.0.0 - found
+===>   workrave-1.9.0 depends on shared library: gtk-x11-2.0.0 - found
+===>   workrave-1.9.0 depends on shared library: IDL-2.0 - found
+===>   workrave-1.9.0 depends on shared library: xml2.5 - found
+===>   workrave-1.9.0 depends on shared library: ORBit-2.0 - found
+===>   workrave-1.9.0 depends on shared library: pango-1.0.0 - found
+===>  Configuring for workrave-1.9.0
+checking for a BSD-compatible install... /usr/bin/install -c 
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... nawk
+checking whether gmake sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for style of include used by gmake... GNU
+checking dependency style of cc... gcc3
+checking whether cc understands -c and -o together... yes
+checking for gcc... gcc
+checking whether we are using the GNU Objective C compiler... yes
+checking whether gcc accepts -g... yes
+checking dependency style of gcc... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether c++ accepts -g... yes
+checking dependency style of c++... gcc3
+checking how to run the C preprocessor... cc -E
+checking for a BSD-compatible install... /usr/bin/install -c 
+checking whether ln -s works... yes
+checking whether gmake sets $(MAKE)... (cached) yes
+checking for library containing strerror... none required
+checking build system type... i386-portbld-freebsd8.0
+checking host system type... i386-portbld-freebsd8.0
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... (cached) 262144
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... no
+checking for /usr/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether c++ accepts -g... (cached) yes
+checking dependency style of c++... (cached) gcc3
+checking how to run the C++ preprocessor... c++ -E
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... freebsd8.0 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by c++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the c++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for c++ option to produce PIC... -fPIC -DPIC
+checking if c++ PIC flag -fPIC -DPIC works... yes
+checking if c++ static flag -static works... yes
+checking if c++ supports -c -o file.o... yes
+checking if c++ supports -c -o file.o... (cached) yes
+checking whether the c++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... freebsd8.0 ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gm4... gm4
+checking for inline... inline
+checking for an ANSI C-conforming const... yes
+checking for ANSI C header files... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for unistd.h... (cached) yes
+checking for MOUSEHOOKSTRUCT.hwnd... no
+checking return type of signal handlers... void
+checking for gettimeofday... yes
+checking for nanosleep... yes
+checking for select... yes
+checking for setlocale... yes
+checking for realpath... yes
+checking host system type... (cached) i386-portbld-freebsd8.0
+checking for platform... Unix
+checking for pkg-config... /usr/local/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for X... libraries /usr/local/lib, headers /usr/local/include
+checking whether -R must be followed by a space... no
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking "X11/Xmu/Xmu.h" usability... no
+checking "X11/Xmu/Xmu.h" presence... no
+checking for "X11/Xmu/Xmu.h"... no
+checking for XRecordEnableContext in -lXtst... yes
+checking for GLIB... yes
+checking for GTK... yes
+checking for strlcat... yes
+checking if strlcat needs custom prototype... no
+checking for strlcpy... yes
+checking if strlcpy needs custom prototype... no
+checking for main in -lutil... yes
+checking for main in -lcompat... yes
+checking for crypt in -lcrypt... yes
+checking for socklen_t... socklen_t
+checking for dnet_ntoa in -ldnet... no
+checking for dnet_ntoa in -ldnet_stub... no
+checking for inet_ntoa... yes
+checking for connect... (cached) yes
+checking for remove... (cached) yes
+checking for shmat... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for poll in -lpoll... no
+checking CoreAudio/CoreAudio.h usability... no
+checking CoreAudio/CoreAudio.h presence... no
+checking for CoreAudio/CoreAudio.h... no
+checking if res_init needs -lresolv... no
+checking if res_init is available... yes
+checking for killpg in -lucb... no
+checking for int... yes
+checking size of int... 4
+checking for short... yes
+checking size of short... 2
+checking for long... yes
+checking size of long... 4
+checking for char *... yes
+checking size of char *... 4
+checking for dlopen in -ldl... no
+checking for shl_unload in -ldld... no
+checking for size_t... yes
+checking size of size_t... 4
+checking for unsigned long... yes
+checking size of unsigned long... 4
+checking sizeof size_t == sizeof unsigned long... yes
+checking crt_externs.h usability... no
+checking crt_externs.h presence... no
+checking for crt_externs.h... no
+checking for _NSGetEnviron... no
+checking for vsnprintf... yes
+checking for snprintf... yes
+checking for GCONF... yes
+checking for gdome-config... /usr/local/bin/gdome-config
+checking for DBUS... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/local/bin/msgfmt
+checking for gmsgfmt... /usr/local/bin/msgfmt
+checking for xgettext... /usr/local/bin/xgettext
+checking for msgmerge... /usr/local/bin/msgmerge
+checking whether we are using the GNU C Library 2 or newer... no
+checking for ranlib... (cached) ranlib
+checking for simple visibility declarations... yes
+checking for size_t... (cached) yes
+checking for stdint.h... yes
+checking for working alloca.h... no
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for inttypes.h... yes
+checking for unsigned long long int... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether imported symbols can be declared weak... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_kill in -pthread... yes
+checking for pthread_rwlock_t... yes
+checking for multithread API to use... posix
+checking argz.h usability... no
+checking argz.h presence... no
+checking for argz.h... no
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... no
+checking for munmap... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for argz_count... no
+checking for argz_stringify... no
+checking for argz_next... no
+checking for __fsetlocking... no
+checking whether feof_unlocked is declared... yes
+checking whether fgets_unlocked is declared... no
+checking for iconv... yes
+checking how to link with libiconv... /usr/local/lib/libiconv.so -Wl,-rpath -Wl,/usr/local/lib
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for NL_LOCALE_NAME macro... no
+checking for bison... bison
+checking version of bison... 2.3, ok
+checking for long long int... yes
+checking for long double... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for intmax_t... yes
+checking whether printf() supports POSIX/XSI format strings... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... (((1U << 31) - 1) * 2 + 1)
+checking for stdint.h... (cached) yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for ptrdiff_t... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for asprintf... yes
+checking for fwprintf... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... (cached) yes
+checking for snprintf... (cached) yes
+checking for wcslen... yes
+checking whether _snprintf is declared... no
+checking whether _snwprintf is declared... no
+checking whether getc_unlocked is declared... yes
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... (cached) no
+checking for CFLocaleCopyCurrent... (cached) no
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... no
+checking for GNU gettext in libintl... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... external libintl
+checking how to link with libintl... /usr/local/lib/libintl.so /usr/local/lib/libiconv.so -Wl,-rpath -Wl,/usr/local/lib
+checking for intltool-update... /usr/local/bin/intltool-update
+checking for intltool-merge... /usr/local/bin/intltool-merge
+checking for intltool-extract... /usr/local/bin/intltool-extract
+checking for xgettext... (cached) /usr/local/bin/xgettext
+checking for msgmerge... (cached) /usr/local/bin/msgmerge
+checking for msgfmt... (cached) /usr/local/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for XML::Parser... ok
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating backend/Makefile
+config.status: creating backend/test/Makefile
+config.status: creating backend/src/Makefile
+config.status: creating backend/src/unix/Makefile
+config.status: creating backend/src/osx/Makefile
+config.status: creating backend/src/win32/Makefile
+config.status: creating backend/include/Makefile
+config.status: creating common/Makefile
+config.status: creating common/bin/Makefile
+config.status: creating common/src/Makefile
+config.status: creating common/src/unix/Makefile
+config.status: creating common/src/win32/Makefile
+config.status: creating common/include/Makefile
+config.status: creating common/include/win32/Makefile
+config.status: creating common/include/unix/Makefile
+config.status: creating common/win32/Makefile
+config.status: creating common/win32/harpoon/Makefile
+config.status: creating common/win32/harpoon/include/Makefile
+config.status: creating common/win32/harpoon/src/Makefile
+config.status: creating frontend/Makefile
+config.status: creating frontend/common/Makefile
+config.status: creating frontend/common/include/Makefile
+config.status: creating frontend/common/share/Makefile
+config.status: creating frontend/common/share/sounds/Makefile
+config.status: creating frontend/common/share/sounds/subtle/Makefile
+config.status: creating frontend/common/share/images/Makefile
+config.status: creating frontend/common/share/images/win32/Makefile
+config.status: creating frontend/common/share/images/osx/Makefile
+config.status: creating frontend/common/src/Makefile
+config.status: creating frontend/common/src/gnome/Makefile
+config.status: creating frontend/common/src/kde/Makefile
+config.status: creating frontend/common/src/win32/Makefile
+config.status: creating frontend/common/src/x11/Makefile
+config.status: creating frontend/common/src/osx/Makefile
+config.status: creating frontend/win32/Makefile
+config.status: creating frontend/win32/applet/Makefile
+config.status: creating frontend/win32/applet/src/Makefile
+config.status: creating frontend/win32/applet/include/Makefile
+config.status: creating frontend/gtkmm/Makefile
+config.status: creating frontend/gtkmm/osx/Makefile
+config.status: creating frontend/gtkmm/win32/Makefile
+config.status: creating frontend/gtkmm/win32/setup/Makefile
+config.status: creating frontend/gtkmm/win32/setup/setup.iss
+config.status: creating frontend/gtkmm/src/Makefile
+config.status: creating frontend/gtkmm/src/win32/Makefile
+config.status: creating frontend/gtkmm/src/unix/Makefile
+config.status: creating frontend/gtkmm/src/osx/Makefile
+config.status: creating frontend/gtkmm/src/gnome_applet/Makefile
+config.status: creating frontend/gtkmm/src/kde_applet/Makefile
+config.status: creating frontend/qt/Makefile
+config.status: creating frontend/qt/src/Makefile
+config.status: creating frontend/text/Makefile
+config.status: creating frontend/text/src/Makefile
+config.status: creating frontend/plugin/Makefile
+config.status: creating frontend/plugin/distribution/Makefile
+config.status: creating frontend/plugin/distribution/gtkmm/Makefile
+config.status: creating frontend/plugin/distribution/gtkmm/src/Makefile
+config.status: creating frontend/plugin/statistics/Makefile
+config.status: creating frontend/plugin/statistics/gtkmm/Makefile
+config.status: creating frontend/plugin/statistics/gtkmm/src/Makefile
+config.status: creating frontend/plugin/exercises/Makefile
+config.status: creating frontend/plugin/exercises/common/Makefile
+config.status: creating frontend/plugin/exercises/common/share/Makefile
+config.status: creating frontend/plugin/exercises/common/src/Makefile
+config.status: creating frontend/plugin/exercises/gtkmm/Makefile
+config.status: creating frontend/plugin/exercises/gtkmm/src/Makefile
+config.status: creating intl/Makefile
+config.status: creating po/Makefile.in
+config.status: creating contrib/Makefile
+config.status: creating contrib/plot/Makefile
+config.status: creating build/Makefile
+config.status: creating m4/Makefile
+config.status: creating workrave.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing po/stamp-it commands
+
+                        Workrave 1.9.0
+                       ===================
+
+                        prefix:   /usr/local
+
+                           OS :   Unix
+
+          GConf configuration :   yes
+            XML configuration :   yes
+
+                      Gtk GUI :   yes
+                Gnome support :   no
+                  Kde support :   no
+                 DBUS support :   yes
+           Networking support :   no
+                    Exercises :   yes
+
+                    Debugging :   no
+                    Test code :   no
+
+===>  Building for workrave-1.9.0
+gmake  all-recursive
+gmake[1]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0'
+Making all in intl
+gmake[2]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/intl'
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/intl'
+Making all in m4
+gmake[2]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/m4'
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/m4'
+Making all in po
+gmake[2]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/po'
+file=`echo nl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file nl.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file de.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file eo.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file pl.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file da.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file es.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file zh_TW.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file ru.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file fr.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file pt_BR.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file nb.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file lt.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file cs.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file he.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file eu.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file ca.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file sv.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file ja.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file bg.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file hu.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file tr.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file el.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file sk.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file zh_CN.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file it.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/local/bin/msgfmt -o $file sl.po
+gmake[2]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/po'
+Making all in common
+gmake[2]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common'
+Making all in include
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include'
+Making all in unix
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include/unix'
+gmake[4]: Nothing to be done for `all'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include/unix'
+Making all in win32
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include/win32'
+gmake[4]: Nothing to be done for `all'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include/win32'
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include'
+gmake[4]: Nothing to be done for `all-am'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include'
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/include'
+Making all in src
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src'
+Making all in win32
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src/win32'
+gmake[4]: Nothing to be done for `all'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src/win32'
+Making all in unix
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src/unix'
+/bin/sh ../../../libtool --tag=CC   --mode=link cc  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG  -L/usr/local/lib -g -o libworkrave-common-unix.la    
+libtool: link: ar cru .libs/libworkrave-common-unix.a 
+libtool: link: ranlib .libs/libworkrave-common-unix.a
+libtool: link: ( cd ".libs" && rm -f "libworkrave-common-unix.la" && ln -s "../libworkrave-common-unix.la" "libworkrave-common-unix.la" )
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src/unix'
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src'
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c -o debug.lo debug.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c debug.cc  -fPIC -DPIC -o .libs/debug.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c debug.cc -o debug.o >/dev/null 2>&1
+mv -f .deps/debug.Tpo .deps/debug.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT GlibThread.lo -MD -MP -MF .deps/GlibThread.Tpo -c -o GlibThread.lo GlibThread.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT GlibThread.lo -MD -MP -MF .deps/GlibThread.Tpo -c GlibThread.cc  -fPIC -DPIC -o .libs/GlibThread.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT GlibThread.lo -MD -MP -MF .deps/GlibThread.Tpo -c GlibThread.cc -o GlibThread.o >/dev/null 2>&1
+mv -f .deps/GlibThread.Tpo .deps/GlibThread.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT Util.lo -MD -MP -MF .deps/Util.Tpo -c -o Util.lo Util.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT Util.lo -MD -MP -MF .deps/Util.Tpo -c Util.cc  -fPIC -DPIC -o .libs/Util.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT Util.lo -MD -MP -MF .deps/Util.Tpo -c Util.cc -o Util.o >/dev/null 2>&1
+mv -f .deps/Util.Tpo .deps/Util.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT StringUtil.lo -MD -MP -MF .deps/StringUtil.Tpo -c -o StringUtil.lo StringUtil.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT StringUtil.lo -MD -MP -MF .deps/StringUtil.Tpo -c StringUtil.cc  -fPIC -DPIC -o .libs/StringUtil.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT StringUtil.lo -MD -MP -MF .deps/StringUtil.Tpo -c StringUtil.cc -o StringUtil.o >/dev/null 2>&1
+mv -f .deps/StringUtil.Tpo .deps/StringUtil.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBus.lo -MD -MP -MF .deps/DBus.Tpo -c -o DBus.lo DBus.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBus.lo -MD -MP -MF .deps/DBus.Tpo -c DBus.cc  -fPIC -DPIC -o .libs/DBus.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBus.lo -MD -MP -MF .deps/DBus.Tpo -c DBus.cc -o DBus.o >/dev/null 2>&1
+mv -f .deps/DBus.Tpo .deps/DBus.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -DWORKRAVE_DATADIR="\"/usr/local/share\"" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include     -I/usr/local/include -D_THREAD_SAFE  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBusBinding.lo -MD -MP -MF .deps/DBusBinding.Tpo -c -o DBusBinding.lo DBusBinding.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBusBinding.lo -MD -MP -MF .deps/DBusBinding.Tpo -c DBusBinding.cc  -fPIC -DPIC -o .libs/DBusBinding.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../.. -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -DWORKRAVE_DATADIR=\"/usr/local/share\" -D_XOPEN_SOURCE=600 -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -D_THREAD_SAFE -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT DBusBinding.lo -MD -MP -MF .deps/DBusBinding.Tpo -c DBusBinding.cc -o DBusBinding.o >/dev/null 2>&1
+mv -f .deps/DBusBinding.Tpo .deps/DBusBinding.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link c++  -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG  -L/usr/local/lib -g -o libworkrave-common.la  debug.lo GlibThread.lo Util.lo StringUtil.lo DBus.lo DBusBinding.lo  unix/libworkrave-common-unix.la 
+libtool: link: (cd .libs/libworkrave-common.lax/libworkrave-common-unix.a && ar x "/home/garga/prs/workrave/work/workrave-1.9.0/common/src/unix/.libs/libworkrave-common-unix.a")
+libtool: link: ar cru .libs/libworkrave-common.a .libs/debug.o .libs/GlibThread.o .libs/Util.o .libs/StringUtil.o .libs/DBus.o .libs/DBusBinding.o   
+libtool: link: ranlib .libs/libworkrave-common.a
+libtool: link: rm -fr .libs/libworkrave-common.lax
+libtool: link: ( cd ".libs" && rm -f "libworkrave-common.la" && ln -s "../libworkrave-common.la" "libworkrave-common.la" )
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src'
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/src'
+Making all in win32
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32'
+Making all in harpoon
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon'
+Making all in include
+gmake[5]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon/include'
+gmake[5]: Nothing to be done for `all'.
+gmake[5]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon/include'
+Making all in src
+gmake[5]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon/src'
+gmake[5]: Nothing to be done for `all'.
+gmake[5]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon/src'
+gmake[5]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon'
+gmake[5]: Nothing to be done for `all-am'.
+gmake[5]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon'
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32/harpoon'
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32'
+gmake[4]: Nothing to be done for `all-am'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32'
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/win32'
+Making all in bin
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/bin'
+gmake[3]: Nothing to be done for `all'.
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common/bin'
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/common'
+gmake[3]: Nothing to be done for `all-am'.
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common'
+gmake[2]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/common'
+Making all in backend
+gmake[2]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend'
+Making all in src
+gmake[3]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src'
+Making all in unix
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/unix'
+/bin/sh ../../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../../..   -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include  -I/usr/local/include -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-X11InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-X11InputMonitor.Tpo -c -o libworkrave_backend_unix_la-X11InputMonitor.lo `test -f 'X11InputMonitor.cc' || echo './'`X11InputMonitor.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-X11InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-X11InputMonitor.Tpo -c X11InputMonitor.cc  -fPIC -DPIC -o .libs/libworkrave_backend_unix_la-X11InputMonitor.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-X11InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-X11InputMonitor.Tpo -c X11InputMonitor.cc -o libworkrave_backend_unix_la-X11InputMonitor.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_unix_la-X11InputMonitor.Tpo .deps/libworkrave_backend_unix_la-X11InputMonitor.Plo
+/bin/sh ../../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../../..   -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include  -I/usr/local/include -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-UnixInputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-UnixInputMonitorFactory.Tpo -c -o libworkrave_backend_unix_la-UnixInputMonitorFactory.lo `test -f 'UnixInputMonitorFactory.cc' || echo './'`UnixInputMonitorFactory.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-UnixInputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-UnixInputMonitorFactory.Tpo -c UnixInputMonitorFactory.cc  -fPIC -DPIC -o .libs/libworkrave_backend_unix_la-UnixInputMonitorFactory.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-UnixInputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-UnixInputMonitorFactory.Tpo -c UnixInputMonitorFactory.cc -o libworkrave_backend_unix_la-UnixInputMonitorFactory.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_unix_la-UnixInputMonitorFactory.Tpo .deps/libworkrave_backend_unix_la-UnixInputMonitorFactory.Plo
+/bin/sh ../../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I. -I../../..   -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include  -I/usr/local/include -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-GConfConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-GConfConfigurator.Tpo -c -o libworkrave_backend_unix_la-GConfConfigurator.lo `test -f 'GConfConfigurator.cc' || echo './'`GConfConfigurator.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-GConfConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-GConfConfigurator.Tpo -c GConfConfigurator.cc  -fPIC -DPIC -o .libs/libworkrave_backend_unix_la-GConfConfigurator.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I. -I../../.. -I/usr/local/include -D_THREAD_SAFE -W -I../../../backend/src -I../../../backend/include -I/usr/local/include -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_unix_la-GConfConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_unix_la-GConfConfigurator.Tpo -c GConfConfigurator.cc -o libworkrave_backend_unix_la-GConfConfigurator.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_unix_la-GConfConfigurator.Tpo .deps/libworkrave_backend_unix_la-GConfConfigurator.Plo
+/bin/sh ../../../libtool --tag=CXX   --mode=link c++ -W -I../../../backend/src -I../../../backend/include  -I/usr/local/include -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600 -I ../../../common/include -I ../../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG  -L/usr/local/lib -g -o libworkrave-backend-unix.la  libworkrave_backend_unix_la-X11InputMonitor.lo libworkrave_backend_unix_la-UnixInputMonitorFactory.lo libworkrave_backend_unix_la-GConfConfigurator.lo   
+libtool: link: ar cru .libs/libworkrave-backend-unix.a .libs/libworkrave_backend_unix_la-X11InputMonitor.o .libs/libworkrave_backend_unix_la-UnixInputMonitorFactory.o .libs/libworkrave_backend_unix_la-GConfConfigurator.o 
+libtool: link: ranlib .libs/libworkrave-backend-unix.a
+libtool: link: ( cd ".libs" && rm -f "libworkrave-backend-unix.la" && ln -s "../libworkrave-backend-unix.la" "libworkrave-backend-unix.la" )
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/unix'
+Making all in win32
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/win32'
+gmake[4]: Nothing to be done for `all'.
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/win32'
+Making all in osx
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/osx'
+/bin/sh ../../../libtool --tag=CXX   --mode=link c++ -W -I../../../backend/src -I../../../backend/include -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -I ../../../common/include -I ../../../common/include/unix -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG  -L/usr/local/lib -g -o libworkrave-backend-osx.la    
+libtool: link: ar cru .libs/libworkrave-backend-osx.a 
+libtool: link: ranlib .libs/libworkrave-backend-osx.a
+libtool: link: ( cd ".libs" && rm -f "libworkrave-backend-osx.la" && ln -s "../libworkrave-backend-osx.la" "libworkrave-backend-osx.la" )
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src/osx'
+gmake[4]: Entering directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src'
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ActivityMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-ActivityMonitor.Tpo -c -o libworkrave_backend_la-ActivityMonitor.lo `test -f 'ActivityMonitor.cc' || echo './'`ActivityMonitor.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ActivityMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-ActivityMonitor.Tpo -c ActivityMonitor.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-ActivityMonitor.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ActivityMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-ActivityMonitor.Tpo -c ActivityMonitor.cc -o libworkrave_backend_la-ActivityMonitor.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-ActivityMonitor.Tpo .deps/libworkrave_backend_la-ActivityMonitor.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Break.lo -MD -MP -MF .deps/libworkrave_backend_la-Break.Tpo -c -o libworkrave_backend_la-Break.lo `test -f 'Break.cc' || echo './'`Break.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Break.lo -MD -MP -MF .deps/libworkrave_backend_la-Break.Tpo -c Break.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-Break.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Break.lo -MD -MP -MF .deps/libworkrave_backend_la-Break.Tpo -c Break.cc -o libworkrave_backend_la-Break.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-Break.Tpo .deps/libworkrave_backend_la-Break.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-BreakControl.lo -MD -MP -MF .deps/libworkrave_backend_la-BreakControl.Tpo -c -o libworkrave_backend_la-BreakControl.lo `test -f 'BreakControl.cc' || echo './'`BreakControl.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-BreakControl.lo -MD -MP -MF .deps/libworkrave_backend_la-BreakControl.Tpo -c BreakControl.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-BreakControl.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-BreakControl.lo -MD -MP -MF .deps/libworkrave_backend_la-BreakControl.Tpo -c BreakControl.cc -o libworkrave_backend_la-BreakControl.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-BreakControl.Tpo .deps/libworkrave_backend_la-BreakControl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Configurator.lo -MD -MP -MF .deps/libworkrave_backend_la-Configurator.Tpo -c -o libworkrave_backend_la-Configurator.lo `test -f 'Configurator.cc' || echo './'`Configurator.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Configurator.lo -MD -MP -MF .deps/libworkrave_backend_la-Configurator.Tpo -c Configurator.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-Configurator.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Configurator.lo -MD -MP -MF .deps/libworkrave_backend_la-Configurator.Tpo -c Configurator.cc -o libworkrave_backend_la-Configurator.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-Configurator.Tpo .deps/libworkrave_backend_la-Configurator.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ConfiguratorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-ConfiguratorFactory.Tpo -c -o libworkrave_backend_la-ConfiguratorFactory.lo `test -f 'ConfiguratorFactory.cc' || echo './'`ConfiguratorFactory.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ConfiguratorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-ConfiguratorFactory.Tpo -c ConfiguratorFactory.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-ConfiguratorFactory.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-ConfiguratorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-ConfiguratorFactory.Tpo -c ConfiguratorFactory.cc -o libworkrave_backend_la-ConfiguratorFactory.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-ConfiguratorFactory.Tpo .deps/libworkrave_backend_la-ConfiguratorFactory.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Core.lo -MD -MP -MF .deps/libworkrave_backend_la-Core.Tpo -c -o libworkrave_backend_la-Core.lo `test -f 'Core.cc' || echo './'`Core.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Core.lo -MD -MP -MF .deps/libworkrave_backend_la-Core.Tpo -c Core.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-Core.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Core.lo -MD -MP -MF .deps/libworkrave_backend_la-Core.Tpo -c Core.cc -o libworkrave_backend_la-Core.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-Core.Tpo .deps/libworkrave_backend_la-Core.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreConfig.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreConfig.Tpo -c -o libworkrave_backend_la-CoreConfig.lo `test -f 'CoreConfig.cc' || echo './'`CoreConfig.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreConfig.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreConfig.Tpo -c CoreConfig.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-CoreConfig.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreConfig.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreConfig.Tpo -c CoreConfig.cc -o libworkrave_backend_la-CoreConfig.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-CoreConfig.Tpo .deps/libworkrave_backend_la-CoreConfig.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreFactory.Tpo -c -o libworkrave_backend_la-CoreFactory.lo `test -f 'CoreFactory.cc' || echo './'`CoreFactory.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreFactory.Tpo -c CoreFactory.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-CoreFactory.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-CoreFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-CoreFactory.Tpo -c CoreFactory.cc -o libworkrave_backend_la-CoreFactory.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-CoreFactory.Tpo .deps/libworkrave_backend_la-CoreFactory.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-GlibIniConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_la-GlibIniConfigurator.Tpo -c -o libworkrave_backend_la-GlibIniConfigurator.lo `test -f 'GlibIniConfigurator.cc' || echo './'`GlibIniConfigurator.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-GlibIniConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_la-GlibIniConfigurator.Tpo -c GlibIniConfigurator.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-GlibIniConfigurator.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-GlibIniConfigurator.lo -MD -MP -MF .deps/libworkrave_backend_la-GlibIniConfigurator.Tpo -c GlibIniConfigurator.cc -o libworkrave_backend_la-GlibIniConfigurator.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-GlibIniConfigurator.Tpo .deps/libworkrave_backend_la-GlibIniConfigurator.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-IdleLogManager.lo -MD -MP -MF .deps/libworkrave_backend_la-IdleLogManager.Tpo -c -o libworkrave_backend_la-IdleLogManager.lo `test -f 'IdleLogManager.cc' || echo './'`IdleLogManager.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-IdleLogManager.lo -MD -MP -MF .deps/libworkrave_backend_la-IdleLogManager.Tpo -c IdleLogManager.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-IdleLogManager.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-IdleLogManager.lo -MD -MP -MF .deps/libworkrave_backend_la-IdleLogManager.Tpo -c IdleLogManager.cc -o libworkrave_backend_la-IdleLogManager.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-IdleLogManager.Tpo .deps/libworkrave_backend_la-IdleLogManager.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitor.Tpo -c -o libworkrave_backend_la-InputMonitor.lo `test -f 'InputMonitor.cc' || echo './'`InputMonitor.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitor.Tpo -c InputMonitor.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-InputMonitor.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitor.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitor.Tpo -c InputMonitor.cc -o libworkrave_backend_la-InputMonitor.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-InputMonitor.Tpo .deps/libworkrave_backend_la-InputMonitor.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitorFactory.Tpo -c -o libworkrave_backend_la-InputMonitorFactory.lo `test -f 'InputMonitorFactory.cc' || echo './'`InputMonitorFactory.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitorFactory.Tpo -c InputMonitorFactory.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-InputMonitorFactory.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-InputMonitorFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-InputMonitorFactory.Tpo -c InputMonitorFactory.cc -o libworkrave_backend_la-InputMonitorFactory.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-InputMonitorFactory.Tpo .deps/libworkrave_backend_la-InputMonitorFactory.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Statistics.lo -MD -MP -MF .deps/libworkrave_backend_la-Statistics.Tpo -c -o libworkrave_backend_la-Statistics.lo `test -f 'Statistics.cc' || echo './'`Statistics.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Statistics.lo -MD -MP -MF .deps/libworkrave_backend_la-Statistics.Tpo -c Statistics.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-Statistics.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Statistics.lo -MD -MP -MF .deps/libworkrave_backend_la-Statistics.Tpo -c Statistics.cc -o libworkrave_backend_la-Statistics.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-Statistics.Tpo .deps/libworkrave_backend_la-Statistics.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-TimePredFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-TimePredFactory.Tpo -c -o libworkrave_backend_la-TimePredFactory.lo `test -f 'TimePredFactory.cc' || echo './'`TimePredFactory.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-TimePredFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-TimePredFactory.Tpo -c TimePredFactory.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-TimePredFactory.o
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-TimePredFactory.lo -MD -MP -MF .deps/libworkrave_backend_la-TimePredFactory.Tpo -c TimePredFactory.cc -o libworkrave_backend_la-TimePredFactory.o >/dev/null 2>&1
+mv -f .deps/libworkrave_backend_la-TimePredFactory.Tpo .deps/libworkrave_backend_la-TimePredFactory.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../..   -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR="\"/usr/local/share/workrave\"" -D_XOPEN_SOURCE=600  -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include   -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2  -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include    -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Timer.lo -MD -MP -MF .deps/libworkrave_backend_la-Timer.Tpo -c -o libworkrave_backend_la-Timer.lo `test -f 'Timer.cc' || echo './'`Timer.cc
+libtool: compile:  c++ -DHAVE_CONFIG_H -I../../intl -I. -I ../../backend/include -I. -I../.. -I/usr/local/include -D_THREAD_SAFE -W -DWORKRAVE_PKGDATADIR=\"/usr/local/share/workrave\" -D_XOPEN_SOURCE=600 -I/usr/local/include -I../../backend/src/unix -I ../../common/include -I ../../common/include/unix -D_REENTRANT -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include -I/usr/local/include/libgdome -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include/libxml2 -I/usr/local/include/dbus-1.0 -I/usr/local/include/dbus-1.0/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -DORBIT2=1 -D_REENTRANT -I/usr/local/include/gconf/2 -I/usr/local/include/orbit-2.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -O2 -pipe -fno-strict-aliasing -Os -g -DNDEBUG -MT libworkrave_backend_la-Timer.lo -MD -MP -MF .deps/libworkrave_backend_la-Timer.Tpo -c Timer.cc  -fPIC -DPIC -o .libs/libworkrave_backend_la-Timer.o
+Timer.cc: In member function 'std::string Timer::serialize_state() const':
+Timer.cc:895: error: expected primary-expression before ';' token
+Timer.cc: In member function 'bool Timer::deserialize_state(const std::string&, int)':
+Timer.cc:928: error: expected primary-expression before ';' token
+gmake[4]: *** [libworkrave_backend_la-Timer.lo] Error 1
+gmake[4]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src'
+gmake[3]: *** [all-recursive] Error 1
+gmake[3]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend/src'
+gmake[2]: *** [all-recursive] Error 1
+gmake[2]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0/backend'
+gmake[1]: *** [all-recursive] Error 1
+gmake[1]: Leaving directory `/home/garga/prs/workrave/work/workrave-1.9.0'
+gmake: *** [all] Error 2
+*** Error code 2
+
+Stop in /home/garga/prs/workrave.
+*** Error code 1
+
+Stop in /home/garga/prs/workrave.

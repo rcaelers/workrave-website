@@ -1,0 +1,263 @@
+Crash log created on 18/11/2005 at 14:25:54.
+
+version = 1.8.1
+compile date = Jul 31 2005
+compile time = 11:20:54
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c000008e
+flags = 0
+address = 66e9433c
+params = 1
+C:\program files\Workrave\lib\Workrave.exe caused a Float Divide By Zero at location 66e9433cRegisters:
+
+eax=0022d9bc ebx=00000176 ecx=0022d93c edx=2cd30000 esi=0022d9f8 edi=002718a4
+eip=66e9433e esp=0022d90c ebp=0022d974 iopl=0         nv up ei pl nz ac po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010216
+
+Stack trace:
+
+PC        Frame     Ret
+66E9433E  0022D974  66E94B30
+66E94B30  0022DA50  66E915EF
+66E915EF  0022DA60  73B35C55
+73B35C55  0022DA78  73B3608E
+73B3608E  0022DA8C  77F3FB99
+77F3FB99  0022DAA4  77F36928
+77F36928  0022DAC4  77F344B2
+77F344B2  0022DD64  0097A26C
+0097A26C  0022DE64  0097A80B
+0097A80B  0022DF34  0097AA10
+0097AA10  0022DF94  00C729C3
+00C729C3  0022DFC4  00C74814
+00C74814  0022E064  00452690
+00452690  0022E074  0044B3E8
+0044B3E8  0022E0A4  008F85C2
+008F85C2  0022E0D4  008E3E7F
+008E3E7F  0022E104  008E3B62
+008E3B62  0022E144  008F7C4F
+008F7C4F  0022E1F4  008F7496
+008F7496  0022E474  008F7708
+008F7708  0022E494  00C61C66
+00C61C66  0022E4C4  00C740C8
+00C740C8  0022E574  00452568
+00452568  0022E584  0044B0D0
+0044B0D0  0022E5B4  008F85C2
+008F85C2  0022E5E4  008E3E7F
+008E3E7F  0022E614  008E3B62
+008E3B62  0022E654  008F7C4F
+008F7C4F  0022E704  008F7496
+008F7496  0022E984  008F7708
+008F7708  0022E9A4  00C610EF
+00C610EF  0022E9C4  00A6AB05
+00A6AB05  0022E9F4  00453E8A
+00453E8A  0022EA04  0044AE19
+0044AE19  0022EA34  00C61641
+00C61641  0022EA64  0044E9E5
+0044E9E5  0022EA74  00420C25
+00420C25  0022EAD0  0041DBD7
+0041DBD7  0022EB34  0041DDA0
+0041DDA0  0022EB4C  005730FB
+005730FB  0022EB5C  00573376
+00573376  0022EB6C  0053C29E
+0053C29E  0022EB8C  008F85C2
+008F85C2  0022EBBC  008E3B62
+008E3B62  0022EBFC  008F81AF
+008F81AF  0022ECAC  008F7496
+008F7496  0022EF2C  008F7708
+008F7708  0022EF4C  00A3CEF2
+00A3CEF2  0022EF6C  00A3D39D
+00A3D39D  0022EF8C  00498E4E
+00498E4E  0022EFBC  008F85C2
+008F85C2  0022EFEC  008E3E7F
+008E3E7F  0022F01C  008E3B62
+008E3B62  0022F05C  008F7C4F
+008F7C4F  0022F10C  008F7496
+008F7496  0022F38C  008F7708
+008F7708  0022F3AC  00C64849
+00C64849  0022F3DC  00B55A5A
+00B55A5A  0022F40C  00B54BB6
+00B54BB6  0022F44C  00B4C50B
+00B4C50B  0022F46C  0044C283
+0044C283  0022F49C  00B42D2B
+00B42D2B  0022F4DC  008E3E7F
+008E3E7F  0022F50C  008E3B62
+008E3B62  0022F54C  008F8062
+008F8062  0022F5FC  008F74FC
+008F74FC  0022F87C  008F7708
+008F7708  0022F89C  00C6473E
+00C6473E  0022F8CC  00C64209
+00C64209  0022F8FC  00B40CDD
+00B40CDD  0022F93C  00B3FA31
+00B3FA31  0022F97C  0095C04F
+0095C04F  0022F99C  00797738
+00797738  0022F9EC  00798391
+00798391  0022F9FC  00798692
+00798692  0022FA3C  00798D07
+00798D07  0022FA7C  00B3F1AD
+00B3F1AD  0022FA9C  00466F77
+00466F77  0022FAAC  00466DB6
+00466DB6  0022FABC  00402C65
+00402C65  0022FAE0  0041E32A
+0041E32A  0022FAF4  0041E380
+0041E380  0022FEF8  00558FFA
+00558FFA  0022FF78  004011E7
+004011E7  0022FFB0  00401258
+00401258  0022FFC0  7C816D4F
+7C816D4F  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\rest_break
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 1
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = -341
+  value = y
+  string data = 35
+  value = head
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\sound
+  value = enabled
+  string data = 1
+  value = device
+  string data = soundcard
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 25200
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 2700
+  value = auto_reset
+  string data = 240
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 10800
+  value = auto_reset
+  string data = 1800
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 1
+

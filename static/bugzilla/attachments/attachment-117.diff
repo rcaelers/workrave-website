@@ -1,0 +1,314 @@
+Index: frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.hh
+===================================================================
+--- frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.hh	(révision 5270)
++++ frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.hh	(copie de travail)
+@@ -56,6 +56,7 @@
+   void create_model();
+ 
+   void on_enabled_toggled();
++  void on_listening_toggled();
+   void on_username_changed();
+   void on_password_changed();
+   void on_port_changed();
+@@ -80,6 +81,7 @@
+   Gtk::Entry *username_entry;
+   Gtk::Entry *password_entry;
+   Gtk::CheckButton *enabled_cb;
++  Gtk::CheckButton *listening_cb;
+   Gtk::SpinButton *port_entry;
+   Gtk::SpinButton *attempts_entry;
+   Gtk::SpinButton *interval_entry;
+Index: frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc
+===================================================================
+--- frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc	(révision 5270)
++++ frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc	(copie de travail)
+@@ -99,10 +99,18 @@
+   password_entry->set_visibility(false);
+   password_entry->set_invisible_char('*');
+ 
++  // Server switch
++  listening_cb = manage(new Gtk::CheckButton());
++  Gtk::Label *listening_lab
++    = manage(GtkUtil::create_label(_("Allow incoming connections"), true));
++  listening_cb->add(*listening_lab);
++  id_frame->add(*listening_cb);
++
+   id_frame->set_border_width(12);
+   tnotebook->append_page(*id_frame, _("General"));
+ 
+   enabled_cb->signal_toggled().connect(MEMBER_SLOT(*this, &NetworkPreferencePage::on_enabled_toggled));
++  listening_cb->signal_toggled().connect(MEMBER_SLOT(*this, &NetworkPreferencePage::on_listening_toggled));
+   username_entry->signal_changed().connect(MEMBER_SLOT(*this, &NetworkPreferencePage::on_username_changed));
+   password_entry->signal_changed().connect(MEMBER_SLOT(*this, &NetworkPreferencePage::on_password_changed));
+ }
+@@ -277,6 +285,10 @@
+   bool enabled = dist_manager->get_enabled();
+   enabled_cb->set_active(enabled);
+ 
++  // Server enabled switch.
++  bool listening = dist_manager->get_listening();
++  listening_cb->set_active(listening);
++
+   // Username.
+   string str = dist_manager->get_username();
+   username_entry->set_text(str);
+@@ -305,10 +317,20 @@
+ {
+   bool enabled = enabled_cb->get_active();
+   dist_manager->set_enabled(enabled);
++
++  listening_cb->set_sensitive(enabled);
+ }
+ 
+ 
+ void
++NetworkPreferencePage::on_listening_toggled()
++{
++  bool listening = listening_cb->get_active();
++  dist_manager->set_listening(listening);
++}
++
++
++void
+ NetworkPreferencePage::on_username_changed()
+ {
+   string name = username_entry->get_text();
+Index: backend/include/IDistributionManager.hh
+===================================================================
+--- backend/include/IDistributionManager.hh	(révision 5270)
++++ backend/include/IDistributionManager.hh	(copie de travail)
+@@ -49,6 +49,9 @@
+   virtual bool get_enabled() const = 0;
+   virtual void set_enabled(bool b) = 0;
+ 
++  virtual bool get_listening() const = 0;
++  virtual void set_listening(bool b) = 0;
++
+   virtual string get_username() const = 0;
+   virtual void set_username(string name) = 0;
+ 
+Index: backend/src/DistributionSocketLink.cc
+===================================================================
+--- backend/src/DistributionSocketLink.cc	(révision 5270)
++++ backend/src/DistributionSocketLink.cc	(copie de travail)
+@@ -59,6 +59,7 @@
+   myid(NULL),
+   server_port(DEFAULT_PORT),
+   server_socket(NULL),
++  network_enabled(false),
+   server_enabled(false),
+   reconnect_attempts(DEFAULT_ATTEMPTS),
+   reconnect_interval(DEFAULT_INTERVAL),
+@@ -179,7 +180,7 @@
+ void
+ DistributionSocketLink::connect(string url)
+ {
+-  if (server_enabled)
++  if (network_enabled)
+     {
+ #ifdef HAVE_GNET2
+       GURI *client_url = gnet_uri_new(url.c_str());
+@@ -324,13 +325,10 @@
+ }
+ 
+ 
+-//! Enable/disable distributed operation.
++//! Enable/disable connecting to distributed operation.
+ bool
+-DistributionSocketLink::set_enabled(bool enabled)
++DistributionSocketLink::set_network_enabled(bool enabled)
+ {
+-  TRACE_ENTER_MSG("DistributionSocketLink:set_enabled", enabled);
+-  bool ret = server_enabled;
+-
+   if (enabled)
+     {
+       if (myname != NULL)
+@@ -358,6 +356,33 @@
+         }
+     }
+ 
++  if (network_enabled && !enabled)
++    {
++      set_server_enabled(false);
++      set_me_master();
++    }
++  else if (!network_enabled && enabled)
++    {
++      set_server_enabled(server_enabled);
++    }
++
++  network_enabled = enabled;
++  return network_enabled;
++}
++
++
++//! Enable/disable listening for distributed operation.
++bool
++DistributionSocketLink::set_server_enabled(bool enabled)
++{
++  TRACE_ENTER_MSG("DistributionSocketLink:set_server_enabled", enabled);
++  bool ret = server_enabled;
++
++  if (!network_enabled) {
++    // Don't start the server if the network is not enabled
++    return ret;
++  }
++
+   if (!server_enabled && enabled)
+     {
+       // Switching from disabled to enabled;
+@@ -379,7 +404,6 @@
+         }
+       server_socket = NULL;
+       disconnect_all();
+-      set_me_master();
+     }
+ 
+   server_enabled = enabled;
+@@ -2141,8 +2165,8 @@
+ 
+   if (old_port != server_port && server_enabled)
+     {
+-      set_enabled(false);
+-      set_enabled(true);
++      set_server_enabled(false);
++      set_server_enabled(true);
+     }
+ 
+   reconnect_interval = dist_manager->get_reconnect_interval();
+Index: backend/src/DistributionLink.hh
+===================================================================
+--- backend/src/DistributionLink.hh	(révision 5270)
++++ backend/src/DistributionLink.hh	(copie de travail)
+@@ -42,7 +42,8 @@
+   // virtual void set_distribution_manager(DistributionLinkListener *dll) = 0;
+ 
+   //! Enable/Disable distributed operation.
+-  virtual bool set_enabled(bool enabled) = 0;
++  virtual bool set_network_enabled(bool enabled) = 0;
++  virtual bool set_server_enabled(bool enabled) = 0;
+ 
+   //! Periodic heartbeat.
+   virtual void heartbeat() = 0;
+Index: backend/src/DistributionManager.cc
+===================================================================
+--- backend/src/DistributionManager.cc	(révision 5270)
++++ backend/src/DistributionManager.cc	(copie de travail)
+@@ -41,6 +41,7 @@
+ 
+ const string DistributionManager::CFG_KEY_DISTRIBUTION = "distribution";
+ const string DistributionManager::CFG_KEY_DISTRIBUTION_ENABLED = "/enabled";
++const string DistributionManager::CFG_KEY_DISTRIBUTION_LISTENING = "/listening";
+ const string DistributionManager::CFG_KEY_DISTRIBUTION_PEERS = "/peers";
+ const string DistributionManager::CFG_KEY_DISTRIBUTION_TCP = "distribution/tcp";
+ const string DistributionManager::CFG_KEY_DISTRIBUTION_TCP_PORT = "/port";
+@@ -52,7 +53,8 @@
+ 
+ //! Constructs a new DistributionManager.
+ DistributionManager::DistributionManager() :
+-  distribution_enabled(false),
++  network_enabled(false),
++  server_enabled(false),
+   link(NULL),
+   state(NODE_ACTIVE)
+ {
+@@ -509,11 +511,13 @@
+   bool is_set;
+ 
+   // Distributed operation enabled or not.
+-  distribution_enabled = get_enabled();
++  network_enabled = get_enabled();
++  server_enabled = get_listening();
+ 
+   // Enable/Disable link.
+   assert(link != NULL);
+-  link->set_enabled(distribution_enabled);
++  link->set_network_enabled(network_enabled);
++  link->set_server_enabled(server_enabled);
+ 
+   // Peers
+   const char *env = getenv("WORKRAVE_URL");
+@@ -781,6 +785,28 @@
+ }
+ 
+ 
++bool
++DistributionManager::get_listening() const
++{
++  bool ret = true;
++  bool is_set = configurator->get_value(CFG_KEY_DISTRIBUTION + CFG_KEY_DISTRIBUTION_LISTENING,
++                                        &ret);
++  if (!is_set)
++    {
++      ret = false;
++    }
++
++  return ret;
++}
++
++
++void
++DistributionManager::set_listening(bool b)
++{
++  configurator->set_value(CFG_KEY_DISTRIBUTION + CFG_KEY_DISTRIBUTION_LISTENING, b);
++}
++
++
+ string
+ DistributionManager::get_username() const
+ {
+Index: backend/src/DistributionSocketLink.hh
+===================================================================
+--- backend/src/DistributionSocketLink.hh	(révision 5270)
++++ backend/src/DistributionSocketLink.hh	(copie de travail)
+@@ -180,7 +180,8 @@
+   void set_distribution_manager(DistributionManager *dll);
+   void init();
+   void heartbeat();
+-  bool set_enabled(bool enabled);
++  bool set_network_enabled(bool enabled);
++  bool set_server_enabled(bool enabled);
+   void set_user(string user, string password);
+   void connect(string url);
+   void disconnect(string id);
+@@ -294,6 +295,7 @@
+   SocketConnection *server_socket;
+ 
+   //! Whether distribution is enabled.
++  bool network_enabled;
+   bool server_enabled;
+ 
+   //! ClientMessage listeners
+Index: backend/src/DistributionManager.hh
+===================================================================
+--- backend/src/DistributionManager.hh	(révision 5270)
++++ backend/src/DistributionManager.hh	(copie de travail)
+@@ -41,6 +41,7 @@
+ public:
+   static const string CFG_KEY_DISTRIBUTION;
+   static const string CFG_KEY_DISTRIBUTION_ENABLED;
++  static const string CFG_KEY_DISTRIBUTION_LISTENING;
+   static const string CFG_KEY_DISTRIBUTION_PEERS;
+   static const string CFG_KEY_DISTRIBUTION_TCP;
+   static const string CFG_KEY_DISTRIBUTION_TCP_PORT;
+@@ -88,6 +89,9 @@
+   bool get_enabled() const;
+   void set_enabled(bool b);
+ 
++  bool get_listening() const;
++  void set_listening(bool b);
++
+   string get_username() const;
+   void set_username(string name);
+ 
+@@ -129,7 +133,8 @@
+   typedef std::list<DistributionListener *>::iterator ListenerIter;
+ 
+   //! Is distribution operation enabled?
+-  bool distribution_enabled;
++  bool network_enabled;
++  bool server_enabled;
+ 
+   //! Access to the configuration.
+   Configurator *configurator;

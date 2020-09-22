@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Workrave\monitor]
+"idle"="60000"
+"activity"="0"
+"noise"="9000"

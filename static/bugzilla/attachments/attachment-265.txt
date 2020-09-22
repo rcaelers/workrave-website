@@ -1,0 +1,28 @@
+kees-jan@mini ~
+$ while true ; do ps aux | head -1 ; for i in {0..20} ; do ps aux | grep unity-panel-service | grep -v grep ; sleep 300 ; done ; done
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kees-jan  1973  1.3  0.6  87980 18692 ?        Sl   08:21   0:02 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.1  0.7  92028 22748 ?        Sl   08:21   0:05 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.0  0.8  96136 26864 ?        Sl   08:21   0:08 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.9  1.0 100172 30904 ?        Sl   08:21   0:11 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.9  1.1 104200 34928 ?        Sl   08:21   0:13 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.9  1.2 108236 38968 ?        Sl   08:21   0:16 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.0  1.4 112260 42996 ?        Sl   08:21   0:21 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.0  1.5 116300 47020 ?        Sl   08:21   0:24 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.0  1.6 120336 51076 ?        Sl   08:21   0:27 /usr/lib/unity/unity-panel-service
+
+# Note the increasing memory usage, above. At this point, I terminated
+# workrave. Note how memory usage does not increase below.
+
+kees-jan  1973  0.9  1.6 120848 51820 ?        Sl   08:21   0:27 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.8  1.6 120848 51880 ?        Sl   08:21   0:28 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.1  1.6 120848 51848 ?        Sl   08:21   0:41 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.1  1.6 120848 51848 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  1.0  1.6 120848 51832 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.9  1.6 120848 51860 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.8  1.6 120848 51860 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.8  1.6 120848 51860 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.7  1.6 120848 51860 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.7  1.6 120848 51860 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+kees-jan  1973  0.7  1.6 120848 51852 ?        Sl   08:21   0:42 /usr/lib/unity/unity-panel-service
+

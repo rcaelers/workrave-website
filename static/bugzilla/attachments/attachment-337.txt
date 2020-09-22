@@ -1,0 +1,312 @@
+Crash log created on 19/09/2018 at 09:21:14.
+
+version = 1.10
+compile date = Jan 13 2013
+compile time = 11:29:23
+features = DISTRIBUTION EXERCISES 
+locale = English
+
+
+code = c0000006
+flags = 0
+address = 74dc43f9
+params = 3
+Z:\Workrave\lib\Workrave.exe caused an In Page Error at location 74dc43f9Registers:
+
+eax=ffffffff ebx=007776a4 ecx=007776a4 edx=00000000 esi=00000000 edi=0041ad4e
+eip=74dc43f9 esp=0028f70c ebp=0028f7f8 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210246
+
+Stack trace:
+
+PC        Frame     Ret
+74DC43F9  0028F7F8  004204B0
+004204B0  0028F838  0040DB0D
+0040DB0D  0028F858  0045FC62
+0045FC62  0028F8A8  0045F832
+0045F832  0028F928  00460E52
+00460E52  0028F9C8  004603E2
+004603E2  0028F9F8  0040AF66
+0040AF66  0028FA78  006DC59C
+006DC59C  0028FA98  006DBC98
+006DBC98  0028FAB8  006C83AA
+006C83AA  0028FAE8  00679FE3
+00679FE3  0028FB78  685EB663
+685EB663  0028FBF8  685EBE09
+685EBE09  0028FC78  685EC299
+685EC299  0028FCA8  00D491C4
+00D491C4  0028FD08  004EAF60
+004EAF60  0028FDE8  004420B6
+004420B6  0028FE68  00442179
+00442179  0028FE98  0075C0AD
+0075C0AD  0028FEB8  004013EA
+004013EA  0028FF88  766B343D
+766B343D  0028FF94  772E9832
+772E9832  0028FFD4  772E9805
+772E9805  0028FFEC  00000000
+ Z:\Workrave\lib\Workrave.exe handle: 00400000 date: 0-00-29973 00:29973:00
+ C:\windows\SysWOW64\ntdll.dll handle: 772B0000 date: 2018-08-02 02:43:22
+ C:\windows\syswow64\kernel32.dll handle: 766A0000 date: 2018-08-02 02:42:04
+ C:\windows\syswow64\KERNELBASE.dll handle: 76560000 date: 2018-08-02 02:42:04
+ C:\windows\syswow64\ADVAPI32.dll handle: 74AB0000 date: 2018-08-02 02:40:24
+ C:\windows\syswow64\msvcrt.dll handle: 74DB0000 date: 2011-12-16 07:52:58
+ C:\windows\SysWOW64\sechost.dll handle: 75100000 date: 2015-05-25 18:01:39
+ C:\windows\syswow64\RPCRT4.dll handle: 76C40000 date: 2018-08-02 02:42:04
+ C:\windows\syswow64\SspiCli.dll handle: 74A20000 date: 2018-08-02 02:42:04
+ C:\windows\syswow64\CRYPTBASE.dll handle: 74A10000 date: 2018-08-02 02:10:30
+ C:\windows\syswow64\GDI32.dll handle: 76860000 date: 2017-09-08 15:10:06
+ C:\windows\syswow64\USER32.dll handle: 76900000 date: 2016-11-10 16:19:40
+ C:\windows\syswow64\LPK.dll handle: 75140000 date: 2018-07-08 15:42:36
+ C:\windows\syswow64\USP10.dll handle: 751D0000 date: 2017-08-16 15:10:30
+ C:\windows\syswow64\ole32.dll handle: 76A00000 date: 2018-06-08 15:55:23
+ C:\windows\syswow64\SHELL32.DLL handle: 75270000 date: 2018-06-13 15:55:39
+ C:\windows\syswow64\SHLWAPI.dll handle: 75EE0000 date: 2010-11-21 03:23:48
+ C:\windows\system32\WINMM.DLL handle: 69DA0000 date: 2010-11-21 03:24:16
+ C:\windows\system32\WTSAPI32.dll handle: 69D90000 date: 2010-11-21 03:23:54
+ Z:\Workrave\lib\libatk-1.0-0.dll handle: 62940000 date: 2010-11-21 03:23:54
+ Z:\Workrave\lib\intl.dll handle: 6A300000 date: 2010-11-21 03:23:54
+ Z:\Workrave\lib\libglib-2.0-0.dll handle: 685C0000 date: 2010-11-21 03:23:54
+ C:\windows\syswow64\WS2_32.dll handle: 76660000 date: 2016-05-11 15:19:26
+ C:\windows\syswow64\NSI.dll handle: 75160000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libgobject-2.0-0.dll handle: 63A40000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libgthread-2.0-0.dll handle: 65C40000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libcairo-2.dll handle: 68DC0000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libfontconfig-1.dll handle: 64F80000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libexpat-1.dll handle: 68F40000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\freetype6.dll handle: 6A800000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\libpng14-14.dll handle: 61A00000 date: 2017-08-11 06:19:39
+ Z:\Workrave\lib\zlib1.dll handle: 62E80000 date: 2017-08-11 06:19:39
+ C:\windows\system32\MSIMG32.DLL handle: 6AF90000 date: 2018-07-06 15:48:25
+ Z:\Workrave\lib\libdbus-1.dll handle: 655C0000 date: 2018-07-06 15:48:25
+ C:\windows\system32\dsound.dll handle: 68430000 date: 2009-07-14 01:15:13
+ C:\windows\system32\POWRPROF.dll handle: 69D60000 date: 2009-07-14 01:16:12
+ C:\windows\syswow64\SETUPAPI.dll handle: 76D30000 date: 2010-11-21 03:23:51
+ C:\windows\syswow64\CFGMGR32.dll handle: 750B0000 date: 2011-05-24 10:39:38
+ C:\windows\syswow64\OLEAUT32.dll handle: 767C0000 date: 2018-04-22 23:40:58
+ C:\windows\syswow64\DEVOBJ.dll handle: 76BA0000 date: 2011-05-24 10:40:05
+ Z:\Workrave\lib\libgdk-win32-2.0-0.dll handle: 6C340000 date: 2011-05-24 10:40:05
+ Z:\Workrave\lib\libgdk_pixbuf-2.0-0.dll handle: 65340000 date: 2011-05-24 10:40:05
+ Z:\Workrave\lib\libgio-2.0-0.dll handle: 6D580000 date: 2011-05-24 10:40:05
+ Z:\Workrave\lib\libgmodule-2.0-0.dll handle: 6DD00000 date: 2011-05-24 10:40:05
+ C:\windows\system32\DNSAPI.DLL handle: 6DEF0000 date: 2018-06-08 15:54:41
+ C:\windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.24203_none_5c030043a0118fbf\gdiplus.dll handle: 71F80000 date: 2018-07-06 15:47:32
+ Z:\Workrave\lib\libpango-1.0-0.dll handle: 00320000 date: 2018-07-06 15:47:32
+ Z:\Workrave\lib\libpangocairo-1.0-0.dll handle: 6D4C0000 date: 2018-07-06 15:47:32
+ Z:\Workrave\lib\libpangoft2-1.0-0.dll handle: 6D700000 date: 2018-07-06 15:47:32
+ Z:\Workrave\lib\libpangowin32-1.0-0.dll handle: 6B280000 date: 2018-07-06 15:47:32
+ C:\windows\syswow64\IMM32.DLL handle: 76600000 date: 2010-11-21 03:24:25
+ C:\windows\syswow64\MSCTF.dll handle: 76490000 date: 2017-09-13 15:09:01
+ Z:\Workrave\lib\libgtk-win32-2.0-0.dll handle: 00C70000 date: 2017-09-13 15:09:01
+ C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18837_none_ec86b8d6858ec0bc\COMCTL32.DLL handle: 728C0000 date: 2015-04-24 17:56:58
+ C:\windows\syswow64\COMDLG32.DLL handle: 76BC0000 date: 2010-11-21 03:23:48
+ C:\windows\system32\WINSPOOL.DRV handle: 61630000 date: 2010-11-21 03:24:08
+ Z:\Workrave\lib\harpoon.dll handle: 10000000 date: 2010-11-21 03:24:08
+ C:\windows\system32\uxtheme.dll handle: 71E20000 date: 2009-07-14 01:11:24
+ C:\Users\ldb23\AppData\Local\Trusteer\Rapport\app\bin\rooksbas.DLL handle: 77600000 date: 2017-08-25 21:53:40
+ C:\windows\system32\VERSION.dll handle: 73DB0000 date: 2009-07-14 01:16:17
+ C:\windows\syswow64\PSAPI.DLL handle: 75150000 date: 2009-07-14 01:16:12
+ C:\windows\syswow64\WINTRUST.dll handle: 76B70000 date: 2017-12-05 17:08:37
+ C:\windows\syswow64\CRYPT32.dll handle: 74B60000 date: 2017-12-05 17:08:22
+ C:\windows\syswow64\MSASN1.dll handle: 75F40000 date: 2010-11-21 03:23:48
+ C:\windows\system32\ntmarta.dll handle: 6DEB0000 date: 2009-07-14 01:16:11
+ C:\windows\syswow64\WLDAP32.dll handle: 765B0000 date: 2017-08-11 06:19:44
+ C:\windows\system32\dwmapi.dll handle: 749B0000 date: 2015-07-09 17:42:54
+ C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll handle: 6E180000 date: 2015-04-24 17:54:13
+ C:\windows\syswow64\CLBCatQ.DLL handle: 74D20000 date: 2009-07-14 01:15:03
+ C:\windows\system32\propsys.dll handle: 6E080000 date: 2010-11-21 03:24:08
+ C:\windows\system32\apphelp.dll handle: 6E030000 date: 2015-10-29 17:49:58
+ C:\windows\system32\CRYPTSP.dll handle: 737A0000 date: 2016-06-14 15:21:20
+ C:\windows\system32\rsaenh.dll handle: 73760000 date: 2009-07-14 01:17:54
+ Z:\Workrave\lib\gtk-2.0\2.10.0\engines\libwimp.dll handle: 62D40000 date: 2009-07-14 01:17:54
+ C:\windows\system32\mscms.dll handle: 63360000 date: 2017-12-05 17:08:26
+ C:\windows\syswow64\USERENV.dll handle: 75EC0000 date: 2010-11-21 03:24:16
+ C:\windows\syswow64\profapi.dll handle: 767B0000 date: 2009-07-14 01:16:12
+ C:\windows\system32\icm32.dll handle: 69220000 date: 2017-12-05 17:08:24
+ C:\windows\system32\WINSTA.dll handle: 6A5A0000 date: 2014-07-17 01:40:03
+ C:\windows\System32\MMDevApi.dll handle: 61690000 date: 2010-11-21 03:23:51
+ C:\windows\system32\AUDIOSES.DLL handle: 61780000 date: 2016-06-14 15:21:18
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\breaks
+
+key = Software\Workrave\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+  value = trayicon_enabled
+  string data = 1
+  value = closewarn_enabled
+  string data = 0
+  value = locale
+  string data = 
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 1
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+  value = auto_natural
+  string data = 0
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+  value = auto_natural
+  string data = 0
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 3
+  value = auto_natural
+  string data = 0
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\main_window
+  value = enabled
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = x
+  string data = 256
+  value = y
+  string data = 256
+  value = head
+  string data = 0
+
+key = Software\Workrave\sound
+  value = volume
+  string data = 100
+  value = enabled
+  string data = 1
+  value = device
+  string data = soundcard
+
+key = Software\Workrave\sound\events
+  value = break_prelude
+  string data = Z:\Workrave\share\sounds\default\break-prelude.wav
+  value = break_ignored
+  string data = Z:\Workrave\share\sounds\default\break-ignored.wav
+  value = rest_break_started
+  string data = Z:\Workrave\share\sounds\default\rest-break-started.wav
+  value = rest_break_ended
+  string data = Z:\Workrave\share\sounds\default\rest-break-ended.wav
+  value = micro_break_started
+  string data = Z:\Workrave\share\sounds\default\micro-break-started.wav
+  value = micro_break_ended
+  string data = Z:\Workrave\share\sounds\default\micro-break-ended.wav
+  value = daily_limit
+  string data = Z:\Workrave\share\sounds\default\daily-limit.wav
+  value = exercise_ended
+  string data = Z:\Workrave\share\sounds\default\exercise-ended.wav
+  value = exercises_ended
+  string data = Z:\Workrave\share\sounds\default\exercises-ended.wav
+  value = exercise_step
+  string data = Z:\Workrave\share\sounds\default\exercise-step.wav
+  value = break_prelude_enabled
+  string data = 1
+  value = break_ignored_enabled
+  string data = 1
+  value = rest_break_started_enabled
+  string data = 1
+  value = rest_break_ended_enabled
+  string data = 1
+  value = micro_break_started_enabled
+  string data = 1
+  value = micro_break_ended_enabled
+  string data = 1
+  value = daily_limit_enabled
+  string data = 1
+  value = exercise_ended_enabled
+  string data = 1
+  value = exercises_ended_enabled
+  string data = 1
+  value = exercise_step_enabled
+  string data = 1
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 18000
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 870
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3000
+  value = auto_reset
+  string data = 300
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+

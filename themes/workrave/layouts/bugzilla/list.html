@@ -1,0 +1,106 @@
+{{ define "main" }}
+
+<div class="container-lg mt-5" style="max-width: 1600px">
+    <div class="row">
+        <div class="h2 col-md-12 bg-light font-weight-bold">
+            Bugzilla bug archive (read-only)
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-12">
+            <div id="bugs-table"></div>
+            <span class="small">
+                Showing <span id="bug_count"></span> issues.
+            </span>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "header" }}
+<div class="jumbotron jumbotron-fluid banner-style-small">
+</div>
+{{ end }}
+
+{{ define "pagescript" }}
+{{ $bugs := getJSON "data/workrave-bugs.json" }}
+
+<link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js" integrity="sha512-Q1f3TS3vSt1jQ8AwP2OuenztnLU6LwxgyyYOG1jgMW/cbEMHps/3wjvnl1P3WTrF3chJUWEoxDUEjMxDV8pujg==" crossorigin="anonymous"></script>
+
+<script>
+    var tabledata = [
+    {{ range $index, $bug := $bugs }}
+    {
+        id: {{ $bug.id }},
+        component: {{ $bug.component }},
+        assigned_to: {{ $bug.assigned_to }},
+        status: {{ $bug.status }},
+        resolution: {{ $bug.resolution }},
+        severity: {{ $bug.severity }},
+        summary: {{ $bug.summary }},
+        {{ $d := (time $bug.last_change_time) }}
+        last_change_time: {{ $d.Format "Jan 2 2006 15:04:05" }}
+    },
+    {{ end }}
+    ];
+
+    var table = new Tabulator("#bugs-table", {
+        height: 650,
+        data: tabledata,
+        layout: "fitColumns",
+        columns: [
+            {
+                title: "ID", field: "id", hozAlign: "left", sorter: "number",
+                formatter: "link", formatterParams: { labelField: "id", urlPrefix: "{{ $.Site.BaseURL }}bugzilla/", target: "_blank" },
+                width: 55
+            },
+            {
+                title: "Component", field: "component", hozAlign: "left",
+                headerFilter: "select", headerFilterFunc: "in", headerFilterParams: { values: true, multiselect: true, },
+                width: 125
+            },
+            {
+                title: "Assignee", field: "assigned_to", hozAlign: "left",
+                headerFilter: "select", headerFilterFunc: "in", headerFilterParams: { values: true, multiselect: true, },
+                width: 140
+            },
+            {
+                title: "Status", field: "status", hozAlign: "left",
+                headerFilter: "select", headerFilterFunc: "in", headerFilterParams: { values: true, multiselect: true, },
+                width: 125
+            },
+            {
+                title: "Resolution", field: "resolution", hozAlign: "left",
+                headerFilter: "select", headerFilterFunc: "in", headerFilterParams: { values: true, multiselect: true, },
+                width: 125
+            },
+            {
+                title: "Severity", field: "severity", hozAlign: "left",
+                headerFilter: "select", headerFilterFunc: "in", headerFilterParams: { values: true, multiselect: true, },
+                width: 125
+            },
+            {
+                title: "Summary", field: "summary", hozAlign: "left",
+                headerFilter: true, headerFilterLiveFilter: true,
+                formatter: "link", formatterParams: {
+                    labelField: "summary", urlField: "id", urlPrefix: "{{ $.Site.BaseURL }}bugzilla/", target: "_blank"
+                }
+            },
+            {
+                title: "Changed", field: "last_change_time", hozAlign: "left",
+                sorter: "datetime", sorterParams: { format: "MMM D YYYY HH:mm:ss", alignEmptyValues: "top" },
+                width: 165
+            },
+        ],
+        initialSort: [
+            { column: "id", dir: "asc" },
+        ],
+        dataFiltered: function (filters, rows) {
+            var elem = document.getElementById("bug_count");
+            elem.innerHTML = rows.length;
+        },
+    });
+</script>
+{{end}}

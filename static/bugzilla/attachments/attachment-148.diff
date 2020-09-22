@@ -1,0 +1,12 @@
+diff -upr workrave-1.9.0.orig/po/hu.po workrave-1.9.0/po/hu.po
+--- workrave-1.9.0.orig/po/hu.po	2008-07-03 21:19:20.000000000 +0200
++++ workrave-1.9.0/po/hu.po	2008-09-23 18:55:43.000000000 +0200
+@@ -381,7 +381,7 @@ msgstr "A napi korlátozásból %s van h
+ #: ../frontend/gtkmm/src/MicroBreakWindow.cc:266
+ #, c-format
+ msgid "Daily limit %s overdue"
+-msgstr "A napi korlátozás %s túllépésben2 van"
++msgstr "A napi korlátozás %s túllépésben van"
+ 
+ #: ../frontend/gtkmm/src/PreferencesDialog.cc:71
+ #: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:90

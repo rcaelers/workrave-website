@@ -1,0 +1,203 @@
+Crash log created on 18/07/2005 at 07:27:01.
+
+version = 1.8.0
+compile date = Jul  1 2005
+compile time = 16:46:28
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 505e71
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 00505e71 reading from location 00000018
+
+Registers:
+
+eax=00000018 ebx=00000000 ecx=0000000c edx=0022f7dc esi=00000018 edi=0022f82c
+eip=00505e71 esp=0022f7b0 ebp=0022f7b4 iopl=0         nv up ei pl nz na pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=0038  gs=0000             efl=00010202
+
+Stack trace:
+
+PC        Frame     Ret
+00505E71  0022F7B4  00505DF1
+00505DF1  0022F7F4  004175C0
+004175C0  0022F80C  0040DDE0
+0040DDE0  0022F8F8  00403828
+00403828  0022F90C  004336C9
+004336C9  0022F924  00429C87
+00429C87  0022F940  00402D20
+00402D20  0022F950  00572DCF
+00572DCF  0022F960  0056C9E3
+0056C9E3  0022F96C  0057330A
+0057330A  0022F97C  0053F467
+0053F467  0022F99C  00349D02
+00349D02  0022F9CC  00348197
+00348197  0022FA0C  00348C90
+00348C90  0022FA1C  00348F37
+00348F37  0022FA4C  003493DA
+003493DA  0022FA7C  00A1A91A
+00A1A91A  0022FA9C  00466F57
+00466F57  0022FAAC  00466D96
+00466D96  0022FABC  00402C55
+00402C55  0022FAE0  0041E30A
+0041E30A  0022FAF4  0041E360
+0041E360  0022FEF8  00558FDA
+00558FDA  0022FF78  004011E7
+004011E7  0022FFB0  00401258
+00401258  0022FFC0  7C598989
+7C598989  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 0
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 0
+  value = exercises
+  string data = 0
+  value = max_postpone
+  string data = -1
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+  value = max_postpone
+  string data = -1
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+  value = max_postpone
+  string data = -1
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = 256
+  value = y
+  string data = 256
+  value = head
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\sound
+  value = enabled
+  string data = 1
+  value = device
+  string data = soundcard
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 600
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 0
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3600
+  value = auto_reset
+  string data = 420
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 0
+
