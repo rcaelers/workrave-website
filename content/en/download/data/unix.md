@@ -25,12 +25,6 @@ sudo dnf install workrave
 pkg install workrave
 {{< / highlight >}}
 
-## [Gentoo](https://www.gentoo.org/)
-
-{{< highlight bash >}}
-sudo emerge --ask --verbose workrave
-{{< / highlight >}}
-
 ## [Open SUSE](https://www.opensuse.org/)
 
 {{< highlight bash >}}
