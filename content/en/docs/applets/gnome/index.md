@@ -8,3 +8,5 @@ This applet can be added by starting the `gnome-tweaks` application. In the `Ext
 ![Enable Gnome Shell applet](/images/screenshots/gnome-shell-applet-activate.png#center)
 
 The Workrave applet will now appear in panel.
+
+Note that if you are using Workrave from the Ubuntu [Workrave PPA](download/ubuntu), you have to install the `workrave-gnome` package.
