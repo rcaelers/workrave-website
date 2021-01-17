@@ -28,6 +28,12 @@ sudo apt update
 sudo apt install workrave
 {{< / highlight >}}
 
+If you have the Ubuntu version of Workrave installed, you need to uninstall that first:
+
+{{< highlight bash >}}
+sudo apt remove workrave workrave-data
+{{< / highlight >}}
+
 The Workrave PPA has separate package for each supported desktop environment.
 You only need to install the one for your desktop environment.
 
@@ -38,3 +44,4 @@ sudo apt install workrave-mate
 sudo apt install workrave-unity
 sudo apt install workrave-xfce
 {{< / highlight >}}
+
