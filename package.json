@@ -14,16 +14,16 @@
     "author": "",
     "license": "GPL-3.0-or-later",
     "devDependencies": {
-        "autoprefixer": "^9.8.6",
-        "cssnano": "^4.1.10",
-        "eslint": "^6.8.0",
-        "postcss-import": "^12.0.1",
+        "autoprefixer": "^10.2.5",
+        "cssnano": "^5.0.2",
+        "eslint": "^7.26.0",
+        "postcss-import": "^14.0.2",
         "postcss-preset-env": "^6.7.0"
     },
     "dependencies": {
         "bootstrap": "^4.5.2",
         "jquery": "^3.5.1",
         "popper.js": "^1.16.1",
-        "postcss-cli": "^7.1.2"
+        "postcss-cli": "^8.3.1"
     }
 }
