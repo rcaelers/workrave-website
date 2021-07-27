@@ -15,6 +15,9 @@ jobs:
         with:
           submodules: true
 
+      - name: Report node version
+        run: node --version
+
       - name: Install javascript dependencies
         run: npm install
 
