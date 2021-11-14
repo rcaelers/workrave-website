@@ -79,6 +79,12 @@
                                     {{ end }}
                                     {{ end }}
 
+                                    {{ range $appImage := first 1 (where (where (where $item.artifacts ".platform" "linux") ".kind" "appimage") ".configuration" "release") }}
+                                    {{ with $appImage }}
+                                    <a href="{{ $base }}{{ .url }}"><img class="img-fluid"  src="/images/appimage.svg"/></a>
+                                    {{ end }}
+                                    {{ end }}
+
                                     {{ range $sources := first 1 (where (where $item.artifacts ".platform" "all") ".kind" "source")  }}
                                     {{ with $sources }}
                                     <a href="{{ $base }}{{ .url }}"><i class='fas fa-code fa-3x m-2'></i></a>
