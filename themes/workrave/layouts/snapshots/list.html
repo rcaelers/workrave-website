@@ -98,13 +98,13 @@
                         data-parent="#accordion-{{ $section_id }}">
                         <div class="card-body text-muted text-monospace">
                             {{ range $item.commits }}
-                            {{ $ts := int (.author.timestamp) | time }}
+                            {{ $ts := int (.commit.author.timestamp) | time }}
                             <div class="border mb-2 p-2">
                                 commit {{ .oid }}<br>
-                                Author: {{ .author.name | htmlEscape}}<br>
+                                Author: {{ .commit.author.name | htmlEscape}}<br>
                                 Date: {{ $ts.Format "Jan 2 2006, 15:04:05 MST" }}</br><br>
-                                {{ if ne .author.name .committer.name }}{{ .committer.name | htmlEscape}}{{ end }}
-                                {{ replace (trim (htmlEscape .message) " \n\t") "\n" "<br>" | safeHTML}}
+                                {{ if ne .commit.author.name .committer.name }}{{ .commit.committer.name | htmlEscape}}{{ end }}
+                                {{ replace (trim (htmlEscape .commit.message) " \n\t") "\n" "<br>" | safeHTML}}
                             </div>
                             {{ end }}
                         </div>
