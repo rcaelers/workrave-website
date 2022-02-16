@@ -6,7 +6,7 @@ title: Build for Windows
 2. Open an MSYS2 shell and install the packages required by Workrave
 
 ``` 
-pacmac -S git mingw-w64-i686-clang mingw-w64-i686-cmake mingw-w64-i686-boost mingw-w64-i686-lld \
+pacman -S git mingw-w64-i686-clang mingw-w64-i686-cmake mingw-w64-i686-boost mingw-w64-i686-lld \
          mingw-w64-i686-ninja mingw-w64-x86_64-adwaita-icon-theme mingw-w64-x86_64-boost \
          mingw-w64-x86_64-clang mingw-w64-x86_64-cmake mingw-w64-x86_64-gtkmm3 mingw-w64-x86_64-lld \
          mingw-w64-x86_64-ninja mingw-w64-x86_64-python mingw-w64-x86_64-python-pip \
