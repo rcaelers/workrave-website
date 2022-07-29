@@ -103,7 +103,7 @@
                                 commit {{ .oid }}<br>
                                 Author: {{ .commit.author.name | htmlEscape}}<br>
                                 Date: {{ $ts.Format "Jan 2 2006, 15:04:05 MST" }}</br><br>
-                                {{ if ne .commit.author.name .committer.name }}{{ .commit.committer.name | htmlEscape}}{{ end }}
+                                {{ if ne .commit.author.name .commit.committer.name }}{{ .commit.committer.name | htmlEscape}}{{ end }}
                                 {{ replace (trim (htmlEscape .commit.message) " \n\t") "\n" "<br>" | safeHTML}}
                             </div>
                             {{ end }}
