@@ -3,10 +3,8 @@ title: Gnome applet
 ---
 
 In the [Gnome](https://www.gnome.org/) Shell desktop environment, a Workrave applet that shows all timer values can be added to a panel.
-This applet can be added by starting the `gnome-tweaks` application. In the `Extensions` page, enable the Workrave extension:
+This applet can be added by installing both `workrave-gnome` and `gnome-shell-extensions` (details may vary depending on system packaging). Then, in the `Extensions` application page, enable the Workrave extension:
 
 ![Enable Gnome Shell applet](/images/screenshots/gnome-shell-applet-activate.png#center)
 
-The Workrave applet will now appear in panel.
-
-Note that if you are using Workrave from the Ubuntu [Workrave PPA](download/ubuntu), you have to install the `workrave-gnome` package.
+The Workrave applet will now appear in the system panel.
