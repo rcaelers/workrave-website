@@ -1,0 +1,13 @@
+--- frontend/common/src/SoundPlayer.cc.orig	2009-04-12 15:25:33.985857319 +0800
++++ frontend/common/src/SoundPlayer.cc	2009-04-12 15:26:49.067859014 +0800
+@@ -390,6 +390,10 @@
+ void
+ SoundPlayer::sync_settings()
+ {
++  if (driver == NULL)
++    {
++      return;
++    }
+   for (unsigned int i = 0; i < sizeof(sound_registry)/sizeof(sound_registry[0]); i++)
+     {
+       SoundRegistry *snd = &sound_registry[i];

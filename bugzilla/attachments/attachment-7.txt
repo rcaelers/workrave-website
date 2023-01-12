@@ -1,0 +1,189 @@
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action
+>>> Win32InputMonitor::mouse_hook 512, (602, 414, 30710)
+>>> Control::process_timers
+    Control::process_timers run
+>>> GUI::timer_action daily_limit 0
+<<< GUI::timer_action
+>>> GUI::timer_action micro_pause 0
+<<< GUI::timer_action
+>>> GUI::timer_action rest_break 0
+<<< GUI::timer_action

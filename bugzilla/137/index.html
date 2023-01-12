@@ -1,0 +1,190 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/137/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;137 - Make postpone time real-time</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>VERIFIED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>0.3.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>All All</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P3 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Oct 29 2002 23:47:41 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Ronald Koster</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Nov 16 2002 04:35:13 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Kees-Jan Dijkzeul</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Oct 30 2002 02:34:20 UTC</td><td>status</td><td>NEW</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=1>Kees-Jan Dijkzeul</th><td rowspan=1>Nov 8 2002 10:59:11 UTC</td><td>cc</td><td></td><td>Kees-Jan Dijkzeul</td></tr><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Nov 8 2002 10:59:11 UTC</td><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=1>Kees-Jan Dijkzeul</th><td rowspan=1>Nov 16 2002 04:35:13 UTC</td><td>status</td><td>RESOLVED</td><td>VERIFIED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Ronald Koster&nbsp;&nbsp;Oct 29 2002 23:47:42 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Currently the postpone time is active time. Postpone is typically used to 
+quickly finish something just before the break. Usually this won&#39;t lead to 
+exactly the specified amount of activity. If you do stop working after you have 
+finished your work, the rest break window won&#39;t appear and you don&#39;t know 
+you&#39;re in a forced rest break.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 30 2002 02:34:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>In 0.3.0 postpone time IS clock time. in CVS postpone time is active time (see
+bug #123)
+
+Postpone time is used for 
+- &#34;natural snoozing&#34;: When you ignore a prelude window, Workrave will remind you
+again after postpone time
+- &#34;postpone snoozing&#34;: When you click the &#34;postpone&#34; button, Workrave will
+remind you again after postpone time.
+
+If clock time is used, you will get a break window when you are idle after
+ignoring a prelude window. However, you will NOT get a break window when you are
+idle and not yet overdue. This is not consistent. 
+
+I propose using active time and adding a new feature: &#34;Show break window when
+taking a natural break after x seconds&#34;. Alternatively, use active time for
+&#34;natural snoozing&#34; and clock time for &#34;postpone snoozing&#34;.
+
+Comments welcome!</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 30 2002 08:03:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>A)
+&gt; I propose using active time and adding a new feature: &#34;Show break window when
+&gt; taking a natural break after x seconds&#34;. 
+
+B)
+&gt; Alternatively, use active time for &#34;natural snoozing&#34; and clock time for 
+&gt; &#34;postpone snoozing&#34;.
+
+Ad A): 
+- will there be a prelude before the break window? 
+- What happens when the user becomes active just before the break window appears? 
+- What happens when you continue typing and effectively ignore the break, will
+that count as an ignored break? Probably not because it was a natural break.
+- But, how does a user tell the difference?
+- Why specify x in seconds, and not as a percentage of the break duration?
+- And how are we going to explain all of this to ordinary users?
+I could go on here...
+
+I really think A) is becoming needlessly complicated. Sure, you could put this
+all in the prefs, but my bet is that 95% of all users will not touch the
+defaults because. So what reason is there to make this configurable, besides our
+own compulsive search for consistency?
+
+B) vote&#43;&#43;.
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 30 2002 09:02:11 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>&gt; - will there be a prelude before the break window? 
+
+Probably. That requires the least changes.
+
+&gt; - What happens when the user becomes active just before the break window appears? 
+
+Then the snoozing is terminated and no window will appear. Just as it is done now.
+
+&gt; - What happens when you continue typing and effectively ignore the break, will
+that count as an ignored break? Probably not because it was a natural break.
+
+Then there is no difference between active and clock time. So it doesn&#39;t matter
+what workrave internally uses for snoozing. I think it will count as an ignored
+break, asumming you continue typing during a prelude window until it disappears.
+
+&gt; - But, how does a user tell the difference?
+
+She doesn&#39;t.
+
+&gt; - Why specify x in seconds, and not as a percentage of the break duration?
+
+Whatever. 
+
+&gt; - And how are we going to explain all of this to ordinary users?
+
+A checkbox saying &#34;Show break window during natural break&#34;.
+
+&gt; I could go on here...
+
+BTW, I also vote for B. (Mainly because it only requires setting a variable to
+true/false at the right moment...)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Oct 30 2002 22:56:52 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Antivote!
+
+Back in Bug #123 I was arguing to use active time instead of clock time for both
+natural and postpone snoozing (there&#39;s not really a difference, from my
+perspective), saying something like
+
+&gt; Anyway... What typically happens is that I want to postpone my
+&gt; restbeak, while still sticking to the micropauses. With the current
+&gt; implementation, a restbreak window may pop up right after my
+&gt; micropause window. This is very annoying. The disappearing of the
+&gt; micropause window suggests that I&#39;m allowed to work, but alas, no-go.
+&gt; 
+&gt; A possible solution to this is to postpone on five minutes active time,
+&gt; instead of clock time. This would also feel more natural, because
+&gt; everything else in wr is based on active or idle time, not clock time.
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 31 2002 00:27:51 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I am sorry, but 1.0.0 has already been tagged, zipped and uploaded, so this is
+too late.
+
+But, apart from that, we need more than an antivote. I would like to see my
+questions answered. Specifically, what do you propose exactly, and how do you
+ensure that users understand what you are proposing?
+
+To reply to some of Rob&#39;s comments:
+
+&gt; &gt; - Why specify x in seconds, and not as a percentage of the break duration?
+&gt; Whatever. 
+
+While we are at it, make that percentage a non-configurable constant. Sounds
+logical to me, if I am at 10% (or something like that) of a natural break, popup
+the window... I really don&#39;t see why you would want to pollute the preferences
+with an extra input field for this.
+
+&gt; &gt; - What happens when you continue typing and effectively ignore the break,
+&gt; &gt;  will that count as an ignored break? Probably not because it was a natural
+&gt; &gt; break.
+
+&gt;  I think it will count as an ignored
+&gt; break, asumming you continue typing during a prelude window until it 
+&gt; disappears.
+
+Isn&#39;t this wrong. The user gets fined for ignoring a natural break?
+
+&gt; &gt; - And how are we going to explain all of this to ordinary users?
+&gt; A checkbox saying &#34;Show break window during natural break&#34;.
+
+This, I like.
+
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 31 2002 01:03:58 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Kees-Jan said:
+&gt; Anyway... What typically happens is that I want to postpone my
+&gt; restbeak, while still sticking to the micropauses. With the current
+&gt; implementation, a restbreak window may pop up right after my
+&gt; micropause window. This is very annoying. The disappearing of the
+&gt; micropause window suggests that I&#39;m allowed to work, but alas, no-go.
+
+Using active time does not solve this problem entirely. It is very well possible
+that right after you become active after a micropause, you have enough active
+time to trigger a new restbreak window. As said, workrave solves this problem by
+skipping a micropause and starting a restbreak instead if the restbreak would
+appear within 30s after the end of the micropause.
+
+In the near future (after 1.0.0), I want the &#34;show break window during natural
+break&#34; option. Some problems:
+- Give user visual feedback that he is taking a natural break instead of a
+&#34;normal&#34; break. Probably a new window &#34;natural break in progress&#34; with a
+progress bar ??.
+- Always allow skip for natural break.
+- postponing a nataral break doesn&#39;t make sense.
+- Don&#39;t insist. Remove window as soon as user becomes active ?
+- Statistics for these break are different then for normal break (don&#39;t increase
+ignore breaks counter when the user skips a natural break window).
+
+Raymond said:
+&gt; While we are at it, make that percentage a non-configurable constant. Sounds
+&gt; logical to me, if I am at 10% (or something like that) of a natural break,
+&gt; popup the window... I really don&#39;t see why you would want to pollute the
+&gt; preferences with an extra input field for this.
+
+with a MP of 30s, you want a break window after 3 idle time? (Ok, 8s with the
+activity monitor delay). </pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 31 2002 02:41:26 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>&gt; with a MP of 30s, you want a break window after 3 idle time? (Ok, 8s with the
+&gt; activity monitor delay). 
+
+A better question is, what user would want to enable natural break windows
+anyway?   
+
+They interfere with other activities, such as thinking and reading a document
+onscreen. Given that my MP duration is 0:30, give me any setting that does not
+interfere ?
+
+And, how does the program detect that I am taking a natural micro-pause or a
+natural rest break? Will the user be confronted with first a natural MP window,
+followed by a natural RB window?
+
+Oh joy, I am drinking coffee and my computer keeps popping up windows and
+bleeps, disturbing my co-workers ...
+
+I feel this makes no sense at all.
+For RB windows, perhaps..
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Nov 8 2002 10:59:11 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Unless the current behaviour is REALLY annoying, it&#39;s not going to change soon....
+I will create a new enhancement bug for &#34;show break window during natural
+break&#34;</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,307 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/613/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;613 - workrave crashed with SIGSEGV in gtk_style_realize()</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: UNIX</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.4</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8>https://bugs.launchpad.net/ubuntu/+source/workrave/+bug/100078</div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Apr 4 2007 16:26:39 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Daniel Holbach</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>May 14 2010 15:40:57 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Tomas Mraz</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:04:06 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>May 14 2010 15:40:57 UTC</td><td>cc</td><td></td><td>Tomas Mraz</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Apr 4 2007 16:26:39 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Binary package hint: workrave
+
+1-after the panel crash
+2- $gnome-panel
+3- then Ctrl-c or d
+4- gnome-panel reloaded
+5- disable desktop effect
+6- crash report
+
+ProblemType: Crash
+Architecture: i386
+Date: Mon Apr 2 11:27:22 2007
+DistroRelease: Ubuntu 7.04
+ExecutablePath: /usr/bin/workrave
+Package: workrave 1.8.4-1ubuntu3
+PackageArchitecture: i386
+ProcCmdline: /usr/bin/workrave --oaf-activate-iid=OAFIID:GNOME_Workrave_Factory --oaf-ior-fd=37
+ProcCwd: /
+ProcEnviron:
+ LANG=en_US.UTF-8
+ LANGUAGE=en_US:en
+ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games
+ SHELL=/bin/bash
+Signal: 11
+SourcePackage: workrave
+Uname: Linux nayif-laptop 2.6.20-13-386 #2 Sun Mar 25 00:18:53 UTC 2007 i686 GNU/Linux
+UserGroups: adm admin audio cdrom dialout dip floppy lpadmin plugdev scanner video
+
+
+
+
+.
+Thread 2 (process 5592):
+#0  0xffffe410 in __kernel_vsyscall ()
+#1  0xb6d74361 in select () from /lib/tls/i686/cmov/libc.so.6
+#2  0xb6a62205 in _xcb_conn_wait (c=0x818e570, cond=0xb674d138, vector=0x0, count=0x0) at xcb_conn.c:318
+	ret = 0
+	rfds = {__fds_bits = {16384, 0 &lt;repeats 31 times&gt;}}
+	wfds = {__fds_bits = {0 &lt;repeats 32 times&gt;}}
+#3  0xb6a63f69 in xcb_wait_for_reply (c=0x818e570, request=213184, e=0xb674d1a8) at xcb_in.c:344
+	cond = {__data = {__lock = 0, __futex = 0, __total_seq = 0, __wakeup_seq = 0, __woken_seq = 0, __mutex = 0x0, __nwaiters = 0, __broadcast_seq = 0}, 
+  __size = &#39;\0&#39; &lt;repeats 47 times&gt;, __align = 0}
+	reader = {request = 213184, data = 0xb674d138, next = 0x0}
+	prev_reader = &lt;value optimized out&gt;
+	ret = (void *) 0x0
+#4  0xb6f7b98d in _XReply (dpy=0x818ddb8, rep=0xb674d1d0, extra=0, discard=1) at ../../src/xcb_io.c:367
+	error = &lt;value optimized out&gt;
+	c = (xcb_connection_t *) 0x818e570
+	current = (PendingRequest *) 0xb3e02020
+	current_sequence = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;_XReply&#34;
+#5  0xb6f69b10 in XQueryPointer (dpy=0x818ddb8, w=77, root=0xb674d2e4, child=0xb674d2e0, root_x=0xb674d2dc, root_y=0xb674d2d8, win_x=0xb674d2d4, win_y=0xb674d2d0, mask=0xb674d2cc)
+    at ../../src/QuPntr.c:46
+	rep = {type = 76 &#39;L&#39;, sameScreen = 250 &#39;ï¿½&#39;, sequenceNumber = 46849, length = 135847352, root = 3061109240, child = 3069684692, rootX = -6800, rootY = 2072, winX = 1, 
+  winY = 0, mask = 0, pad1 = 0, pad = 3069684618}
+#6  0x080ecd13 in X11InputMonitor::run_events (this=0x818d908) at X11InputMonitor.cc:285
+	root = 77
+	root_y = 321
+	win_x = 605
+	mask = 256
+	event = {type = 7, xany = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360}, xkey = {type = 7, serial = 213176, send_event = 0, 
+    display = 0x818ddb8, window = 73400360, root = 77, subwindow = 73400361, time = 5293663, x = 258, y = 137, x_root = 605, y_root = 321, state = 2, keycode = 1, 
+    same_screen = 1}, xbutton = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, root = 77, subwindow = 73400361, time = 5293663, x = 258, 
+    y = 137, x_root = 605, y_root = 321, state = 2, button = 1, same_screen = 1}, xmotion = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, 
+    root = 77, subwindow = 73400361, time = 5293663, x = 258, y = 137, x_root = 605, y_root = 321, state = 2, is_hint = 1 &#39;\001&#39;, same_screen = 1}, xcrossing = {type = 7, 
+    serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, root = 77, subwindow = 73400361, time = 5293663, x = 258, y = 137, x_root = 605, y_root = 321, 
+    mode = 2, detail = 1, same_screen = 1, focus = 1, state = 256}, xfocus = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, mode = 77, 
+    detail = 73400361}, xexpose = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, x = 77, y = 73400361, width = 5293663, height = 258, 
+    count = 137}, xgraphicsexpose = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, drawable = 73400360, x = 77, y = 73400361, width = 5293663, height = 258, 
+    count = 137, major_code = 605, minor_code = 321}, xnoexpose = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, drawable = 73400360, major_code = 77, 
+    minor_code = 73400361}, xvisibility = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, state = 77}, xcreatewindow = {type = 7, 
+    serial = 213176, send_event = 0, display = 0x818ddb8, parent = 73400360, window = 77, x = 73400361, y = 5293663, width = 258, height = 137, border_width = 605, 
+    override_redirect = 321}, xdestroywindow = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, event = 73400360, window = 77}, xunmap = {type = 7, 
+    serial = 213176, send_event = 0, display = 0x818ddb8, event = 73400360, window = 77, from_configure = 73400361}, xmap = {type = 7, serial = 213176, send_event = 0, 
+    display = 0x818ddb8, event = 73400360, window = 77, override_redirect = 73400361}, xmaprequest = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, 
+    parent = 73400360, window = 77}, xreparent = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, event = 73400360, window = 77, parent = 73400361, x = 5293663, 
+    y = 258, override_redirect = 137}, xconfigure = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, event = 73400360, window = 77, x = 73400361, y = 5293663, 
+    width = 258, height = 137, border_width = 605, above = 321, override_redirect = 2}, xgravity = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, 
+    event = 73400360, window = 77, x = 73400361, y = 5293663}, xresizerequest = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, width = 77, 
+    height = 73400361}, xconfigurerequest = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, parent = 73400360, window = 77, x = 73400361, y = 5293663, 
+    width = 258, height = 137, border_width = 605, above = 321, detail = 2, value_mask = 1}, xcirculate = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, 
+    event = 73400360, window = 77, place = 73400361}, xcirculaterequest = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, parent = 73400360, window = 77, 
+    place = 73400361}, xproperty = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, atom = 77, time = 73400361, state = 5293663}, 
+  xselectionclear = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, selection = 77, time = 73400361}, xselectionrequest = {type = 7, 
+    serial = 213176, send_event = 0, display = 0x818ddb8, owner = 73400360, requestor = 77, selection = 73400361, target = 5293663, property = 258, time = 137}, xselection = {
+    type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, requestor = 73400360, selection = 77, target = 73400361, property = 5293663, time = 258}, xcolormap = {
+    type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, colormap = 77, c_new = 73400361, state = 5293663}, xclient = {type = 7, serial = 213176, 
+    send_event = 0, display = 0x818ddb8, window = 73400360, message_type = 77, format = 73400361, data = {b = &#34;_ï¿½P\000\002\001\000\000\211\000\000\000]\002\000\000A\001\000&#34;, 
+      s = {-14753, 80, 258, 0, 137, 0, 605, 0, 321, 0}, l = {5293663, 258, 137, 605, 321}}}, xmapping = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, 
+    window = 73400360, request = 77, first_keycode = 73400361, count = 5293663}, xerror = {type = 7, display = 0x340b8, resourceid = 0, serial = 135847352, error_code = 40 &#39;(&#39;, 
+    request_code = 0 &#39;\0&#39;, minor_code = 96 &#39;`&#39;}, xkeymap = {type = 7, serial = 213176, send_event = 0, display = 0x818ddb8, window = 73400360, 
+    key_vector = &#34;M\000\000\000)\000`\004_ï¿½P\000\002\001\000\000\211\000\000\000]\002\000\000A\001\000\000\002\000\000&#34;}, pad = {7, 213176, 0, 135847352, 73400360, 77, 73400361, 
+    5293663, 258, 137, 605, 321, 2, 1, 1, 1, 256, 137903936, 0, 0, 17, 137903456, -1226923696, 144}}
+	child = 73400323
+	root_x = 605
+	win_y = 321
+#7  0x080ecdd3 in X11InputMonitor::run (this=0x818d908) at X11InputMonitor.cc:212
+No locals.
+#8  0x080f0c80 in Thread::internal_run (this=0x818da28) at Thread.cc:116
+No locals.
+#9  0x080f0ca3 in Thread::thread_handler (arg=0x818da28) at Thread.cc:33
+No locals.
+#10 0xb6f0f31b in start_thread () from /lib/tls/i686/cmov/libpthread.so.0
+#11 0xb6d7b50e in clone () from /lib/tls/i686/cmov/libc.so.6
+.
+Thread 1 (process 5584):
+#0  0xb75ce104 in gtk_style_realize (style=0x83792b0, colormap=0x0) at gtkstyle.c:839
+No locals.
+#1  0xb75d16d0 in IA__gtk_style_attach (style=0x8455f18, window=0x82a2e70) at gtkstyle.c:752
+	styles = &lt;value optimized out&gt;
+	new_style = &lt;value optimized out&gt;
+	colormap = (GdkColormap *) 0x0
+	__PRETTY_FUNCTION__ = &#34;IA__gtk_style_attach&#34;
+#2  0xb7678812 in gtk_widget_set_style_internal (widget=0x82b5e28, style=0x8455f18, initial_emission=0) at gtkwidget.c:5133
+	previous_style = (GtkStyle *) 0x82a1520
+#3  0xb767896a in reset_rc_styles_recurse (widget=0x82b5e28, data=0x0) at gtkwidget.c:5343
+No locals.
+#4  0xb748956f in gtk_bin_forall (container=0x82ad0b8, include_internals=1, callback=0, callback_data=0x0) at gtkbin.c:133
+	__PRETTY_FUNCTION__ = &#34;gtk_bin_forall&#34;
+#5  0xb798d5cb in Gtk::Container_Class::forall_vfunc_callback (self=0x82ad0b8, include_internals=1, callback=0xb7678900 &lt;reset_rc_styles_recurse&gt;, callback_data=0x0)
+    at container.cc:486
+No locals.
+#6  0xb74c87db in IA__gtk_container_forall (container=0x82ad0b8, callback=0xb7678900 &lt;reset_rc_styles_recurse&gt;, callback_data=0x0) at gtkcontainer.c:1261
+	__PRETTY_FUNCTION__ = &#34;IA__gtk_container_forall&#34;
+#7  0xb7678959 in reset_rc_styles_recurse (widget=0x82ad0b8, data=0x0) at gtkwidget.c:5346
+No locals.
+#8  0xb76789bd in IA__gtk_widget_reset_rc_styles (widget=0x82ad0b8) at gtkwidget.c:5356
+	__PRETTY_FUNCTION__ = &#34;IA__gtk_widget_reset_rc_styles&#34;
+#9  0xb75a0ec0 in gtk_rc_reset_widgets (settings=0x8199b40) at gtkrc.c:1607
+	list = (GList *) 0x81a6120
+	toplevels = (GList *) 0x8384230
+#10 0xb75a6523 in IA__gtk_rc_reparse_all_for_settings (settings=0x8199b40, force_load=1) at gtkrc.c:1801
+	rc_file = &lt;value optimized out&gt;
+	tmp_list = (GSList *) 0x0
+	context = (GtkRcContext *) 0x81997c0
+	statbuf = {st_dev = 0, __pad1 = 0, __st_ino = 0, st_mode = 0, st_nlink = 0, st_uid = 0, st_gid = 0, st_rdev = 0, __pad2 = 0, st_size = -5255957569825931264, 
+  st_blksize = 135895872, st_blocks = -4617608640753722560, st_atim = {tv_sec = -1223926618, tv_nsec = 135895872}, st_mtim = {tv_sec = -1217142424, tv_nsec = -1075120772}, 
+  st_ctim = {tv_sec = -1224457285, tv_nsec = 137116916}, st_ino = 13211981841071865855}
+	__PRETTY_FUNCTION__ = &#34;IA__gtk_rc_reparse_all_for_settings&#34;
+#11 0xb75a6666 in gtk_rc_color_hash_changed (settings=0x8199b40, pspec=0x8169a00, context=0x81997c0) at gtkrc.c:683
+No locals.
+#12 0xb70cf0f9 in IA__g_cclosure_marshal_VOID__PARAM (closure=0x8199980, return_value=0x0, n_param_values=2, param_values=0xbfeaf7dc, invocation_hint=0xbfeaf6ec, 
+    marshal_data=0xb75a6600) at gmarshal.c:531
+	data1 = (gpointer) 0x8199b40
+	data2 = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;IA__g_cclosure_marshal_VOID__PARAM&#34;
+#13 0xb70c262b in IA__g_closure_invoke (closure=0x8199980, return_value=0x0, n_param_values=2, param_values=0xbfeaf7dc, invocation_hint=0xbfeaf6ec) at gclosure.c:490
+	marshal = (GClosureMarshal) 0xb70cf0a0 &lt;IA__g_cclosure_marshal_VOID__PARAM&gt;
+	marshal_data = (gpointer) 0x0
+	__PRETTY_FUNCTION__ = &#34;IA__g_closure_invoke&#34;
+#14 0xb70d3103 in signal_emit_unlocked_R (node=0x8145808, detail=834, instance=0x8199b40, emission_return=0x0, instance_and_params=0xbfeaf7dc) at gsignal.c:2440
+	tmp = &lt;value optimized out&gt;
+	handler = (Handler *) 0x8199bc0
+	accumulator = (SignalAccumulator *) 0x0
+	emission = {next = 0x0, instance = 0x8199b40, ihint = {signal_id = 1, detail = 834, run_type = G_SIGNAL_RUN_FIRST}, state = EMISSION_RUN, chain_type = 4}
+	class_closure = (GClosure *) 0x813d570
+	handler_list = (Handler *) 0x8199ba0
+	return_accu = (GValue *) 0x0
+	accu = {g_type = 0, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = 0, 
+      v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	signal_id = 1
+	max_sequential_handler_number = 21059
+	return_value_altered = 1
+#15 0xb70d4627 in IA__g_signal_emit_valist (instance=0x8199b40, signal_id=1, detail=834, var_args=0xbfeafa20 &#34;(ï¿½ï¿½ï¿½&#43;ï¿½Xï¿½ï¿½p\026\017ï¿½\001&#34;) at gsignal.c:2199
+	_flags = &lt;value optimized out&gt;
+	_vtable = &lt;value optimized out&gt;
+	_cvalues = {{v_int = -1075119724, v_long = -1075119724, v_int64 = -4617604067824567916, v_double = -0.84296452983817227, v_pointer = 0xbfeaf994}, {v_int = -1075119732, 
+    v_long = -1075119732, v_int64 = -4617604102184306292, v_double = -0.84296071514090576, v_pointer = 0xbfeaf98c}, {v_int = -1075119740, v_long = -1075119740, 
+    v_int64 = -5273339067324761724, v_double = -1.2146568987878483e-44, v_pointer = 0xbfeaf984}, {v_int = -1226923744, v_long = -1226923744, v_int64 = -5273371146587299552, 
+    v_double = -1.2066717091528314e-44, v_pointer = 0xb6dea120}, {v_int = -1075119717, v_long = -1075119717, v_int64 = -4617604256803128933, v_double = -0.84294354900321211, 
+    v_pointer = 0xbfeaf99b}, {v_int = 135581928, v_long = 135581928, v_int64 = 111804731624, v_double = 5.5238876937918802e-313, v_pointer = 0x814d0e8}, {v_int = 16859648, 
+    v_long = 16859648, v_int64 = 595102422213411328, v_double = 6.9008913061098664e-269, v_pointer = 0x1014200}, {v_int = 138551704, v_long = 138551704, 
+    v_int64 = 595023566735548824, v_double = 6.7948326898117826e-269, v_pointer = 0x8422198}}
+	_lcopy_format = &lt;value optimized out&gt;
+	_n_values = &lt;value optimized out&gt;
+	return_value = {g_type = 3070678964, data = {{v_int = -1217142424, v_uint = 3077824872, v_long = -1217142424, v_ulong = 3077824872, v_int64 = -5227586902576340632, 
+      v_uint64 = 13219157171133210984, v_float = -1.45364102e-05, v_double = -1.4263562170112904e-41, v_pointer = 0xb773e168}, {v_int = -1075119624, v_uint = 3219847672, 
+      v_long = -1075119624, v_ulong = 3219847672, v_int64 = -5258366656712082952, v_uint64 = 13188377416997468664, v_float = -1.83575344, v_double = -1.2627857471781593e-43, 
+      v_pointer = 0xbfeaf9f8}}}
+	error = &lt;value optimized out&gt;
+	instance_and_params = (GValue *) 0xbfeaf7dc
+	stack_values = {{g_type = 135641976, data = {{v_int = 135895872, v_uint = 135895872, v_long = 135895872, v_ulong = 135895872, v_int64 = 135895872, v_uint64 = 135895872, 
+        v_float = 4.62242582e-34, v_double = 6.7141481766839373e-316, v_pointer = 0x8199b40}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+        v_float = 0, v_double = 0, v_pointer = 0x0}}}, {g_type = 76, data = {{v_int = 135698944, v_uint = 135698944, v_long = 135698944, v_ulong = 135698944, v_int64 = 135698944, 
+        v_uint64 = 135698944, v_float = 4.53200092e-34, v_double = 6.7044186407335148e-316, v_pointer = 0x8169a00}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, 
+        v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}}}, {g_type = 3073873953, data = {{v_int = -1227804719, v_uint = 3067162577, v_long = -1227804719, 
+        v_ulong = 3067162577, v_int64 = -5244446727987974191, v_uint64 = 13202297345721577425, v_float = -6.23425194e-06, v_double = -1.0754067419314028e-42, 
+        v_pointer = 0xb6d12fd1}, {v_int = 135565464, v_uint = 135565464, v_long = 135565464, v_ulong = 135565464, v_int64 = -4617605084521131880, v_uint64 = 13829138989188419736, 
+        v_float = 4.47070991e-34, v_double = -0.84285165384473526, v_pointer = 0x8149098}}}, {g_type = 3219847224, data = {{v_int = -1221495780, v_uint = 3073471516, 
+        v_long = -1221495780, v_ulong = 3073471516, v_int64 = 588886061404484636, v_uint64 = 588886061404484636, v_float = -1.05770559e-05, v_double = 2.6636245453993798e-269, 
+        v_pointer = 0xb731741c}, {v_int = 138019304, v_uint = 138019304, v_long = 138019304, v_ulong = 138019304, v_int64 = -5273381113841450520, v_uint64 = 13173362959868101096, 
+        v_float = 5.59745798e-34, v_double = -1.2041906541584394e-44, v_pointer = 0x83a01e8}}}, {g_type = 24, data = {{v_int = 120, v_uint = 120, v_long = 120, v_ulong = 120, 
+        v_int64 = -5270012300546277256, v_uint64 = 13176731773163274360, v_float = 1.68155816e-43, v_double = -2.0427577183234377e-44, v_pointer = 0x78}, {v_int = -1075120040, 
+        v_uint = 3219847256, v_long = -1075120040, v_ulong = 3219847256, v_int64 = -5246355965352413096, v_uint64 = 13200388108357138520, v_float = -1.83570385, 
+        v_double = -7.7124768175945668e-43, v_pointer = 0xbfeaf858}}}, {g_type = 135565464, data = {{v_int = 138019304, v_uint = 138019304, v_long = 138019304, 
+        v_ulong = 138019304, v_int64 = 138019304, v_uint64 = 138019304, v_float = 5.59745798e-34, v_double = 6.8190596569319343e-316, v_pointer = 0x83a01e8}, {v_int = 16, 
+        v_uint = 16, v_long = 16, v_ulong = 16, v_int64 = -4617605084656697328, v_uint64 = 13829138989052854288, v_float = 2.24207754e-44, v_double = -0.84285163879394709, 
+        v_pointer = 0x10}}}, {g_type = 3067946940, data = {{v_int = -1075120008, v_uint = 3219847288, v_long = -1075120008, v_ulong = 3219847288, v_int64 = -5246293233060087688, 
+        v_uint64 = 13200450840649463928, v_float = -1.83570766, v_double = -7.8124151250649707e-43, v_pointer = 0xbfeaf878}, {v_int = 135565464, v_uint = 135565464, 
+        v_long = 135565464, v_ulong = 135565464, v_int64 = -4617605084521131880, v_uint64 = 13829138989188419736, v_float = 4.47070991e-34, v_double = -0.84285165384473526, 
+        v_pointer = 0x8149098}}}, {g_type = 17, data = {{v_int = -1221278182, v_uint = 3073689114, v_long = -1221278182, v_ulong = 3073689114, v_int64 = -5244446727981447654, 
+        v_uint64 = 13202297345728103962, v_float = -1.07749602e-05, v_double = -1.0754067429711402e-42, v_pointer = 0xb734c61a}, {v_int = -1226928140, v_uint = 3068039156, 
+        v_long = -1226928140, v_ulong = 3068039156, v_int64 = -5269597352097837068, v_uint64 = 13177146721611714548, v_float = -6.63287392e-06, 
+        v_double = -2.1460469396901604e-44, v_pointer = 0xb6de8ff4}}}, {g_type = 138558080, data = {{v_int = -1075119944, v_uint = 3219847352, v_long = -1075119944, 
+        v_ulong = 3219847352, v_int64 = -5273312533016807240, v_uint64 = 13173431540692744376, v_float = -1.83571529, v_double = -1.2212618349393773e-44, v_pointer = 0xbfeaf8b8}, 
+      {v_int = -1226923744, v_uint = 3068043552, v_long = -1226923744, v_ulong = 3068043552, v_int64 = 595102425264595232, v_uint64 = 595102425264595232, 
+        v_float = -6.63487299e-06, v_double = 6.9008954098747753e-269, v_pointer = 0xb6dea120}}}, {g_type = 135523440, data = {{v_int = -1226928140, v_uint = 3068039156, 
+        v_long = -1226928140, v_ulong = 3068039156, v_int64 = -5269597352097837068, v_uint64 = 13177146721611714548, v_float = -6.63287392e-06, 
+        v_double = -2.1460469396901604e-44, v_pointer = 0xb6de8ff4}, {v_int = 138558136, v_uint = 138558136, v_long = 138558136, v_ulong = 138558136, 
+        v_int64 = -4617604861179839816, v_uint64 = 13829139212529711800, v_float = 5.8448775e-34, v_double = -0.84287644970921516, v_pointer = 0x8423ab8}}}, {g_type = 3067178544, 
+    data = {{v_int = -1226923744, v_uint = 3068043552, v_long = -1226923744, v_ulong = 3068043552, v_int64 = 595102665782763808, v_uint64 = 595102665782763808, 
+        v_float = -6.63487299e-06, v_double = 6.9012189007069303e-269, v_pointer = 0xb6dea120}, {v_int = 138558080, v_uint = 138558080, v_long = 138558080, v_ulong = 138558080, 
+        v_int64 = 595102662853278336, v_uint64 = 595102662853278336, v_float = 5.84485179e-34, v_double = 6.9012149606233236e-269, v_pointer = 0x8423a80}}}, {g_type = 3219847384, 
+    data = {{v_int = 138558128, v_uint = 138558128, v_long = 138558128, v_ulong = 138558128, v_int64 = 595102422335109808, v_uint64 = 595102422335109808, 
+        v_float = 5.84487383e-34, v_double = 6.9008914697912332e-269, v_pointer = 0x8423ab0}, {v_int = 138551704, v_uint = 138551704, v_long = 138551704, v_ulong = 138551704, 
+        v_int64 = -4617604723740892776, v_uint64 = 13829139349968658840, v_float = 5.84192407e-34, v_double = -0.84289170849756356, v_pointer = 0x8422198}}}, {
+    g_type = 3073899388, data = {{v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, v_float = 0, v_double = 0, v_pointer = 0x0}, {v_int = -1075119880, 
+        v_uint = 3219847416, v_long = -1075119880, v_ulong = 3219847416, v_int64 = -5245098965863827208, v_uint64 = 13201645107845724408, v_float = -1.83572292, 
+        v_double = -9.7149925351583742e-43, v_pointer = 0xbfeaf8f8}}}, {g_type = 138558136, data = {{v_int = 138551744, v_uint = 138551744, v_long = 138551744, 
+        v_ulong = 138551744, v_int64 = -69242844132269632, v_uint64 = 18377501229577281984, v_float = 5.84194244e-34, v_double = -8.9149517805685256e&#43;303, v_pointer = 0x84221c0}, 
+      {v_int = -1221067908, v_uint = 3073899388, v_long = -1221067908, v_ulong = 3073899388, v_int64 = 3073899388, v_uint64 = 3073899388, v_float = -1.09662033e-05, 
+        v_double = 1.5187080863832325e-314, v_pointer = 0xb737fb7c}}}, {g_type = 0, data = {{v_int = -1075119704, v_uint = 3219847592, v_long = -1075119704, v_ulong = 3219847592, 
+        v_int64 = -5245111885125453400, v_uint64 = 13201632188584098216, v_float = -1.8357439, v_double = -9.6944109639638838e-43, v_pointer = 0xbfeaf9a8}, {v_int = 138539720, 
+        v_uint = 138539720, v_long = 138539720, v_ulong = 138539720, v_int64 = 595075037623612104, v_uint64 = 595075037623612104, v_float = 5.83642129e-34, 
+        v_double = 6.8640597278768296e-269, v_pointer = 0x841f2c8}}}, {g_type = 135949888, data = {{v_int = 135569616, v_uint = 135569616, v_long = 135569616, 
+        v_ulong = 135569616, v_int64 = 9223372032695378128, v_uint64 = 9223372032695378128, v_float = 4.47261641e-34, v_double = nan(0xfffff0814a0d0), v_pointer = 0x814a0d0}, {
+        v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 1168231104512, v_uint64 = 1168231104512, v_float = 0, v_double = 5.7718285514255407e-312, v_pointer = 0x0}}}}
+	free_me = (GValue *) 0x0
+	signal_return_type = 4
+	param_values = (GValue *) 0xbfeaf7f0
+	node = (SignalNode *) 0x8145808
+	i = 1
+	n_params = 1
+	__PRETTY_FUNCTION__ = &#34;IA__g_signal_emit_valist&#34;
+#16 0xb70d47e9 in IA__g_signal_emit (instance=0x8199b40, signal_id=1, detail=834) at gsignal.c:2243
+	var_args = 0xbfeafa1c &#34;&#34;
+#17 0xb70c6ba1 in g_object_dispatch_properties_changed (object=0x8199b40, n_pspecs=1, pspecs=0xbfeafa8c) at gobject.c:563
+	i = 1
+#18 0xb70c33ff in g_object_notify_dispatcher (object=0x8199b40, n_pspecs=1, pspecs=0xbfeafa8c) at gobject.c:245
+No locals.
+#19 0xb70c76e2 in IA__g_object_notify (object=0x8199b40, property_name=0xb773e168 &#34;color-hash&#34;) at gobjectnotifyqueue.c:123
+	nqueue = &lt;value optimized out&gt;
+	pspec = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;IA__g_object_notify&#34;
+#20 0xb75be204 in merge_color_scheme (settings=0x8199b40, value=&lt;value optimized out&gt;, source=&lt;value optimized out&gt;) at gtksettings.c:1849
+	data = (ColorSchemeData *) 0x8199930
+	colors = &lt;value optimized out&gt;
+#21 0xb75c0195 in _gtk_settings_handle_event (event=0x81bb250) at gtksettings.c:1460
+	value = {g_type = 64, data = {{v_int = 138558120, v_uint = 138558120, v_long = 138558120, v_ulong = 138558120, v_int64 = 138558120, v_uint64 = 138558120, 
+      v_float = 5.84487015e-34, v_double = 6.845680704434894e-316, v_pointer = 0x8423aa8}, {v_int = 0, v_uint = 0, v_long = 0, v_ulong = 0, v_int64 = 0, v_uint64 = 0, 
+      v_float = 0, v_double = 0, v_pointer = 0x0}}}
+	settings = (GtkSettings *) 0x8199b40
+	pspec = (GParamSpec *) 0x8185600
+#22 0xb7558b28 in IA__gtk_main_do_event (event=0x81bb250) at gtkmain.c:1446
+	event_widget = &lt;value optimized out&gt;
+	grab_widget = &lt;value optimized out&gt;
+	window_group = &lt;value optimized out&gt;
+	next_event = (GdkEvent *) 0x0
+	rewritten_event = &lt;value optimized out&gt;
+	tmp_list = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;IA__gtk_main_do_event&#34;
+#23 0xb734112a in gdk_event_dispatch (source=0x814f9a8, callback=0, user_data=0x0) at gdkevents-x11.c:2318
+	display = &lt;value optimized out&gt;
+	event = (GdkEvent *) 0x81bb250
+#24 0xb7050df2 in IA__g_main_context_dispatch (context=0x814f9f0) at gmain.c:2045
+No locals.
+#25 0xb7053dcf in g_main_context_iterate (context=0x814f9f0, block=1, dispatch=1, self=0x8166fb8) at gmain.c:2677
+	got_ownership = &lt;value optimized out&gt;
+	max_priority = 2147483647
+	timeout = 913
+	some_ready = 1
+	nfds = &lt;value optimized out&gt;
+	allocated_nfds = &lt;value optimized out&gt;
+	fds = (GPollFD *) 0x82b3b68
+	__PRETTY_FUNCTION__ = &#34;g_main_context_iterate&#34;
+#26 0xb7054179 in IA__g_main_loop_run (loop=0x82ad900) at gmain.c:2881
+	got_ownership = -1225714624
+	self = (GThread *) 0x8166fb8
+	__PRETTY_FUNCTION__ = &#34;IA__g_main_loop_run&#34;
+#27 0xb7559044 in IA__gtk_main () at gtkmain.c:1177
+	tmp_list = (GList *) 0xbfeafd64
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x812c138
+	loop = (GMainLoop *) 0x82ad900
+#28 0xb79b93d7 in Gtk::Main::run_impl (this=0xbfeafd64) at main.cc:534
+No locals.
+#29 0xb79b91c2 in Gtk::Main::run () at main.cc:481
+No locals.
+#30 0x080ac555 in GUI::main (this=0x812c138) at GUI.cc:233
+	kit = {&lt;sigc::trackable&gt; = {callback_list_ = 0x0}, _vptr.Main = 0xb7ae8f88, static signal_run_ = {&lt;No data fields&gt;}, static signal_quit_ = {&lt;No data fields&gt;}, 
+  static signal_key_snooper_ = {&lt;No data fields&gt;}, static instance_ = 0xbfeafd64}
+	display = 0x818d470 &#34;&#34;
+#31 0x080ca75c in run (argc=3, argv=0xbfeafe54) at main.cc:44
+	gui = (class GUI *) 0x812c138
+#32 0x080ca793 in main (argc=) at main.cc:56
+	ret = 0</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;May 14 2010 15:40:57 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 892 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

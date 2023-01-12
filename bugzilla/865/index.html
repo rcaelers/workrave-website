@@ -1,0 +1,325 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/865/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;865 - app-misc/workrave 1.9.0 Segmentation fault</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: UNIX</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.9.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P1 critical</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Oct 21 2009 04:16:02 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>wd</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Nov 27 2009 18:18:46 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Nov 27 2009 18:18:46 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>wd&nbsp;&nbsp;Oct 21 2009 04:16:02 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I use gentoo ~x86, kde 4.3.2. Beacuse workrave still not support kde 4, I installed workrave without gnome and kde support. 
+
+When I run workrave, I got &#39;Segmentation fault&#39;. Here is some info with debug symble.
+
+$ workrave 
+&gt;&gt;&gt; GUI:GUI
+&lt;&lt;&lt; GUI:GUI
+&gt;&gt;&gt; GUI::main
+&gt;&gt;&gt; Break:Break
+&lt;&lt;&lt; Break:Break
+&gt;&gt;&gt; Break:Break
+&lt;&lt;&lt; Break:Break
+&gt;&gt;&gt; Break:Break
+&lt;&lt;&lt; Break:Break
+&gt;&gt;&gt; Core::Core
+&lt;&lt;&lt; Core::Core
+&gt;&gt;&gt; Configurator::get_value general/datadir
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; ActivityMonitor::ActivityMonitor
+&gt;&gt;&gt; X11InputMonitor::run
+&gt;&gt;&gt; X11InputMonitor::run_xrecord
+&gt;&gt;&gt; X11InputMonitor::init_xrecord
+    X11InputMonitor::init_xrecord Trying XI
+    X11InputMonitor::init_xrecord XI Ok 77
+    X11InputMonitor::init_xrecord use_xrecord= 1
+&lt;&lt;&lt; X11InputMonitor::init_xrecord
+&lt;&lt;&lt; ActivityMonitor::ActivityMonitor
+&gt;&gt;&gt; Core::load_monitor_config
+&gt;&gt;&gt; Configurator::get_value monitor/noise
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value monitor/activity
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value monitor/idle
+&lt;&lt;&lt; Configurator::get_value
+    Core::load_monitor_config Monitor config = 9000 1000 5000
+&lt;&lt;&lt; Core::load_monitor_config
+&gt;&gt;&gt; GConfConfigurator::add_listener monitor
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Break::init
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/limit
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/snooze
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/monitor
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::enable micro_pause0
+&gt;&gt;&gt; Timer::stop_timer micro_pause0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&lt;&lt;&lt; Timer::enable
+&gt;&gt;&gt; Timer::stop_timer micro_pause2
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; GConfConfigurator::add_listener timers/micro_pause
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; GConfConfigurator::add_listener breaks/micro_pause
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/limit
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/limit
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/auto_reset
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/reset_pred
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/snooze
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/snooze
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/monitor
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/monitor
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/micro_pause/activity_sensitive
+&gt;&gt;&gt; Configurator::get_value timers/micro_pause/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/micro_pause/max_preludes
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/micro_pause/enabled
+&gt;&gt;&gt; Configurator::get_value breaks/micro_pause/enabled
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&lt;&lt;&lt; Break::init
+&gt;&gt;&gt; Break::init
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/limit
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/snooze
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/monitor
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::enable rest_break0
+&gt;&gt;&gt; Timer::stop_timer rest_break0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&lt;&lt;&lt; Timer::enable
+&gt;&gt;&gt; Timer::stop_timer rest_break2
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; GConfConfigurator::add_listener timers/rest_break
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; GConfConfigurator::add_listener breaks/rest_break
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/limit
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/limit
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/auto_reset
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/reset_pred
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/snooze
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/snooze
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/monitor
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/monitor
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/rest_break/activity_sensitive
+&gt;&gt;&gt; Configurator::get_value timers/rest_break/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/rest_break/max_preludes
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/rest_break/enabled
+&gt;&gt;&gt; Configurator::get_value breaks/rest_break/enabled
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&lt;&lt;&lt; Break::init
+&gt;&gt;&gt; Break::init
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/limit
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/snooze
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/monitor
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Timer::enable daily_limit0
+&gt;&gt;&gt; Timer::stop_timer daily_limit0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&lt;&lt;&lt; Timer::enable
+&gt;&gt;&gt; Timer::stop_timer daily_limit2
+&lt;&lt;&lt; Timer::stop_timer
+&gt;&gt;&gt; GConfConfigurator::add_listener timers/daily_limit
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; GConfConfigurator::add_listener breaks/daily_limit
+&lt;&lt;&lt; GConfConfigurator::add_listener
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/enabled
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/limit
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/limit
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/auto_reset
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/auto_reset
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/reset_pred
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/reset_pred
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/snooze
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/snooze
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/monitor
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/monitor
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value timers/daily_limit/activity_sensitive
+&gt;&gt;&gt; Configurator::get_value timers/daily_limit/activity_sensitive
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/daily_limit/max_preludes
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/max_preludes
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value breaks/daily_limit/enabled
+&gt;&gt;&gt; Configurator::get_value breaks/daily_limit/enabled
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&lt;&lt;&lt; Break::init
+&gt;&gt;&gt; Statistics::load_current_day
+&gt;&gt;&gt; Statistics::load
+&lt;&lt;&lt; Statistics::load
+&lt;&lt;&lt; Statistics::load_current_day
+&gt;&gt;&gt; Statistics::start_new_day
+    Statistics::start_new_day New day
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&gt;&gt;&gt; Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1256091364 0
+&lt;&lt;&lt; Statistics::start_new_day
+&gt;&gt;&gt; Statistics::load_history
+&gt;&gt;&gt; Statistics::load
+&lt;&lt;&lt; Statistics::load
+&lt;&lt;&lt; Statistics::load_history
+&gt;&gt;&gt; Configurator::get_value gui/operation-mode
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/micro_pause/ignorable_break
+&gt;&gt;&gt; Configurator::get_value gui/breaks/micro_pause/ignorable_break
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/micro_pause/exercises
+&gt;&gt;&gt; Configurator::get_value gui/breaks/micro_pause/exercises
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/rest_break/ignorable_break
+&gt;&gt;&gt; Configurator::get_value gui/breaks/rest_break/ignorable_break
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/rest_break/exercises
+&gt;&gt;&gt; Configurator::get_value gui/breaks/rest_break/exercises
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/daily_limit/ignorable_break
+&gt;&gt;&gt; Configurator::get_value gui/breaks/daily_limit/ignorable_break
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/daily_limit/exercises
+&gt;&gt;&gt; Configurator::get_value gui/breaks/daily_limit/exercises
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::set_value gui/breaks/block_mode
+&gt;&gt;&gt; Configurator::get_value gui/breaks/block_mode
+&lt;&lt;&lt; Configurator::get_value
+&lt;&lt;&lt; Configurator::set_value
+&gt;&gt;&gt; Configurator::get_value gui/locale
+&lt;&lt;&lt; Configurator::get_value
+&gt;&gt;&gt; System::init
+&gt;&gt;&gt; System::init_kde
+&lt;&lt;&lt; System::init_kde0
+    System::init Locking disabled
+&lt;&lt;&lt; System::init
+Segmentation fault
+
+
+I have tried the 1.9.1-rc zip file, still got &#39;Segmentation fault&#39; ..</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Nov 27 2009 18:18:46 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Should be fixed. Workrave crashed because no sound driver was available (needs gnome or gstreamer dev packages installed). You may want to install gstreamer-dev for sounds.
+
+(commit 7c1dbbd1257947106eff1af2e56d3a3ecfb10a4f)</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

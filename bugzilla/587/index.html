@@ -1,0 +1,281 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/587/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;587 - Vista: Workrave not modal / coming to front</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: Win32</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>0.1.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Windows Vista</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Ray Satiro</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Jan 30 2007 10:59:22 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Sander Goudswaard</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>May 13 2009 03:28:10 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Marcin Zajaczkowski</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Ray Satiro</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Scott McDermott</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Jeroen van Onzen</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>wouter</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=attachments-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#attachments-content aria-expanded=false aria-controls=attachments-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments</button></h5><div class=collapse id=attachments-content aria-labelledby=attachments-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Id</th><th scope=col>Who</th><th scope=col>When</th><th scope=col>Size</th><th scope=col>Type</th></tr></thead><tbody><tr><th scope=row rowspan=2>125</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-125.png>Process Explorer column info for DLLs</a><br><img src=https://workrave.org/bugzilla/attachments/attachment-125.png class="img-fluid img-thumbnail pt-2" alt="Process Explorer column info for DLLs"></td></tr><tr><td>Ray Satiro</td><td>Feb 27 2008 18:59:59 UTC</td><td>13892</td><td>image/png</td></tr><tr><th scope=row rowspan=2>126</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-126.txt>Windows Vista x64 log-file</a><tr><td>Jeroen van Onzen</td><td>Feb 28 2008 09:30:03 UTC</td><td>9328</td><td>text/plain</td></tr><tr><th scope=row rowspan=2>142</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-142.txt>gdkWindowTemp pop under fixed midway</a><tr><td>Ray Satiro</td><td>Aug 21 2008 02:56:18 UTC</td><td>49896</td><td>text/plain</td></tr></tbody></table></div></div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Ray Satiro</th><td rowspan=1>Mar 25 2007 20:07:00 UTC</td><td>cc</td><td></td><td>Ray Satiro</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:04:03 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=1>Ray Satiro</th><td rowspan=1>Sep 19 2007 23:19:39 UTC</td><td>assigned_to</td><td>Raymond Penners</td><td>Ray Satiro</td></tr><tr><th scope=row rowspan=3>Sander Goudswaard</th><td rowspan=3>Sep 20 2007 23:14:07 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><td>version</td><td>1.8.3</td><td>0.1.0</td></tr><tr><th scope=row rowspan=1>Jeroen van Onzen</th><td rowspan=1>Feb 27 2008 12:30:37 UTC</td><td>cc</td><td></td><td>Jeroen van Onzen</td></tr><tr><th scope=row rowspan=2>Ray Satiro</th><td rowspan=2>Mar 2 2008 04:27:08 UTC</td><td>status</td><td>RESOLVED</td><td>REOPENED</td></tr><tr><td>resolution</td><td>FIXED</td><td></td></tr><tr><th scope=row rowspan=1>Ray Satiro</th><td rowspan=1>Jun 24 2008 05:53:45 UTC</td><td>cc</td><td></td><td>Scott McDermott</td></tr><tr><th scope=row rowspan=1>wouter</th><td rowspan=1>Aug 20 2008 12:03:29 UTC</td><td>cc</td><td></td><td>wouter</td></tr><tr><th scope=row rowspan=1>Marcin Zajaczkowski</th><td rowspan=1>Nov 27 2008 21:49:55 UTC</td><td>cc</td><td></td><td>Marcin Zajaczkowski</td></tr><tr><th scope=row rowspan=2>Ray Satiro</th><td rowspan=2>May 13 2009 03:28:10 UTC</td><td>status</td><td>REOPENED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Jan 30 2007 10:59:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>On Windows Vista, Workrave does not always come to the front. This means users hear the sound of them needing some kind of break, but do not get alerted properly.
+When a forced break occurs, the keyboard is blocked, but users cannot access the &#39;postpone&#39; or &#39;skip&#39; buttons since these are behind other windows.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Mar 25 2007 20:07:00 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have that problem also. You can minimize the active window from your taskbar (right-click &amp; minimize). Sometimes you will find Workrave hiding behind it. That  doesn&#39;t always work though, I&#39;m guessing because the screen is supposed to be locked.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Apr 7 2007 05:26:21 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I am now running 20070404, but I have the same problem. I have been able to work around it with the right-click&gt;minimize, but that doesn&#39;t work when I&#39;m using a full-screen remote desktop. Do you think this could be solved with SetForegroundWindow on keydown?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Sep 19 2007 23:19:39 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>The break warning not coming to the front should be fixed in 1.8.5
+The break window comes to the front in all my recent testing.
+
+Please try 1.8.5
+If the break window still doesn&#39;t come to the front, there is an undocumented feature you can use to force the focus on it, &#34;popping&#34; it to the top (hopefully).
+
+Also, you can CTRL&#43;ALT&#43;DEL to start taskmgr and end task on Workrave 1.8.5 if it locks up on you.
+
+It&#39;s important that you let us know if you still have this problem with 1.8.5
+
+--
+
+Please try Workrave 1.8.5, and tell us if you experience the same problem.
+
+http://superb-west.dl.sourceforge.net/sourceforge/workrave/workrave-win32-1.8.5-installer.exe
+1b732b368fae346712f55c013fd86e93 *workrave-win32-1.8.5-installer.exe
+
+Thanks,
+
+Ray
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Sep 20 2007 23:14:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This seems to be fixed in 1.8.5. There are some other Vista issues now but that needs a new bug: color of selected item in menus is white-on-white, and when right clicking the toolbar item and selecting a Workrave menu option does not result in a dialog to be opened.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Sep 21 2007 05:31:25 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Workrave menu selection doesn&#39;t work? I just installed 1.8.5, and the menu works for me. Is that a problem all the time or intermittent? If you could click &#34;About...&#34; to see if you&#39;re running 1.8.5... if you can&#39;t let me know.
+
+The combobox issue we know about, filed as bug #580. Working on that.
+
+
+If you see the break or warning window pop under again let us know by adding another comment here. That has been a pita to trace. It&#39;s probably a bug in gtk and not in workrave.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Jeroen van Onzen&nbsp;&nbsp;Feb 27 2008 12:30:37 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi guys,
+
+I am running Windows Vista x64 here, and I have the same problem here with version 1.8.5. I don&#39;t know how I can give you more detailed information, except it looks like it mostly occurs in Visual Studio (2008). 
+
+If you need any more information, please feel free to contact me. I added myself as a cc to this list.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Feb 27 2008 18:59:59 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 125
+Process Explorer column info for DLLs
+
+Thank you for your report, we can definitely use your help. The fix in Workrave 1.8.5 is really more of a hack. We believe the cause of the problem is in the GTK libs. I would like to check your GTK libs. Please download Microsoft&#39;s Sysinternals Suite of tools.
+
+http://technet.microsoft.com/en-us/sysinternals/0e18b180-9b7a-4c49-8120-c47c5a693683.aspx
+069307146086d91b7ccf154cb0cd57a9  SysinternalsSuite 2-26-2008.zip
+The files are digitally signed by Microsoft.
+
+Run Process Explorer (procexp.exe). You will need admin privileges.
+File &gt; Show Details for All Processes
+
+View &gt; Select Columns... &gt; DLL Tab
+Make sure the following attributes are selected:
+Description, Version, Name, Path, Company Name
+
+Select the Workrave.exe process and press CTRL &#43; D. The lower pane will open with a list of DLLs. Press CTRL &#43; A to save the data to something like workrave.exe.txt.
+
+Open the data file in notepad or something similar. You can delete the first half of the information because it contains what you may consider private information ( a list of your processes ). Delete from the beginning until you reach this point:
+&#34;Process: Workrave.exe Pid: XXXX&#34;
+everything below that is workrave DLL info, and that&#39;s what I want. Please upload that file to this thread. 
+
+Thanks,
+
+Ray</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Jeroen van Onzen&nbsp;&nbsp;Feb 28 2008 09:30:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 126
+Windows Vista x64 log-file
+
+As requested. Please note that the solution sometimes works and this is a multiprocessor 64-bit machine.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Mar 2 2008 04:27:08 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Jeroen ,
+
+The GTK libs loaded by your Workrave are the same as those distributed with release 1.8.5. Thank you for that information.
+
+If you&#39;re game, you can try a newer version of the GTK libs distributed in a recent Workrave nightly. You&#39;d keep using the 1.8.5 executable, and other 1.8.5 components. In my tests Statistics has some problems but everything else is OK.
+
+Please use this hybrid version exactly as you have been using 1.8.5
+
+Here is how you can create it.
+
+- Exit Workrave! You must exit Workrave. 
+
+- Download and unzip my attachment to a new temporary directory, e.g. c:\temp\newgtk
+http://myfreefilehosting.com/f/e806c537c7_6.43MB
+8877a2459ac0da7da5f3b9ac573ac19c  GTK 20080302.zip
+
+- Open an administrator command prompt
+
+- Switch to your Workrave directory, and backup the lib subdirectory.
+C:\Program Files (x86)\Workrave&gt;xcopy /E /I /H lib lib.bak
+
+- Replace most of lib by overwriting with the new gtk files
+C:\Program Files (x86)\Workrave&gt;xcopy /E /I /H /R /Y c:\temp\newgtk lib
+
+- Start Workrave. If you experience problems other than what is covered in this thread, please exit workrave and then revert to the GTK libs included with 1.8.5 by copying lib.bak to lib:
+
+C:\Program Files (x86)\Workrave&gt;xcopy /E /I /H /R /Y /C lib.bak lib
+
+
+Thanks, 
+
+Ray
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 10</div><div class=float-left>Jeroen van Onzen&nbsp;&nbsp;Mar 3 2008 11:46:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi Ray,
+
+i am testing right now. I will leave a message next week, if everything works fine, or the problem still occurs.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 11</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Jun 24 2008 05:53:45 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 573 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 12</div><div class=float-left>wouter&nbsp;&nbsp;Aug 20 2008 12:03:29 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This still happens on Vista, using WR 1.9. </pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 13</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Aug 21 2008 02:56:18 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 142
+gdkWindowTemp pop under fixed midway
+
+(In reply to comment #12)
+&gt; This still happens on Vista, using WR 1.9. 
+&gt; 
+
+Confirmed on Vista SP1 using 1.9 build. Comes and goes. Remarkably, I cannot make the pop-unders come to the front when using my own code in a separate module. However, if I debug using Winspector and I set the pop-under extended style WS_EX_TOPMOST from Winspector, the window will pop to the front. It does not come to the front any other way.
+
+I remember debugging this issue last year and I thought it had something to do with the way gdk base inserts window handles in the table. This is why hidden IME windows were showing up sticky. There is the related issue of the phantom parent windows, that was (solved..) last year (garbage pointer?). My memory is kind of foggy on this now, but I also remember a workaround had to do with window hints, or changing the type of window? I don&#39;t know if my patch for that made it to any previous revisions though.
+
+Thank you for reporting, we&#39;ll look into this some more.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 14</div><div class=float-left>wouter&nbsp;&nbsp;Aug 21 2008 09:53:31 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>If I need to test something, I&#39;ll be glad to help.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 15</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Oct 24 2008 08:30:04 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have seen this issue happening intermittently and on multiple PCs. It manifests itself by the fact that the user is suddenly unable to use his keyboard/mouse, apparently because Workrave is having a break behind all other windows.
+
+Please advise how this could be resolved as soon as possible, I also don&#39;t see any progress in nightly builds so am unsure whether this has been fixed in some code line already.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 16</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Oct 24 2008 19:20:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I am testing hacks. I do not know the cause of the bug. I cannot reliably reproduce the problem (usually that means memory corruption somewhere).
+I&#39;m corresponding with Wouter via e-mail, and I&#39;ll let you know when I have a simple app that will work to bump the window to the front. Traditional methods don&#39;t work.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 17</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Nov 18 2008 06:39:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Workrave continually calls SetWindowPos() with HWND_TOPMOST, but the target window is not and does not appear topmost. Its position in the z-order does not change, and the window does not have the WS_EX_TOPMOST bit in either extended style result returned from GetWindowLong() &amp; GetWindowInfo().
+
+Calling SetWindowPos() with HWND_TOPMOST from a different app does not work to set the target window topmost, and WS_EX_TOPMOST will not be set. Calling SetWindowLong() using WS_EX_TOPMOST and then updating with a frame change does not set the bit or the window topmost (see next paragraph). Calling the same SetWindowPos() function with HWND_TOPMOST after calling for the aforementioned frame change does not set the bit or the window topmost.
+
+As mentioned earlier in this thread, using Winspector to set the WS_EX_TOPMOST extended style does in fact set the WS_EX_TOPMOST bit and the target window becomes topmost. The reasons for this are unknown. I have written the author of Winspector several times requesting more information on what his program does differently when it sets the style, but I have not received a reply. I debugged the program but that proved to be more trouble than it was worth.
+
+
+
+workrave trace:
+
+WindowHints::set_always_on_top( [target gtk window], true )
+...target window is cast as HWND type...
+W32Compat::SetWindowOnTop( hwnd, true )
+SetWindowPos( hwnd, HWND_TOPMOST 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE )
+SetWindowPos() returns success.
+
+Regardless of whether or not the bug is present, there is no difference in the trace. The gtk window (i.e. a break window, or a warning window, etc) is always properly identified and cast as hwnd.
+
+
+
+Here&#39;s a look at the break warning popup (prelude) when the bug is present:
+
+Window text: Workrave.exe
+Window class name: gdkWindowTemp
+Window styles: WS_POPUP WS_CLIPCHILDREN WS_CLIPSIBLINGS WS_VISIBLE
+Window extended styles differ; both return WS_EX_TOOLWINDOW but GetWindowInfo() also returns the unknown extended style of 0x00000800 (Unknown).
+
+prelude window == hwnd
+GetWindow( hwnd, GW_OWNER ) == 0x0
+GetWindowLong( hwnd, GWL_HWNDPARENT ) == 0x0
+GetParent( hwnd ) == 0x0
+GetAncestor( hwnd, GA_PARENT ) == 0x10010 == [desktop window]
+GetAncestor( hwnd, GA_ROOT ) == hwnd
+GetAncestor( hwnd, GA_ROOTOWNER ) == hwnd
+
+Both extended styles are missing WS_EX_TOPMOST, and the GetWindowInfo() extended style result is also missing 0x20000000 (unknown).
+
+
+
+I watched the z-order looking for the target window and I caught something that I didn&#39;t notice (or pay attention to) in prior debugging sessions. Although the target window&#39;s position does not change, there is an IME window associated with / owned by the target window that is made topmost. Its position in the z-order is 0 and it has the WS_EX_TOPMOST bit. Here&#39;s a look:
+
+Window text: Default IME
+Window class name: IME
+Window styles:  WS_POPUP WS_CLIPSIBLINGS WS_DISABLED 
+Window extended styles: WS_EX_TOPMOST
+
+ime window == hwnd
+GetWindow( hwnd, GW_OWNER ) == [prelude window]
+GetWindowLong( hwnd, GWL_HWNDPARENT ) == [prelude window]
+GetParent( hwnd ) == [prelude window]
+GetAncestor( hwnd, GA_PARENT ) == 0x10010 == [desktop window]
+GetAncestor( hwnd, GA_ROOT ) == hwnd
+GetAncestor( hwnd, GA_ROOTOWNER ) == [prelude window]
+
+
+
+I focused on the IME window this time, as opposed to previous watches. I found that when the bug is not present and the target window becomes topmost, there is a difference in the window messages received.
+
+Sending this message to the target window when the bug is present and then calling SetWindowPos() with HWND_TOPMOST works to make the target window topmost. The message is:
+ret = SendMessage( hwnd, 0x287, 0x17/*0x18*/, (LPARAM)hwnd );
+
+I don&#39;t know what sending message 0x287 is really intended for and I can&#39;t find any documentation. It&#39;s not handled by Workrave. I also worked on other alternatives to make the window topmost. Here&#39;s what worked:
+
+
+============================================================
+
+SetWindowPos( 0x70758, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE );
+
+0: Default IME (IME) (0x310b98)
+245: Workrave.exe (gdkWindowTemp) (0x70758)
+
+SendMessage( 0x70758, 0x287, 0x17/*0x18*/, (LPARAM)0x70758 );
+SetWindowPos( 0x70758, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_FRAMECHANGED );
+
+0: Workrave.exe (gdkWindowTemp) (0x70758)
+348: MSCTFIME UI (MSCTFIME UI) (0x60d80)
+349: Default IME (IME) (0x310b98)
+
+============================================================
+
+SetWindowPos( 0xf0d06, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE );
+
+0: Default IME (IME) (0x60d92)
+245: Workrave.exe (gdkWindowTemp) (0xf0d06)
+
+SetWindowPos( 0xf0d06, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_FRAMECHANGED );
+
+244: Default IME (IME) (0x60d92)
+245: Workrave.exe (gdkWindowTemp) (0xf0d06)
+
+SetWindowPos( 0xf0d06, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_FRAMECHANGED );
+
+0: Default IME (IME) (0x60d92)
+1: Workrave.exe (gdkWindowTemp) (0xf0d06)
+
+============================================================
+
+SetWindowPos( 0xb0712, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE );
+
+0: Default IME (IME) (0xb0c94)
+251: Workrave.exe (gdkWindowTemp) (0xb0712)
+
+SetWindowPos( 0xb0712, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOOWNERZORDER );
+
+0: Default IME (IME) (0xb0c94)
+1: Workrave.exe (gdkWindowTemp) (0xb0712)
+
+============================================================
+
+
+
+
+I&#39;ll have a temporary patch soon using one of the above workarounds. An apparent solution would be to disable the IME window message filter -- thus disabling IME -- for Workrave. I don&#39;t know if that will be acceptable considering Workrave&#39;s international reach, however.
+
+The cause of this issue is unknown.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 18</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Jan 12 2009 21:30:58 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Ray, what is the patch status? Anything we can test (better: use to get rid of the issue)?
+It&#39;s 6 months since the last public build so an update would be appreciated.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 19</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Jan 12 2009 22:04:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I will send the latest patch to Rob tonight and request that it be incorporated into the trunk.
+
+Thanks,
+
+Ray</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 20</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Feb 2 2009 07:40:50 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fix applied. Please try this recent build and tell us if you experience the same problem.
+
+http://www.workrave.com/download/snapshots/20090127/workrave-win32-v1_9-20090127-installer.exe
+
+Networking (add host) is broken in this build. If you do not want to install this build over your current build, you can use Universal Extractor to extract the installer files and run workrave.exe from the {app}\lib directory.
+
+http://download.c1pher.com/uniextract16.exe
+
+File hashes:
+
+10507480,1096feda12b57aa68726728ac25d4a43,e23005fb2702855abc09f683899bfef531719e872a1cc2d5604934f4e0f8d03d,workrave-win32-v1_9-20090127-installer.exe
+
+5222759,bd504eb40f1cfdd64bdeee246e45843d,ccc9e2c19ec3b41388a3fa93fa6a462fde69e16736637052dddce398d949a85b,uniextract16.exe
+
+If you do not have a hash utility use sigcheck (digitally signed by microsoft) or md5deep/hashdeep.
+
+
+Thanks,
+
+Ray</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 21</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Feb 3 2009 11:59:27 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I can confirm it works. However Workrave is not very stable. It now crashed twice today, the last time while being in the rest break (perhaps during the change of the exercises window to the &#39;break&#39; window, not sure since I left my desk).
+
+My workrave.txt file from the c:\temp dir contains the following:
+
+Tue Feb 03 08:10:43 2009
+08:10:43 AM:	Core::set_operation_mode(): OPERATION_MODE_NORMAL 
+08:10:44 AM:	Workrave started and initialized: Entering event loop.
+08:18:40 AM:	PreludeWindow created: 0xf0456
+
+
+Tue Feb 03 08:22:53 2009
+08:22:53 AM:	Core::set_operation_mode(): OPERATION_MODE_NORMAL 
+08:23:02 AM:	Workrave started and initialized: Entering event loop.
+08:32:10 AM:	PreludeWindow created: 0x10634
+08:32:19 AM:	BreakWindow created: 0x20634
+10:02:30 AM:	PreludeWindow created: 0x807dc
+10:02:40 AM:	BreakWindow created: 0x907dc
+11:52:01 AM:	PreludeWindow created: 0xd00d4
+11:52:10 AM:	BreakWindow created: 0xe00d4</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 22</div><div class=float-left>Sander Goudswaard&nbsp;&nbsp;Feb 3 2009 15:13:11 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This now happens all day, reproduced on 2 computers with Vista SP1. It happens during a window being displayed, be it micro break or reminder for rest break.
+I also saw a window from the C&#43;&#43; library that the &#39;application has terminated in unusual way&#39;.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 23</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Feb 7 2009 23:31:27 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Sander and I have discussed the stability issue via e-mail. It is related to a bug in Workrave that is present when there is a lack of soundcard/ sound output. It is not related to this bug.
+
+If you can, please test the 0127 nightly. Thanks</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 24</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Mar 12 2009 05:18:14 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This is the final call for testing. If you have tested the nightly build and a break window did not come to the front please let me know. In all my testing the break windows come to the front. Barring any incidents I intend to close this bug as resolved, and the fix will be in the next release.
+
+Thanks,
+
+Ray</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 25</div><div class=float-left>wouter&nbsp;&nbsp;Mar 12 2009 08:51:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I did test it, and it seems to work a lot  better now. I think it&#39;s resolved indeed. I will reopen it if I see the behaviour again. Thanks!</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

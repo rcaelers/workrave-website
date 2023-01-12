@@ -1,0 +1,39 @@
+diff -aur workrave-1.8.3.orig/frontend/common/share/sounds/Makefile.am workrave-1.8.3/frontend/common/share/sounds/Makefile.am
+--- workrave-1.8.3.orig/frontend/common/share/sounds/Makefile.am	2006-07-31 10:50:33.000000000 +0800
++++ workrave-1.8.3/frontend/common/share/sounds/Makefile.am	2006-07-31 18:26:08.000000000 +0800
+@@ -22,7 +22,7 @@
+ 
+ if HAVE_KDE
+ 
+-kdesoundsdir = 		$(kde_sounddir)
++kdesoundsdir = 		$(kde_sounddir)/workrave
+ kdesounds_DATA = 	$(wildcard *.wav)
+ 
+ eventsrc: eventsrc.in
+diff -aur workrave-1.8.3.orig/frontend/common/share/sounds/Makefile.in workrave-1.8.3/frontend/common/share/sounds/Makefile.in
+--- workrave-1.8.3.orig/frontend/common/share/sounds/Makefile.in	2006-07-31 10:50:33.000000000 +0800
++++ workrave-1.8.3/frontend/common/share/sounds/Makefile.in	2006-07-31 18:26:21.000000000 +0800
+@@ -420,7 +420,7 @@
+ utils_in_files = workrave.soundlist.in
+ utils_DATA = $(utils_in_files:.soundlist.in=.soundlist)
+ EXTRA_DIST = ${sounds_DATA} $(utils_DATA) workrave.soundlist.in eventsrc.in
+-@HAVE_KDE_TRUE@kdesoundsdir = $(kde_sounddir)
++@HAVE_KDE_TRUE@kdesoundsdir = $(kde_sounddir)/workrave
+ @HAVE_KDE_TRUE@kdesounds_DATA = $(wildcard *.wav)
+ @HAVE_KDE_TRUE@rcdir = $(kde_datadir)/kworkrave
+ @HAVE_KDE_TRUE@rc_DATA = eventsrc
+diff -aur workrave-1.8.3.orig/frontend/common/src/kde/KdeSoundPlayer.cc workrave-1.8.3/frontend/common/src/kde/KdeSoundPlayer.cc
+--- workrave-1.8.3.orig/frontend/common/src/kde/KdeSoundPlayer.cc	2006-07-31 10:50:33.000000000 +0800
++++ workrave-1.8.3/frontend/common/src/kde/KdeSoundPlayer.cc	2006-07-31 10:51:25.000000000 +0800
+@@ -31,7 +31,7 @@
+ 
+ KdeSoundPlayer::KdeSoundPlayer()
+ {
+-  kinstance = new KInstance("Workrave");
++  kinstance = new KInstance("kworkrave");
+ }
+ 
+ KdeSoundPlayer::~KdeSoundPlayer()
+Only in workrave-1.8.3/frontend/gtkmm/win32/setup: lang.iss
+Only in workrave-1.8.3: libtool
+Only in workrave-1.8.3: subdirs

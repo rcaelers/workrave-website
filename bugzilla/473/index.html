@@ -1,0 +1,210 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/473/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;473 - Third mode requested...ability to reset timer without suspending it.</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 enhancement</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Aug 5 2005 01:53:24 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Sam</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>May 20 2012 15:45:22 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>jmb</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Atis</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:03:49 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=1>Atis</th><td rowspan=1>Mar 20 2008 13:14:48 UTC</td><td>cc</td><td></td><td>Atis</td></tr><tr><th scope=row rowspan=1>jmb</th><td rowspan=1>May 20 2012 15:45:22 UTC</td><td>cc</td><td></td><td>jmb</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Sam&nbsp;&nbsp;Aug 5 2005 01:53:24 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Today from what I can tell using workrave, there are two major modes of
+operation for the rest break.
+
+The first counts down the time between breaks (e.g. 20 minutes) and will
+continue counting down even if I get up to get some coffee when I&#39;m in the
+middle of the 20 minutes.  It will also never reset itself....I could get up to
+get the coffee for six minutes, and it will still be counting down (assume a
+break duration of four minutes for these examples).
+
+The second mode is gotten by clicking &#34;suspend timer when inactive&#34;.  This one
+option does two things:
+
+1)  When I get up to get my coffee, after a few seconds, it will suspend the
+timer until I come back and start typing.
+
+2)  After the timer has been suspended for four minutes (my break duration), it
+will reset the timer back to 20 minutes (its time between breaks).
+
+These are two distinct features.  In fact, I believe drwright (now
+gnome-typing-monitor) and xwrits both implement only feature number two, and not
+feature number one.
+
+I&#39;d like to be able to turn feature number two on without turning on number one.
+ This will make me take more breaks, but also allow me the full 20 minutes more
+often so I can in fact, get some work done.
+
+There are also probably some people who would want to turn on feature number
+one, and not number two.  Why?  
+
+They may not consider any time away from the computer a break, unless they do
+their excercises.
+
+Can we please split out these behaviors they can be selected independently?
+
+Thanks!1</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Aug 5 2005 03:54:47 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi,
+
+(In reply to comment #0)
+&gt; 1)  When I get up to get my coffee, after a few seconds, it will suspend the
+&gt; timer until I come back and start typing.
+&gt; 
+&gt; 2)  After the timer has been suspended for four minutes (my break duration), it
+&gt; will reset the timer back to 20 minutes (its time between breaks).
+
+[...]
+
+&gt; I&#39;d like to be able to turn feature number two on without turning on number one.
+&gt;  This will make me take more breaks, but also allow me the full 20 minutes more
+&gt; often so I can in fact, get some work done.
+
+I&#39;m a bit confused why this would be so.
+
+When I look at my own computer usage, there are times when I&#39;m not using the
+computer because workrave tells me to, and there are times when I&#39;m not using
+the computer for some other reason (Get coffee, go to the bathroom, meeting,
+colleague asking a question, stuff like that).
+
+Assuming I do not change my behaviour (i.e. take coffee, go to bathroom, at the
+same times), turning of feature 2 goes through the 20 minutes faster, and hence
+results in more forced breaks, resulting in less work getting done.
+
+Can you please clarify?
+
+Groetjes,
+
+Kees-Jan
+
+
+Assuming your work pattern doesn&#39;t change 
+&gt; 
+&gt; There are also probably some people who would want to turn on feature number
+&gt; one, and not number two.  Why?  
+&gt; 
+&gt; They may not consider any time away from the computer a break, unless they do
+&gt; their excercises.
+&gt; 
+&gt; Can we please split out these behaviors they can be selected independently?
+&gt; 
+&gt; Thanks!1</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Sam&nbsp;&nbsp;Aug 5 2005 04:37:57 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Okay, sorry if I was confusing....
+
+Let me start from scratch...what I want is to maximize my number of 20 minute
+work periods:
+
+If I ever type more than 20 minutes without a four minute break to recover, my
+hands get worse.  Therefore, the suspend timer when inactive is bad.  I could
+easily have thirty minutes of typing punctuated by a lot of looking at
+documentation at thirty seconds each.  But I wouldn&#39;t get the four minutes break
+my body needed each 20 minutes. 
+
+Now, if I don&#39;t have the suspend timer on, I could get up to talk to a colleague
+at minute 13, and come back and be at minute six.  But minute 6 is useless,
+because it would take me at least three or four minutes to figure out where I am
+in my programming.  I need 20 minutes at that point to maximize my productivity.
+
+Does that do a better job of explaining the problem I&#39;m trying to solve?
+
+Thanks again.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Atis&nbsp;&nbsp;Mar 20 2008 13:14:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This is what i wanted to suggest.
+
+After voluntary rest break (if i was away long enough to count it as break), and my activity before break was more than half of working time between rest breaks Workrave could show exercise player.
+
+So it would be like this - i set up rest break every hour for 6 minutes.
+
+A:
+1) i work for hour
+2) workrave forces me to take rest break
+
+B:
+1) i work for 20 minutes,
+2) i go away for 2 minutes - workrave suspends timer for those 2 minutes
+
+C:
+1) i work for 20 minutes
+2) i go away for 10 minutes - workrave restarts timer (10&gt;6)
+
+D:
+1) i work for 40 minutes (40&gt;60/2)
+2) i go away for 10 minutes (10&gt;6)
+3) when i come back - workrave asks me to do exercises
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Mar 20 2008 14:00:30 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I am very confused now. This bug is three years old, and I realise now that I never understood what the submitter wanted (my apologies for not asking more questions).
+
+As far as I can tell, you are someone else, and you want something different. It would have been best to start a new bug.
+
+Anyway. To reduce stress when using the computer (stress is an important factor in RSI related conditions), it is important that the computer behaves predictably and the user feels in control. In that respect, workrave&#39;s approach of blocking the user from using the computer is somewhat doubtful (because it reduces user control), hence we aim at being as unobtrusive and predictable as possible. Plus there is a body of research suggesting that forcing the user to take a break sometimes is a good idea.
+
+Note that as an RSI-sufferer, I have never done the exercises workrave suggests. Instead, I&#39;ve been doing exercises suggested by my therapist. Sometimes at the exact time workrave suggests doing exercises, sometimes at wildly different times.
+
+On to your suggestion:
+When a user arrives at his computer, it is reasonable to assume he wants to do something with it. If he&#39;d wanted to do exercises, he would not be at his computer, but somewhere else. Hence, suggesting a user to do exercises after he just arrived at the computer is (IMHO) a bad idea, much more so that occasionally telling the user to take a break, simply because he will feel very much out of control.
+
+Additionally: When a user leaves the computer, he will likely not know whether he has worked more or less than half the time between breaks. Hence, he will not be able to predict whether or not he will be asked to do exercises when he returns. Suggesting a user to do breaks only half of the time, like you suggest, reduces the predictability of your computer. I&#39;m not sure that is a good idea either.
+
+I&#39;m not sure what exactly would be the benefits of your suggestion. Yes, the user will do more exercises, but he will also suffer more stress. I guess research has to show which is best.
+
+Groetjes,
+
+Kees-Jan
+
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Mar 20 2008 14:19:34 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to comment #2)
+&gt; Okay, sorry if I was confusing....
+&gt; 
+&gt; Let me start from scratch...what I want is to maximize my number of 20 minute
+&gt; work periods:
+&gt; 
+&gt; If I ever type more than 20 minutes without a four minute break to recover, my
+&gt; hands get worse.  
+
+This part, I understand ;-)
+
+&gt; Therefore, the suspend timer when inactive is bad.  I could
+&gt; easily have thirty minutes of typing punctuated by a lot of looking at
+&gt; documentation at thirty seconds each.  But I wouldn&#39;t get the four minutes
+&gt; break my body needed each 20 minutes. 
+
+This part, I am not so sure about.
+
+When you have &#34;suspend timer when inactive&#34; turned on, you&#39;ll never have thirty minutes of typing punctuated by a lot of looking at documentation.
+
+You&#39;ll have thirty minutes of _working_, consisting of a maximum of twenty minutes of _typing_, and at least twenty times looking at documentation at thirty seconds each.
+
+Put it differently: You&#39;ll be asked to take a break each time you _type_ twenty minutes, regardless of how much reading you do in between. Of course, if you stop typing to read documentation, the (wall clock) time between breaks will increase, but that&#39;s only fair since you are not typing all of the time.
+
+Then again, if you think it is not fair that time between breaks increases, then you should not enable &#34;suspend timer when inactive&#34;.
+
+&gt; Now, if I don&#39;t have the suspend timer on, I could get up to talk to a 
+&gt; colleague
+&gt; at minute 13, and come back and be at minute six.  But minute 6 is useless,
+&gt; because it would take me at least three or four minutes to figure out where I &gt; am in my programming.  I need 20 minutes at that point to maximize my 
+&gt; productivity.
+
+If you leave with 13 minutes remaining, and arrive back 7 minutes later, as you suggest, you&#39;ll have 20 minutes remaining, because the 7 minutes you spent away is longer than the 4 minutes your break would have taken. Hence workrave assumes you have been taken a break.
+
+So, to arrive in a situation where you have 6 minutes remaining, you either have to be working continuously, or be away from the computer for shorter intervals than 4 minutes.
+
+Still, I can see how having 6 minutes remaining is not helpful, if you need 3 minutes to figure out where you were. My best suggestion would be to manually start a restbreak (i.e. select the &#34;restbreak&#34; item from the menu) and go drink some coffee. 
+
+I am not sure how workrave can help you in this regard. The amount of time remaining that you consider useful will depend on the task at hand. Finishing up an e-mail can be easily done in 6 minutes. Serious programming likely not. Even if we&#39;d introduce a feature &#34;please give me a break immediately if I have less than X minutes remaining&#34; (which I think is a bad idea, as discussed in comment #4), I&#39;m not sure how that would add to you taking a break volontarily.
+
+Groetjes,
+
+Kees-Jan</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Atis&nbsp;&nbsp;Mar 20 2008 14:35:02 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I was just browsing buglist to see if something matches what i wanted to suggest (so that i don&#39;t create duplicate issue), and this was a match.
+
+In last comment, you convinced me that i&#39;m actually having shorter breaks than my &#34;rest break duration&#34;, so what you describead as &#34;please give me a break immediately if I have less than X minutes remaining&#34; would be in good use for me. 
+
+Regarding exercise player after voluntary break - i agree that some people may want to do something immediately, however as i spend most of day at computer, i would really want a reminder that i have to do some exercises. That could be separate option, probably disabled by default. So, what i&#39;m saying contradicts to your idea of predicting computer actions, however for such unorganized people like myself - that would be good reminder (as there&#39;s no other reminder software that takes in account time you spend at computer). Plus, i&#39;m actually doing exercises offered by Workrave - as i don&#39;t know any other. 
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>jmb&nbsp;&nbsp;May 20 2012 15:45:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi,
+
+I would like to chime in in favour of this feature. Here are my ideal requirements:
+ - I would like to have at most 45 minutes between breaks;
+ - Sometimes, I will take a break sooner than the 45 minutes. When I come back from such a break, I would like to start a full 45 minutes work period.
+
+Today, if I disable &#34;reading mode&#34;, I won&#39;t have my first requirement: if I stop typing for a minute or two, then the next break is delayed by as much. If I stop often during my work period, the break can be delayed by quite a lot.
+
+OTOH, if I enable &#34;reading mode&#34;, I won&#39;t have my second requirement: if I take a break without being prompted, then workrave will not count that as a break unless I click on the &#34;Take rest break now button&#34;, which I usually forget to do. There is nothing more annoying than going back to the computer and having workrave tell me to take a break when I have been working less than five minutes.
+
+Ideally, here are how things would work:
+ - When I start working (after a break or at the beginning of the day), the &#34;working timer&#34; starts counting;
+ - When I stop typing, the &#34;working timer&#34; does not stop. However an &#34;idle timer&#34; starts counting the time I have been idle;
+ - If the &#34;idle timer&#34; reaches a given level (possibly the rest break duration, but ideally an extra setting, or possibly until the screen saver starts), then assume I have taken a break: the &#34;working timer&#34; is reset and stopped;
+ - If I start typing again before the end of the &#34;idle timer&#34;, then the &#34;idle timer&#34; is stopped and the &#34;work timer&#34; goes on counting as if I had never stopped.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,113 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/1074/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;1074 - Applet no longer displays properly in xfce4-panel</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: UNIX</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>cvs</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>All Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P5 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8>http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=677469</div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Jun 24 2012 09:38:20 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Francois Marier</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Jun 20 2017 18:48:01 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Aleksej</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>pjh</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Giles Weaver</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=attachments-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#attachments-content aria-expanded=false aria-controls=attachments-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments</button></h5><div class=collapse id=attachments-content aria-labelledby=attachments-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Id</th><th scope=col>Who</th><th scope=col>When</th><th scope=col>Size</th><th scope=col>Type</th></tr></thead><tbody><tr><th scope=row rowspan=2>287</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-287.png>workrave in Cinnamon shell (Linux Mint 15)</a><br><img src=https://workrave.org/bugzilla/attachments/attachment-287.png class="img-fluid img-thumbnail pt-2" alt="workrave in Cinnamon shell (Linux Mint 15)"></td></tr><tr><td>Mateusz</td><td>Aug 13 2013 10:53:53 UTC</td><td>14745</td><td>image/png</td></tr><tr><th scope=row rowspan=2>301</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-301.png>Mint 17.1 / Cinnamon 2.4.5 timer missing</a><br><img src=https://workrave.org/bugzilla/attachments/attachment-301.png class="img-fluid img-thumbnail pt-2" alt="Mint 17.1 / Cinnamon 2.4.5 timer missing"></td></tr><tr><td>Giles Weaver</td><td>Dec 8 2014 21:48:27 UTC</td><td>5635</td><td>image/png</td></tr></tbody></table></div></div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Aleksej</th><td rowspan=1>Jun 30 2012 12:37:35 UTC</td><td>cc</td><td></td><td>Aleksej</td></tr><tr><th scope=row rowspan=1>Giles Weaver</th><td rowspan=1>Nov 7 2012 23:17:36 UTC</td><td>cc</td><td></td><td>Giles Weaver</td></tr><tr><th scope=row rowspan=1>Filipus Klutiero</th><td rowspan=1>Nov 18 2014 03:40:47 UTC</td><td>cc</td><td></td><td>Filipus Klutiero</td></tr><tr><th scope=row rowspan=1>Giles Weaver</th><td rowspan=1>Dec 8 2014 21:45:39 UTC</td><td>cc</td><td></td><td>Giles Weaver</td></tr><tr><th scope=row rowspan=1>Giles Weaver</th><td rowspan=1>Dec 19 2014 12:26:39 UTC</td><td>cc</td><td>Giles Weaver</td><td></td></tr><tr><th scope=row rowspan=1>Filipus Klutiero</th><td rowspan=1>May 30 2015 15:25:40 UTC</td><td>cc</td><td>Filipus Klutiero</td><td></td></tr><tr><th scope=row rowspan=1>pjh</th><td rowspan=1>Jun 20 2017 18:48:01 UTC</td><td>cc</td><td></td><td>pjh</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Francois Marier&nbsp;&nbsp;Jun 24 2012 09:38:20 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Using the latest (i.e. unreleased) version from git (abc941eb70), Debian XFCE users have reported the following:
+
+&#34;After updating workrave from 1.9.4-3 to 1.9.909&#43;abc941eb70-1, the applet 
+no longer displays properly in xfce4-panel.  When the applet starts up, 
+the timers that should appear to the right of the sheep icon do not 
+appear, and the applet&#39;s width is correspondingly lesser.  Fussing with 
+the UI settings may make the applet expand its width momentarily, but it 
+pops back after a few seconds, and the timers are still never displayed.&#34;</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Giles Weaver&nbsp;&nbsp;Nov 7 2012 23:17:36 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to comment #0)
+&gt; Using the latest (i.e. unreleased) version from git (abc941eb70), Debian
+&gt; XFCE users have reported the following:
+&gt; 
+&gt; &#34;After updating workrave from 1.9.4-3 to 1.9.909&#43;abc941eb70-1, the applet 
+&gt; no longer displays properly in xfce4-panel.  When the applet starts up, 
+&gt; the timers that should appear to the right of the sheep icon do not 
+&gt; appear, and the applet&#39;s width is correspondingly lesser.  Fussing with 
+&gt; the UI settings may make the applet expand its width momentarily, but it 
+&gt; pops back after a few seconds, and the timers are still never displayed.&#34;
+
+I&#39;m seeing exactly the same behaviour with the Cinnamon desktop (http://cinnamon.linuxmint.com/). It&#39;s a crying shame that Gnome-Shell, Unity, Cinnamon and XFCE all use different applet/indicator systems despite all being based on GTK, but none the less, I&#39;m sure users of all these interfaces would be very grateful to see the applet displaying in all of its glory.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Mateusz&nbsp;&nbsp;Aug 13 2013 10:53:53 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 287
+workrave in Cinnamon shell (Linux Mint 15)
+
+Hey
+
+I just installed Linux Mint 15 with Cinnamon shell and have similar problem. Please glance at attachment. Is any chance to fix it in the nearest future?
+
+Sometimes in works properly if I rerun program and restart Cinnamon</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Filipus Klutiero&nbsp;&nbsp;Nov 18 2014 03:40:47 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This report is based on downstream ticket #677469. It is not mentioned which Xfce version is affected, but according to Xfce ticket #5874, this is an Xfce bug which is now fixed. I do not use Xfce, but I suggest to close this unless this can be reproduced with a current Xfce version.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Aleksej&nbsp;&nbsp;Nov 18 2014 09:20:27 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Still no timer here on Debian jessie/sid (Xfce 4.10.1).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Filipus Klutiero&nbsp;&nbsp;Nov 18 2014 16:18:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>yandex, I suppose you have the applet preference enabled?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Aleksej&nbsp;&nbsp;Nov 18 2014 19:00:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to Filipus Klutiero from comment #5)
+&gt; yandex, I suppose you have the applet preference enabled?
+
+Of course.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Giles Weaver&nbsp;&nbsp;Dec 8 2014 21:45:39 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Still no timer here on Mint 17.1 (Cinnamon 2.4.5).
+
+Occasionally the timer will briefly appear (sometimes just a few pixels of it), before reverting to showing just the sheep without the timer.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Giles Weaver&nbsp;&nbsp;Dec 8 2014 21:48:27 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 301
+Mint 17.1 / Cinnamon 2.4.5 timer missing
+
+This screenshot is from workrave 1.10.5.0-ppa1~trusty1, but the behaviour is the same with 1.10.1-4 (and also Debian Stable &amp; Testing with xfce).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Aleksej&nbsp;&nbsp;Dec 18 2014 09:54:55 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to Giles Weaver from comment #7)
+I&#39;ve seen it work once, probably because the panel was running with more default settings, or because the programs happened to start in a different order.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 10</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Dec 19 2014 12:03:36 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>FYI: I&#39;m working on an xfce and cinnamon applet. mate is also planned.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 11</div><div class=float-left>Giles Weaver&nbsp;&nbsp;Dec 19 2014 12:23:53 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I saw that (I&#39;ve been watching workrave on github).
+
+I&#39;d be happy to help test it, but I didn&#39;t get very far when I tried to compile it..
+If I knew which dependencies to install (I&#39;m running Mint 17.1, so as per Ubuntu 14.04) I&#39;d probably get a bit further. I was missing libtool for one.
+
+Or I could wait for the PPA :-)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 12</div><div class=float-left>Aleksej&nbsp;&nbsp;Dec 20 2014 11:45:39 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to Aleksej from comment #4)
+&gt; Still no timer here on Debian jessie/sid (Xfce 4.10.1).
+
+Then I tried tweaking settings, but got nothing.
+Yesterday (the next day), it worked, and it works today.
+
+On the 18th and the 19th, I have upgraded, among others:
+gnome-shell
+*apparmor*
+gnome-tweak-tool</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 13</div><div class=float-left>Giles Weaver&nbsp;&nbsp;May 30 2015 14:26:44 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This bug appears to be fixed for Xfce in 1.10.6 (Debian 1.10.6-1&#43;b1), but not for Cinnamon.
+
+The Workrave NEWS file states (under 1.10.6):
+** Applets added for Cinnamon, XFCE and MATE.
+
+However, there doesn&#39;t appear to be an --enable-cinnamon configure switch (there are --enable-xfce and --enable-mate switches) in 1.10.6, and the applet does not display properly with the Debian packaged version of 1.10.6.
+
+I&#39;m not sure if this is an omission in Workrave, or with the Debian packaging?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 14</div><div class=float-left>Francois Marier&nbsp;&nbsp;May 30 2015 23:29:20 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>For reference, here&#39;s the configure line that&#39;s used in the Debian package:
+
+https://anonscm.debian.org/cgit/collab-maint/workrave.git/tree/debian/rules#n8</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 15</div><div class=float-left>Giles Weaver&nbsp;&nbsp;May 31 2015 03:25:43 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have done some further testing under Debian 8.
+
+With Workrave 1.10.6-1&#43;b1 (from Testing), the applet appears to work correctly in Mate, despite the package apparently having been configured without Mate support.
+
+With workrave_1.10.6.0-ppa1~vivid1_amd64.deb, workrave-cinnamon_1.10.6.0-ppa1~vivid1_amd64.deb and workrave-data_1.10.6.0-ppa1~vivid1_all.deb from the Workrave PPA (still installed under Debian) the results are the same. The applet appears to display properly under XFCE &amp; Mate, but not Cinnamon.
+
+It&#39;s possible that the Cinnamon developers expect the applet to occupy the space of a typical square icon, and that it needs to be treated as a special case in order to display properly?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 16</div><div class=float-left>pjh&nbsp;&nbsp;Jun 20 2017 18:48:01 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I&#39;m also still seeing this applet issue (no timer, just a sheep icon) with Cinnamon. I built Workrave from the tip of branch_v1_10 (fe7b163e30cfcb2152edde3e63b60f7103c804d9) today and tried to enable various configure options but to no avail.
+
+$ cinnamon --version
+Cinnamon 3.2.7
+
+$ ./configure --enable-gconf --enable-xfce --enable-indicator
+...
+                        Workrave 1.10.16.0
+                       ===================
+  
+                        prefix:   /usr/local
+
+                           OS :   Unix
+
+          GConf configuration :   no
+      GSettings configuration :   yes
+            XML configuration :   yes
+
+            Activity Monitors :   mutter,record,screensaver,x11events
+
+                      Gtk GUI :   yes (Gtk3)
+              Gnome 2 support :   no
+              Gnome 3 support :   yes
+GObject-Introspection support :   yes
+            Indicator support :   yes
+                 XFCE support :   yes
+                 MATE support :   no
+                 DBUS support :   yes (GIO)
+           Networking support :   yes
+            GStreamer support :   yes
+           Pulseaudio support :   yes
+                    Exercises :   yes
+
+                C&#43;&#43;11 support :   no
+        Experimental features :   no
+                    Debugging :   no
+                   Debug logs :   no
+                    Test code :   no</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

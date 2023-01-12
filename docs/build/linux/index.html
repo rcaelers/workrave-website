@@ -1,0 +1,45 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/docs/build/linux/><title>Build for Linux &#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container mt-5"><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://workrave.org/docs/>Documentation</a></li><li class=breadcrumb-item><a href=https://workrave.org/docs/build/linux/>Build for Linux</a></li></ol></nav><div class=markdown><hr><ol><li>Install the packages required by Workrave</li></ol><p>For Ubuntu, the following packages are required to enable all features:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl> cmake
+</span></span><span class=line><span class=cl> gobject-introspection
+</span></span><span class=line><span class=cl> gsettings-desktop-schemas-dev
+</span></span><span class=line><span class=cl> intltool,
+</span></span><span class=line><span class=cl> libayatana-indicator3-dev
+</span></span><span class=line><span class=cl> libboost-all-dev
+</span></span><span class=line><span class=cl> libdbusmenu-glib-dev
+</span></span><span class=line><span class=cl> libdbusmenu-gtk3-dev
+</span></span><span class=line><span class=cl> libgirepository1.0-dev
+</span></span><span class=line><span class=cl> libglib2.0-0
+</span></span><span class=line><span class=cl> libglibmm-2.4-dev
+</span></span><span class=line><span class=cl> libgnome-panel-dev
+</span></span><span class=line><span class=cl> libgstreamer1.0-dev
+</span></span><span class=line><span class=cl> libgtk-3-dev
+</span></span><span class=line><span class=cl> libgtkmm-3.0-dev
+</span></span><span class=line><span class=cl> libmate-panel-applet-dev
+</span></span><span class=line><span class=cl> libpulse-dev
+</span></span><span class=line><span class=cl> libsigc++-2.0-dev
+</span></span><span class=line><span class=cl> libspdlog-dev
+</span></span><span class=line><span class=cl> libxfce4panel-2.0-dev
+</span></span><span class=line><span class=cl> libxi-dev
+</span></span><span class=line><span class=cl> libxmu-dev
+</span></span><span class=line><span class=cl> libxss-dev
+</span></span><span class=line><span class=cl> libxtst-dev
+</span></span><span class=line><span class=cl> python3-jinja2
+</span></span></code></pre></div><ol start=2><li>Clone Workrave</li></ol><p>From a shell, run</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>cd &lt;root-dir&gt;
+</span></span><span class=line><span class=cl>git clone https://github.com/rcaelers/workrave.git
+</span></span></code></pre></div><ol start=3><li>Build Workrave</li></ol><p>From a shell, run</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>cd &lt;root-dir&gt;
+</span></span><span class=line><span class=cl>cmake -G Ninja -S &lt;root-dir&gt;/workrave -B &lt;root-dir&gt;/workrave-build -DCMAKE_INSTALL_PREFIX=&lt;root-dir&gt;/workrave-deploy -DCMAKE_BUILD_TYPE_INIT=Debug -DWITH_TRACING=TRUE -DCMAKE_EXPORT_COMPILE_COMMANDS=TRUE -DWITH_UI=Gtk+3 -DWITH_TESTS=ON -DCODE_COVERAGE=OFF
+</span></span><span class=line><span class=cl>cmake --build &lt;root-dir&gt;/workrave-build
+</span></span><span class=line><span class=cl>cmake --install &lt;root-dir&gt;/workrave-build
+</span></span></code></pre></div><ol start=4><li>Run Workrave</li></ol><p>If Workrave is install in a directory that is not a system directort (/usr, /usr/local), you may have to set a few environment variables:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>export LD_LIBRARY_PATH=&lt;root-dir&gt;/workrave-deploy/lib/:$LD_LIBRARY_PATH
+</span></span><span class=line><span class=cl>export GI_TYPELIB_PATH=&lt;root-dir&gt;/workrave-deploy/lib/girepository-1.0:$GI_TYPELIB_PATH
+</span></span><span class=line><span class=cl>export XDG_DATA_DIRS=&lt;root-dir&gt;/workrave-deploy/share:&#34;$XDG_DATA_DIRS&#34;
+</span></span></code></pre></div></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

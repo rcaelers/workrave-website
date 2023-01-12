@@ -1,0 +1,324 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/374/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;374 - workrave fails to compile with new gtkmm/gnomemm</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Build-Env</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>0.1.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P2 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Apr 17 2004 07:14:34 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Robin Cook</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Apr 29 2004 09:44:44 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=attachments-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#attachments-content aria-expanded=false aria-controls=attachments-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments</button></h5><div class=collapse id=attachments-content aria-labelledby=attachments-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Id</th><th scope=col>Who</th><th scope=col>When</th><th scope=col>Size</th><th scope=col>Type</th></tr></thead><tbody><tr><th scope=row rowspan=2>33</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-33.bz2>workrave-20040417.bz2 - bzip2'ed complete compile log.</a><tr><td>Robin Cook</td><td>Apr 18 2004 08:36:54 UTC</td><td>6176</td><td>application/octet-stream</td></tr><tr><th scope=row rowspan=2>34</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-34.txt>config.log file</a><tr><td>Robin Cook</td><td>Apr 20 2004 05:03:23 UTC</td><td>66873</td><td>text/plain</td></tr></tbody></table></div></div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=3>Rob Caelers</th><td rowspan=3>Apr 17 2004 13:49:17 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>version</td><td>1.4.1</td><td>0.1.0</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=2>Robin Cook</th><td rowspan=2>Apr 18 2004 08:35:40 UTC</td><td>status</td><td>RESOLVED</td><td>REOPENED</td></tr><tr><td>resolution</td><td>FIXED</td><td></td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Apr 19 2004 23:20:29 UTC</td><td>status</td><td>REOPENED</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Apr 29 2004 09:44:44 UTC</td><td>resolution</td><td></td><td>FIXED</td></tr><tr><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 17 2004 07:14:34 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Below is the compile failure I am getting.
+
+if g&#43;&#43; -DHAVE_CONFIG_H -DGNOMELOCALEDIR=\&#34;&#34;/usr/share/locale&#34;\&#34; -I../../../intl
+-I.. -I. -I. -I../../..    -DWORKRAVE_DATADIR=&#34;\&#34;/usr/share/workrave\&#34;&#34; -W -I
+../../../src/shared -I ../../../src/shared/unix -I ../../../src/core -I
+../../../src/core/intf -I ../../../src/core/unix -I ../../../src/app/shared/intf
+-I ../../../src/app/shared/ -I ../../../src/app/shared/gnome -I../../../src
+-I../../../app -DORBIT2=1 -pthread -I/usr/include/libgnomeuimm-2.6
+-I/usr/lib/libgnomeuimm-2.6/include -I/usr/include/libgnomemm-2.6
+-I/usr/lib/libgnomemm-2.6/include -I/usr/include/libgnomecanvasmm-2.6
+-I/usr/lib/libgnomecanvasmm-2.6/include -I/usr/include/gconfmm-2.6
+-I/usr/lib/gconfmm-2.6/include -I/usr/include/libglademm-2.4
+-I/usr/lib/libglademm-2.4/include -I/usr/include/libgnomeui-2.0
+-I/usr/include/gnome-vfsmm-2.6 -I/usr/lib/gnome-vfsmm-2.6/include
+-I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include
+-I/usr/include/libgnome-2.0 -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0 -I/usr/include/orbit-2.0 -I/usr/include/libbonobo-2.0
+-I/usr/include/gconf/2 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/libgnomecanvas-2.0 -I/usr/include/libart-2.0
+-I/usr/include/libglade-2.0 -I/usr/include/libxml2
+-I/usr/include/libbonoboui-2.0   -DORBIT2=1 -pthread
+-I/usr/include/libgnomeui-2.0 -I/usr/include/libgnome-2.0
+-I/usr/include/libgnomecanvas-2.0 -I/usr/include/gtk-2.0
+-I/usr/include/libart-2.0 -I/usr/include/gconf/2 -I/usr/include/libbonoboui-2.0
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/orbit-2.0
+-I/usr/include/libbonobo-2.0 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/lib/gtk-2.0/include
+-I/usr/include/atk-1.0 -I/usr/X11R6/include -I/usr/include/libxml2  
+-I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/gtkmm-2.4
+-I/usr/lib/gtkmm-2.4/include -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0   -DORBIT2=1 -I/usr/include/gconf/2
+-I/usr/include/orbit-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+-D_XOPEN_SOURCE=600 -pthread -I/usr/include/gnet-2.0
+-I/usr/lib/gnet-2.0/include/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+   -O -march=athlon-mp -mmmx -mfpmath=sse -msse -m3dnow -pipe -O3 -Os -g
+-DNDEBUG -MT workrave-BreakWindow.o -MD -MP -MF &#34;.deps/workrave-BreakWindow.Tpo&#34; \
+  -c -o workrave-BreakWindow.o `test -f &#39;BreakWindow.cc&#39; || echo
+&#39;./&#39;`BreakWindow.cc; \
+then mv -f &#34;.deps/workrave-BreakWindow.Tpo&#34; &#34;.deps/workrave-BreakWindow.Po&#34;; \
+else rm -f &#34;.deps/workrave-BreakWindow.Tpo&#34;; exit 1; \
+fi
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_lock_button()&#39;:
+BreakWindow.cc:313: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_shutdown_button()&#39;:
+BreakWindow.cc:332: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_skip_button()&#39;:
+BreakWindow.cc:349: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_postpone_button()&#39;:
+BreakWindow.cc:362: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+make[6]: *** [workrave-BreakWindow.o] Error 1
+make[6]: Leaving directory `/usr/src/workrave-1.4.1/src/app/gtkmm&#39;
+make[5]: *** [all-recursive] Error 1
+make[5]: Leaving directory `/usr/src/workrave-1.4.1/src/app/gtkmm&#39;
+make[4]: *** [all-recursive] Error 1
+make[4]: Leaving directory `/usr/src/workrave-1.4.1/src/app&#39;
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/usr/src/workrave-1.4.1/src&#39;
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/usr/src/workrave-1.4.1&#39;
+make[1]: *** [all] Error 2
+make[1]: Leaving directory `/usr/src/workrave-1.4.1&#39;</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 17 2004 13:49:17 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>The CVS version of Workrave should compile with the new gtk/gtkmm and gnome
+libraries. Could you please try a recent nighty build? (e.g.
+http://workrave.org/download/snapshots/20040417/workrave-src-20040417.tar.gz).
+See if it also works for you?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 18 2004 08:35:40 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>No it still fails to compile with this error
+
+if g&#43;&#43; -DHAVE_CONFIG_H -DGNOMELOCALEDIR=\&#34;&#34;/usr/share/locale&#34;\&#34; -I../../../intl
+-I.. -I. -I. -I../../..    -DWORKRAVE_DATADIR=&#34;\&#34;/usr/share/workrave\&#34;&#34; -W -I
+../../../common/include -I ../../../common/include/unix -I
+../../../backend/include -I ../../../backend/src/ -I ../../../backend/src/unix
+-I ../../../frontend/common/include/ -I ../../../frontend/common/include/gnome
+-I../../../src -I. -DORBIT2=1 -pthread -I/usr/include/libgnomeuimm-2.6
+-I/usr/lib/libgnomeuimm-2.6/include -I/usr/include/libgnomemm-2.6
+-I/usr/lib/libgnomemm-2.6/include -I/usr/include/libgnomecanvasmm-2.6
+-I/usr/lib/libgnomecanvasmm-2.6/include -I/usr/include/gconfmm-2.6
+-I/usr/lib/gconfmm-2.6/include -I/usr/include/libglademm-2.4
+-I/usr/lib/libglademm-2.4/include -I/usr/include/libgnomeui-2.0
+-I/usr/include/gnome-vfsmm-2.6 -I/usr/lib/gnome-vfsmm-2.6/include
+-I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include
+-I/usr/include/libgnome-2.0 -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0 -I/usr/include/orbit-2.0 -I/usr/include/libbonobo-2.0
+-I/usr/include/gconf/2 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/libgnomecanvas-2.0 -I/usr/include/libart-2.0
+-I/usr/include/libglade-2.0 -I/usr/include/libxml2
+-I/usr/include/libbonoboui-2.0 -DORBIT2=1 -pthread -I/usr/include/libgnomeui-2.0
+-I/usr/include/libgnome-2.0 -I/usr/include/libgnomecanvas-2.0
+-I/usr/include/gtk-2.0 -I/usr/include/libart-2.0 -I/usr/include/gconf/2
+-I/usr/include/libbonoboui-2.0 -I/usr/include/glib-2.0
+-I/usr/lib/glib-2.0/include -I/usr/include/orbit-2.0
+-I/usr/include/libbonobo-2.0 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/lib/gtk-2.0/include
+-I/usr/include/atk-1.0 -I/usr/X11R6/include -I/usr/include/libxml2  
+-I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/gtkmm-2.4
+-I/usr/lib/gtkmm-2.4/include -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0 -DORBIT2=1 -I/usr/include/gconf/2
+-I/usr/include/orbit-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+-D_XOPEN_SOURCE=600 -pthread -I/usr/include/gnet-2.0
+-I/usr/lib/gnet-2.0/include/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+  -Iunix/ -I../../plugin/distribution/gtkmm/src
+-I../../plugin/statistics/gtkmm/src -I../../plugin/exercises/gtkmm/src
+-I../../plugin/exercises/common/src  -O -march=athlon-mp -mmmx -mfpmath=sse
+-msse -m3dnow -pipe -O3 -Os -g -DNDEBUG -MT workrave-BreakWindow.o -MD -MP -MF
+&#34;.deps/workrave-BreakWindow.Tpo&#34; \
+  -c -o workrave-BreakWindow.o `test -f &#39;BreakWindow.cc&#39; || echo
+&#39;./&#39;`BreakWindow.cc; \
+then mv -f &#34;.deps/workrave-BreakWindow.Tpo&#34; &#34;.deps/workrave-BreakWindow.Po&#34;; \
+else rm -f &#34;.deps/workrave-BreakWindow.Tpo&#34;; exit 1; \
+fi
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_lock_button()&#39;:
+BreakWindow.cc:180: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_shutdown_button()&#39;:
+BreakWindow.cc:199: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_skip_button()&#39;:
+BreakWindow.cc:216: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+BreakWindow.cc: In member function `Gtk::Button*
+   BreakWindow::create_postpone_button()&#39;:
+BreakWindow.cc:229: error: no matching function for call to `slot(BreakWindow&amp;,
+   void (BreakWindow::*)())&#39;
+make[6]: *** [workrave-BreakWindow.o] Error 1
+make[6]: Leaving directory `/usr/src/workrave-1.6.0/frontend/gtkmm/src&#39;</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 18 2004 08:36:54 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 33
+workrave-20040417.bz2 - bzip2&#39;ed complete compile log.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 19 2004 23:20:29 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>It seems that workrave first checks for gtkmm 2.0/2.2 and obly if this version
+is not found, it checks for gtkmm2.4. Your logs do not have a &#39;cheching for
+gtkmm-2.0&#39;; only &#39;check for gtkmm2.4&#39;. Did you alter configure.ac? If not, could
+you mail me your config.log file?
+
+I will change the order in which the libraries are search.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 20 2004 05:03:23 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 34
+config.log file</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 20 2004 05:13:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Ok that was that problem.  On the original v1.4.1 I had a sed edit to try making
+it look for gtkmm-2.4.  Now it is having a different error...
+
+if g&#43;&#43; -DHAVE_CONFIG_H -DGNOMELOCALEDIR=\&#34;&#34;/usr/share/locale&#34;\&#34; -I../../../intl
+-I.. -I. -I. -I../../..    -DWORKRAVE_DATADIR=&#34;\&#34;/usr/share/workrave\&#34;&#34; -W -I
+../../../common/include -I ../../../common/include/unix -I
+../../../backend/include -I ../../../backend/src/ -I ../../../backend/src/unix
+-I ../../../frontend/common/include/ -I ../../../frontend/common/include/gnome
+-I../../../src -I. -DORBIT2=1 -pthread -I/usr/include/libgnomeuimm-2.6
+-I/usr/lib/libgnomeuimm-2.6/include -I/usr/include/libgnomemm-2.6
+-I/usr/lib/libgnomemm-2.6/include -I/usr/include/libgnomecanvasmm-2.6
+-I/usr/lib/libgnomecanvasmm-2.6/include -I/usr/include/gconfmm-2.6
+-I/usr/lib/gconfmm-2.6/include -I/usr/include/libglademm-2.4
+-I/usr/lib/libglademm-2.4/include -I/usr/include/libgnomeui-2.0
+-I/usr/include/gnome-vfsmm-2.6 -I/usr/lib/gnome-vfsmm-2.6/include
+-I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include
+-I/usr/include/libgnome-2.0 -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0 -I/usr/include/orbit-2.0 -I/usr/include/libbonobo-2.0
+-I/usr/include/gconf/2 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/libgnomecanvas-2.0 -I/usr/include/libart-2.0
+-I/usr/include/libglade-2.0 -I/usr/include/libxml2
+-I/usr/include/libbonoboui-2.0 -DORBIT2=1 -pthread -I/usr/include/libgnomeui-2.0
+-I/usr/include/libgnome-2.0 -I/usr/include/libgnomecanvas-2.0
+-I/usr/include/gtk-2.0 -I/usr/include/libart-2.0 -I/usr/include/gconf/2
+-I/usr/include/libbonoboui-2.0 -I/usr/include/glib-2.0
+-I/usr/lib/glib-2.0/include -I/usr/include/orbit-2.0
+-I/usr/include/libbonobo-2.0 -I/usr/include/gnome-vfs-2.0
+-I/usr/lib/gnome-vfs-2.0/include -I/usr/include/bonobo-activation-2.0
+-I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/lib/gtk-2.0/include
+-I/usr/include/atk-1.0 -I/usr/X11R6/include -I/usr/include/libxml2  
+-I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/gtkmm-2.4
+-I/usr/lib/gtkmm-2.4/include -I/usr/include/glibmm-2.4
+-I/usr/lib/glibmm-2.4/include -I/usr/include/gdkmm-2.4
+-I/usr/lib/gdkmm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/include/atkmm-1.6
+-I/usr/include/gtk-2.0 -I/usr/include/sigc&#43;&#43;-2.0 -I/usr/lib/sigc&#43;&#43;-2.0/include
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/lib/gtk-2.0/include
+-I/usr/include/pango-1.0 -I/usr/X11R6/include -I/usr/include/freetype2
+-I/usr/include/atk-1.0 -DORBIT2=1 -I/usr/include/gconf/2
+-I/usr/include/orbit-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+-D_XOPEN_SOURCE=600 -pthread -I/usr/include/gnet-2.0
+-I/usr/lib/gnet-2.0/include/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+  -Iunix/ -I../../plugin/distribution/gtkmm/src
+-I../../plugin/statistics/gtkmm/src -I../../plugin/exercises/gtkmm/src
+-I../../plugin/exercises/common/src  -O -march=athlon-mp -mmmx -mfpmath=sse
+-msse -m3dnow -pipe -O3 -Os -g -DNDEBUG -MT workrave-NetworkPreferencePage.o -MD
+-MP -MF &#34;.deps/workrave-NetworkPreferencePage.Tpo&#34; \
+  -c -o workrave-NetworkPreferencePage.o `test -f
+&#39;../../plugin/distribution/gtkmm/src/NetworkPreferencePage.cc&#39; || echo
+&#39;./&#39;`../../plugin/distribution/gtkmm/src/NetworkPreferencePage.cc; \
+then mv -f &#34;.deps/workrave-NetworkPreferencePage.Tpo&#34;
+&#34;.deps/workrave-NetworkPreferencePage.Po&#34;; \
+else rm -f &#34;.deps/workrave-NetworkPreferencePage.Tpo&#34;; exit 1; \
+fi
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/adaptors/adaptor_trait.h: In member function `
+   typename sigc::adaptor_functor&lt;T_functor&gt;::deduce_result_type&lt;T_arg1,
+   T_arg2, void, void, void, void, void&gt;::type
+   sigc::adaptor_functor&lt;T_functor&gt;::operator()(T_arg1, T_arg2) const [with
+   T_arg1 = const Gtk::TreePath&amp;, T_arg2 = const Gtk::TreeIter&amp;, T_functor =
+   sigc::slot&lt;void, const Gtk::TreeIter&amp;, sigc::nil, sigc::nil, sigc::nil,
+   sigc::nil, sigc::nil, sigc::nil&gt;]&#39;:
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/functors/slot.h:158:   instantiated from `static
+T_return sigc::internal::slot_call2&lt;T_functor, T_return, T_arg1,
+T_arg2&gt;::call_it(sigc::internal::slot_rep*, typename
+sigc::type_trait&lt;T_arg3&gt;::take, typename sigc::type_trait&lt;T_arg4&gt;::take) [with
+T_functor = sigc::slot&lt;void, const Gtk::TreeIter&amp;, sigc::nil, sigc::nil,
+sigc::nil, sigc::nil, sigc::nil, sigc::nil&gt;, T_return = void, T_arg1 = const
+Gtk::TreePath&amp;, T_arg2 = const Gtk::TreeIter&amp;]&#39;
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/functors/slot.h:166:   instantiated from `static
+void*(* sigc::internal::slot_call2&lt;T_functor, T_return, T_arg1,
+T_arg2&gt;::address())(void*) [with T_functor = sigc::slot&lt;void, const
+Gtk::TreeIter&amp;, sigc::nil, sigc::nil, sigc::nil, sigc::nil, sigc::nil,
+sigc::nil&gt;, T_return = void, T_arg1 = const Gtk::TreePath&amp;, T_arg2 = const
+Gtk::TreeIter&amp;]&#39;
+../../plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:585:   instantiated
+from here
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/adaptors/adaptor_trait.h:106: error: no match
+   for call to `(sigc::slot&lt;void, const Gtk::TreeIter&amp;, sigc::nil, sigc::nil,
+   sigc::nil, sigc::nil, sigc::nil, sigc::nil&gt;) (const Gtk::TreePath&amp;, const
+   Gtk::TreeIter&amp;)&#39;
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/functors/slot.h:496: error: candidates are:
+   T_return sigc::slot1&lt;T_return, T_arg1&gt;::operator()(typename
+   sigc::type_trait&lt;T_derived&gt;::take) const [with T_return = void, T_arg1 =
+   const Gtk::TreeIter&amp;]
+/usr/include/sigc&#43;&#43;-2.0/sigc&#43;&#43;/adaptors/adaptor_trait.h:106: error: return-statement
+   with a value, in function declared with a void return type
+make[6]: *** [workrave-NetworkPreferencePage.o] Error 1
+make[6]: Leaving directory `/usr/src/workrave-1.6.0/frontend/gtkmm/src&#39;
+make[5]: *** [all-recursive] Error 1
+make[5]: Leaving directory `/usr/src/workrave-1.6.0/frontend/gtkmm/src&#39;
+make[4]: *** [all-recursive] Error 1
+make[4]: Leaving directory `/usr/src/workrave-1.6.0/frontend/gtkmm&#39;
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/usr/src/workrave-1.6.0/frontend&#39;
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/usr/src/workrave-1.6.0&#39;
+make[1]: *** [all] Error 2
+make[1]: Leaving directory `/usr/src/workrave-1.6.0&#39;
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 27 2004 12:05:19 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Weird...
+
+&gt; ./../plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:585:  
+
+This file doesn&#39;t have that many lines...
+
+What versions of gtk, gtkmm, gnomemm, sigc&#43;&#43; and g&#43;&#43; are you using?
+
+Could you check if config.h contains:
+
+/* Define if gtk2.4 is used */
+#define HAVE_GTKMM24 
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Robin Cook&nbsp;&nbsp;Apr 27 2004 15:21:19 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Versions
+gtk     - gtk&#43;-2.0       = 2.4.0
+gtkmm   - gtkmm-2.4      = 2.4.0
+gnomemm - libgnomemm-2.6 = 2.6.0
+sigc&#43;&#43;  - sigc&#43;&#43;-2.0     = 2.0.0 and sigc&#43;&#43;1.2 = 1.2.5 are both installed
+g&#43;&#43;     - gcc            = 3.3.3
+
+Yes it is in config.h (segment from file)
+===============================================
+/* Define if GNet2 is available */
+#define HAVE_GNET2
+                                                                               
+                                                               
+/* Define if Gnome is available */
+#define HAVE_GNOME
+                                                                               
+                                                               
+/* Define if gtk2.4 is used */
+#define HAVE_GTKMM24
+ 
+/* gtk&#43; with multihead support found */
+#define HAVE_GTK_MULTIHEAD
+ 
+/* Define if you have the iconv() function. */
+/* #undef HAVE_ICONV */
+===============================================</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 29 2004 09:44:44 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I upgrades from gtkmm 2.3.something and sigc&#43;&#43; 1.9.15 to gtkmm 2.4.0 and sigc&#43;&#43;
+2.0. I got the same compile error. Should be fixed now...</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

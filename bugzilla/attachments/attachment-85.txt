@@ -1,0 +1,119 @@
+Section "ServerLayout"
+	Identifier     "X.org Configured"
+	Screen      0  "aticonfig-Screen[0]" 0 0
+	Screen         "aticonfig-Screen[1]" LeftOf "aticonfig-Screen[0]"
+	InputDevice    "Mouse0" "CorePointer"
+	InputDevice    "TouchPad" "AlwaysCore"
+	InputDevice    "Keyboard0" "CoreKeyboard"
+EndSection
+
+Section "Files"
+	RgbPath      "/usr/share/X11/rgb"
+	ModulePath   "/usr/lib/xorg/modules"
+	FontPath     "/usr/share/fonts/misc/"
+	FontPath     "/usr/share/fonts/TTF/"
+	FontPath     "/usr/share/fonts/OTF"
+	FontPath     "/usr/share/fonts/Type1/"
+	FontPath     "/usr/share/fonts/100dpi/"
+	FontPath     "/usr/share/fonts/75dpi/"
+EndSection
+
+Section "Module"
+	Load  "glx"
+	Load  "extmod"
+	Load  "record"
+	Load  "dbe"
+	Load  "GLcore"
+	Load  "xtrap"
+#	Load  "dri"
+	Load  "freetype"
+	Load  "type1"
+EndSection
+
+Section "InputDevice"
+	Identifier  "Keyboard0"
+	Driver      "kbd"
+EndSection
+
+Section "InputDevice"
+	Identifier  "Mouse0"
+	Driver      "mouse"
+	Option	    "Protocol" "auto"
+	Option	    "Device" "/dev/input/mice"
+	Option	    "ZAxisMapping" "4 5 6 7"
+EndSection
+
+Section "InputDevice"
+	Identifier  "TouchPad"
+	Driver      "synaptics"
+	Option	    "Device" "/dev/input/mouse1"
+	Option	    "Protocol" "auto-dev"
+	Option	    "LeftEdge" "1700"
+	Option	    "RightEdge" "5300"
+	Option	    "TopEdge" "1700"
+	Option	    "BottomEdge" "4200"
+	Option	    "FingerLow" "25"
+	Option	    "FingerHigh" "30"
+	Option	    "MaxTapTime" "180"
+	Option	    "MaxTapMove" "220"
+	Option	    "VertScrollDelta" "100"
+	Option	    "MinSpeed" "0.09"
+	Option	    "MaxSpeed" "0.18"
+	Option	    "AccelFactor" "0.0015"
+	Option	    "SHMConfig" "on"
+EndSection
+
+Section "Monitor"
+	Identifier   "aticonfig-Monitor[0]"
+	Option	    "VendorName" "ATI Proprietary Driver"
+	Option	    "ModelName" "Generic Autodetecting Monitor"
+	Option	    "DPMS" "true"
+EndSection
+
+Section "Monitor"
+	Identifier   "aticonfig-Monitor[1]"
+ ### Comment all HorizSync and VertRefresh values to use DDC:
+	HorizSync    31.5 - 64.3
+	VertRefresh  50.0 - 70.0
+	Option	    "VendorName" "ATI Proprietary Driver"
+	Option	    "ModelName" "Generic Autodetecting Monitor"
+	Option	    "DPMS" "true"
+EndSection
+
+Section "Device"
+	Identifier  "aticonfig-Device[0]"
+	Driver      "fglrx"
+	BusID       "PCI:1:0:0"
+EndSection
+
+Section "Device"
+	Identifier  "aticonfig-Device[1]"
+	Driver      "fglrx"
+	BusID       "PCI:1:0:0"
+	Screen      1
+EndSection
+
+Section "Screen"
+	Identifier "aticonfig-Screen[0]"
+	Device     "aticonfig-Device[0]"
+	Monitor    "aticonfig-Monitor[0]"
+	DefaultDepth     24
+	SubSection "Display"
+		Viewport   0 0
+		Depth     24
+		Modes    "1680x1050"
+	EndSubSection
+EndSection
+
+Section "Screen"
+	Identifier "aticonfig-Screen[1]"
+	Device     "aticonfig-Device[1]"
+	Monitor    "aticonfig-Monitor[1]"
+	DefaultDepth     24
+	SubSection "Display"
+		Viewport   0 0
+		Depth     24
+		Modes    "1280x1024"
+	EndSubSection
+EndSection
+

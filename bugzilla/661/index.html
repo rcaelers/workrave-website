@@ -1,0 +1,363 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/661/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;661 - Workrave crashes on Ubuntu 7.04 in VMWare 6.0 with VMI enabled</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: UNIX</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.4</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>Other Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Aug 13 2007 11:53:43 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Carlo de Wolf</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Oct 15 2007 21:31:20 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Ray Satiro</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:04:11 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=1>Ray Satiro</th><td rowspan=1>Aug 31 2007 04:24:06 UTC</td><td>cc</td><td></td><td>Ray Satiro</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Oct 15 2007 21:31:20 UTC</td><td>severity</td><td>blocker</td><td>normal</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Aug 13 2007 11:53:43 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Workrave crashes on Ubuntu 7.04 in VMWare 6.0 with VMI enabled.
+
+Although it always crashes, it isn&#39;t always in the same piece of code (the only consistent part is the &#34;free(): invalid next size&#34;).
+
+It is most likely something in the combination and settings of OS and VMWare, because it didn&#39;t crash before I started fiddling.
+
+carlo@tempwork:~$ workrave
+Xlib:  extension &#34;RECORD&#34; missing on display &#34;:0.0&#34;.
+*** glibc detected *** workrave: free(): invalid next size (normal): 0x082c5588 ***
+======= Backtrace: =========
+/lib/tls/i686/cmov/libc.so.6[0xb6c9a7cd]
+/lib/tls/i686/cmov/libc.so.6(cfree&#43;0x90)[0xb6c9de30]
+/usr/lib/libglib-2.0.so.0(g_free&#43;0x31)[0xb6fe5131]
+/usr/lib/gtk-2.0/2.10.0/loaders/libpixbufloader-png.so[0xb5ee85ed]
+/usr/lib/libpng12.so.0(png_free&#43;0x33)[0xb6a2d033]
+/usr/lib/libpng12.so.0[0xb6a15214]
+/usr/lib/libz.so.1(inflateEnd&#43;0x41)[0xb6c09121]
+/usr/lib/libpng12.so.0(png_read_destroy&#43;0x268)[0xb6a215f8]
+/usr/lib/libpng12.so.0(png_destroy_read_struct&#43;0x73)[0xb6a21793]
+/usr/lib/gtk-2.0/2.10.0/loaders/libpixbufloader-png.so[0xb5ee9d85]
+/usr/lib/libgdk_pixbuf-2.0.so.0(_gdk_pixbuf_generic_image_load&#43;0x60)[0xb725ce90]
+/usr/lib/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_animation_new_from_file&#43;0x1d6)[0xb725a896]
+/usr/lib/libgtk-x11-2.0.so.0(gtk_image_set_from_file&#43;0xaa)[0xb74c57aa]
+/usr/lib/libgtkmm-2.4.so.1(_ZN3Gtk5Image3setERKSs&#43;0x2f)[0xb793b60f]
+workrave(_ZN15TimerBoxGtkView8set_iconEN13ITimerBoxView8IconTypeE&#43;0x191)[0x80c4f2b]
+workrave(_ZN15TimerBoxControl9init_iconEv&#43;0x3d)[0x80ef79f]
+workrave(_ZN15TimerBoxControl6updateEv&#43;0x35)[0x80f09d9]
+workrave(_ZN3GUI8on_timerEv&#43;0x3b)[0x80ac419]
+workrave(_ZNK4sigc18bound_mem_functor0Ib3GUIEclEv&#43;0x27)[0x80ad475]
+workrave(_ZNK4sigc15adaptor_functorINS_18bound_mem_functor0Ib3GUIEEEclEv&#43;0x12)[0x80ad490]
+workrave(_ZN4sigc8internal10slot_call0INS_18bound_mem_functor0Ib3GUIEEbE7call_itEPNS0_8slot_repE&#43;0x12)[0x80ad4a8]
+/usr/lib/libglibmm-2.4.so.1[0xb7347258]
+/usr/lib/libglib-2.0.so.0[0xb6fde3c6]
+/usr/lib/libglib-2.0.so.0(g_main_context_dispatch&#43;0x182)[0xb6fdddf2]
+/usr/lib/libglib-2.0.so.0[0xb6fe0dcf]
+/usr/lib/libglib-2.0.so.0(g_main_loop_run&#43;0x1a9)[0xb6fe1179]
+/usr/lib/libgtk-x11-2.0.so.0(gtk_main&#43;0xb4)[0xb74e6044]
+/usr/lib/libgtkmm-2.4.so.1(_ZN3Gtk4Main8run_implEv&#43;0x17)[0xb79463d7]
+/usr/lib/libgtkmm-2.4.so.1(_ZN3Gtk4Main3runEv&#43;0x22)[0xb79461c2]
+workrave(_ZN3GUI4mainEv&#43;0x8f)[0x80ac555]
+workrave(run&#43;0x3e)[0x80ca75c]
+workrave(main&#43;0x1b)[0x80ca793]
+/lib/tls/i686/cmov/libc.so.6(__libc_start_main&#43;0xdc)[0xb6c48ebc]
+workrave[0x80a85e1]
+======= Memory map: ========
+08048000-08125000 r-xp 00000000 08:01 383414     /usr/bin/workrave
+08125000-08128000 rw-p 000dc000 08:01 383414     /usr/bin/workrave
+08128000-082db000 rw-p 08128000 00:00 0          [heap]
+b5423000-b5483000 rw-s 00000000 00:08 40920      /SYSV00000000 (deleted)
+b5483000-b5500000 r--p 00000000 08:01 610752     /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+b5500000-b5521000 rw-p b5500000 00:00 0 
+b5521000-b5600000 ---p b5521000 00:00 0 
+b564b000-b564d000 r-xp 00000000 08:01 508835     /usr/lib/pango/1.6.0/modules/pango-basic-fc.so
+b564d000-b564e000 rw-p 00001000 08:01 508835     /usr/lib/pango/1.6.0/modules/pango-basic-fc.so
+b564e000-b5654000 r--s 00000000 08:01 803785     /var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-x86.cache-2
+b5654000-b5655000 r--s 00000000 08:01 806408     /var/cache/fontconfig/fd9505950c048a77dc4b710eb6a628ed-x86.cache-2
+b5655000-b5658000 r--s 00000000 08:01 806406     /var/cache/fontconfig/ddc79d3ea06a7c6ffa86ede85f3bb5df-x86.cache-2
+b5658000-b5659000 r--s 00000000 08:01 806403     /var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-x86.cache-2
+b5659000-b565a000 r--s 00000000 08:01 806401     /var/cache/fontconfig/a2ab74764b07279e7c36ddb1d302cf26-x86.cache-2
+b565a000-b565e000 r--s 00000000 08:01 803782     /var/cache/fontconfig/921a30a17f0be15c70ac14043cb7a739-x86.cache-2
+b565e000-b565f000 r--s 00000000 08:01 806399     /var/cache/fontconfig/4c73fe0c47614734b17d736dbde7580a-x86.cache-2
+b565f000-b5661000 r--s 00000000 08:01 806398     /var/cache/fontconfig/646addb8444faa74ee138aa00ab0b6a0-x86.cache-2
+b5661000-b5663000 r--s 00000000 08:01 806396     /var/cache/fontconfig/20bd79ad97094406f7d1b9654bfbd926-x86.cache-2
+b5663000-b5664000 r--s 00000000 08:01 806394     /var/cache/fontconfig/75a2cd575a62c63e802c11411fb87c37-x86.cache-2
+b5664000-b5666000 r--s 00000000 08:01 806393     /var/cache/fontconfig/9c0624108b9a2ae8552f664125be8356-x86.cache-2
+b5666000-b566c000 r--s 00000000 08:01 806391     /var/cache/fontconfig/6d41288fd70b0be22e8c3a91e032eec0-x86.cache-2
+b566c000-b566e000 r--s 00000000 08:01 806390     /var/cache/fontconfig/de156ccd2eddbdc19d37a45b8b2aac9c-x86.cache-2
+b566e000-b5670000 r--s 00000000 08:01 806389     /var/cache/fontconfig/da1bd5ca8443ffe22927a23ce431d198-x86.cache-2
+b5670000-b5678000 r--s 00000000 08:01 806388     /var/cache/fontconfig/e3de0de479f42330eadf588a55fb5bf4-x86.cache-2
+b5678000-b567e000 r--s 00000000 08:01 806385     /var/cache/fontconfig/0f34bcd4b6ee430af32735b75db7f02b-x86.cache-2
+b567e000-b567f000 r--s 00000000 08:01 806384     /var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-x86.cache-2
+b567f000-b5681000 r--s 00000000 08:01 806253     /var/cache/fontconfig/de9486f0b47a4d768a594cb4198cb1c6-x86.cache-2
+b5681000-b5687000 r--s 00000000 08:01 806252     /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-x86.cache-2
+b5687000-b568a000 r--s 00000000 08:01 806251     /var/cache/fontconfig/6386b86020ecc1ef9690bb720a13964f-x86.cache-2
+b568a000-b568e000 r--s 00000000 08:01 803767     /var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-x86.cache-2
+b568e000-b5690000 r--s 00000000 08:01 805929     /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-x86.cache-2
+b5690000-b5691000 r--s 00000000 08:01 808088     /var/cache/fontconfig/fcff1cd55d48a2c86a175e9943c3506d-x86.cache-2
+b5691000-b5692000 r--s 00000000 08:01 808087     /var/cache/fontconfig/e9e44584608a73233979f764b5f9dd81-x86.cache-2
+b5692000-b5693000 r--s 00000000 08:01 807298     /var/cache/fontconfig/b5a4f3f568a71026ccdc6a3a51afa9b4-x86.cache-2
+b5693000-b5694000 r--s 00000000 08:01 807057     /var/cache/fontconfig/2561679576a9c7fd2ce41d281d4e00d1-x86.cache-2
+b5694000-b5695000 r--s 00000000 08:01 807056     /var/cache/fontconfig/b8613a33de00eecd32d5a94c3c617829-x86.cache-2
+b5695000-b5698000 r--s 00000000 08:01 807055     /var/cache/fontconfig/b21a91cee725896328b8cee8091cf747-x86.cache-2
+b5698000-b569d000 r--s 00000000 08:01 807054     /var/cache/fontconfig/fd9416c4b92f07c6f59a3a8cf496e9dc-x86.cache-2
+b569d000-b569f000 r--s 00000000 08:01 807053     /var/cache/fontconfig/059138ec877db160474b4d5de1248d14-x86.cache-2
+b569f000-b56a0000 r--s 00000000 08:01 807052     /var/cache/fontconfig/f5a93ac943883aa0fd9a7bfe0f6ec3c1-x86.cache-2
+b56a0000-b56a2000 r--s 00000000 08:01 807051     /var/cache/fontconfig/118d8d5311348bbdf5fe3b106d7c13d4-x86.cache-2
+b56a2000-b56a3000 r--s 00000000 08:01 807007     /var/cache/fontconfig/a1131b7be650f9abae4907495aa5815d-x86.cache-2
+b56a3000-b56a8000 r--s 00000000 08:01 807006     /var/cache/fontconfig/8ab5f685cd6d8ba67c37c908faf08172-x86.cache-2
+b56a8000-b56ac000 r--s 00000000 08:01 807005     /var/cache/fontconfig/0f32d3adc6a232110812e17374eaa446-x86.cache-2
+b56ac000-b56ae000 r--s 00000000 08:01 807004     /var/cache/fontconfig/7b4a97c10f6c0166998ddfa1cf7392fb-x86.cache-2
+b56ae000-b56b1000 r--s 00000000 08:01 807003     /var/cache/fontconfig/61c830dfac3fd78a12654da5e9ba3f56-x86.cache-2
+b56b1000-b56b2000 r--s 00000000 08:01 806454     /var/cache/fontconfig/e0f9e95429e756d56293ed4d63866094-x86.cache-2
+b56b2000-b56b4000 r--s 00000000 08:01 806453     /var/cache/fontconfig/4123634e9c08547d899d0aaff05ebe69-x86.cache-2
+b56b4000-b56b8000 r--s 00000000 08:01 806452     /var/cache/fontconfig/142ecfc435bad6f1fbc2648c1119d5eb-x86.cache-2
+b56b8000-b56be000 r--s 00000000 08:01 806451     /var/cache/fontconfig/102e5142c2e9e50c5e8ece26694a2dad-x86.cache-2
+b56be000-b56bf000 r--s 00000000 08:01 806450     /var/cache/fontconfig/92a571655fb1c0ec1c4d6f496220600a-x86.cache-2
+b56bf000-b56c7000 r--s 00000000 08:01 806429     /var/cache/fontconfig/a960c40fc9306f090224a04585f8a963-x86.cache-2
+b56c7000-b56d9000 r-xp 00000000 08:01 381038     /usr/lib/gtk-2.0/2.10.0/engines/libubuntulooks.so
+b56d9000-b56da000 rw-p 00011000 08:01 381038     /usr/lib/gtk-2.0/2.10.0/engines/libubuntulooks.so
+b56da000-b56db000 ---p b56da000 00:00 0 
+b56db000-b5edb000 rw-p b56db000 00:00 0 
+b5edb000-b5edf000 r-xp 00000000 08:01 904435     /lib/tls/i686/cmov/libnss_dns-2.5.so
+b5edf000-b5ee1000 rw-p 00003000 08:01 904435     /lib/tls/i686/cmov/libnss_dns-2.5.so
+b5ee2000-b5ee4000 r--s 00000000 08:01 806427     /var/cache/fontconfig/9404ff413c67fc2a1526fd14eb4163a8-x86.cache-2
+b5ee4000-b5ee7000 r--s 00000000 08:01 806413     /var/cache/fontconfig/b3fedf7c409f006ca1a6fceffceb77cf-x86.cache-2
+b5ee7000-b5eeb000 r-xp 00000000 08:01 381058     /usr/lib/gtk-2.0/2.10.0/loaders/libpixbufloader-png.so
+b5eeb000-b5eec000 rw-p 00003000 08:01 381058     /usr/lib/gtk-2.0/2.10.0/loaders/libpixbufloader-png.so
+b5eec000-b5eed000 ---p b5eec000 00:00 0 
+b5eed000-b66ed000 rw-p b5eed000 00:00 0 
+b66ed000-b66f6000 r-xp 00000000 08:01 904437     /lib/tls/i686/cmov/libnss_files-2.5.so
+b66f6000-b66f8000 rw-p 00008000 08:01 904437     /lib/tls/i686/cmov/libnss_files-2.5.so
+b66f8000-b6700000 r-xp 00000000 08:01 904441     /lib/tls/i686/cmov/libnss_nis-2.5.so
+b6700000-b6702000 rw-p 00007000 08:01 904441     /lib/tls/i686/cmov/libnss_nis-2.5.so
+b6702000-b6709000 r-xp 00000000 08:01 904433     /lib/tls/i686/cmov/libnss_compat-2.5.so
+b6709000-b670b000 rw-p 00006000 08:01 904433     /lib/tls/i686/cmov/libnss_compat-2.5.so
+b670b000-b670c000 rw-p b670b000 00:00 0 
+b670c000-b670e000 r--s 00000000 08:01 803797     /var/cache/fontconfig/6330322105e0c4105d7c7a6ea2974107-x86.cache-2
+b670e000-b6710000 r--s 00000000 08:01 805735     /var/cache/fontconfig/beeeeb3dfe132a8a0633a017c99ce0c0-x86.cache-2
+b6710000-b6712000 r-xp 00000000 08:01 901209     /lib/libnss_mdns4_minimal.so.2
+b6712000-b6713000 rw-p 00001000 08:01 901209     /lib/libnss_mdns4_minimal.so.2
+b6713000-b6714000 r-xp 00000000 08:01 380484     /usr/lib/gconv/ISO8859-1.so
+b6714000-b6716000 rw-p 00000000 08:01 380484     /usr/lib/gconv/ISO8859-1.so
+b6716000-b6751000 r--p 00000000 08:01 443314     /usr/lib/locale/en_US.utf8/LC_CTYPE
+b6751000-b6752000 r--p 00000000 08:01 443319     /usr/lib/locale/en_US.utf8/LC_NUMERIC
+b6752000-b6753000 r--p 00000000 08:01 443322     /usr/lib/locale/en_US.utf8/LC_TIME
+b6753000-b682a000 r--p 00000000 08:01 443313     /usr/lib/locale/en_US.utf8/LC_COLLATE
+b682a000-b682b000 r--p 00000000 08:01 443317     /usr/lib/locale/en_US.utf8/LC_MONETARY
+b682b000-b682c000 r--p 00000000 08:01 443323     /usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES
+b682c000-b682d000 r--p 00000000 08:01 443320     /usr/lib/locale/en_US.utf8/LC_PAPER
+b682d000-b682e000 r--p 00000000 08:01 443318     /usr/lib/locale/en_US.utf8/LC_NAME
+b682e000-b6832000 rw-p b682e000 00:00 0 
+b6832000-b6868000 r-xp 00000000 08:01 901238     /lib/libsepol.so.1
+b6868000-b6869000 rw-p 00035000 08:01 901238     /lib/libsepol.so.1
+b6869000-b6873000 rw-p b6869000 00:00 0 
+b6873000-b6876000 r-xp 00000000 08:01 378710     /usr/lib/libgpg-error.so.0.3.0
+b6876000-b6877000 rw-p 00002000 08:01 378710     /usr/lib/libgpg-error.so.0.3.0
+b6877000-b6878000 rw-p b6877000 00:00 0 
+b6878000-b68c7000 r-xp 00000000 08:01 378598     /usr/lib/libgcrypt.so.11.2.2
+b68c7000-b68c9000 rw-p 0004e000 08:01 378598     /usr/lib/libgcrypt.so.11.2.2
+b68c9000-b68dd000 r-xp 00000000 08:01 379054     /usr/lib/libtasn1.so.3.0.6
+b68dd000-b68de000 rw-p 00013000 08:01 379054     /usr/lib/libtasn1.so.3.0.6
+b68de000-b699e000 r-xp 00000000 08:01 378422     /usr/lib/libasound.so.2.0.0
+b699e000-b69a3000 rw-p 000bf000 08:01 378422     /usr/lib/libasound.so.2.0.0
+b69a3000-b69f0000 r-xp 00000000 08:01 378398     /usr/lib/libXt.so.6.0.0
+b69f0000-b69f4000 rw-p 0004c000 08:01 378398     /usr/lib/libXt.so.6.0.0
+b69f4000-b69f8000 r-xp 00000000 08:01 378368     /usr/lib/libXdmcp.so.6.0.0
+b69f8000-b69f9000 rw-p 00003000 08:01 378368     /usr/lib/libXdmcp.so.6.0.0
+b69f9000-b69fa000 rw-p b69f9000 00:00 0 
+b69fa000-b6a0d000 r-xp 00000000 08:01 904431     /lib/tls/i686/cmov/libnsl-2.5.so
+b6a0d000-b6a0f000 rw-p 00012000 08:01 904431     /lib/tls/i686/cmov/libnsl-2.5.so
+b6a0f000-b6a11000 rw-p b6a0f000 00:00 0 
+b6a11000-b6a33000 r-xp 00000000 08:01 378549     /usr/lib/libpng12.so.0.15.0
+b6a33000-b6a34000 rw-p 00021000 08:01 378549     /usr/lib/libpng12.so.0.15.0
+b6a34000-b6a36000 r-xp 00000000 08:01 378357     /usr/lib/libXau.so.6.0.0
+b6a36000-b6a37000 rw-p 00001000 08:01 378357     /usr/lib/libXau.so.6.0.0
+b6a37000-b6a55000 r-xp 00000000 08:01 378553     /usr/lib/libexpat.so.1.0.0
+b6a55000-b6a57000 rw-p 0001d000 08:01 378553     /usr/lib/libexpat.so.1.0.0
+b6a57000-b6a58000 rw-p b6a57000 00:00 0 
+b6a58000-b6a5a000 r-xp 00000000 08:01 904454     /lib/tls/i686/cmov/libutil-2.5.so
+b6a5a000-b6a5c000 rw-p 00001000 08:01 904454     /lib/tls/i686/cmov/libutil-2.5.so
+b6a5c000-b6a70000 r-xp 00000000 08:01 901237     /lib/libselinux.so.1
+b6a70000-b6a72000 rw-p 00013000 08:01 901237     /lib/libselinux.so.1
+b6a72000-b6a81000 r-xp 00000000 08:01 904448     /lib/tls/i686/cmov/libresolv-2.5.so
+b6a81000-b6a83000 rw-p 0000f000 08:01 904448     /lib/tls/i686/cmov/libresolv-2.5.so
+b6a83000-b6a86000 rw-p b6a83000 00:00 0 
+b6a86000-b6a94000 r-xp 00000000 08:01 378436     /usr/lib/libavahi-client.so.3.2.2
+b6a94000-b6a95000 rw-p 0000e000 08:01 378436     /usr/lib/libavahi-client.so.3.2.2
+b6a95000-b6a9f000 r-xp 00000000 08:01 378438     /usr/lib/libavahi-common.so.3.4.3
+b6a9f000-b6aa0000 rw-p 00009000 08:01 378438     /usr/lib/libavahi-common.so.3.4.3
+b6aa0000-b6aa2000 r-xp 00000000 08:01 378442     /usr/lib/libavahi-glib.so.1.0.1
+b6aa2000-b6aa3000 rw-p 00001000 08:01 378442     /usr/lib/libavahi-glib.so.1.0.1
+b6aa3000-b6b0d000 r-xp 00000000 08:01 378706     /usr/lib/libgnutls.so.13.0.9
+b6b0d000-b6b13000 rw-p 0006a000 08:01 378706     /usr/lib/libgnutls.so.13.0.9
+b6b13000-b6b2d000 r-xp 00000000 08:01 378497     /usr/lib/libdbus-glib-1.so.2.1.0
+b6b2d000-b6b2e000 rw-p 0001a000 08:01 378497     /usr/lib/libdbus-glib-1.so.2.1.0
+b6b2e000-b6b2f000 rw-p b6b2e000 00:00 0 
+b6b2f000-b6b33000 r-xp 00000000 08:01 378343     /usr/lib/libORBitCosNaming-2.so.0.1.0
+b6b33000-b6b34000 rw-p 00003000 08:01 378343     /usr/lib/libORBitCosNaming-2.so.0.1.0
+b6b34000-b6b9c000 r-xp 00000000 08:01 383383     /usr/lib/libfreetype.so.6.3.10
+b6b9c000-b6b9f000 rw-p 00068000 08:01 383383     /usr/lib/libfreetype.so.6.3.10
+b6b9f000-b6bbf000 r-xp 00000000 08:01 378434     /usr/lib/libaudiofile.so.0.0.2
+b6bbf000-b6bc1000 rw-p 00020000 08:01 378434     /usr/lib/libaudiofile.so.0.0.2
+b6bc1000-b6bca000 r-xp 00000000 08:01 378544     /usr/lib/libesd.so.0.2.36
+b6bca000-b6bcb000 rw-p 00009000 08:01 378544     /usr/lib/libesd.so.0.2.36
+b6bcb000-b6bfd000 r-xp 00000000 08:01 377235     /usr/lib/libdbus-1.so.3.2.0
+b6bfd000-b6bfe000 rw-p 00031000 08:01 377235     /usr/lib/libdbus-1.so.3.2.0
+b6bfe000-b6bff000 rw-p b6bfe000 00:00 0 
+b6bff000-b6c12000 r-xp 00000000 08:01 379112     /usr/lib/libz.so.1.2.3
+b6c12000-b6c13000 rw-p 00012000 08:01 379112     /usr/lib/libz.so.1.2.3
+b6c13000-b6c31000 r-xp 00000000 08:01 378835     /usr/lib/libjpeg.so.62.0.0
+b6c31000-b6c32000 rw-p 0001d000 08:01 378835     /usr/lib/libjpeg.so.62.0.0
+b6c32000-b6c33000 rw-p b6c32000 00:00 0 
+b6c33000-b6d6e000 r-xp 00000000 08:01 904420     /lib/tls/i686/cmov/libc-2.5.so
+b6d6e000-b6d6f000 r--p 0013b000 08:01 904420     /lib/tls/i686/cmov/libc-2.5.so
+b6d6f000-b6d71000 rw-p 0013c000 08:01 904420     /lib/tls/i686/cmov/libc-2.5.so
+b6d71000-b6d74000 rw-p b6d71000 00:00 0 
+b6d74000-b6d7f000 r-xp 00000000 08:01 901184     /lib/libgcc_s.so.1
+b6d7f000-b6d80000 rw-p 0000a000 08:01 901184     /lib/libgcc_s.so.1
+b6d80000-b6da5000 r-xp 00000000 08:01 904428     /lib/tls/i686/cmov/libm-2.5.so
+b6da5000-b6da7000 rw-p 00024000 08:01 904428     /lib/tls/i686/cmov/libm-2.5.so
+b6da7000-b6e86000 r-xp 00000000 08:01 379048     /usr/lib/libstdc&#43;&#43;.so.6.0.8
+b6e86000-b6e89000 r--p 000de000 08:01 379048     /usr/lib/libstdc&#43;&#43;.so.6.0.8
+b6e89000-b6e8b000 rw-p 000e1000 08:01 379048     /usr/lib/libstdc&#43;&#43;.so.6.0.8
+b6e8b000-b6e91000 rw-p b6e8b000 00:00 0 
+b6e91000-b6ea4000 r-xp 00000000 08:01 904446     /lib/tls/i686/cmov/libpthread-2.5.so
+b6ea4000-b6ea6000 rw-p 00013000 08:01 904446     /lib/tls/i686/cmov/libpthread-2.5.so
+b6ea6000-b6ea8000 rw-p b6ea6000 00:00 0 
+b6ea8000-b6ebd000 r-xp 00000000 08:01 378384     /usr/lib/libXmu.so.6.2.0
+b6ebd000-b6ebe000 rw-p 00015000 08:01 378384     /usr/lib/libXmu.so.6.2.0
+b6ebe000-b6ebf000 rw-p b6ebe000 00:00 0 
+b6ebf000-b6fac000 r-xp 00000000 08:01 378351     /usr/lib/libX11.so.6.2.0
+b6fac000-b6fb0000 rw-p 000ed000 08:01 378351     /usr/lib/libX11.so.6.2.0
+b6fb0000-b7044000 r-xp 00000000 08:01 378654     /usr/lib/libglib-2.0.so.0.1200.11
+b7044000-b7045000 rw-p 00093000 08:01 378654     /usr/lib/libglib-2.0.so.0.1200.11
+b7045000-b707e000 r-xp 00000000 08:01 378708     /usr/lib/libgobject-2.0.so.0.1200.11
+b707e000-b707f000 rw-p 00039000 08:01 378708     /usr/lib/libgobject-2.0.so.0.1200.11
+b707f000-b7086000 r-xp 00000000 08:01 904450     /lib/tls/i686/cmov/librt-2.5.so
+b7086000-b7088000 rw-p 00006000 08:01 904450     /lib/tls/i686/cmov/librt-2.5.so
+b7088000-b708c000 r-xp 00000000 08:01 378762     /usr/lib/libgthread-2.0.so.0.1200.11
+b708c000-b708d000 rw-p 00003000 08:01 378762     /usr/lib/libgthread-2.0.so.0.1200.11
+b708d000-b70d6000 r-xp 00000000 08:01 378339     /usr/lib/libORBit-2.so.0.1.0
+b70d6000-b70e0000 rw-p 00048000 08:01 378339     /usr/lib/libORBit-2.so.0.1.0
+b70e0000-b70e1000 rw-p b70e0000 00:00 0 
+b70e1000-b7110000 r-xp 00000000 08:01 378596     /usr/lib/libgconf-2.so.4.1.2
+b7110000-b7113000 rw-p 0002e000 08:01 378596     /usr/lib/libgconf-2.so.4.1.2
+b7113000-b7117000 r-xp 00000000 08:01 378400     /usr/lib/libXtst.so.6.1.0
+b7117000-b7118000 rw-p 00003000 08:01 378400     /usr/lib/libXtst.so.6.1.0
+b7118000-b7134000 r-xp 00000000 08:01 383404     /usr/lib/libgnet-2.0.so.0.6.1
+b7134000-b7136000 rw-p 0001b000 08:01 383404     /usr/lib/libgnet-2.0.so.0.6.1
+b7136000-b7138000 r-xp 00000000 08:01 904426     /lib/tls/i686/cmov/libdl-2.5.so
+b7138000-b713a000 rw-p 00001000 08:01 904426     /lib/tls/i686/cmov/libdl-2.5.so
+b713a000-b713c000 r-xp 00000000 08:01 378664     /usr/lib/libgmodule-2.0.so.0.1200.11
+b713c000-b713d000 rw-p 00002000 08:01 378664     /usr/lib/libgmodule-2.0.so.0.1200.11
+b713d000-b71ab000 r-xp 00000000 08:01 378461     /usr/lib/libcairo.so.2.11.1
+b71ab000-b71ad000 rw-p 0006d000 08:01 378461     /usr/lib/libcairo.so.2.11.1
+b71ad000-b71ae000 rw-p b71ad000 00:00 0 
+b71ae000-b71ea000 r-xp 00000000 08:01 378941     /usr/lib/libpango-1.0.so.0.1600.2
+b71ea000-b71ec000 rw-p 0003b000 08:01 378941     /usr/lib/libpango-1.0.so.0.1600.2
+b71ec000-b71f0000 r-xp 00000000 08:01 378374     /usr/lib/libXfixes.so.3.1.0
+b71f0000-b71f1000 rw-p 00003000 08:01 378374     /usr/lib/libXfixes.so.3.1.0
+b71f1000-b71f9000 r-xp 00000000 08:01 378364     /usr/lib/libXcursor.so.1.0.2
+b71f9000-b71fa000 rw-p 00007000 08:01 378364     /usr/lib/libXcursor.so.1.0.2
+b71fa000-b71ff000 r-xp 00000000 08:01 378392     /usr/lib/libXrandr.so.2.1.0
+b71ff000-b7200000 rw-p 00005000 08:01 378392     /usr/lib/libXrandr.so.2.1.0
+b7200000-b7207000 r-xp 00000000 08:01 378380     /usr/lib/libXi.so.6.0.0
+b7207000-b7208000 rw-p 00006000 08:01 378380     /usr/lib/libXi.so.6.0.0
+b7208000-b720a000 r-xp 00000000 08:01 378382     /usr/lib/libXinerama.so.1.0.0
+b720a000-b720b000 rw-p 00001000 08:01 378382     /usr/lib/libXinerama.so.1.0.0
+b720b000-b720c000 rw-p b720b000 00:00 0 
+b720c000-b7213000 r-xp 00000000 08:01 378394     /usr/lib/libXrender.so.1.3.0
+b7213000-b7214000 rw-p 00006000 08:01 378394     /usr/lib/libXrender.so.1.3.0
+b7214000-b7221000 r-xp 00000000 08:01 378372     /usr/lib/libXext.so.6.4.0
+b7221000-b7222000 rw-p 0000d000 08:01 378372     /usr/lib/libXext.so.6.4.0
+b7222000-b7245000 r-xp 00000000 08:01 378559     /usr/lib/libfontconfig.so.1.2.0
+b7245000-b724d000 rw-p 00023000 08:01 378559     /usr/lib/libfontconfig.so.1.2.0
+b724d000-b7254000 r-xp 00000000 08:01 378943     /usr/lib/libpangocairo-1.0.so.0.1600.2
+b7254000-b7255000 rw-p 00007000 08:01 378943     /usr/lib/libpangocairo-1.0.so.0.1600.2
+b7255000-b726b000 r-xp 00000000 08:01 378618     /usr/lib/libgdk_pixbuf-2.0.so.0.1000.11
+b726b000-b726c000 rw-p 00015000 08:01 378618     /usr/lib/libgdk_pixbuf-2.0.so.0.1000.11
+b726c000-b7285000 r-xp 00000000 08:01 378428     /usr/lib/libatk-1.0.so.0.1809.1
+b7285000-b7287000 rw-p 00018000 08:01 378428     /usr/lib/libatk-1.0.so.0.1809.1
+b7287000-b7288000 rw-p b7287000 00:00 0 
+b7288000-b730b000 r-xp 00000000 08:01 378616     /usr/lib/libgdk-x11-2.0.so.0.1000.11
+b730b000-b730e000 rw-p 00083000 08:01 378616     /usr/lib/libgdk-x11-2.0.so.0.1000.11
+b730e000-b7313000 r-xp 00000000 08:01 379019     /usr/lib/libsigc-2.0.so.0.0.0
+b7313000-b7314000 rw-p 00004000 08:01 379019     /usr/lib/libsigc-2.0.so.0.0.0
+b7314000-b7363000 r-xp 00000000 08:01 383388     /usr/lib/libglibmm-2.4.so.1.0.24
+b7363000-b7365000 rw-p 0004e000 08:01 383388     /usr/lib/libglibmm-2.4.so.1.0.24
+b7365000-b737b000 r-xp 00000000 08:01 378568     /usr/lib/libcairomm-1.0.so.1.0.0
+b737b000-b737c000 rw-p 00015000 08:01 378568     /usr/lib/libcairomm-1.0.so.1.0.0
+b737c000-b73a5000 r-xp 00000000 08:01 383397     /usr/lib/libpangomm-1.4.so.1.0.30
+b73a5000-b73a7000 rw-p 00028000 08:01 383397     /usr/lib/libpangomm-1.4.so.1.0.30
+b73a7000-b76f8000 r-xp 00000000 08:01 378765     /usr/lib/libgtk-x11-2.0.so.0.1000.11
+b76f8000-b76fe000 rw-p 00351000 08:01 378765     /usr/lib/libgtk-x11-2.0.so.0.1000.11
+b76fe000-b7700000 rw-p b76fe000 00:00 0 
+b7700000-b773e000 r-xp 00000000 08:01 383394     /usr/lib/libatkmm-1.6.so.1.0.30
+b773e000-b7742000 rw-p 0003d000 08:01 383394     /usr/lib/libatkmm-1.6.so.1.0.30
+b7742000-b7784000 r-xp 00000000 08:01 383395     /usr/lib/libgdkmm-2.4.so.1.0.30
+b7784000-b7787000 rw-p 00042000 08:01 383395     /usr/lib/libgdkmm-2.4.so.1.0.30
+b7787000-b7a56000 r-xp 00000000 08:01 383396     /usr/lib/libgtkmm-2.4.so.1.0.30
+b7a56000-b7aa1000 rw-p 002cf000 08:01 383396     /usr/lib/libgtkmm-2.4.so.1.0.30
+b7aa1000-b7af7000 r-xp 00000000 08:01 378698     /usr/lib/libgnomevfs-2.so.0.1800.1
+b7af7000-b7afa000 rw-p 00055000 08:01 378698     /usr/lib/libgnomevfs-2.so.0.1800.1
+b7afa000-b7b0d000 r-xp 00000000 08:01 378455     /usr/lib/libbonobo-activation.so.4.0.0
+b7b0d000-b7b0f000 rw-p 00013000 08:01 378455     /usr/lib/libbonobo-activation.so.4.0.0
+b7b0f000-b7b10000 rw-p b7b0f000 00:00 0 
+b7b10000-b7b62000 r-xp 00000000 08:01 378453     /usr/lib/libbonobo-2.so.0.0.0
+b7b62000-b7b6c000 rw-p 00051000 08:01 378453     /usr/lib/libbonobo-2.so.0.0.0
+b7b6c000-b7b96000 r-xp 00000000 08:01 378945     /usr/lib/libpangoft2-1.0.so.0.1600.2
+b7b96000-b7b97000 rw-p 0002a000 08:01 378945     /usr/lib/libpangoft2-1.0.so.0.1600.2
+b7b97000-b7bab000 r-xp 00000000 08:01 378420     /usr/lib/libart_lgpl_2.so.2.3.17
+b7bab000-b7bac000 rw-p 00013000 08:01 378420     /usr/lib/libart_lgpl_2.so.2.3.17
+b7bac000-b7bb3000 r-xp 00000000 08:01 901227     /lib/libpopt.so.0.0.0
+b7bb3000-b7bb4000 rw-p 00006000 08:01 901227     /lib/libpopt.so.0.0.0
+b7bb4000-b7bc8000 r-xp 00000000 08:01 378666     /usr/lib/libgnome-2.so.0.1800.0
+b7bc8000-b7bc9000 rw-p 00014000 08:01 378666     /usr/lib/libgnome-2.so.0.1800.0
+b7bc9000-b7bf2000 r-xp 00000000 08:01 378680     /usr/lib/libgnomecanvas-2.so.0.1400.0
+b7bf2000-b7bf3000 rw-p 00029000 08:01 378680     /usr/lib/libgnomecanvas-2.so.0.1400.0
+b7bf3000-b7bf4000 rw-p b7bf3000 00:00 0 
+b7bf4000-b7c00000 r-xp 00000000 08:01 378670     /usr/lib/libgnome-keyring.so.0.0.1
+b7c00000-b7c01000 rw-p 0000b000 08:01 378670     /usr/lib/libgnome-keyring.so.0.0.1
+b7c01000-b7c5c000 r-xp 00000000 08:01 378457     /usr/lib/libbonoboui-2.so.0.0.0
+b7c5c000-b7c5f000 rw-p 0005a000 08:01 378457     /usr/lib/libbonoboui-2.so.0.0.0
+b7c5f000-b7d76000 r-xp 00000000 08:01 379106     /usr/lib/libxml2.so.2.6.27
+b7d76000-b7d7c000 rw-p 00116000 08:01 379106     /usr/lib/libxml2.so.2.6.27
+b7d7c000-b7d93000 r-xp 00000000 08:01 378652     /usr/lib/libglade-2.0.so.0.0.7
+b7d93000-b7d94000 rw-p 00016000 08:01 378652     /usr/lib/libglade-2.0.so.0.0.7
+b7d94000-b7dc7000 r-xp 00000000 08:01 383406     /usr/lib/libgnomevfsmm-2.6.so.1.0.9
+b7dc7000-b7dc8000 rw-p 00033000 08:01 383406     /usr/lib/libgnomevfsmm-2.6.so.1.0.9
+b7dc8000-b7dc9000 rw-p b7dc8000 00:00 0 
+b7dc9000-b7dde000 r-xp 00000000 08:01 378329     /usr/lib/libICE.so.6.3.0
+b7dde000-b7de0000 rw-p 00014000 08:01 378329     /usr/lib/libICE.so.6.3.0
+b7de0000-b7de1000 rw-p b7de0000 00:00 0 
+b7de1000-b7de9000 r-xp 00000000 08:01 378347     /usr/lib/libSM.so.6.0.0
+b7de9000-b7dea000 rw-p 00007000 08:01 378347     /usr/lib/libSM.so.6.0.0
+b7dea000-b7e74000 r-xp 00000000 08:01 378696     /usr/lib/libgnomeui-2.so.0.1788.4
+b7e74000-b7e78000 rw-p 00089000 08:01 378696     /usr/lib/libgnomeui-2.so.0.1788.4
+b7e78000-b7e80000 r-xp 00000000 08:01 383402     /usr/lib/libglademm-2.4.so.1.0.5
+b7e80000-b7e81000 rw-p 00008000 08:01 383402     /usr/lib/libglademm-2.4.so.1.0.5
+b7e81000-b7e93000 r-xp 00000000 08:01 383392     /usr/lib/libgconfmm-2.6.so.1.0.6
+b7e93000-b7e94000 rw-p 00011000 08:01 383392     /usr/lib/libgconfmm-2.6.so.1.0.6
+b7e94000-b7ed0000 r-xp 00000000 08:01 383408     /usr/lib/libgnomecanvasmm-2.6.so.1.0.6
+b7ed0000-b7ed5000 rw-p 0003b000 08:01 383408     /usr/lib/libgnomecanvasmm-2.6.so.1.0.6
+b7ed5000-b7ed6000 rw-p b7ed5000 00:00 0 
+b7ed6000-b7edc000 r-xp 00000000 08:01 383410     /usr/lib/libgnomemm-2.6.so.1.0.5
+b7edc000-b7edd000 rw-p 00005000 08:01 383410     /usr/lib/libgnomemm-2.6.so.1.0.5
+b7edd000-b7f3c000 r-xp 00000000 08:01 383412     /usr/lib/libgnomeuimm-2.6.so.1.0.4
+b7f3c000-b7f49000 rw-p 0005f000 08:01 383412     /usr/lib/libgnomeuimm-2.6.so.1.0.4
+b7f49000-b7f4a000 r--p 00000000 08:01 443312     /usr/lib/locale/en_US.utf8/LC_ADDRESS
+b7f4a000-b7f4b000 r--p 00000000 08:01 443321     /usr/lib/locale/en_US.utf8/LC_TELEPHONE
+b7f4b000-b7f4c000 r--p 00000000 08:01 443316     /usr/lib/locale/en_US.utf8/LC_MEASUREMENT
+b7f4c000-b7f53000 r--s 00000000 08:01 380537     /usr/lib/gconv/gconv-modules.cache
+b7f53000-b7f54000 r--p 00000000 08:01 443315     /usr/lib/locale/en_US.utf8/LC_IDENTIFICATION
+b7f54000-b7f56000 rw-p b7f54000 00:00 0 
+b7f56000-b7f57000 r-xp b7f56000 00:00 0          [vdso]
+b7f57000-b7f70000 r-xp 00000000 08:01 901141     /lib/ld-2.5.so
+b7f70000-b7f72000 rw-p 00019000 08:01 901141     /lib/ld-2.5.so
+bfdd5000-bfdea000 rw-p bfdd5000 00:00 0          [stack]
+Aborted</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Aug 13 2007 12:25:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Without VMI there is no such problem.
+
+kernel 2.6.21-3 (custom build)
+
+Note: other VM problems pop up as well, so next kernel! :-)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Aug 13 2007 16:29:08 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>In kernel 2.6.22-2 workrave doesn&#39;t crash, but the applet is not updated anymore.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Aug 13 2007 22:18:46 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>It&#39;s even more intriguing than I suspected. Somehow workrave creates a deadlock on the network. On another host I got a socket in SYN_RECV, while on this host the socket has outgoing data in the queue and is in ESTABLISHED. (Hmm, I thought that was only possible on SCO with a W95 client :-) )
+Note that a lot of other sockets are also open by workrave which appear to be in ESTABLISHED on both sides.
+I have reproduced this problem twice, so I going for a core dump.
+My suspicion is on a combination of workrave socket code and the VMWare network implementation (pcnet32 in this case).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Aug 31 2007 04:23:47 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi, thank you for that information. Workrave uses the GNet network library:
+http://www.gnetlibrary.org/
+
+You could try: using another gnet app, see if it crashes. also compiling gnet from scratch, watching for errors, and then using that lib when compiling workrave.
+
+I see you reported a separate applet incompatibility on 64-bit as bug #647. Are you using a 64-bit machine here as well?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Oct 3 2007 10:22:42 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>VMWare is installed on the machine mentioned in #647.
+The VM itself is 32-bit.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Oct 9 2007 04:14:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I can&#39;t reproduce this. Please try another gnet application and see if that crashes.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

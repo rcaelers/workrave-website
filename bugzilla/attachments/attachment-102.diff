@@ -1,0 +1,187 @@
+diff -Naur workrave-1.8.4/frontend/common/include/System.hh workrave-1.8.4.new/frontend/common/include/System.hh
+--- workrave-1.8.4/frontend/common/include/System.hh	2007-03-05 18:52:09.000000000 +0100
++++ workrave-1.8.4.new/frontend/common/include/System.hh	2007-09-12 15:54:10.000000000 +0200
+@@ -31,6 +31,10 @@
+ #include <windows.h>
+ #endif
+ 
++#if defined(HAVE_X)
++#include <string>
++#endif
++
+ class System
+ {
+ public:
+@@ -53,8 +57,9 @@
+ #if defined(HAVE_X)
+   static void init_kde(const char *display);
+   
+-  static gchar *xlock;
+   static bool kde;
++  static bool lockable;
++  static std::string lock_display;
+   
+ #elif defined(WIN32)
+   static bool shutdown_helper(bool for_real);
+diff -Naur workrave-1.8.4/frontend/common/src/System.cc workrave-1.8.4.new/frontend/common/src/System.cc
+--- workrave-1.8.4/frontend/common/src/System.cc	2007-03-05 18:52:09.000000000 +0100
++++ workrave-1.8.4.new/frontend/common/src/System.cc	2007-09-12 17:25:54.000000000 +0200
+@@ -1,6 +1,6 @@
+ // Display.cc
+ //
+-// Copyright (C) 2002, 2003, 2004, 2005, 2006 Rob Caelers & Raymond Penners
++// Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007 Rob Caelers & Raymond Penners
+ // All rights reserved.
+ //
+ // This program is free software; you can redistribute it and/or modify
+@@ -25,6 +25,7 @@
+ #endif
+ 
+ #include <stdlib.h>
++#include <stdio.h>
+ #include <string.h>
+ #include <strings.h>
+ 
+@@ -98,8 +99,9 @@
+ 
+ #if defined(HAVE_X)
+ 
+-gchar *System::xlock = NULL;
+ bool System::kde = false;
++bool System::lockable = false;
++std::string System::lock_display;
+ 
+ #elif defined(WIN32)
+ 
+@@ -114,7 +116,7 @@
+ {
+   bool ret;
+ #if defined(HAVE_X)
+-  ret = xlock != NULL;
++  ret = lockable;
+ #elif defined(WIN32)
+   ret = lock_func != NULL;
+ #else
+@@ -123,6 +125,34 @@
+   return ret;
+ }
+ 
++static bool
++invoke(const gchar* command, bool async = false)
++{
++  GError *error = NULL;
++
++  if(!async)
++    {
++      // synchronised call
++      gint exit_code;
++      if (!g_spawn_command_line_sync(command, NULL, NULL, &exit_code, &error) )
++        {
++          g_error_free(error);
++          return false;
++        }
++      return WEXITSTATUS(exit_code) == 0;
++    }
++  else
++    {
++      // asynchronous call
++      if (!g_spawn_command_line_async(command, &error) )
++        {
++          g_error_free(error);
++          return false;
++        }
++      return true;
++    }
++}
++
+ void
+ System::lock()
+ {
+@@ -130,10 +160,36 @@
+   if (is_lockable())
+     {
+ #if defined(HAVE_X)
+-      GString *cmd = g_string_new(xlock);
+-      cmd = g_string_append_c(cmd, '&');
+-      system(cmd->str);
+-      g_string_free(cmd, true);
++      gchar *program = NULL, *cmd = NULL;
++      if (is_kde() && (program = g_find_program_in_path("kdesktop_lock")))
++        {
++          cmd = g_strdup_printf("%s --display \"%s\" --forcelock",
++                                program, lock_display.c_str() );
++          invoke(cmd, true);
++          goto end;
++        }
++      if ((program = g_find_program_in_path("xscreensaver-command")))
++        {
++          cmd = g_strdup_printf("%s --display \"%s\" -lock",
++                                program, lock_display.c_str() );
++          if(invoke(cmd, false) )
++            goto end;
++        }
++      if ((program = g_find_program_in_path("gnome-screensaver-command")))
++        {
++          cmd = g_strdup_printf("%s --lock", program);
++          if(invoke(cmd, false) )
++            goto end;
++        }
++      if ((program = g_find_program_in_path("xlock")))
++        {
++          cmd = g_strdup_printf("%s -display \"%s\"",
++                                program, lock_display.c_str() );
++          invoke(cmd, true);
++        }
++end:  // cleanup of created strings, jump to avoid duplication
++      g_free(program);
++      g_free(cmd);
+ #elif defined(WIN32)
+       (*lock_func)();
+ #endif  
+@@ -196,31 +252,22 @@
+   TRACE_ENTER("System::init");
+ #if defined(HAVE_X)
+   init_kde(display);
+-  gchar *lock = NULL;
+-  if (is_kde() && (lock = g_find_program_in_path("kdesktop_lock")))
+-    {
+-      xlock = g_strdup_printf("%s --display \"%s\" --forcelock",
+-                              lock, display);
+-    }
+-  else if ((lock = g_find_program_in_path("xscreensaver-command")))
+-    {
+-      xlock = g_strdup_printf("%s --display \"%s\" -lock",
+-                              lock, display);
+-    }
+-  else if ((lock = g_find_program_in_path("xlock")))
+-    {
+-      xlock = g_strdup_printf("%s -display \"%s\"",
+-                              lock, display);
+-    }
+-  else if ((lock = g_find_program_in_path("gnome-screensaver-command")))
+-    {
+-      xlock = g_strdup_printf("%s --lock", lock);
+-    }
+-  g_free(lock);
+-  
+-  if (xlock != NULL)
++
++  gchar *program;
++  if (is_kde() && (program = g_find_program_in_path("kdesktop_lock")))
++    lockable = true;
++  else if (program = g_find_program_in_path("xscreensaver-command"))
++    lockable = true;
++  else if (program = g_find_program_in_path("gnome-screensaver-command"))
++    lockable = true;
++  else if (program = g_find_program_in_path("xlock"))
++    lockable = true;
++
++  if(lockable)
+     {
+-      TRACE_MSG("Locking enabled: " << xlock);
++      g_free(program);
++      lock_display = display;
++      TRACE_MSG("Locking enabled");
+     }
+   else
+     {

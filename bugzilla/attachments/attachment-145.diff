@@ -1,0 +1,106 @@
+--- workrave-1.9.0/frontend/common/src/kde/KdeSoundPlayer.cc
++++ workrave-1.9.0/frontend/common/src/kde/KdeSoundPlayer.cc
+@@ -25,6 +25,9 @@
+ 
+ #include "debug.hh"
+ 
++#include <string>
++using namespace std;
++
+ #include "KdeSoundPlayer.hh"
+ #include <debug.hh>
+ 
+@@ -46,7 +49,7 @@
+ 
+ 
+ bool
+-KdeSoundPlayer::capability(SounCapability cap)
++KdeSoundPlayer::capability(SoundPlayer::SoundCapability cap)
+ {
+   (void) cap;
+   return false;
+@@ -59,7 +62,7 @@
+ }
+ 
+ void
+-KdeSoundPlayer::play_sound(SoundEvent snd)
++KdeSoundPlayer::play_sound(SoundPlayer::SoundEvent snd)
+ {
+   const char *map[] = {
+     "break_prelude",
+@@ -80,3 +83,34 @@
+   TRACE_EXIT();
+ }
+ 
++
++bool
++KdeSoundPlayer::get_sound_enabled(SoundPlayer::SoundEvent snd, bool &enabled)
++{
++  (void) snd;
++  (void) enabled;
++  
++  return false;
++}
++
++void
++KdeSoundPlayer::set_sound_enabled(SoundPlayer::SoundEvent snd, bool enabled)
++{
++  (void) snd;
++  (void) enabled;
++}
++
++bool
++KdeSoundPlayer::get_sound_wav_file(SoundPlayer::SoundEvent snd, std::string &wav_file)
++{
++  (void) snd;
++  (void) wav_file;
++  return false;
++}
++
++void
++KdeSoundPlayer::set_sound_wav_file(SoundPlayer::SoundEvent snd, const std::string &wav_file)
++{
++  (void) snd;
++  (void) wav_file;
++}
+--- workrave-1.9.0/frontend/common/src/kde/KdeSoundPlayer.hh
++++ workrave-1.9.0/frontend/common/src/kde/KdeSoundPlayer.hh
+@@ -32,9 +32,14 @@
+   KdeSoundPlayer();
+   virtual ~KdeSoundPlayer();
+ 
+-  bool capability(SounCapability cap);
++  bool get_sound_enabled(SoundPlayer::SoundEvent snd, bool &enabled);
++  void set_sound_enabled(SoundPlayer::SoundEvent snd, bool enabled);
++  bool get_sound_wav_file(SoundPlayer::SoundEvent snd, std::string &filename);
++  void set_sound_wav_file(SoundPlayer::SoundEvent snd, const std::string &wav_file);
++
++  bool capability(SoundPlayer::SoundCapability cap);
+   void play_sound(string wavfile);
+-  void play_sound(SoundEvent snd);
++  void play_sound(SoundPlayer::SoundEvent snd);
+ 
+ private:
+   KInstance *kinstance;
+--- workrave-1.9.0/frontend/common/src/win32/W32OldSoundPlayer.cc
++++ workrave-1.9.0/frontend/common/src/win32/W32OldSoundPlayer.cc
+@@ -179,7 +179,7 @@
+ 
+ 
+ bool
+-W32SoundPlayer::capability(SounCapability cap)
++W32SoundPlayer::capability(SoundPlayer::SoundCapability cap)
+ {
+   (void) cap;
+   return false;
+--- workrave-1.9.0/frontend/common/src/win32/W32OldSoundPlayer.hh
++++ workrave-1.9.0/frontend/common/src/win32/W32OldSoundPlayer.hh
+@@ -30,7 +30,7 @@
+   W32SoundPlayer();
+   virtual ~W32SoundPlayer();
+ 
+-  bool capability(SounCapability cap);
++  bool capability(SoundPlayer::SoundCapability cap);
+   void play_sound(string wavfile);
+   void play_sound(SoundEvent snd);
+ 

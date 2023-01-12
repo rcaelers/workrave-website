@@ -1,0 +1,180 @@
+diff -Nur workrave-1.8.4.orig/aclocal.m4 workrave-1.8.4/aclocal.m4
+--- workrave-1.8.4.orig/aclocal.m4	2007-04-09 20:24:06.000000000 +0100
++++ workrave-1.8.4/aclocal.m4	2007-04-09 20:24:33.000000000 +0100
+@@ -204,7 +204,7 @@
+           echo "***"
+           echo "***    rpm --erase --nodeps orbit orbit-devel" ],
+         [ echo "*** The test program failed to compile or link. See the file config.log for the"
+-          echo "*** exact error that occured. This usually means ORBIT was incorrectly installed"
++          echo "*** exact error that occurred. This usually means ORBIT was incorrectly installed"
+           echo "*** or that you have moved ORBit since it was installed. In the latter case, you"
+           echo "*** may want to edit the orbit2-config script: $ORBIT_CONFIG" ])
+           CFLAGS="$ac_save_CFLAGS"
+diff -Nur workrave-1.8.4.orig/configure workrave-1.8.4/configure
+--- workrave-1.8.4.orig/configure	2007-04-09 20:24:06.000000000 +0100
++++ workrave-1.8.4/configure	2007-04-09 20:24:46.000000000 +0100
+@@ -25248,7 +25248,7 @@
+ sed 's/^/| /' conftest.$ac_ext >&5
+ 
+ 	 echo "*** The test program failed to compile or link. See the file config.log for the"
+-          echo "*** exact error that occured. This usually means ORBIT was incorrectly installed"
++          echo "*** exact error that occurred. This usually means ORBIT was incorrectly installed"
+           echo "*** or that you have moved ORBit since it was installed. In the latter case, you"
+           echo "*** may want to edit the orbit2-config script: $ORBIT_CONFIG"
+ fi
+diff -Nur workrave-1.8.4.orig/frontend/gtkmm/src/gnome_applet/WorkraveApplet.c workrave-1.8.4/frontend/gtkmm/src/gnome_applet/WorkraveApplet.c
+--- workrave-1.8.4.orig/frontend/gtkmm/src/gnome_applet/WorkraveApplet.c	2007-04-09 20:24:06.000000000 +0100
++++ workrave-1.8.4/frontend/gtkmm/src/gnome_applet/WorkraveApplet.c	2007-04-09 20:25:53.000000000 +0100
+@@ -325,7 +325,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       else
+@@ -397,7 +397,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+ 
+@@ -421,7 +421,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -445,7 +445,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -468,7 +468,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -491,7 +491,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -515,7 +515,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -538,7 +538,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -560,7 +560,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -584,7 +584,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       CORBA_exception_free(&ev);
+@@ -627,7 +627,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       
+@@ -667,7 +667,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       
+@@ -725,7 +725,7 @@
+       if (BONOBO_EX(&ev))
+         {
+           char *err = (char *) bonobo_exception_get_text(&ev);
+-          g_warning (_("An exception occured '%s'"), err);
++          g_warning (_("An exception occurred '%s'"), err);
+           g_free(err);
+         }
+       
+@@ -772,7 +772,7 @@
+           if (BONOBO_EX(&ev))
+             {
+               char *err = (char *) bonobo_exception_get_text(&ev);
+-              g_warning (_("An exception occured '%s'"), err);
++              g_warning (_("An exception occurred '%s'"), err);
+               g_free(err);
+             }
+           
+@@ -814,7 +814,7 @@
+           if (BONOBO_EX(&ev))
+             {
+               char *err = (char *) bonobo_exception_get_text(&ev);
+-              g_warning (_("An exception occured '%s'"), err);
++              g_warning (_("An exception occurred '%s'"), err);
+               g_free(err);
+             }
+           
+@@ -870,7 +870,7 @@
+           if (BONOBO_EX(&ev))
+             {
+               char *err = (char *) bonobo_exception_get_text(&ev);
+-              g_warning (_("An exception occured '%s'"), err);
++              g_warning (_("An exception occurred '%s'"), err);
+               g_free(err);
+             }
+           
+@@ -986,7 +986,7 @@
+           if (BONOBO_EX(&ev))
+             {
+               char *err = (char *) bonobo_exception_get_text(&ev);
+-              g_warning (_("An exception occured '%s'"), err);
++              g_warning (_("An exception occurred '%s'"), err);
+               g_free(err);
+             }
+       

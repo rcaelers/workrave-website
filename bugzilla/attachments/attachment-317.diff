@@ -1,0 +1,30 @@
+From e2900a7fc0d3b341f166b881e7913564afef3755 Mon Sep 17 00:00:00 2001
+From: Anthony PERARD <anthony.perard@gmail.com>
+Date: Fri, 28 Oct 2016 16:15:02 +0100
+Subject: [PATCH] Bug 794: In STAGE_DELAYED, keep same break mode
+
+otherwise, the only way to go to the next stage is by having some
+activities, and the prelude windows stay on screen.
+
+In BreakControl::heartbeat(), STAGE_DELAYED is waiting on "is_idle" to
+be true, but this seems to never be true without this patch.
+---
+ backend/src/BreakControl.cc | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/backend/src/BreakControl.cc b/backend/src/BreakControl.cc
+index db82dce..1336be7 100644
+--- a/backend/src/BreakControl.cc
++++ b/backend/src/BreakControl.cc
+@@ -214,8 +214,6 @@ BreakControl::goto_stage(BreakStage stage)
+       {
+         IActivityMonitor *monitor = core->get_activity_monitor();
+         monitor->set_listener(this);
+-
+-        core->set_insensitive_mode_all_breaks(INSENSITIVE_MODE_IDLE_ON_LIMIT_REACHED);
+       }
+       break;
+ 
+-- 
+Anthony PERARD
+

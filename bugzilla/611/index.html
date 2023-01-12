@@ -1,0 +1,124 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/611/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;611 - workrave crashed with SIGSEGV in pthread_mutex_lock()</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: UNIX</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.3</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P2 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8>https://launchpad.net/ubuntu/+source/workrave/+bug/97613</div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Mar 29 2007 12:38:48 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Daniel Holbach</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Mar 29 2007 22:36:27 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Mar 29 2007 19:46:22 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Mar 29 2007 12:38:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Forwarded from: https://launchpad.net/ubuntu/&#43;source/workrave/&#43;bug/97613
+
+Really have no clue. Was just surfing the web. I guess it was time for workrave to pop-up a reminder I guess - havent seen any of those yet while using Feisty.
+
+ProblemType: Crash
+Architecture: i386
+Date: Thu Mar 29 00:31:32 2007
+DistroRelease: Ubuntu 7.04
+ExecutablePath: /usr/bin/workrave
+Package: workrave 1.8.4-1ubuntu2
+PackageArchitecture: i386
+ProcCmdline: /usr/bin/workrave --oaf-activate-iid=OAFIID:GNOME_Workrave_Factory --oaf-ior-fd=45
+ProcCwd: /
+ProcEnviron:
+ LANG=sv_SE.UTF-8
+ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+ SHELL=/bin/bash
+Signal: 11
+SourcePackage: workrave
+Uname: Linux laptop 2.6.20-13-generic #2 SMP Sun Mar 25 00:21:25 UTC 2007 i686 GNU/Linux
+UserGroups: adm admin audio cdrom dialout dip floppy lpadmin netdev plugdev powerdev scanner video
+
+
+Thread 1 (process 8332):
+#0  0xb6ebf44c in pthread_mutex_lock () from /lib/tls/i686/cmov/libpthread.so.0
+#1  0xb6a100c5 in _xcb_lock_io (c=0x817f710) at xcb_conn.c:279
+No locals.
+#2  0xb6a1028c in _xcb_conn_wait (c=0x817f710, cond=0x81807d4, vector=0xbf049208, count=0xbf049204) at xcb_conn.c:325
+	ret = 135788316
+	rfds = {__fds_bits = {0 &lt;repeats 32 times&gt;}}
+	wfds = {__fds_bits = {16384, 0 &lt;repeats 31 times&gt;}}
+#3  0xb6a1089b in _xcb_out_send (c=0x817f710, vector=0xbf049208, count=0xbf049204) at xcb_out.c:279
+	ret = 1
+#4  0xb6a109cd in _xcb_out_flush_to (c=0x817f710, request=209522) at xcb_out.c:297
+	vec = {iov_base = 0x8180808, iov_len = 24}
+	vec_ptr = (struct iovec *) 0xbf0491fc
+	count = 1
+	__PRETTY_FUNCTION__ = &#34;_xcb_out_flush_to&#34;
+#5  0xb6a11ec7 in xcb_wait_for_reply (c=0x817f710, request=209522, e=0xbf0492d8) at xcb_in.c:325
+	ret = (void *) 0x0
+#6  0xb6f2998d in _XReply (dpy=0x817efc0, rep=0xbf04932c, extra=0, discard=0) at ../../src/xcb_io.c:367
+	error = &lt;value optimized out&gt;
+	c = (xcb_connection_t *) 0x817f710
+	current = (PendingRequest *) 0x8186000
+	current_sequence = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;_XReply&#34;
+#7  0xb6f08356 in XGetWindowProperty (dpy=0x817efc0, w=0, property=115, offset=0, length=100000, delete=0, req_type=115, actual_type=0xbf0493b8, actual_format=0xbf0493b4, 
+    nitems=0xbf0493b0, bytesafter=0xbf0493ac, prop=0xbf0493a8) at ../../src/GetProp.c:64
+	reply = {type = 36 &#39;$&#39;, format = 6 &#39;\006&#39;, sequenceNumber = 46754, length = 135788304, propertyType = 0, bytesAfter = 0, nItems = 3070024268, pad1 = 3070024268, 
+  pad2 = 135786432, pad3 = 3204748136}
+	error = {type = 138 &#39;\212&#39;, errorCode = 139 &#39;\213&#39;, sequenceNumber = 12914, resourceID = 3070024268, minorCode = 115, majorCode = 0 &#39;\0&#39;, pad1 = 0 &#39;\0&#39;, 
+  pad3 = 3204748152, pad4 = 3069235102, pad5 = 135786432, pad6 = 3204748132, pad7 = 3204748128}
+#8  0x080ef4f8 in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:262
+	ignored1 = 3204748312
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = &lt;value optimized out&gt;
+	retval = &lt;value optimized out&gt;
+#9  0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748392
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#10 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748472
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#11 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748552
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#12 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748632
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#13 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748712
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#14 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748792
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+#15 0x080ef5ad in look_for_kdesktop_recursive (display=0x817efc0, xwindow=0) at System.cc:326
+	ignored1 = 3204748872
+	ignored2 = 0
+	children = (Window *) 0x817efc0
+	n_children = 135198030
+	i = 0
+	retval = &lt;value optimized out&gt;
+...
+
+According to http://librarian.launchpad.net/7040813/%3Cfdopen%3E look_for_kdesktop_recursive recurses until frame #2000.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Mar 29 2007 19:46:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fixed.
+
+(http://workrave.svn.sourceforge.net/viewvc/workrave/workrave/trunk/frontend/common/src/System.cc?r1=1090&amp;r2=1163&amp;view=patch)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Mar 29 2007 22:36:27 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks a lot.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

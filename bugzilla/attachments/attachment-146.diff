@@ -1,0 +1,19 @@
+commit 7ee3653c5075ab42eec28c47084ed91e3007848c
+Author: Francois Marier <francois@debian.org>
+Date:   Wed Sep 10 16:56:59 2008 +1200
+
+    Fix the username value saving in the networking preferences
+
+diff --git a/backend/src/DistributionManager.cc b/backend/src/DistributionManager.cc
+index 383063c..46ac4a2 100644
+--- a/backend/src/DistributionManager.cc
++++ b/backend/src/DistributionManager.cc
+@@ -807,7 +807,7 @@ DistributionManager::get_username() const
+ void
+ DistributionManager::set_username(string name)
+ {
+-  configurator->set_value(CoreConfig::CFG_KEY_DISTRIBUTION + CoreConfig::CFG_KEY_DISTRIBUTION_TCP_USERNAME, name);
++  configurator->set_value(CoreConfig::CFG_KEY_DISTRIBUTION_TCP_USERNAME, name);
+ }
+ 
+ 

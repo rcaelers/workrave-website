@@ -1,0 +1,1496 @@
+>>> GUI:GUI
+<<< GUI:GUI
+>>> GUI::main
+>>> Break:Break
+<<< Break:Break
+>>> Break:Break
+<<< Break:Break
+>>> Break:Break
+<<< Break:Break
+>>> Core::Core
+<<< Core::Core
+>>> Configurator::get_value general/datadir
+<<< Configurator::get_value
+>>> ActivityMonitor::ActivityMonitor
+>>> X11InputMonitor::run
+>>> X11InputMonitor::run_xrecord
+>>> X11InputMonitor::init_xrecord
+    X11InputMonitor::init_xrecord use_xrecord= 1
+<<< X11InputMonitor::init_xrecord
+<<< ActivityMonitor::ActivityMonitor
+>>> Core::load_monitor_config
+>>> Configurator::get_value monitor/noise
+<<< Configurator::get_value
+>>> Configurator::get_value monitor/activity
+<<< Configurator::get_value
+>>> Configurator::get_value monitor/idle
+<<< Configurator::get_value
+    Core::load_monitor_config Monitor config = 9000 1000 5000
+<<< Core::load_monitor_config
+>>> GConfConfigurator::add_listener monitor
+<<< GConfConfigurator::add_listener
+>>> DistributionSocketLink::init
+>>> Configurator::get_value distribution/port
+<<< Configurator::get_value
+>>> Configurator::get_value distribution/reconnect_interval
+<<< Configurator::get_value
+>>> Configurator::get_value distribution/reconnect_attempts
+<<< Configurator::get_value
+>>> Configurator::get_value distribution/username
+<<< Configurator::get_value
+>>> Configurator::get_value distribution/password
+<<< Configurator::get_value
+>>> GConfConfigurator::add_listener distribution/tcp
+<<< GConfConfigurator::add_listener
+<<< DistributionSocketLink::init
+>>> Configurator::get_value distribution/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value distribution/listening
+<<< Configurator::get_value
+>>> DistributionSocketLink:set_server_enabled 0
+>>> Configurator::get_value distribution/peers
+<<< Configurator::get_value
+>>> GConfConfigurator::add_listener distribution
+<<< GConfConfigurator::add_listener
+>>> IdleLogManager::init()
+>>> IdleLogManager::load()
+    IdleLogManager::load() File exists - ok
+    IdleLogManager::load() Size - 20
+    IdleLogManager::load() Version - 2
+    IdleLogManager::load() Version - ok
+    IdleLogManager::load() id = 
+    IdleLogManager::load() Add client 
+<<< IdleLogManager::load()
+>>> IdleLogManager::load_idlelog()
+    IdleLogManager::load_idlelog() loading 3 intervals
+>>> IdleLogManager::fix_idlelog
+    IdleLogManager::fix_idlelog 1 1230505382 1230505382 0
+    IdleLogManager::fix_idlelog 1230505382 1230512789 1230512789 0
+    IdleLogManager::fix_idlelog 1230512789 1230512824 1230512824 0
+<<< IdleLogManager::fix_idlelog
+<<< IdleLogManager::load_idlelog()
+<<< IdleLogManager::init()
+>>> Break::init
+>>> Configurator::get_value timers/micro_pause/limit
+<<< Configurator::get_value
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Configurator::get_value timers/micro_pause/auto_reset
+<<< Configurator::get_value
+>>> Configurator::get_value timers/micro_pause/reset_pred
+<<< Configurator::get_value
+>>> Configurator::get_value timers/micro_pause/snooze
+<<< Configurator::get_value
+>>> Configurator::get_value timers/micro_pause/activity_sensitive
+<<< Configurator::get_value
+>>> Configurator::get_value timers/micro_pause/monitor
+<<< Configurator::get_value
+>>> Timer::enable micro_pause0
+>>> Timer::stop_timer micro_pause0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+<<< Timer::enable
+>>> Timer::stop_timer micro_pause2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/micro_pause
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/micro_pause/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/micro_pause/enabled
+<<< Configurator::get_value
+>>> GConfConfigurator::add_listener breaks/micro_pause
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/micro_pause/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/micro_pause/enabled
+<<< Configurator::get_value
+>>> Configurator::set_value timers/micro_pause/limit
+>>> Configurator::get_value timers/micro_pause/limit
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/micro_pause/auto_reset
+>>> Configurator::get_value timers/micro_pause/auto_reset
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/micro_pause/reset_pred
+>>> Configurator::get_value timers/micro_pause/reset_pred
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/micro_pause/snooze
+>>> Configurator::get_value timers/micro_pause/snooze
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/micro_pause/monitor
+>>> Configurator::get_value timers/micro_pause/monitor
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/micro_pause/activity_sensitive
+>>> Configurator::get_value timers/micro_pause/activity_sensitive
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/micro_pause/max_preludes
+>>> Configurator::get_value breaks/micro_pause/max_preludes
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/micro_pause/enabled
+>>> Configurator::get_value breaks/micro_pause/enabled
+<<< Configurator::get_value
+<<< Configurator::set_value
+<<< Break::init
+>>> Break::init
+>>> Configurator::get_value timers/rest_break/limit
+<<< Configurator::get_value
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Configurator::get_value timers/rest_break/auto_reset
+<<< Configurator::get_value
+>>> Configurator::get_value timers/rest_break/reset_pred
+<<< Configurator::get_value
+>>> Configurator::get_value timers/rest_break/snooze
+<<< Configurator::get_value
+>>> Configurator::get_value timers/rest_break/activity_sensitive
+<<< Configurator::get_value
+>>> Configurator::get_value timers/rest_break/monitor
+<<< Configurator::get_value
+>>> Timer::enable rest_break0
+>>> Timer::stop_timer rest_break0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+<<< Timer::enable
+>>> Timer::stop_timer rest_break2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/rest_break
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/rest_break/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/rest_break/enabled
+<<< Configurator::get_value
+>>> GConfConfigurator::add_listener breaks/rest_break
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/rest_break/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/rest_break/enabled
+<<< Configurator::get_value
+>>> Configurator::set_value timers/rest_break/limit
+>>> Configurator::get_value timers/rest_break/limit
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/rest_break/auto_reset
+>>> Configurator::get_value timers/rest_break/auto_reset
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/rest_break/reset_pred
+>>> Configurator::get_value timers/rest_break/reset_pred
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/rest_break/snooze
+>>> Configurator::get_value timers/rest_break/snooze
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/rest_break/monitor
+>>> Configurator::get_value timers/rest_break/monitor
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/rest_break/activity_sensitive
+>>> Configurator::get_value timers/rest_break/activity_sensitive
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/rest_break/max_preludes
+>>> Configurator::get_value breaks/rest_break/max_preludes
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/rest_break/enabled
+>>> Configurator::get_value breaks/rest_break/enabled
+<<< Configurator::get_value
+<<< Configurator::set_value
+<<< Break::init
+>>> Break::init
+>>> Configurator::get_value timers/daily_limit/limit
+<<< Configurator::get_value
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Configurator::get_value timers/daily_limit/auto_reset
+<<< Configurator::get_value
+>>> Configurator::get_value timers/daily_limit/reset_pred
+<<< Configurator::get_value
+>>> Configurator::get_value timers/daily_limit/snooze
+<<< Configurator::get_value
+>>> Configurator::get_value timers/daily_limit/activity_sensitive
+<<< Configurator::get_value
+>>> Configurator::get_value timers/daily_limit/monitor
+<<< Configurator::get_value
+>>> Timer::enable daily_limit0
+>>> Timer::stop_timer daily_limit0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+<<< Timer::enable
+>>> Timer::stop_timer daily_limit2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/daily_limit
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/daily_limit/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/daily_limit/enabled
+<<< Configurator::get_value
+>>> GConfConfigurator::add_listener breaks/daily_limit
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value breaks/daily_limit/max_preludes
+<<< Configurator::get_value
+>>> Configurator::get_value breaks/daily_limit/enabled
+<<< Configurator::get_value
+>>> Configurator::set_value timers/daily_limit/limit
+>>> Configurator::get_value timers/daily_limit/limit
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/daily_limit/auto_reset
+>>> Configurator::get_value timers/daily_limit/auto_reset
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/daily_limit/reset_pred
+>>> Configurator::get_value timers/daily_limit/reset_pred
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/daily_limit/snooze
+>>> Configurator::get_value timers/daily_limit/snooze
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/daily_limit/monitor
+>>> Configurator::get_value timers/daily_limit/monitor
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value timers/daily_limit/activity_sensitive
+>>> Configurator::get_value timers/daily_limit/activity_sensitive
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/daily_limit/max_preludes
+>>> Configurator::get_value breaks/daily_limit/max_preludes
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value breaks/daily_limit/enabled
+>>> Configurator::get_value breaks/daily_limit/enabled
+<<< Configurator::get_value
+<<< Configurator::set_value
+<<< Break::init
+>>> Statistics::load_current_day
+>>> Statistics::load
+<<< Statistics::load
+<<< Statistics::load_current_day
+>>> Statistics::load_history
+>>> Statistics::load
+<<< Statistics::load
+<<< Statistics::load_history
+>>> Timer::deserialize_state
+    Timer::deserialize_state 1 0 70 10 0 0 36000 EST EST -36000 1
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+    Timer::deserialize_state elapsed = 0
+>>> Timer::deserialize_state
+    Timer::deserialize_state 1 0 70 10 0 0 36000 EST EST -36000 1
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+    Timer::deserialize_state elapsed = 0
+>>> Timer::deserialize_state
+    Timer::deserialize_state 29 11 108 10 3 1 39600 EST EST -36000 1
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+    Timer::deserialize_state elapsed = 0
+>>> Configurator::get_value gui/operation-mode
+<<< Configurator::get_value
+>>> Configurator::set_value gui/breaks/micro_pause/ignorable_break
+>>> Configurator::get_value gui/breaks/micro_pause/ignorable_break
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/micro_pause/exercises
+>>> Configurator::get_value gui/breaks/micro_pause/exercises
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/rest_break/ignorable_break
+>>> Configurator::get_value gui/breaks/rest_break/ignorable_break
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/rest_break/exercises
+>>> Configurator::get_value gui/breaks/rest_break/exercises
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/daily_limit/ignorable_break
+>>> Configurator::get_value gui/breaks/daily_limit/ignorable_break
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/daily_limit/exercises
+>>> Configurator::get_value gui/breaks/daily_limit/exercises
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::set_value gui/breaks/block_mode
+>>> Configurator::get_value gui/breaks/block_mode
+<<< Configurator::get_value
+<<< Configurator::set_value
+>>> Configurator::get_value gui/locale
+<<< Configurator::get_value
+>>> GUI::init_gnome
+<<< GUI::init_gnome
+>>> System::init
+>>> System::init_kde
+<<< System::init_kde0
+    System::init Locking disabled
+<<< System::init
+>>> SoundPlayer::load_sound_theme
+>>> Configurator::get_value sound/events/break_prelude
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/break_ignored
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_started
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_started
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/daily_limit
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercises_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_step
+<<< Configurator::get_value
+    SoundPlayer::load_sound_theme 1
+<<< SoundPlayer::load_sound_theme
+>>> Configurator::get_value sound/events/break_prelude_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/break_prelude
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/break_ignored_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/break_ignored
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_started_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_started
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_ended_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/rest_break_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_started_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_started
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_ended_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/micro_break_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/daily_limit_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/daily_limit
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_ended_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercises_ended_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercises_ended
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_step_enabled
+<<< Configurator::get_value
+>>> Configurator::get_value sound/events/exercise_step
+<<< Configurator::get_value
+>>> GUI::init_multihead
+>>> GUI::init_gtk_multihead
+    GUI::init_gtk_multihead screens = 1
+    GUI::init_gtk_multihead num monitors on screen 0 = 1
+    GUI::init_gtk_multihead num monitors on screen 0 = 1
+>>> GUI::init_multihead_mem
+<<< GUI::init_multihead_mem
+    GUI::init_gtk_multihead monitors = 1
+    GUI::init_gtk_multihead Screen #0 Monitor #0  0 0 1024 768  intersects 0
+    GUI::init_gtk_multihead # Heads = 1
+<<< GUI::init_gtk_multihead
+>>> GUI::init_multihead_desktop
+    GUI::init_multihead_desktop gdk width x height 1024 768
+    GUI::init_multihead_desktop width x height 1024 768
+<<< GUI::init_multihead
+>>> MainWindow::init
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> TimerBoxGtkView::init
+<<< TimerBoxGtkView::init
+>>> TimerBoxControl::init
+>>> GConfConfigurator::add_listener gui/main_window
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/micro_pause/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/rest_break/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/daily_limit/enabled
+<<< GConfConfigurator::add_listener
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/main_window/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+<<< TimerBoxControl::init
+>>> TimerBoxGtkView::set_geometry 3 -1
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table size:-1 tsize:80 orienation:3
+    TimerBoxGtkView::init_table mysize width:0 height:0
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table 1 -1 2 -1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+>>> TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+<<< TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 3
+    TimerBoxGtkView::init_table size:-1 tsize:80 orienation:3
+    TimerBoxGtkView::init_table mysize width:80 height:24
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 2 3 0
+    TimerBoxGtkView::init_table remove sheep
+    TimerBoxGtkView::init_table 3 1 2 2
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+>>> MainWindow::move_to_start_position
+>>> MainWindow::get_start_position
+>>> Configurator::get_value gui/main_window/x
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/y
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/head
+<<< Configurator::get_value
+    MainWindow::get_start_position 2 17 0
+<<< MainWindow::get_start_position
+    MainWindow::move_to_start_position Main window size 84 73
+    MainWindow::move_to_start_position moving to 2 17
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+>>> GConfConfigurator::add_listener gui/main_window
+<<< GConfConfigurator::add_listener
+<<< MainWindow::init
+>>> GConfConfigurator::add_listener gui/applet
+<<< GConfConfigurator::add_listener
+>>> Configurator::get_value gui/applet/enabled
+<<< Configurator::get_value
+>>> AppletControl::show
+>>> GnomeAppletWindow::activate_applet
+>>> Menus::resync
+<<< Menus::resync
+<<< GnomeAppletWindow::activate_applet
+    AppletControl::show Gnome 0
+    AppletControl::show kde 0
+    AppletControl::show Win32 0
+>>> X11SystrayAppletWindow::activate_applet
+
+(workrave:2938): gtkmm-WARNING **: gtkmm: Attempt to call Gtk::manage() on a Gtk::Window, but a Gtk::Window has no parent container to manage its lifetime.
+
+>>> TimerBoxGtkView::init
+<<< TimerBoxGtkView::init
+>>> TimerBoxControl::init
+>>> GConfConfigurator::add_listener gui/applet
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/micro_pause/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/rest_break/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener breaks/daily_limit/enabled
+<<< GConfConfigurator::add_listener
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/applet/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/applet/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+<<< TimerBoxControl::init
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> X11SystrayAppletWindow::on_size_allocate
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> TimerBoxGtkView::set_geometry 0 0
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table size:0 tsize:0 orienation:0
+    TimerBoxGtkView::init_table mysize width:0 height:0
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 1 1 0
+    TimerBoxGtkView::init_table 1 -1 1 -1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+<<< X11SystrayAppletWindow::activate_applet
+    AppletControl::show X11 act 0
+>>> AppletControl::check_visible
+>>> MainWindow::set_applet_active 0
+<<< MainWindow::set_applet_active
+<<< AppletControl::check_visible
+<<< AppletControl::show
+>>> Menus::resync
+>>> GnomeAppletWindow::set_menu_active 0 1
+<<< GnomeAppletWindow::set_menu_active
+>>> GnomeAppletWindow::set_menu_active 3 0
+<<< GnomeAppletWindow::set_menu_active
+<<< Menus::resync
+>>> Menus::resync
+>>> GnomeAppletWindow::set_menu_active 0 1
+<<< GnomeAppletWindow::set_menu_active
+>>> GnomeAppletWindow::set_menu_active 3 0
+<<< GnomeAppletWindow::set_menu_active
+<<< Menus::resync
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513360 0
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+    Timer::Process idle = 25
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513385
+    Timer::Process time 1230513361
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513361 0 600 -1230513361
+    Timer::Process activity_state = 2
+>>> Timer::enable rest_break1
+<<< Timer::enable
+>>> Timer::Process rest_breakrest_break 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+    Timer::Process idle = 240
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513600
+    Timer::Process time 1230513361
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513361 0 3600 -1230513361
+    Timer::Process activity_state = 2
+>>> Timer::enable daily_limit1
+<<< Timer::enable
+>>> Timer::Process daily_limitdaily_limit 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 1230570000
+    Timer::Process next_reset_time 0
+    Timer::Process time 1230513361
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513361 0 28800 -1230513361
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> MainWindow::on_configure_event 457 693
+>>> MainWindow::locate_window
+    MainWindow::locate_window main window2 = 457 693
+    MainWindow::locate_window main window = 457 693
+    MainWindow::locate_window main window head = 457 -75
+>>> MainWindow::set_start_position 457 -75 0
+>>> Configurator::set_value gui/main_window/x
+<<< Configurator::set_value
+>>> Configurator::set_value gui/main_window/y
+<<< Configurator::set_value
+>>> Configurator::set_value gui/main_window/head
+<<< Configurator::set_value
+<<< MainWindow::set_start_position
+<<< MainWindow::locate_window
+<<< MainWindow::on_configure_event
+>>> MainWindow::on_configure_event 2 17
+>>> MainWindow::locate_window
+    MainWindow::locate_window main window2 = 2 17
+    MainWindow::locate_window main window = 2 17
+    MainWindow::locate_window main window head = 2 17
+>>> MainWindow::set_start_position 2 17 0
+>>> Configurator::set_value gui/main_window/x
+<<< Configurator::set_value
+>>> Configurator::set_value gui/main_window/y
+<<< Configurator::set_value
+>>> Configurator::set_value gui/main_window/head
+<<< Configurator::set_value
+<<< MainWindow::set_start_position
+<<< MainWindow::locate_window
+<<< MainWindow::on_configure_event
+>>> MainWindow::on_configure_event 2 17
+>>> MainWindow::locate_window
+    MainWindow::locate_window main window2 = 2 17
+    MainWindow::locate_window main window = 2 17
+<<< MainWindow::locate_window
+<<< MainWindow::on_configure_event
+>>> X11SystrayAppletWindow::on_size_allocate
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> GConfConfigurator::key_changed 2315255824
+>>> Configurator::fire_configurator_event gui/main_window
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/main_window/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 2248146956
+>>> Configurator::fire_configurator_event gui/main_window
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/main_window/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 2315255824
+>>> Configurator::fire_configurator_event gui/main_window
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/main_window/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 2248146956
+>>> Configurator::fire_configurator_event gui/main_window
+>>> TimerBoxControl::read_configuration
+>>> Configurator::get_value gui/main_window/cycle_time
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/micro_pause/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/rest_break/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/position
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/flags
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/daily_limit/imminent
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window
+>>> MainWindow::setup
+>>> Configurator::get_value gui/main_window/enabled
+<<< Configurator::get_value
+>>> Configurator::get_value gui/main_window/always_on_top
+<<< Configurator::get_value
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 0
+<<< MainWindow::setup
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513361 0
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+    Timer::Process idle = 25
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513385
+    Timer::Process time 1230513362
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513362 0 600 -1230513362
+    Timer::Process activity_state = 2
+>>> Timer::enable rest_break1
+<<< Timer::enable
+>>> Timer::Process rest_breakrest_break 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+    Timer::Process idle = 240
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513600
+    Timer::Process time 1230513362
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513362 0 3600 -1230513362
+    Timer::Process activity_state = 2
+>>> Timer::enable daily_limit1
+<<< Timer::enable
+>>> Timer::Process daily_limitdaily_limit 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 1230570000
+    Timer::Process next_reset_time 0
+    Timer::Process time 1230513362
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513362 0 28800 -1230513362
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+<<< TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513362 0
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+    Timer::Process idle = 25
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513385
+    Timer::Process time 1230513363
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513363 0 600 -1230513363
+    Timer::Process activity_state = 2
+>>> Timer::enable rest_break1
+<<< Timer::enable
+>>> Timer::Process rest_breakrest_break 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+    Timer::Process idle = 240
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513600
+    Timer::Process time 1230513363
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513363 0 3600 -1230513363
+    Timer::Process activity_state = 2
+>>> Timer::enable daily_limit1
+<<< Timer::enable
+>>> Timer::Process daily_limitdaily_limit 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 1230570000
+    Timer::Process next_reset_time 0
+    Timer::Process time 1230513363
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513363 0 28800 -1230513363
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> X11SystrayAppletWindow::on_embedded
+>>> TimerBoxGtkView::set_geometry 0 24
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table size:24 tsize:24 orienation:0
+    TimerBoxGtkView::init_table mysize width:24 height:1
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 1 1 0
+    TimerBoxGtkView::init_table 1 1 1 1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+>>> AppletControl::set_applet_state 0 1
+>>> AppletControl::check_visible
+>>> MainWindow::set_applet_active 1
+<<< MainWindow::set_applet_active
+<<< AppletControl::check_visible
+<<< AppletControl::set_applet_state
+<<< X11SystrayAppletWindow::on_embedded
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> X11SystrayAppletWindow::on_size_allocate
+    X11SystrayAppletWindow::on_size_allocate 0 0 24 24
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> X11SystrayAppletWindow::on_size_allocate
+    X11SystrayAppletWindow::on_size_allocate 0 0 22 22
+    X11SystrayAppletWindow::on_size_allocate New size = 22 22 0
+>>> TimerBoxGtkView::set_geometry 0 22
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table size:22 tsize:22 orienation:0
+    TimerBoxGtkView::init_table mysize width:24 height:24
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 1 1 0
+    TimerBoxGtkView::init_table 1 1 1 1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> X11SystrayAppletWindow::on_size_allocate
+    X11SystrayAppletWindow::on_size_allocate 0 0 24 22
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513363 0
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+    Timer::Process idle = 25
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513385
+    Timer::Process time 1230513364
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513364 0 600 -1230513364
+    Timer::Process activity_state = 2
+>>> Timer::enable rest_break1
+<<< Timer::enable
+>>> Timer::Process rest_breakrest_break 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+    Timer::Process idle = 240
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513600
+    Timer::Process time 1230513364
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513364 0 3600 -1230513364
+    Timer::Process activity_state = 2
+>>> Timer::enable daily_limit1
+<<< Timer::enable
+>>> Timer::Process daily_limitdaily_limit 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 1230570000
+    Timer::Process next_reset_time 0
+    Timer::Process time 1230513364
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513364 0 28800 -1230513364
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+<<< TimerBoxControl::init_table
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 1
+    TimerBoxGtkView::init_table size:22 tsize:22 orienation:0
+    TimerBoxGtkView::init_table mysize width:24 height:22
+    TimerBoxGtkView::init_table bar width:55 height:20
+    TimerBoxGtkView::init_table label width:16 height:20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table remove sheep
+    TimerBoxGtkView::init_table 1 1 2 1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> X11SystrayAppletWindow::on_size_allocate
+    X11SystrayAppletWindow::on_size_allocate 0 0 71 22
+<<< X11SystrayAppletWindow::on_size_allocate
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513364 0
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+    Timer::Process idle = 25
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513385
+    Timer::Process time 1230513365
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513365 0 600 -1230513365
+    Timer::Process activity_state = 2
+>>> Timer::enable rest_break1
+<<< Timer::enable
+>>> Timer::Process rest_breakrest_break 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+    Timer::Process idle = 240
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 0
+    Timer::Process next_reset_time 1230513600
+    Timer::Process time 1230513365
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513365 0 3600 -1230513365
+    Timer::Process activity_state = 2
+>>> Timer::enable daily_limit1
+<<< Timer::enable
+>>> Timer::Process daily_limitdaily_limit 2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process next_pred_reset_time 1230570000
+    Timer::Process next_reset_time 0
+    Timer::Process time 1230513365
+    Timer::Process 29 11 108 12 16 16 1 39600 EST EST
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1230513365 0 28800 -1230513365
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 10:00
+    TimerBoxGtkView::set_time_bar 0 600 0
+    TimerBoxGtkView::set_time_bar 25 25 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 1:00:00
+    TimerBoxGtkView::set_time_bar 0 3600 0
+    TimerBoxGtkView::set_time_bar 240 240 1
+<<< TimerBoxGtkView::set_time_bar
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 8:00:00
+    TimerBoxGtkView::set_time_bar 0 28800 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Menus::on_menu_quit
+>>> GUI::terminate
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+<<< GUI::terminate
+<<< Menus::on_menu_quit
+>>> MainWindow::~MainWindow
+<<< MainWindow::~MainWindow
+>>> TimerBoxGtkView::~TimerBoxGtkView
+<<< TimerBoxGtkView::~TimerBoxGtkView
+>>> X11SystrayAppletWindow::destroy_applet
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> TimerBoxGtkView::~TimerBoxGtkView
+<<< TimerBoxGtkView::~TimerBoxGtkView
+>>> AppletControl::set_applet_state 0 0
+>>> AppletControl::check_visible
+<<< AppletControl::check_visible
+<<< AppletControl::set_applet_state
+<<< X11SystrayAppletWindow::destroy_applet
+>>> GnomeAppletWindow::deactivate_applet
+<<< GnomeAppletWindow::deactivate_applet
+<<< GUI::main
+>>> GUI:~GUI
+>>> Core::~Core
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> ActivityMonitor::terminate
+>>> X11InputMonitor::terminate
+>>> X11InputMonitor::stop_xrecord
+<<< X11InputMonitor::stop_xrecord
+<<< X11InputMonitor::run_xrecord
+<<< X11InputMonitor::run
+<<< X11InputMonitor::terminate
+<<< ActivityMonitor::terminate
+>>> Statistics::update
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+>>> Timer::get_elapsed_time
+    Timer::get_elapsed_time 0 1230513365 0
+<<< Statistics::update
+>>> ActivityMonitor::~ActivityMonitor
+>>> X11InputMonitor::~X11InputMonitor
+<<< X11InputMonitor::~X11InputMonitor
+<<< ActivityMonitor::~ActivityMonitor
+>>> IdleLogManager::save_index()
+    IdleLogManager::save_index() Saving  
+<<< IdleLogManager::save_index()
+<<< Core::~Core
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Menus::~Menus
+<<< Menus::~Menus
+>>> GstSoundPlayer::~GstSoundPlayer
+<<< GstSoundPlayer::~GstSoundPlayer
+<<< GUI:~GUI

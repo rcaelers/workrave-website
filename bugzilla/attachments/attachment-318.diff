@@ -1,0 +1,42 @@
+From d7db16059736cba80bb37c6b8833fdc34a02bfb8 Mon Sep 17 00:00:00 2001
+From: Anthony PERARD <anthony.perard@gmail.com>
+Date: Fri, 28 Oct 2016 16:15:02 +0100
+Subject: [PATCH] Bug 794: In STAGE_DELAYED, keep same break mode
+
+... and only change it in STAGE_SNOOZE.
+
+Otherwise, the only way to go to the next stage is by having some
+activities while the reading mode is enabled, and the prelude windows
+stay on screen.
+
+In BreakControl::heartbeat(), STAGE_DELAYED is waiting on "is_idle" to
+be true, but this seems to never be true without this patch and with
+reading mode enabled.
+---
+ backend/src/BreakControl.cc | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/backend/src/BreakControl.cc b/backend/src/BreakControl.cc
+index db82dce..6699f95 100644
+--- a/backend/src/BreakControl.cc
++++ b/backend/src/BreakControl.cc
+@@ -214,8 +214,6 @@ BreakControl::goto_stage(BreakStage stage)
+       {
+         IActivityMonitor *monitor = core->get_activity_monitor();
+         monitor->set_listener(this);
+-
+-        core->set_insensitive_mode_all_breaks(INSENSITIVE_MODE_IDLE_ON_LIMIT_REACHED);
+       }
+       break;
+ 
+@@ -270,6 +268,7 @@ BreakControl::goto_stage(BreakStage stage)
+ 
+     case STAGE_SNOOZED:
+       {
++        core->set_insensitive_mode_all_breaks(INSENSITIVE_MODE_IDLE_ON_LIMIT_REACHED);
+         application->hide_break_window();
+         if (!forced_break)
+           {
+-- 
+Anthony PERARD
+

@@ -1,0 +1,895 @@
+ Volume in Laufwerk C: hat keine Bezeichnung.
+ Volumeseriennummer: 3CA0-7674
+
+ Verzeichnis von C:\Program Files (x86)\Workrave
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:33                72 AUTHORS.txt
+13.10.2009  18:33            35.744 COPYING.txt
+17.10.2009  09:16    <DIR>          etc
+17.10.2009  09:16    <DIR>          lib
+13.10.2009  18:33            15.978 NEWS.txt
+13.10.2009  18:33               166 README.txt
+17.10.2009  09:16    <DIR>          share
+17.10.2009  09:16                 0 unins000.dat
+17.10.2009  09:15           704.282 unins000.exe
+17.10.2009  09:16               788 Workrave.lnk
+               7 Datei(en),        757.030 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\etc
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          gtk-2.0
+17.10.2009  09:16    <DIR>          pango
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\etc\gtk-2.0
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+31.07.2009  12:40             3.614 gdk-pixbuf.loaders
+31.07.2009  12:40                37 gtk.immodules
+31.07.2009  12:31               890 im-multipress.conf
+               3 Datei(en),          4.541 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\etc\pango
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+31.07.2009  13:57               163 pango.modules
+               1 Datei(en),            163 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:31           455.168 freetype6.dll
+13.10.2009  18:31            91.136 gnet-2.0.dll
+17.10.2009  09:16    <DIR>          gtk-2.0
+13.10.2009  18:31            57.344 harpoon.dll
+23.05.2003  19:45           892.928 iconv.dll
+25.01.2008  00:54           104.861 intl.dll
+13.10.2009  18:31           127.488 jpeg62.dll
+13.10.2009  18:31            97.280 libatk-1.0-0.dll
+13.10.2009  18:31           687.616 libcairo-2.dll
+13.10.2009  18:31           121.856 libexpat-1.dll
+13.10.2009  18:31           205.824 libfontconfig-1.dll
+13.10.2009  18:31            92.672 libgdk_pixbuf-2.0-0.dll
+13.10.2009  18:31           637.440 libgdk-win32-2.0-0.dll
+13.10.2009  18:31           310.784 libgio-2.0-0.dll
+13.10.2009  18:31           910.336 libglib-2.0-0.dll
+13.10.2009  18:31            13.312 libgmodule-2.0-0.dll
+13.10.2009  18:31           231.424 libgobject-2.0-0.dll
+13.10.2009  18:31            17.920 libgthread-2.0-0.dll
+13.10.2009  18:31         3.942.400 libgtk-win32-2.0-0.dll
+13.10.2009  18:31           240.128 libpango-1.0-0.dll
+13.10.2009  18:31            36.352 libpangocairo-1.0-0.dll
+13.10.2009  18:31           200.192 libpangoft2-1.0-0.dll
+13.10.2009  18:31            51.712 libpangowin32-1.0-0.dll
+13.10.2009  18:31           166.400 libpng12-0.dll
+13.10.2009  18:31           376.832 libtiff3.dll
+17.10.2009  09:16    <DIR>          locale
+13.10.2009  18:33         3.661.824 Workrave.exe
+08.01.2008  20:36           132.608 workrave-applet64.dll
+05.10.2004  02:08            55.808 zlib1.dll
+              27 Datei(en),     13.919.645 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\gtk-2.0
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          2.10.0
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\gtk-2.0\2.10.0
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          engines
+17.10.2009  09:16    <DIR>          loaders
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\gtk-2.0\2.10.0\engines
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:31            51.200 libwimp.dll
+               1 Datei(en),         51.200 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\gtk-2.0\2.10.0\loaders
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:31            13.312 libpixbufloader-ico.dll
+13.10.2009  18:31            15.360 libpixbufloader-png.dll
+13.10.2009  18:31            12.288 libpixbufloader-pnm.dll
+               3 Datei(en),         40.960 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          bg
+17.10.2009  09:16    <DIR>          ca
+17.10.2009  09:16    <DIR>          cs
+17.10.2009  09:16    <DIR>          da
+17.10.2009  09:16    <DIR>          de
+17.10.2009  09:16    <DIR>          el
+17.10.2009  09:16    <DIR>          eo
+17.10.2009  09:16    <DIR>          es
+17.10.2009  09:16    <DIR>          et
+17.10.2009  09:16    <DIR>          eu
+17.10.2009  09:16    <DIR>          fr
+17.10.2009  09:16    <DIR>          he
+17.10.2009  09:16    <DIR>          hu
+17.10.2009  09:16    <DIR>          it
+17.10.2009  09:16    <DIR>          ja
+17.10.2009  09:16    <DIR>          lt
+17.10.2009  09:16    <DIR>          nb
+17.10.2009  09:16    <DIR>          nl
+17.10.2009  09:16    <DIR>          pl
+17.10.2009  09:16    <DIR>          pt_BR
+17.10.2009  09:16    <DIR>          ro
+17.10.2009  09:16    <DIR>          ru
+17.10.2009  09:16    <DIR>          sk
+17.10.2009  09:16    <DIR>          sl
+17.10.2009  09:16    <DIR>          sv
+17.10.2009  09:16    <DIR>          tr
+17.10.2009  09:16    <DIR>          zh_CN
+17.10.2009  09:16    <DIR>          zh_TW
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\bg
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\bg\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07            10.958 atk10.mo
+02.09.2009  22:14            54.673 glib20.mo
+31.07.2009  12:22            94.538 gtk20.mo
+31.07.2009  12:22           209.293 gtk20-properties.mo
+11.08.2009  15:30            31.614 iso_3166.mo
+11.08.2009  15:30             2.430 iso_639.mo
+13.10.2009  18:31            24.542 workrave.mo
+               7 Datei(en),        428.048 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ca
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ca\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.586 atk10.mo
+02.09.2009  22:14            43.514 glib20.mo
+31.07.2009  12:22            74.664 gtk20.mo
+31.07.2009  12:22           158.773 gtk20-properties.mo
+11.08.2009  15:30            25.932 iso_3166.mo
+11.08.2009  15:30            22.457 iso_639.mo
+06.05.2003  13:32             2.008 libiconv.mo
+13.10.2009  18:31            11.523 workrave.mo
+               8 Datei(en),        347.457 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\cs
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\cs\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.482 atk10.mo
+02.09.2009  22:14            40.191 glib20.mo
+31.07.2009  12:22            71.928 gtk20.mo
+31.07.2009  12:22           154.162 gtk20-properties.mo
+11.08.2009  15:30            26.598 iso_3166.mo
+11.08.2009  15:30            24.534 iso_639.mo
+13.10.2009  18:31            18.409 workrave.mo
+               7 Datei(en),        344.304 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\da
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\da\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.096 atk10.mo
+02.09.2009  22:14            39.593 glib20.mo
+31.07.2009  12:22            70.754 gtk20.mo
+31.07.2009  12:22           151.682 gtk20-properties.mo
+11.08.2009  15:30            22.372 iso_3166.mo
+11.08.2009  15:30            18.934 iso_639.mo
+06.05.2003  13:32             1.900 libiconv.mo
+13.10.2009  18:31            18.144 workrave.mo
+               8 Datei(en),        331.475 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\de
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\de\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.507 atk10.mo
+02.09.2009  22:14            42.480 glib20.mo
+31.07.2009  12:22            73.828 gtk20.mo
+31.07.2009  12:22           157.896 gtk20-properties.mo
+11.08.2009  15:30            25.815 iso_3166.mo
+11.08.2009  15:30            23.987 iso_639.mo
+06.05.2003  13:32             2.055 libiconv.mo
+13.10.2009  18:31            19.546 workrave.mo
+               8 Datei(en),        354.114 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\el
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\el\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07            11.031 atk10.mo
+02.09.2009  22:14            55.435 glib20.mo
+31.07.2009  12:22            93.880 gtk20.mo
+31.07.2009  12:22           215.421 gtk20-properties.mo
+11.08.2009  15:30            33.968 iso_3166.mo
+11.08.2009  15:30             4.841 iso_639.mo
+13.10.2009  18:31            25.783 workrave.mo
+               7 Datei(en),        440.359 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\eo
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\eo\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             1.520 atk10.mo
+02.09.2009  22:14            10.686 glib20.mo
+31.07.2009  12:22            40.733 gtk20.mo
+31.07.2009  12:22               452 gtk20-properties.mo
+11.08.2009  15:30            25.286 iso_3166.mo
+11.08.2009  15:30            22.014 iso_639.mo
+06.05.2003  13:32             1.917 libiconv.mo
+13.10.2009  18:31             3.935 workrave.mo
+               8 Datei(en),        106.543 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\es
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\es\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.649 atk10.mo
+02.09.2009  22:14            42.413 glib20.mo
+31.07.2009  12:22            74.270 gtk20.mo
+31.07.2009  12:22           161.594 gtk20-properties.mo
+11.08.2009  15:30            26.065 iso_3166.mo
+11.08.2009  15:30            17.234 iso_639.mo
+06.05.2003  13:32             1.940 libiconv.mo
+13.10.2009  18:31            18.990 workrave.mo
+               8 Datei(en),        351.155 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\et
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\et\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             7.856 atk10.mo
+02.09.2009  22:14            31.584 glib20.mo
+31.07.2009  12:22            70.939 gtk20.mo
+31.07.2009  12:22            65.593 gtk20-properties.mo
+11.08.2009  15:30            23.126 iso_3166.mo
+11.08.2009  15:30             2.015 iso_639.mo
+13.10.2009  18:31            19.769 workrave.mo
+               7 Datei(en),        220.882 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\eu
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\eu\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.472 atk10.mo
+02.09.2009  22:14            41.181 glib20.mo
+31.07.2009  12:22            72.080 gtk20.mo
+31.07.2009  12:22           157.834 gtk20-properties.mo
+11.08.2009  15:30            26.378 iso_3166.mo
+11.08.2009  15:30            13.447 iso_639.mo
+13.10.2009  18:31            18.037 workrave.mo
+               7 Datei(en),        337.429 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\fr
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\fr\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.643 atk10.mo
+02.09.2009  22:14            44.375 glib20.mo
+31.07.2009  12:22            75.817 gtk20.mo
+31.07.2009  12:22           163.692 gtk20-properties.mo
+11.08.2009  15:30            26.680 iso_3166.mo
+11.08.2009  15:30            22.773 iso_639.mo
+06.05.2003  13:32             1.962 libiconv.mo
+13.10.2009  18:31            19.546 workrave.mo
+               8 Datei(en),        363.488 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\he
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\he\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             7.933 atk10.mo
+02.09.2009  22:14            37.818 glib20.mo
+31.07.2009  12:22            68.214 gtk20.mo
+31.07.2009  12:22           147.347 gtk20-properties.mo
+11.08.2009  15:30            30.049 iso_3166.mo
+11.08.2009  15:30             2.384 iso_639.mo
+13.10.2009  18:31            20.700 workrave.mo
+               7 Datei(en),        314.445 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\hu
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\hu\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.465 atk10.mo
+02.09.2009  22:14            43.051 glib20.mo
+31.07.2009  12:22            73.877 gtk20.mo
+31.07.2009  12:22           158.688 gtk20-properties.mo
+11.08.2009  15:30            25.894 iso_3166.mo
+11.08.2009  15:30            18.881 iso_639.mo
+06.05.2003  13:32             2.059 libiconv.mo
+13.10.2009  18:31            21.034 workrave.mo
+               8 Datei(en),        351.949 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\it
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\it\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.690 atk10.mo
+02.09.2009  22:14            42.069 glib20.mo
+31.07.2009  12:22            73.163 gtk20.mo
+31.07.2009  12:23           161.284 gtk20-properties.mo
+11.08.2009  15:30            26.011 iso_3166.mo
+11.08.2009  15:30            22.837 iso_639.mo
+06.05.2003  13:32             2.086 libiconv.mo
+13.10.2009  18:31            18.460 workrave.mo
+               8 Datei(en),        354.600 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ja
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ja\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             9.246 atk10.mo
+02.09.2009  22:14            47.144 glib20.mo
+31.07.2009  12:22            80.221 gtk20.mo
+31.07.2009  12:23           172.992 gtk20-properties.mo
+11.08.2009  15:30            27.427 iso_3166.mo
+11.08.2009  15:30            22.863 iso_639.mo
+13.10.2009  18:31            20.012 workrave.mo
+               7 Datei(en),        379.905 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\lt
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\lt\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.538 atk10.mo
+02.09.2009  22:15            40.437 glib20.mo
+31.07.2009  12:22            72.538 gtk20.mo
+31.07.2009  12:23           153.658 gtk20-properties.mo
+11.08.2009  15:30            26.155 iso_3166.mo
+11.08.2009  15:30            22.570 iso_639.mo
+13.10.2009  18:31            18.176 workrave.mo
+               7 Datei(en),        342.072 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\nb
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\nb\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.078 atk10.mo
+02.09.2009  22:15            39.482 glib20.mo
+31.07.2009  12:22            69.552 gtk20.mo
+31.07.2009  12:23           119.092 gtk20-properties.mo
+11.08.2009  15:30            25.870 iso_3166.mo
+11.08.2009  15:30             6.557 iso_639.mo
+13.10.2009  18:31            18.072 workrave.mo
+               7 Datei(en),        286.703 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\nl
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\nl\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.109 atk10.mo
+02.09.2009  22:15            41.024 glib20.mo
+31.07.2009  12:22            72.101 gtk20.mo
+31.07.2009  12:23           148.742 gtk20-properties.mo
+11.08.2009  15:30            25.714 iso_3166.mo
+11.08.2009  15:30            23.173 iso_639.mo
+13.10.2009  18:31            19.940 workrave.mo
+               7 Datei(en),        338.803 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\pl
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\pl\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.563 atk10.mo
+02.09.2009  22:15            41.925 glib20.mo
+31.07.2009  12:22            72.499 gtk20.mo
+31.07.2009  12:23           160.886 gtk20-properties.mo
+11.08.2009  15:30            25.259 iso_3166.mo
+11.08.2009  15:30            11.555 iso_639.mo
+13.10.2009  18:31            18.270 workrave.mo
+               7 Datei(en),        338.957 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\pt_BR
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\pt_BR\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.496 atk10.mo
+02.09.2009  22:15            40.945 glib20.mo
+31.07.2009  12:22            73.293 gtk20.mo
+31.07.2009  12:23           156.264 gtk20-properties.mo
+11.08.2009  15:30            25.890 iso_3166.mo
+11.08.2009  15:30             5.034 iso_639.mo
+06.05.2003  13:32             1.985 libiconv.mo
+13.10.2009  18:31            18.701 workrave.mo
+               8 Datei(en),        330.608 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ro
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ro\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.238 atk10.mo
+02.09.2009  22:15            42.251 glib20.mo
+31.07.2009  12:22            73.103 gtk20.mo
+31.07.2009  12:23           158.402 gtk20-properties.mo
+11.08.2009  15:30            25.421 iso_3166.mo
+11.08.2009  15:30             2.164 iso_639.mo
+06.05.2003  13:32             1.921 libiconv.mo
+13.10.2009  18:31            21.288 workrave.mo
+               8 Datei(en),        332.788 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ru
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\ru\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07            11.032 atk10.mo
+02.09.2009  22:15            55.343 glib20.mo
+31.07.2009  12:22            90.846 gtk20.mo
+31.07.2009  12:23           207.760 gtk20-properties.mo
+11.08.2009  15:30            33.300 iso_3166.mo
+11.08.2009  15:30            28.905 iso_639.mo
+06.05.2003  13:32             1.832 libiconv.mo
+13.10.2009  18:31            18.241 workrave.mo
+               8 Datei(en),        447.259 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sk
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sk\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.055 atk10.mo
+02.09.2009  22:15            22.867 glib20.mo
+31.07.2009  12:22            71.900 gtk20.mo
+31.07.2009  12:23           144.085 gtk20-properties.mo
+11.08.2009  15:30            26.404 iso_3166.mo
+11.08.2009  15:30            20.362 iso_639.mo
+06.05.2003  13:32             1.928 libiconv.mo
+13.10.2009  18:31            18.078 workrave.mo
+               8 Datei(en),        313.679 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sl
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sl\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.357 atk10.mo
+02.09.2009  22:15            39.893 glib20.mo
+31.07.2009  12:22            71.752 gtk20.mo
+31.07.2009  12:23           150.704 gtk20-properties.mo
+11.08.2009  15:30            25.606 iso_3166.mo
+11.08.2009  15:30            24.115 iso_639.mo
+06.05.2003  13:32             1.991 libiconv.mo
+13.10.2009  18:31            18.138 workrave.mo
+               8 Datei(en),        340.556 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sv
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\sv\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.059 atk10.mo
+02.09.2009  22:15            39.832 glib20.mo
+31.07.2009  12:22            70.779 gtk20.mo
+31.07.2009  12:23           152.144 gtk20-properties.mo
+11.08.2009  15:30            25.312 iso_3166.mo
+11.08.2009  15:30            15.022 iso_639.mo
+06.05.2003  13:32             1.894 libiconv.mo
+13.10.2009  18:31            19.826 workrave.mo
+               8 Datei(en),        332.868 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\tr
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\tr\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             8.342 atk10.mo
+02.09.2009  22:15            39.913 glib20.mo
+31.07.2009  12:22            70.952 gtk20.mo
+31.07.2009  12:23           152.972 gtk20-properties.mo
+11.08.2009  15:30            25.449 iso_3166.mo
+11.08.2009  15:30             8.576 iso_639.mo
+06.05.2003  13:32             1.960 libiconv.mo
+13.10.2009  18:31            19.681 workrave.mo
+               8 Datei(en),        327.845 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\zh_CN
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\zh_CN\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             7.452 atk10.mo
+02.09.2009  22:15            36.673 glib20.mo
+31.07.2009  12:22            68.197 gtk20.mo
+31.07.2009  12:23           139.486 gtk20-properties.mo
+11.08.2009  15:30            25.483 iso_3166.mo
+11.08.2009  15:30            23.822 iso_639.mo
+13.10.2009  18:31            16.964 workrave.mo
+               7 Datei(en),        318.077 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\zh_TW
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          LC_MESSAGES
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\lib\locale\zh_TW\LC_MESSAGES
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+01.06.2009  11:07             7.738 atk10.mo
+02.09.2009  22:15            37.869 glib20.mo
+31.07.2009  12:22            68.843 gtk20.mo
+31.07.2009  12:23           142.466 gtk20-properties.mo
+11.08.2009  15:30            25.156 iso_3166.mo
+11.08.2009  15:30            24.153 iso_639.mo
+13.10.2009  18:31            17.094 workrave.mo
+               7 Datei(en),        323.319 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          exercises
+17.10.2009  09:16    <DIR>          images
+17.10.2009  09:16    <DIR>          sounds
+17.10.2009  09:16    <DIR>          themes
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\exercises
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+26.05.2009  19:30            12.574 backward-shoulder-stretch.png
+26.05.2009  19:30             9.932 chair-pushup-1.png
+26.05.2009  19:30            10.766 chair-pushup-2.png
+26.05.2009  19:30            10.520 depth-focus-1.png
+26.05.2009  19:30            12.346 depth-focus-2.png
+13.10.2009  18:33            97.256 exercises.xml
+26.05.2009  19:30            16.166 eye-darkness.png
+26.05.2009  19:30            14.096 finger-stretch-1.png
+26.05.2009  19:30            12.968 finger-stretch-2.png
+26.05.2009  19:30            62.396 fist-roll-1.png
+26.05.2009  19:30            63.647 fist-roll-2.png
+26.05.2009  19:30            10.300 monitor-border-1.png
+26.05.2009  19:30            10.294 monitor-border-2.png
+26.05.2009  19:30            10.242 monitor-border-3.png
+26.05.2009  19:30            10.332 monitor-border-4.png
+26.05.2009  19:30            17.090 neck-tilt-stretch-1.png
+26.05.2009  19:30            17.347 neck-tilt-stretch-2.png
+26.05.2009  19:30            13.132 rotate-arm.png
+26.05.2009  19:30            14.931 shoulder-arm-stretch.png
+26.05.2009  19:30            15.926 turn-head-1.png
+26.05.2009  19:30            15.520 turn-head-2.png
+26.05.2009  19:30             2.722 wrist-lower-arm-desk-stretch-1.png
+              22 Datei(en),        460.503 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\images
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+26.05.2009  19:30             1.260 daily-limit.png
+26.05.2009  19:30             4.438 display.png
+26.05.2009  19:30               777 lock.png
+26.05.2009  19:30             3.379 micro-break.png
+26.05.2009  19:30             3.195 monitoring.png
+26.05.2009  19:30             2.018 network.png
+26.05.2009  19:30             3.959 prelude-hint.png
+26.05.2009  19:30             3.986 prelude-hint-sad.png
+26.05.2009  19:30             4.172 rest-break.png
+26.05.2009  19:30               938 shutdown.png
+26.05.2009  19:30             4.229 time.png
+26.05.2009  19:30               530 timer-daily.png
+26.05.2009  19:30               670 timer-micro-break.png
+26.05.2009  19:30               476 timer-rest-break.png
+26.05.2009  19:30             8.263 workrave.png
+26.05.2009  19:30             2.613 workrave-icon-huge.png
+26.05.2009  19:30               451 workrave-icon-large.png
+26.05.2009  19:30               792 workrave-icon-medium.png
+26.05.2009  19:30               229 workrave-icon-small.png
+26.05.2009  19:30               947 workrave-quiet-icon-medium.png
+26.05.2009  19:30               870 workrave-suspended-icon-medium.png
+              21 Datei(en),         48.192 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\sounds
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          default
+17.10.2009  09:16    <DIR>          subtle
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\sounds\default
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+26.05.2009  19:30            65.356 break-ignored.wav
+26.05.2009  19:30            24.396 break-prelude.wav
+26.05.2009  19:30            19.744 daily-limit.wav
+26.05.2009  19:30            13.612 exercise-ended.wav
+26.05.2009  19:30            11.820 exercises-ended.wav
+26.05.2009  19:30            16.316 exercise-step.wav
+26.05.2009  19:30             4.486 micro-break-ended.wav
+26.05.2009  19:30            15.408 micro-break-started.wav
+26.05.2009  19:30            27.528 rest-break-ended.wav
+26.05.2009  19:30            22.270 rest-break-started.wav
+26.05.2009  19:30               468 soundtheme
+              11 Datei(en),        221.404 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\sounds\subtle
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+26.05.2009  19:30           661.544 break-ignored.wav
+26.05.2009  19:30           661.544 break-prelude.wav
+26.05.2009  19:30           661.544 daily-limit.wav
+26.05.2009  19:30           661.544 exercise-ended.wav
+26.05.2009  19:30           661.544 exercises-ended.wav
+26.05.2009  19:30           661.544 exercise-step.wav
+26.05.2009  19:30           661.544 micro-break-ended.wav
+26.05.2009  19:30           661.544 micro-break-started.wav
+26.05.2009  19:30           661.544 rest-break-ended.wav
+26.05.2009  19:30           661.544 rest-break-started.wav
+26.05.2009  19:30               488 soundtheme
+              11 Datei(en),      6.615.928 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          Default
+17.10.2009  09:16    <DIR>          Emacs
+17.10.2009  09:16    <DIR>          MS-Windows
+17.10.2009  09:16    <DIR>          Raleigh
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Default
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          gtk-2.0-key
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Default\gtk-2.0-key
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+31.07.2009  12:29                82 gtkrc
+               1 Datei(en),             82 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Emacs
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          gtk-2.0-key
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Emacs\gtk-2.0-key
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+31.07.2009  12:29             3.818 gtkrc
+               1 Datei(en),          3.818 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\MS-Windows
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          gtk-2.0
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\MS-Windows\gtk-2.0
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:30             1.825 gtkrc
+31.07.2009  12:31             1.825 gtkrc~
+               2 Datei(en),          3.650 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Raleigh
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+17.10.2009  09:16    <DIR>          gtk-2.0
+               0 Datei(en),              0 Bytes
+
+ Verzeichnis von C:\Program Files (x86)\Workrave\share\themes\Raleigh\gtk-2.0
+
+17.10.2009  09:16    <DIR>          .
+17.10.2009  09:16    <DIR>          ..
+13.10.2009  18:30             1.825 gtkrc
+               1 Datei(en),          1.825 Bytes
+
+     Anzahl der angezeigten Dateien:
+             323 Datei(en),     31.528.628 Bytes
+             242 Verzeichnis(se), 23.519.821.824 Bytes frei

@@ -1,0 +1,1035 @@
+'Workrave.exe': Loaded 'C:\Users\Internet\Desktop\workrave\1650\workrave\trunk\build\msvc90\Debug\Workrave.exe', Symbols loaded.
+'Workrave.exe': Loaded 'C:\Windows\System32\ntdll.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\kernel32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\winmm.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\msvcrt.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\user32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\gdi32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\advapi32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\rpcrt4.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\ole32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\oleaut32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\oleacc.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\shlwapi.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\shell32.dll'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\gtkmm-vc90-d-2_4.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libglib-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Windows\System32\ws2_32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\nsi.dll'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgobject-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgdk-win32-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgdk_pixbuf-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgio-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgmodule-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\jpeg62.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libpng12-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\zlib1.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libtiff3.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libcairo-2.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Windows\System32\msimg32.dll'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libpango-1.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libpangocairo-1.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libpangowin32-1.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Windows\System32\imm32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\msctf.dll'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libgtk-win32-2.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\libatk-1.0-0.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6001.18000_none_886786f450a74a05\comctl32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\comdlg32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\winspool.drv'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\giomm-vc90-d-2_4.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\sigc-vc90-d-2_0.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.21022.8_none_96748342450f6aa2\msvcr90d.dll'
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.vc90.debugcrt_1fc8b3b9a1e18e3b_9.0.21022.8_none_96748342450f6aa2\msvcp90d.dll'
+'Workrave.exe': Loaded 'C:\gtkmm\bin\glibmm-vc90-d-2_4.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\cairomm-vc90-d-1_0.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\pangomm-vc90-d-1_4.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\atkmm-vc90-d-1_6.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\gdkmm-vc90-d-2_4.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\gtkmm\bin\intl.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Users\Internet\Desktop\workrave\1650\workrave\trunk\build\msvc90\Debug\harpoon.dll', Symbols loaded.
+'Workrave.exe': Loaded 'C:\Windows\System32\lpk.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\usp10.dll'
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc\comctl32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\secur32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\setupapi.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\userenv.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\propsys.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\clbcatq.dll'
+Timer::enable() timer_id == "micro_pause" , timer_enabled == false
+Timer::stop_timer() timer_id == "micro_pause" , timer_state == STATE_INVALID
+Timer::stop_timer() timer_id == "micro_pause" , timer_state == STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == false
+Timer::stop_timer() timer_id == "rest_break" , timer_state == STATE_INVALID
+Timer::stop_timer() timer_id == "rest_break" , timer_state == STATE_STOPPED
+Timer::enable() timer_id == "daily_limit" , timer_enabled == false
+Timer::stop_timer() timer_id == "daily_limit" , timer_state == STATE_INVALID
+Timer::stop_timer() timer_id == "daily_limit" , timer_state == STATE_STOPPED
+'Workrave.exe': Loaded 'C:\gtkmm\lib\gtk-2.0\2.10.0\engines\libwimp.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Windows\System32\uxtheme.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\mscms.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\icm32.dll'
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488254, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_UNKNOWN, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488254, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_UNKNOWN, timer_state: STATE_STOPPED
+Timer::stop_timer() timer_id == "daily_limit" , timer_state == STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488255, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488255, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+'Workrave.exe': Loaded 'C:\Windows\System32\apphelp.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\shdocvw.dll'
+'Workrave.exe': Unloaded 'C:\Windows\System32\shdocvw.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\shdocvw.dll'
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488256, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488256, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488257, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488257, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488258, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488258, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488283, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488259, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 1232488313, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488259, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+'Workrave.exe': Loaded 'C:\Windows\System32\winhttp.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\WindowsCodecs.dll'
+'Workrave.exe': Loaded 'C:\Program Files\Common Files\TortoiseOverlays\TortoiseOverlays.dll'
+'Workrave.exe': Unloaded 'C:\Program Files\Common Files\TortoiseOverlays\TortoiseOverlays.dll'
+'Workrave.exe': Loaded 'C:\Program Files\Common Files\TortoiseOverlays\TortoiseOverlays.dll'
+'Workrave.exe': Loaded 'C:\Program Files\TortoiseSVN\bin\TortoiseStub.dll', Binary was not built with debug information.
+'Workrave.exe': Loaded 'C:\Program Files\TortoiseSVN\bin\TortoiseSVN.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\wininet.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\normaliz.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\iertutil.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\version.dll'
+'Workrave.exe': Loaded 'C:\Program Files\TortoiseSVN\bin\libapr_tsvn.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\mswsock.dll'
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30411.0_none_dba7eb55a0823cdf\msvcr90.dll'
+'Workrave.exe': Loaded 'C:\Program Files\TortoiseSVN\bin\libaprutil_tsvn.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\Wldap32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\psapi.dll'
+'Workrave.exe': Loaded 'C:\Program Files\TortoiseSVN\bin\intl3_tsvn.dll'
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30411.0_none_dba7eb55a0823cdf\msvcp90.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\shfolder.dll'
+'Workrave.exe': Loaded 'C:\Windows\winsxs\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222\GdiPlus.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\cscui.dll'
+'Workrave.exe': Unloaded 'C:\Windows\System32\cscui.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\cscui.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\cscdll.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\cscapi.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\IconCodecService.dll'
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488261, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_UNKNOWN, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488261, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_UNKNOWN, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488262, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488262, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488263, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488263, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+The thread 'Win32 Thread' (0x1784) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488264, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488264, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488265, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488265, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488266, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488266, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488267, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488267, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488268, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488268, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488269, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488269, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488270, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488270, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488271, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488271, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488272, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488272, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488273, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488273, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488274, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488274, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488275, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488275, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488276, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488276, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488277, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488277, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488278, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488278, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488279, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488279, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488280, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488280, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488281, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488281, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488282, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488282, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "micro_pause" ; current_time: 1232488283, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_NOISE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "rest_break" ; current_time: 1232488283, next_limit_time: 0, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_NOISE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+Timer::start_timer() timer_id == "micro_pause" , timer_state == STATE_STOPPED, timer_frozen == false
+>Timer::process() "micro_pause" ; current_time: 1232488284, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_NOISE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 60 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+Timer::start_timer() timer_id == "rest_break" , timer_state == STATE_STOPPED, timer_frozen == false
+>Timer::process() "rest_break" ; current_time: 1232488284, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_NOISE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 1, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488285, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 1, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488285, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 2, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488286, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 2, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488286, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 3, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488287, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 3, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488287, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 4, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488288, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 4, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488288, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 5, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488289, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 5, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488289, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 6, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488290, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 6, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488290, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 7, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488291, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 7, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488291, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 8, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488292, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 8, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488292, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 9, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488293, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 9, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488293, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 10, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488294, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 10, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488294, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 11, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488295, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 11, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488295, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 12, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488296, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 12, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488296, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 13, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488297, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 13, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488297, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 14, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488298, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 14, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488298, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 15, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488299, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 15, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488299, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 16, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488300, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 16, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488300, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 17, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488301, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 17, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488301, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 18, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488302, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 18, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488302, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 19, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488303, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 19, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488303, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 20, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488304, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 20, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488304, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 21, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488305, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 21, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488305, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 22, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488306, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 22, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488306, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 23, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488307, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 23, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488307, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 24, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488308, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 24, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488308, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 25, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488309, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 25, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488309, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 26, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488310, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 26, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488310, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 27, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488311, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 27, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488311, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 28, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488312, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 28, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488312, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 29, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488313, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 29, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488313, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 0 , elapsed: 30, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488314, next_limit_time: 1232488314, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 30, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488314, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::stop_timer() timer_id == "micro_pause" , timer_state == STATE_RUNNING
+'Workrave.exe': Loaded 'C:\Windows\System32\wdmaud.drv'
+'Workrave.exe': Loaded 'C:\Windows\System32\ksuser.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\MMDevAPI.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\avrt.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\wintrust.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\crypt32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\msasn1.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\imagehlp.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\AudioSes.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\AudioEng.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\msacm32.drv'
+'Workrave.exe': Loaded 'C:\Windows\System32\msacm32.dll'
+'Workrave.exe': Loaded 'C:\Windows\System32\midimap.dll'
+The thread 'Win32 Thread' (0x1aa4) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 1 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488315, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 31, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488315, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 2 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488316, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 32, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488316, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 3 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488317, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 33, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488317, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 4 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488318, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 34, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488318, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 5 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488319, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 35, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488319, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 6 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488320, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 36, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488320, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 7 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488321, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 37, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488321, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 8 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488322, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 38, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488322, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 9 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488323, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 39, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488323, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::stop_timer() timer_id == "micro_pause" , timer_state == STATE_STOPPED
+freeze_timer (true) timer_id == "micro_pause"
+freeze_timer (true) timer_id == "rest_break"
+freeze_timer (true) timer_id == "daily_limit"
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 10 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488324, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 40, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488324, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+The thread 'Win32 Thread' (0x11cc) has exited with code 0 (0x0).
+The thread 'Win32 Thread' (0xa88) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 11 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488325, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 41, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488325, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 12 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488326, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 42, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488326, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 13 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488327, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 43, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488327, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 14 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488328, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 44, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488328, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 15 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488329, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 45, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488329, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 16 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488330, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 46, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488330, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 17 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488331, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 47, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488331, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 18 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488332, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 48, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488332, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 19 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488333, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 49, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488333, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 20 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488334, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 50, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488334, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+The thread 'Win32 Thread' (0x1508) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 21 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488335, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 51, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488335, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 22 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488336, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 52, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488336, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 23 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488337, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 53, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488337, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 24 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488338, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 54, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488338, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 25 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488339, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 55, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488339, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 26 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488340, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 56, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488340, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 27 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488341, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 57, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488341, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 28 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488342, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 58, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488342, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 29 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488343, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 59, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488343, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 30 , elapsed: 30, enabled: true, last_start_time: 0, last_stop_time: 1232488314, next_pred_reset_time: 0, next_reset_time: 1232488344, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488344, next_limit_time: 0, last_limit_time: 1232488314, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::reset_timer() timer_id == "micro_pause" , timer_state == STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 60, enabled: true, last_start_time: 1232488284, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488344, next_limit_time: 1232488344, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+freeze_timer (false) timer_id == "micro_pause"
+freeze_timer (false) timer_id == "rest_break"
+freeze_timer (false) timer_id == "daily_limit"
+Timer::stop_timer() timer_id == "rest_break" , timer_state == STATE_RUNNING
+The thread 'Win32 Thread' (0x1e70) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 31 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488345, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 1 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488345, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 32 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488346, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 2 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488346, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 33 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488347, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 3 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488347, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 34 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488348, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 4 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488348, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 35 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488349, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 5 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488349, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 36 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488350, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 6 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488350, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 37 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488351, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 7 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488351, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 38 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488352, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 8 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488352, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 39 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488353, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 9 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488353, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::stop_timer() timer_id == "rest_break" , timer_state == STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 40 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488354, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 10 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488354, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 41 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488355, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 11 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488355, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+The thread 'Win32 Thread' (0xd18) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 42 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488356, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 12 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488356, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 43 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488357, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 13 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488357, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 44 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488358, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 14 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488358, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 45 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488359, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 15 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488359, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 46 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488360, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 16 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488360, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 47 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488361, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 17 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488361, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 48 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488362, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 18 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488362, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 49 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488363, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 19 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488363, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 50 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "micro_pause" ; current_time: 1232488364, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_SUSPENDED , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 20 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_SUSPENDED
+>Timer::process() "rest_break" ; current_time: 1232488364, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+freeze_timer (true) timer_id == "micro_pause"
+freeze_timer (true) timer_id == "rest_break"
+freeze_timer (true) timer_id == "daily_limit"
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 51 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488365, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_SUSPENDED, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 21 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488365, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+The thread 'Win32 Thread' (0xf58) has exited with code 0 (0x0).
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 52 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "micro_pause" ; current_time: 1232488366, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 22 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_IDLE
+>Timer::process() "rest_break" ; current_time: 1232488366, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 53 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "micro_pause" ; current_time: 1232488367, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_NOISE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 23 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "rest_break" ; current_time: 1232488367, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 54 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "micro_pause" ; current_time: 1232488368, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_NOISE , activity_state: ACTIVITY_NOISE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 24 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "rest_break" ; current_time: 1232488368, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 55 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "micro_pause" ; current_time: 1232488369, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_NOISE , activity_state: ACTIVITY_NOISE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 25 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_NOISE
+>Timer::process() "rest_break" ; current_time: 1232488369, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+Timer::start_timer() timer_id == "micro_pause" , timer_state == STATE_STOPPED, timer_frozen == true
+>Timer::process() "micro_pause" ; current_time: 1232488370, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_NOISE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 26 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488370, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488371, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 27 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488371, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488372, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 28 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488372, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488373, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 29 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488373, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488374, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 30 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488374, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488375, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 31 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488375, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488376, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 32 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488376, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488377, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 33 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488377, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488378, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 34 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488378, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488379, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 35 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488379, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488380, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 36 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488380, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488381, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 37 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488381, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488382, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 38 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488382, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488383, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 39 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488383, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488384, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 40 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488384, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488385, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 41 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488385, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488386, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 42 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488386, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488387, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 43 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488387, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488388, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 44 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488388, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488389, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 45 , elapsed: 60, enabled: true, last_start_time: 0, last_stop_time: 1232488344, next_pred_reset_time: 0, next_reset_time: 1232488404, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488389, next_limit_time: 0, last_limit_time: 1232488344, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_IDLE , activity_state: ACTIVITY_IDLE, timer_state: STATE_STOPPED
+Timer::reset_timer() timer_id == "rest_break" , timer_state == STATE_STOPPED
+freeze_timer (false) timer_id == "micro_pause"
+freeze_timer (false) timer_id == "rest_break"
+freeze_timer (false) timer_id == "daily_limit"
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488390, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 61 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 1232488389, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+Timer::start_timer() timer_id == "rest_break" , timer_state == STATE_STOPPED, timer_frozen == false
+>Timer::process() "rest_break" ; current_time: 1232488390, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_IDLE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488391, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 1, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488391, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488392, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 2, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488392, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488393, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 3, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488393, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488394, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 4, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488394, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488395, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 5, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488395, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488396, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 6, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488396, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488397, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 7, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488397, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488398, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 8, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488398, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488399, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 9, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488399, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488400, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 10, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488400, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488401, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 11, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488401, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "micro_pause" , timer_enabled == true
+Timer::process() "micro_pause" ; idle: 56 , elapsed: 0, enabled: true, last_start_time: 0, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "micro_pause" ; current_time: 1232488402, next_limit_time: 0, last_limit_time: 0, limit_interval: 30, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+Timer::enable() timer_id == "rest_break" , timer_enabled == true
+Timer::process() "rest_break" ; idle: 0 , elapsed: 12, enabled: true, last_start_time: 1232488390, last_stop_time: 0, next_pred_reset_time: 0, next_reset_time: 0, time: 0x004f8360 time(__int64 *), ACTIVITY_ACTIVE
+>Timer::process() "rest_break" ; current_time: 1232488402, next_limit_time: 1232488450, last_limit_time: 0, limit_interval: 60, next_pred_reset_time: 0, autoreset_interval_predicate: 0x00000000 {last_time=??? }, new_activity_state: ACTIVITY_ACTIVE , activity_state: ACTIVITY_ACTIVE, timer_state: STATE_RUNNING
+The program '[0x1C1C] Workrave.exe: Native' has exited with code 0 (0x0).

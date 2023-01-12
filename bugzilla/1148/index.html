@@ -1,0 +1,75 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/1148/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;1148 - Double deallocation causes crashes during Workrave shutdown (Fedora)</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.10</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>All Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P5 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Feb 4 2014 15:25:52 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Lukas Marek</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Feb 5 2014 00:11:23 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=attachments-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#attachments-content aria-expanded=false aria-controls=attachments-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments</button></h5><div class=collapse id=attachments-content aria-labelledby=attachments-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Id</th><th scope=col>Who</th><th scope=col>When</th><th scope=col>Size</th><th scope=col>Type</th></tr></thead><tbody><tr><th scope=row rowspan=2>290</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-290.txt>valgrind trace</a><tr><td>Lukas Marek</td><td>Feb 4 2014 15:25:52 UTC</td><td>16710</td><td>application/octet-stream</td></tr></tbody></table></div></div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Feb 4 2014 20:43:59 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Lukas Marek&nbsp;&nbsp;Feb 4 2014 15:25:52 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 290
+valgrind trace
+
+I&#39;m getting reproducible crashes on Fedora during Workrave shutdown. It seems that problem is somehow connected to Fedora configuration (./configure --disable-dbus --disable-xml --enable-gnome3 --disable-static) as I was able to get rid of the crashes with a different one. However, I tried to debug it properly.
+
+Valgrind reports double deallocation (relevant part):
+
+==31195== Invalid read of size 8
+==31195==    at 0x4CB474: Thread::wait() (GlibThread.cc:72)
+==31195==    by 0x4C3E2C: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:121)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc38 is 8 bytes inside a block of size 24 free&#39;d
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+
+See attachment for full log.
+
+GlibThread.cc:104 (https://github.com/rcaelers/workrave/blob/7d27488bcfa9ef3646afc2a3868f10a8c1a86a2e/common/src/GlibThread.cc) frees the memory and RecordInputMonitor.cc:121 does it probably again. Simple removal of delete at GlibThread.cc:104 fixes the issues however it can probably cause memory leaks in some situation.
+
+I quickly went through code and for example backend/src/unix/XScreenSaverMonitor.cc does not release an allocated thread object. Proposed delete removal will probably require deeper code revision on other places.
+
+Related Redhat bugzilla bugs are:
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1047808
+https://bugzilla.redhat.com/show_bug.cgi?id=902291</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Lukas Marek&nbsp;&nbsp;Feb 4 2014 15:30:21 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Errata:
+
+Sorry, I&#39;ve posted bad Vagrind part. The second deallocation is here:
+
+==31195== Invalid free() / delete / delete[] / realloc()
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4C3E3B: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:122)
+==31195==    by 0x4C3F08: RecordInputMonitor::~RecordInputMonitor() (RecordInputMonitor.cc:131)
+==31195==    by 0x4B9ABD: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:91)
+==31195==    by 0x4B9B48: ActivityMonitor::~ActivityMonitor() (ActivityMonitor.cc:94)
+==31195==    by 0x49E9EB: Core::~Core() (Core.cc:137)
+==31195==    by 0x49EC58: Core::~Core() (Core.cc:154)
+==31195==    by 0x45F816: GUI::~GUI() (GUI.cc:168)
+==31195==    by 0x45F9C8: GUI::~GUI() (GUI.cc:181)
+==31195==    by 0x480CA8: run (main.cc:70)
+==31195==    by 0x3E95A21D64: (below main) (in /usr/lib64/libc-2.18.so)
+==31195==  Address 0x528cc30 is 0 bytes inside a block of size 24 free&#39;d
+==31195==    at 0x4A07991: operator delete(void*) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31195==    by 0x4CB506: Thread::thread_handler(void*) (GlibThread.cc:104)
+==31195==    by 0x3E9826EA44: ??? (in /usr/lib64/libglib-2.0.so.0.3800.2)
+==31195==    by 0x3E96607F32: start_thread (in /usr/lib64/libpthread-2.18.so)
+==31195==    by 0x3E95AF4DEC: clone (in /usr/lib64/libc-2.18.so)
+
+RecordInputMonitor.cc:121 then changes to RecordInputMonitor.cc:122
+
+Also, the submitted file contains the valgrind output twice. :(</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Feb 4 2014 20:43:59 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fixed. Thanks.
+
+(git commit 09407f66a10e42de098c236f72ff0b00f2842df6)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Lukas Marek&nbsp;&nbsp;Feb 5 2014 00:11:23 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>It works for me. Thanks for such a quick fix.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,80 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/810/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;810 - Workrave does not unsuspend itself after failed hibernation.</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>ASSIGNED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: Win32</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>unspecified</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Windows Vista</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P5 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Ray Satiro</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Jan 13 2009 05:57:54 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Ray Satiro</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Feb 22 2011 03:04:05 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Abhijit Mahabal</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Joe Conley</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>cliff</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Rob Caelers</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>cliff</th><td rowspan=1>Feb 1 2011 15:22:57 UTC</td><td>cc</td><td></td><td>cliff</td></tr><tr><th scope=row rowspan=1>Joe Conley</th><td rowspan=1>Feb 16 2011 06:02:48 UTC</td><td>cc</td><td></td><td>Joe Conley</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Feb 17 2011 00:07:36 UTC</td><td>cc</td><td></td><td>Rob Caelers</td></tr><tr><th scope=row rowspan=1>Abhijit Mahabal</th><td rowspan=1>Feb 22 2011 02:40:28 UTC</td><td>cc</td><td></td><td>Abhijit Mahabal</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Ray Satiro&nbsp;&nbsp;Jan 13 2009 05:57:54 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>In some cases Windows will try to hibernate or sleep but is stopped by a driver or a program. This can cause a PBT_APMSUSPEND message immediately followed by PBT_APMRESUMEAUTOMATIC. Workrave thinks the computer is going to hibernate even though it is not. In this situation Workrave will suspend its timers and will not resume its previous state. There is no SUSPENDFAILED message sent by Windows, but if there was this bug would still occur.
+
+MSDN notes this:
+&#34;If the system detects any user activity after broadcasting PBT_APMRESUMEAUTOMATIC, it will broadcast a PBT_APMRESUMESUSPEND event to let applications know they can resume full interaction with the user.&#34;
+
+I don&#39;t find that to be true. Observed on Vista:
+
+02:06:09 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:06:09 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:06:09 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:06:43 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:06:43 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:06:44 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:07:16 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:07:16 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:07:17 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:08:04 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:08:04 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:08:05 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:09:28 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:09:28 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:09:28 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:09:42 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:09:42 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:09:42 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+02:10:27 PM:	WM_POWERBROADCAST: PBT_APMSUSPEND
+02:10:27 PM:	Core::set_operation_mode(): OPERATION_MODE_SUSPENDED 
+02:10:27 PM:	WM_POWERBROADCAST: PBT_APMRESUMEAUTOMATIC
+
+
+Windows apparently does not signal there is activity by sending a proper resume. Therefore I think we must rely on Workrave&#39;s activity monitors to make such a determination. I&#39;m thinking a solution could be to handle APMRESUMEAUTOMATIC in GUI::win32_filter_func(), and possibly changes will be needed in Core::set_powersave().
+
+
+Currently unsuspending Workrave in this situation requires manual intervention, 
+e.g. Mode &gt; Normal</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>cliff&nbsp;&nbsp;Feb 1 2011 15:22:57 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>In Windows 7, this doesn&#39;t seem to be limited to just failures.  When I restart from successfully hibernating my machine, the application is still suspended.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Joe Conley&nbsp;&nbsp;Feb 16 2011 06:02:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to comment #1)
+&gt; In Windows 7, this doesn&#39;t seem to be limited to just failures.  When I restart
+&gt; from successfully hibernating my machine, the application is still suspended.
+
+I am having this problem also.  It happened when I switched to Windows 7.  If I just tell the machine to sleep and come back in the morning, it is still in suspended mode, so I forget to re-enable it for half the day.
+
+The best workaround for now for me is to make it visible in the windows taskbar so I might see the red line through the icon.
+
+But it is unfortunate since I really rely on this program.  Thanks for the work you guys do.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Feb 17 2011 00:07:36 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I believe the latest snapshot fixes this problem. Could you please install:
+
+http://snapshots.workrave.org/20110216/workrave-win32-v1_9_3-57-g6e2ec53b37-20110216-installer.exe 
+
+and let us know if hibernate/standby now works properly. Thanks.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Joe Conley&nbsp;&nbsp;Feb 17 2011 03:10:54 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks a lot for the quick response Rob, I appreciate it.
+
+I just installed that version and put the computer to sleep and woke it back up, and it appears to have fixed the issue, workrave did not stay in suspended mode.
+
+You mentioned &#34;Hibernate&#34; and &#34;Standby&#34; modes, but I&#39;m using the Japanese version of Win 7, and it just says &#34;スリープ&#34; which is just a Japanese-ized version of &#34;sleep&#34;, so I&#39;m not sure if that indicates &#34;Hibernate&#34; or &#34;Standby&#34; or some third mode.
+
+Why are there so many sleep modes in the first place I am tempted to ask, but that&#39;s not your issue.
+
+Thanks for your help!  I&#39;ll let you know if it becomes a problem again in the future, but I think it should be fine.  
+
+Thanks again for the good software :-)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Abhijit Mahabal&nbsp;&nbsp;Feb 22 2011 02:40:28 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have this problem too, and glad that it has been fixed. For various reasons, I won&#39;t be able to install the snapshot on my work machine. When would this patch be part of a release (any dates for 1.9.4?)
+
+Thanks,
+  Abhijit</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>cliff&nbsp;&nbsp;Feb 22 2011 03:04:05 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to comment #3)
+&gt; I believe the latest snapshot fixes this problem. Could you please install:
+&gt; 
+&gt; http://snapshots.workrave.org/20110216/workrave-win32-v1_9_3-57-g6e2ec53b37-20110216-installer.exe 
+&gt; 
+&gt; and let us know if hibernate/standby now works properly. Thanks.
+
+unfortunately, this doesn&#39;t seem to solve my problem.  Workrave doesn&#39;t restart after hibernation.   :(
+
+Win 7 enterprise x64.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

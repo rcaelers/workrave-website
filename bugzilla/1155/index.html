@@ -1,0 +1,125 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/1155/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;1155 - blocks all user input except switch-to-terminal, but mouse moves - have to kill it with pkill</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.10</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P5 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Feb 28 2014 09:03:24 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Arne Babenhauserheide</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Oct 25 2017 14:17:55 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>18**@gm**.com</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Rance</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=3>Arne Babenhauserheide</th><td rowspan=3>Jun 5 2014 05:20:19 UTC</td><td>platform</td><td>All</td><td>PC</td></tr><tr><td>op_sys</td><td>All</td><td>Linux</td></tr><tr><td>severity</td><td>normal</td><td>major</td></tr><tr><th scope=row rowspan=1>Rance</th><td rowspan=1>Jun 23 2015 08:03:29 UTC</td><td>cc</td><td></td><td>Rance</td></tr><tr><th scope=row rowspan=1>18**@gm**.com</th><td rowspan=1>Oct 25 2017 14:17:55 UTC</td><td>cc</td><td></td><td>18**@gm**.com</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Feb 28 2014 09:03:24 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>On my Gentoo KDE GNU Linux system workrave blocked all user-interaction except for moving the mouse (but not clicking) and leaving X11 with ctrl-alt-F1 (or other F-keys).
+
+To get my KDE session responsive again, I have to switch to the terminal and kill workrave with pkill -3 workrave.
+
+block-mode is set to None in the config.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Feb 28 2014 09:08:36 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>This seems to only happen in normal breaks - at least the first micro-break works normally.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jun 5 2014 05:18:33 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Yesterday I tried workrave again and when I ignored the microbreak for more than 5-6 minutes it blocked all user-input. This was still more than 10 minutes before the next microbreak.
+
+I can now trigger it intentionally by waiting out for the maximum number of microbreak warnings and then hitting skip. Then it counts down to the next micro-break and just before the micro-break timer hits 0 it stops the screen from updating. My user-input actually still is accepted (I can simply keep typing), but I no longer see any updates on the screen.
+
+To check this, I set the wait-time to the microbreak to 3s and the “postpone”-setting to 4s. The microbreak-length is still 30s.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jun 5 2014 05:20:19 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Set the importance to major, because it makes it impossible for me to work with workrave, and because I can now trigger it intentionally, so it could be possible to fix it.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jul 14 2014 05:02:35 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I now found a workaround: When I disable the checkbox “maximum number of […]”, then my screen does not freeze. I now did that. It makes workrave a bit more annoying and disables a feature, but it enables  me to use it again.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Dec 23 2014 08:44:20 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I’m not sure what happened, but the problem appeared again in August.
+
+I still only have 1.10.1, though - need to get the Gentoo ebuild updated.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Dec 23 2014 11:14:34 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>There’s now a new ebuild for Gentoo[1] (I created it), but I cannot test 1.10.6 yet, because there’s no release on github. I’d like to test whether the blocking changes I saw in the NEWS file fix my issues. As soon as you release 1.10.6, that test will only require renaming a file.
+
+[1]: https://bugs.gentoo.org/show_bug.cgi?id=533376</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Dec 23 2014 15:11:20 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi. 1.10.6 hasn&#39;t been released yet. The major difference between 1.10.5 and 1.10.6 will be applets for xfce, cinnamon and mate.
+
+I have never been able to reproduce this issue (on Ubuntu). If blocking mode if set to &#39;Input only&#39; or &#39;Input and screen&#39; Workrave should block keyboard and mouse clicks, but only during breaks. What is your blocking mode settings? 
+
+If blocking mode is set to &#39;input and screen&#39;, Workrave replaces your screen with only the background. All windows (except the break window) should disappear. Is this what you are seeing? Or do all windows remain visible, but are just no updated anymore?
+
+
+I will try to install Gentoo and see whether I can reproduce this problem.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jan 15 2015 08:33:55 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Status update: I now got workrave 1.10.6 into Gentoo.
+
+My blocking mode is to not block anything (I don’t need it to block, I just need it to nag until I take a break ☺).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jan 15 2015 08:36:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to ro**@kr**.org from comment #7)
+&gt; If blocking mode is set to &#39;input and screen&#39;, Workrave replaces your screen
+&gt; with only the background. All windows (except the break window) should
+&gt; disappear. Is this what you are seeing? Or do all windows remain visible,
+&gt; but are just no updated anymore?
+
+For me all windows remain visible, but are just no updated anymore?
+
+It also seems like the computer still takes input (after killing workrave I saw changes), it just does not update the screen anymore.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 10</div><div class=float-left>Rance&nbsp;&nbsp;Jun 23 2015 08:03:29 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have been having this problem as well for a long time.  I am using the same Gentoo with AwesomeWM window manager.
+
+I have not found that messing with any of the options stops it from hanging X  I can remotely login to the computer and kill the process.
+
+I have run it through GDB last time it locked up and this the the BT output, although it does not really look too helpful.
+
+Let me know what other things I can do to figure out where it might be stopping.
+
+#0  0x00007ffff3bea6cc in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00007ffff3be5ed1 in pthread_mutex_lock () from /lib64/libpthread.so.0
+#2  0x00007ffff729fd57 in XSetErrorHandler () from /usr/lib64/libX11.so.6
+#3  0x00007ffff576e12c in ?? () from /usr/lib64/libgdk-3.so.0
+#4  0x00007ffff576510e in gdk_x11_display_error_trap_push () from /usr/lib64/libgdk-3.so.0
+#5  0x00007ffff5760366 in ?? () from /usr/lib64/libgdk-3.so.0
+#6  0x00007ffff574476a in gdk_device_get_window_at_position_double () from /usr/lib64/libgdk-3.so.0
+#7  0x00007ffff5744835 in gdk_device_get_window_at_position () from /usr/lib64/libgdk-3.so.0
+#8  0x00007ffff5c53616 in gtk_tooltip_trigger_tooltip_query () from /usr/lib64/libgtk-3.so.0
+#9  0x00007ffff4664d35 in g_slist_foreach () from /usr/lib64/libglib-2.0.so.0
+#10 0x00007ffff5c89fbf in ?? () from /usr/lib64/libgtk-3.so.0
+#11 0x00007ffff5741320 in ?? () from /usr/lib64/libgdk-3.so.0
+#12 0x00007ffff464b380 in g_main_context_dispatch () from /usr/lib64/libglib-2.0.so.0
+#13 0x00007ffff464b673 in ?? () from /usr/lib64/libglib-2.0.so.0
+#14 0x00007ffff464b905 in g_main_loop_run () from /usr/lib64/libglib-2.0.so.0
+#15 0x00007ffff5b7afb4 in gtk_main () from /usr/lib64/libgtk-3.so.0
+#16 0x00000000004459f1 in GUI::main() ()
+#17 0x0000000000472714 in run ()
+#18 0x00007ffff386fa5c in __libc_start_main () from /lib64/libc.so.6
+#19 0x0000000000447ee5 in _start ()
+
+
+Thanks</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 11</div><div class=float-left>Rance&nbsp;&nbsp;Jan 27 2016 08:09:38 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>FYI I have found now with my current version that I no longer have this issue.
+
+*  app-misc/workrave
+      Latest version available: 1.10.8
+      Latest version installed: 1.10.8
+
+*  x11-wm/awesome
+      Latest version available: 3.5.6-r2
+      Latest version installed: 3.4.15
+
+*  x11-base/xorg-server
+      Latest version available: 1.17.4
+      Latest version installed: 1.17.4
+
+
+Hope this helps at all.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 12</div><div class=float-left>Arne Babenhauserheide&nbsp;&nbsp;Jul 11 2016 16:22:43 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>(In reply to Rance from comment #11)
+&gt; FYI I have found now with my current version that I no longer have this
+&gt; issue.
+&gt; 
+&gt; *  app-misc/workrave
+&gt;       Latest version available: 1.10.8
+&gt;       Latest version installed: 1.10.8
+&gt; 
+&gt; *  x11-wm/awesome
+&gt;       Latest version available: 3.5.6-r2
+&gt;       Latest version installed: 3.4.15
+&gt; 
+&gt; *  x11-base/xorg-server
+&gt;       Latest version available: 1.17.4
+&gt;       Latest version installed: 1.17.4
+&gt; 
+&gt; 
+&gt; Hope this helps at all.
+
+I also no longer have the issue (I just came here to report that when I tested it again last week, it was gone).,
+
+ * app-misc/workrave
+     versions: 1.10.6-r1 1.10.6-r2 1.10.8
+     installed: 1.10.8
+
+ * x11-base/xorg-server
+     versions: 1.12.4-r5 1.12.4-r7 1.15.2-r2 1.15.2-r4 1.16.4 1.16.4-r5 1.17.4 1.18.0 1.18.1 1.18.2 1.18.3
+     installed: 1.17.4
+
+ * kde-base/kwin
+     versions: 4.11.22
+     installed: 4.11.22
+
+ * kde-apps/kde-meta
+     versions: 4.14.3 4.14.3-r1 15.08.3 15.12.3 16.04.1
+     installed: 4.14.3-r1
+
+ * kde-base/plasma-workspace
+     versions: 4.11.22
+     installed: 4.11.22</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workrave</title><link>https://workrave.org/categories/news/</link><description>Recent blog posts on Workrave</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://workrave.org/categories/news/feed.xml" rel="self" type="application/rss+xml"/><item><title>New website online</title><link>https://workrave.org/2020/04/05/new-website/</link><pubDate>Sun, 05 Apr 2020 00:00:00 +0100</pubDate><author>Rob Caelers</author><guid>https://workrave.org/2020/04/05/new-website/</guid><description>&lt;p>The new Workrave website is now finally online.
+The previous website was no longer actively maintained and the content was out of date.
+The new site is designed from scratch using &lt;a href="https://www.gohugo.io">Hugo&lt;/a>.
+One major addition compared to the previous website is &lt;a href="https://workrave.org/docs">documentation&lt;/a> for Workrave.&lt;/p>
+&lt;p>Please report any issues on the documentation or this website via our &lt;a href="https://github.com/rcaelers/workrave-website/issues">bugtracker&lt;/a> at Github, or &lt;a href="https://workrave.org/contribute-docs">help&lt;/a> us improve this website.&lt;/p>
+&lt;p>For those who do not remember our previous site:&lt;/p>
+&lt;p>
+&lt;img class="img-fluid center" src="oldsite-home.png#center" alt="">
+&lt;/p>
+&lt;p>And the download page:&lt;/p>
+&lt;p>
+&lt;img class="img-fluid center" src="oldsite-download.png#center" alt="">
+&lt;/p></description></item><item><title>Greek leaflet and upcoming translation</title><link>https://workrave.org/2006/12/19/greek-leaflet-and-upcoming-translation/</link><pubDate>Tue, 19 Dec 2006 11:00:00 +0100</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2006/12/19/greek-leaflet-and-upcoming-translation/</guid><description>&lt;p>A Greek translation of both Workrave and its leaflet are in the pipeline.&lt;/p>
+&lt;p>The leaflet is now also available in Greek. Furthermore, the next version will
+also feature a complete Greek translation of Workrave. Thanks, Prokopis
+Prokopidis.&lt;/p></description></item><item><title>Workrave branded for Chiropraktik Hirschengraben</title><link>https://workrave.org/2006/12/19/workrave-branded-chiropraktik-hirschengraben/</link><pubDate>Tue, 19 Dec 2006 11:00:00 +0100</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2006/12/19/workrave-branded-chiropraktik-hirschengraben/</guid><description>&lt;p>A branded version of Workrave is now available, on request of Chiropraktik
+Hirschengraben.&lt;/p>
+&lt;p>This version features (next to branding): exercise images using real
+photography, audible (spoken) exercises, and preconfigured fixed settings. The
+branded version was created by IntenCT, a company started by Raymond Penners. In
+compliance to the GPL, all modifications are available in our source archive as
+well.&lt;/p></description></item><item><title>Turkish leaflet and upcoming translation</title><link>https://workrave.org/2006/09/04/turkish-leaflet-and-upcoming-translation/</link><pubDate>Mon, 04 Sep 2006 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2006/09/04/turkish-leaflet-and-upcoming-translation/</guid><description>&lt;p>A Turkish translation of both Workrave and its leaflet are in the pipeline.&lt;/p>
+&lt;p>The leaflet is now also available in Turkish. Furthermore, the next version will
+also feature a complete Turkish translation of Workrave. Thanks, Enver Altin.&lt;/p></description></item><item><title>Japanese leaflet and upcoming translation</title><link>https://workrave.org/2006/07/16/japanese-leaflet-upcoming-translation/</link><pubDate>Sun, 16 Jul 2006 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2006/07/16/japanese-leaflet-upcoming-translation/</guid><description>&lt;p>A Japanese translation of both Workrave and its leaflet are in the pipeline.&lt;/p>
+&lt;p>The leaflet is now also available in Japanese. Furthermore, the next version
+will also feature a complete Japanese translation of Workrave. Thanks, Masanobu
+Yokota.&lt;/p></description></item><item><title>Italian leaflet</title><link>https://workrave.org/2005/10/10/italian-leaflet/</link><pubDate>Mon, 10 Oct 2005 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2005/10/10/italian-leaflet/</guid><description>&lt;p>We now have a Italian &lt;a href="https://workrave.org/leaflet">leaflet&lt;/a> available.&lt;/p>
+&lt;p>The leaflet was translated by Giulio Sorrentino, thanks.&lt;/p></description></item><item><title>French leaflet</title><link>https://workrave.org/2005/05/09/french-leaflet/</link><pubDate>Mon, 09 May 2005 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2005/05/09/french-leaflet/</guid><description>&lt;p>We now have a French &lt;a href="https://workrave.org/leaflet">leaflet&lt;/a> available.&lt;/p>
+&lt;p>The leaflet was translated by Pierre-Henri Trivier, thanks.&lt;/p></description></item><item><title>Windows applet in the works</title><link>https://workrave.org/2004/02/03/windows-applet-works/</link><pubDate>Tue, 03 Feb 2004 08:00:00 +0100</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2004/02/03/windows-applet-works/</guid><description>&lt;p>Started working on a version of the status window that can be embedded in your
+Windows taskbar.&lt;/p>
+&lt;p>GNU/Linux users have had the privilege to enjoy this feature for quite some time
+now, but it is finally coming to the Windows world. Here&amp;rsquo;s a snapshot:&lt;/p>
+&lt;p>
+&lt;img class="img-fluid " src="workrave-applet.png" alt="Applet">
+&lt;/p></description></item><item><title>Nightly builds</title><link>https://workrave.org/2003/09/09/nightly-builds/</link><pubDate>Tue, 09 Sep 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/09/09/nightly-builds/</guid><description>&lt;p>We have set up a nightly build system. Currently, it builds a Debian package,
+source tarball, and a Windows installer version.&lt;/p>
+&lt;p>Interesting to note is that the Windows version is completely built on a
+GNU/Linux system, using a cross-compiler and Wine to create the final setup.exe.&lt;/p></description></item><item><title>German Leaflet</title><link>https://workrave.org/2003/09/03/german-leaflet/</link><pubDate>Wed, 03 Sep 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/09/03/german-leaflet/</guid><description>&lt;p>We now have a German &lt;a href="https://workrave.org/leaflet">leaflet&lt;/a> available.&lt;/p>
+&lt;p>The &lt;a href="https://workrave.org/leaflet">leaflet&lt;/a> was translated by Johannes Rohr, thanks.&lt;/p></description></item><item><title>Patents endangering Open Source Software development</title><link>https://workrave.org/2003/09/03/patents-endangering-open-source-software-developme/</link><pubDate>Wed, 03 Sep 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/09/03/patents-endangering-open-source-software-developme/</guid><description>&lt;p>Soon the European Commission is going to vote a revised version of the European
+Patentability rules. Your support is needed.&lt;/p>
+&lt;p>The proposed revision contains a set of serious challenges to Open Source
+development since regulation regarding software patents will be broadly extended
+and might forbid independent development of innovative (Open Source and not)
+software-based solutions. For further information please see
+&lt;a href="http://swpat.ffii.org">http://swpat.ffii.org&lt;/a> and &lt;a href="http://petition.eurolinux.org">http://petition.eurolinux.org&lt;/a>. Please show your
+support there.&lt;/p></description></item><item><title>Spanish Leaflet</title><link>https://workrave.org/2003/08/03/spanish-leaflet/</link><pubDate>Sun, 03 Aug 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/08/03/spanish-leaflet/</guid><description>&lt;p>We now have a Spanish leaflet available.&lt;/p>
+&lt;p>The leaflet was translated by Pablo Rodriguez, thanks.&lt;/p></description></item><item><title>Miss Workrave progress</title><link>https://workrave.org/2003/07/19/miss-workrave-progress/</link><pubDate>Sat, 19 Jul 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/07/19/miss-workrave-progress/</guid><description>&lt;p>More progress on Miss Workrave and office items.&lt;/p>
+&lt;p>More progress on Miss Workrave. I have added armatures (bones). Also new is an
+office chair, which still needs some nice colors though&amp;hellip;:&lt;/p>
+&lt;p>
+&lt;img class="img-fluid " src="workrave-chair.png" alt="Chair">
+&lt;/p></description></item><item><title>Miss Workrave first snapshot</title><link>https://workrave.org/2003/07/07/miss-workrave-first-snapshot/</link><pubDate>Mon, 07 Jul 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/07/07/miss-workrave-first-snapshot/</guid><description>&lt;p>Work is ongoing on modelling the face of Miss Workrave. Read on for a
+snapshot.&lt;/p>
+&lt;p>I spent the last few nights moving the site over to my new provider. The site is
+finally 100% up and running again. So now I can continue to work on Miss
+Workrave. I am currently focusing on her face, here&amp;rsquo;s a first snapshot:&lt;/p>
+&lt;p>
+&lt;img class="img-fluid " src="workrave-face.png" alt="Face">
+&lt;/p></description></item><item><title>Newsflash</title><link>https://workrave.org/2003/06/24/newsflash/</link><pubDate>Tue, 24 Jun 2003 10:00:00 +0200</pubDate><author>Raymond Penners</author><guid>https://workrave.org/2003/06/24/newsflash/</guid><description>&lt;p>It has been a bit too quiet on the Workrave front lately, so I thought it would
+be nice to inform you about what&amp;rsquo;s cooking.&lt;/p>
+&lt;p>Initially, we were planning on releasing version 1.4.0, with exercises being the
+most interesting new feature addition. However, a lot of time went into 3D
+modeling of &amp;lsquo;Miss Workrave&amp;rsquo;, who is supposed to instruct you on how to do your
+exercises. In fact, a lot of time is still going into that as I speak right now.
+Therefore, it is most likely that we&amp;rsquo;ll release an intermediate 1.2.3 in the
+near future. You&amp;rsquo;ll have to be a bit more patient for the exercises, but here&amp;rsquo;s
+a sneak preview of how &amp;ldquo;Miss Workrave&amp;rdquo; is going to look&amp;hellip;&lt;/p>
+&lt;p>
+&lt;img class="img-fluid " src="workrave.png" alt="Workrave">
+&lt;/p></description></item></channel></rss>

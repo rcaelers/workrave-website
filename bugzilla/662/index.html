@@ -1,0 +1,448 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/662/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;662 - not doing anything out of the ordinary</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core :: Win32</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.4</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Windows XP</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 minor</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Raymond Penners</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Aug 13 2007 22:56:41 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>qxv45ir</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>May 14 2010 21:10:07 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Mike Brzozowski</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Rob Caelers</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:04:11 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=1>Mike Brzozowski</th><td rowspan=1>Jun 17 2008 22:41:14 UTC</td><td>cc</td><td></td><td>Mike Brzozowski</td></tr><tr><th scope=row rowspan=3>Rob Caelers</th><td rowspan=3>May 14 2010 21:10:07 UTC</td><td>cc</td><td></td><td>Rob Caelers</td></tr><tr><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>qxv45ir&nbsp;&nbsp;Aug 13 2007 22:56:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Suddenly Workrave crashed and leaved this crashdump.  I was doing nothing special.  I was connected to another pc during the day but at the moment of the crash I was on a different network.
+
+
+Crash log created on 13/08/2007 at 22:35:48.
+
+version = 1.8.4
+compile date = Mar  4 2007
+compile time = 20:51:40
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 7c911e58
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 7c911e58 reading from location 00000d00
+
+Registers:
+
+eax=018de628 ebx=00d20000 ecx=00000d00 edx=ae000000 esi=018de620 edi=018de638
+eip=7c911e58 esp=0022e260 ebp=0022e26c iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00210246
+
+Stack trace:
+
+PC        Frame     Ret
+7C911E58  0022E26C  7C910D5C
+7C910D5C  0022E340  77C2C2DE
+77C2C2DE  0022E388  67AC3B5A
+67AC3B5A  0022E398  67AE7073
+67AE7073  0022E448  67AE71AA
+67AE71AA  0022E508  67ACE9BB
+67ACE9BB  0022E618  67AD2F04
+67AD2F04  0022E6D8  67AD20DA
+67AD20DA  0022E8E8  67AD2FC5
+67AD2FC5  0022E948  67AD14E7
+67AD14E7  0022EA68  67AC7274
+67AC7274  0022EB28  67AC2F14
+67AC2F14  0022EB48  6C1C2CA3
+6C1C2CA3  0022EF68  64295619
+64295619  0022EF98  6C1C3197
+6C1C3197  0022EFD8  64295619
+64295619  0022F008  642968BB
+642968BB  0022F108  64296BA8
+64296BA8  0022F148  008DBA36
+008DBA36  0022F238  008DBD43
+008DBD43  0022F278  00413EAE
+00413EAE  0022F3FC  004510B7
+004510B7  0022F42C  00AA69B2
+00AA69B2  0022F45C  00893935
+00893935  0022F4BC  008A6B66
+008A6B66  0022F5AC  008A7A3C
+008A7A3C  0022F82C  008A7F56
+008A7F56  0022F84C  00BC8D64
+00BC8D64  0022F87C  00AA5172
+00AA5172  0022F8CC  008EBBC2
+008EBBC2  0022F96C  008EBC8B
+008EBC8B  0022F98C  008EBCF4
+008EBCF4  0022F99C  0072D8F7
+0072D8F7  0022F9EC  0072EDCB
+0072EDCB  0022FA2C  0072EFAA
+0072EFAA  0022FA5C  00AA43BE
+00AA43BE  0022FAAC  004699B3
+004699B3  0022FABC  00405011
+00405011  0022FAE0  00420C9B
+00420C9B  0022FAF4  00420CEE
+00420CEE  0022FEF8  005681AA
+005681AA  0022FF78  00401237
+00401237  0022FFB0  004012A8
+004012A8  0022FFC0  7C816FD7
+7C816FD7  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = enabled
+  string data = 1
+  value = username
+  string data = brynhood
+  value = password
+  string data = &lt;hidden&gt;
+  value = peers
+  string data = tcp://edie:27273
+
+key = Software\Workrave\gui
+  value = operation-mode
+  string data = 0
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 1
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = 174
+  value = y
+  string data = -442
+  value = head
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = always_on_top
+  string data = 1
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 180
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 2700
+  value = auto_reset
+  string data = 600
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 1</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Aug 27 2007 12:44:52 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have seen this one before. Can&#39;t explain it.... yet.
+
+008DBA36  0022F238  008DBD43 
+008DBD43  0022F278  00413EAE
+00413EAE  0022F3FC  004510B7  TimeBar::on_expose_event(_GdkEventExpose*)
+004510B7  0022F42C  00AA69B2  Gtk::Widget_Class::expose_event_callback
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Mike Brzozowski&nbsp;&nbsp;Jun 17 2008 22:41:14 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Also occurs with v1.8.5. In this case, it occurred overnight while I wasn&#39;t at my computer:
+
+Crash log created on 17/06/2008 at 04:16:17.
+
+version = 1.8.5
+compile date = Sep 14 2007
+compile time = 22:16:06
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 7c911e58
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 7c911e58 in module C:\Program Files\Workrave\lib\Workrave.exe reading from location 000076f5
+
+Registers:
+
+eax=016b35f8 ebx=00d30000 ecx=000076f5 edx=b0000000 esi=016b35f0 edi=016b3698
+eip=7c911e58 esp=0022f784 ebp=0022f790 iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00210246
+
+Stack trace:
+
+PC        Frame     Ret
+7C911E58  0022F790  7C910D5C
+7C910D5C  0022F864  77C2C2DE
+77C2C2DE  0022F8AC  008F5040
+008F5040  0022F8CC  008FBA83
+008FBA83  0022F96C  008FBC8B
+008FBC8B  0022F98C  008FBCF4
+008FBCF4  0022F99C  0073D8F7
+0073D8F7  0022F9EC  0073EDCB
+0073EDCB  0022FA2C  0073EFAA
+0073EFAA  0022FA5C  00AB43BE
+00AB43BE  0022FAAC  0046DC13
+0046DC13  0022FABC  004052A3
+004052A3  0022FAE0  004210BB
+004210BB  0022FAF4  0042110E
+0042110E  0022FEF8  0056C6AA
+0056C6AA  0022FF78  00401237
+00401237  0022FFB0  004012A8
+004012A8  0022FFC0  7C816FD7
+7C816FD7  0022FFF0  00000000
+ C:\Program Files\Workrave\lib\Workrave.exe handle: 00400000 date: 2007-09-15 05:23:03
+ C:\WINDOWS\system32\ntdll.dll handle: 7C900000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\kernel32.dll handle: 7C800000 date: 2007-04-16 15:52:53
+ C:\Program Files\Workrave\lib\libatk-1.0-0.dll handle: 10000000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libglib-2.0-0.dll handle: 00720000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\iconv.dll handle: 007C0000 date: 2003-05-24 02:45:12
+ C:\WINDOWS\system32\MSVCRT.dll handle: 77C10000 date: 2006-02-28 02:00:00
+ C:\Program Files\Workrave\lib\intl.dll handle: 003E0000 date: 2005-10-03 04:18:29
+ C:\WINDOWS\system32\ADVAPI32.DLL handle: 77DD0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\RPCRT4.dll handle: 77E70000 date: 2007-07-09 13:16:16
+ C:\WINDOWS\system32\OLE32.dll handle: 774E0000 date: 2005-07-26 04:39:48
+ C:\WINDOWS\system32\GDI32.dll handle: 77F10000 date: 2008-02-20 06:52:43
+ C:\WINDOWS\system32\USER32.dll handle: 7E410000 date: 2007-03-08 15:48:36
+ C:\WINDOWS\system32\SHELL32.DLL handle: 7C9C0000 date: 2007-10-26 03:34:01
+ C:\WINDOWS\system32\SHLWAPI.dll handle: 77F60000 date: 2008-02-16 09:32:08
+ C:\WINDOWS\system32\WS2_32.DLL handle: 71AB0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\WS2HELP.dll handle: 71AA0000 date: 2006-02-28 02:00:00
+ C:\Program Files\Workrave\lib\libgobject-2.0-0.dll handle: 008A0000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libcairo-2.dll handle: 67AC0000 date: 2007-09-15 05:10:39
+ C:\Program Files\Workrave\lib\libpng13.dll handle: 67580000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\zlib1.dll handle: 61B80000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libgdk-win32-2.0-0.dll handle: 008E0000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libgdk_pixbuf-2.0-0.dll handle: 00990000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libgmodule-2.0-0.dll handle: 003F0000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libpango-1.0-0.dll handle: 64280000 date: 2007-09-15 05:10:39
+ C:\Program Files\Workrave\lib\libpangocairo-1.0-0.dll handle: 6C1C0000 date: 2007-09-15 05:10:39
+ C:\Program Files\Workrave\lib\libpangowin32-1.0-0.dll handle: 69F80000 date: 2007-09-15 05:10:39
+ C:\WINDOWS\system32\IMM32.DLL handle: 76390000 date: 2006-02-28 02:00:00
+ C:\Program Files\Workrave\lib\gnet-2.0.dll handle: 6BF80000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libgthread-2.0-0.dll handle: 009B0000 date: 2007-09-15 05:10:38
+ C:\Program Files\Workrave\lib\libgtk-win32-2.0-0.dll handle: 009C0000 date: 2007-09-15 05:10:39
+ C:\WINDOWS\system32\COMCTL32.DLL handle: 5D090000 date: 2006-08-25 15:45:58
+ C:\WINDOWS\system32\COMDLG32.DLL handle: 763B0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\WINSPOOL.DRV handle: 73000000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\WINMM.DLL handle: 76B40000 date: 2006-02-28 02:00:00
+ C:\Program Files\Workrave\lib\harpoon.dll handle: 00D20000 date: 2007-09-15 05:10:52
+ C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll handle: 773D0000 date: 2006-08-25 15:45:55
+ C:\WINDOWS\system32\uxtheme.dll handle: 5AD70000 date: 2006-02-28 02:00:00
+ C:\Program Files\ATI Technologies\ATI HYDRAVISION\HydraDMH.dll handle: 01330000 date: 2007-07-17 16:32:16
+ C:\WINDOWS\system32\MSCTF.dll handle: 74720000 date: 2008-02-26 11:59:50
+ C:\WINDOWS\system32\msctfime.ime handle: 755C0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\Secur32.dll handle: 77FE0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\CLBCATQ.DLL handle: 76FD0000 date: 2005-07-26 04:39:43
+ C:\WINDOWS\system32\COMRes.dll handle: 77050000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\OLEAUT32.dll handle: 77120000 date: 2007-12-04 18:38:13
+ C:\WINDOWS\system32\VERSION.dll handle: 77C00000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\msimtf.dll handle: 746F0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\SETUPAPI.dll handle: 77920000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\System32\mswsock.dll handle: 71A50000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\DNSAPI.dll handle: 76F20000 date: 2008-02-20 05:19:35
+ C:\WINDOWS\System32\winrnr.dll handle: 76FB0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\WLDAP32.dll handle: 76F60000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\rasadhlp.dll handle: 76FC0000 date: 2006-06-26 17:45:19
+ C:\WINDOWS\system32\hnetcfg.dll handle: 662B0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\System32\wshtcpip.dll handle: 71A90000 date: 2006-02-28 02:00:00
+ C:\Program Files\Workrave\lib\gtk-2.0\2.10.0\engines\libwimp.dll handle: 014F0000 date: 2007-09-15 05:10:39
+ C:\Program Files\Workrave\lib\gtk-2.0\2.10.0\loaders\libpixbufloader-png.dll handle: 01830000 date: 2007-09-15 05:10:39
+ C:\WINDOWS\system32\usp10.dll handle: 74D90000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\mscms.dll handle: 73B30000 date: 2005-06-29 01:46:00
+ C:\WINDOWS\system32\icm32.dll handle: 66E90000 date: 2005-06-29 01:46:00
+ C:\Program Files\Synergy\synrgyhk.dll handle: 018E0000 date: 2006-04-02 20:20:00
+ C:\WINDOWS\system32\wdmaud.drv handle: 72D20000 date: 2004-08-04 07:56:58
+ C:\WINDOWS\system32\WINTRUST.dll handle: 76C30000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\CRYPT32.dll handle: 77A80000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\MSASN1.dll handle: 77B20000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\IMAGEHLP.dll handle: 76C90000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\msacm32.drv handle: 72D10000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\MSACM32.dll handle: 77BE0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\midimap.dll handle: 77BD0000 date: 2006-02-28 02:00:00
+ C:\WINDOWS\system32\netapi32.dll handle: 5B860000 date: 2006-08-17 12:28:27
+ C:\WINDOWS\system32\psapi.dll handle: 76BF0000 date: 2006-02-28 02:00:00
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = enabled
+  string data = 1
+  value = peers
+  string data = tcp://brzozowm-nw8240:27273
+  value = username
+  string data = zozo
+  value = password
+  string data = &lt;hidden&gt;
+
+key = Software\Workrave\gui
+  value = operation-mode
+  string data = 0
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\breaks
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = cycle_time
+  string data = 10
+  value = x
+  string data = 91
+  value = y
+  string data = -87
+  value = head
+  string data = 0
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 28800
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 1200
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3600
+  value = auto_reset
+  string data = 300
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 1</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Rob Caelers&nbsp;&nbsp;May 14 2010 21:10:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I received similar crash reports in the 1.8.5 series of Workrave (see also bug 539). I haven&#39;t received any reports since 1.9.0. So I&#39;m closing this bug.
+
+Please reopen if  you still see this bug with a more recent version of Workrave.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,209 @@
+Memory status: size: 42254336 vsize: 0 resident: 42254336 share: 0 rss: 10661888 rss_rlim: 0
+CPU usage: start_time: 1176723508 rtime: 0 utime: 8 stime: 0 cutime:6 cstime: 0 timeout: 2 it_real_value: 0 frequency: 0
+
+Backtrace was generated from '/usr/bin/workrave'
+
+Using host libthread_db library "/lib/libthread_db.so.1".
+[Thread debugging using libthread_db enabled]
+[New Thread -1208747776 (LWP 5885)]
+[New Thread -1210848368 (LWP 5886)]
+0x00409402 in __kernel_vsyscall ()
+#0  0x00409402 in __kernel_vsyscall ()
+#1  0x49229c5b in __waitpid_nocancel () from /lib/libpthread.so.0
+#2  0x4d37bc26 in gnome_gtk_module_info_get () from /usr/lib/libgnomeui-2.so.0
+#3  <signal handler called>
+#4  0x0807e710 in RemoteControl::set_applet (this=0x9ec1958, 
+    bonobo_applet_control=0x9eedbc8) at AppletControl.hh:87
+#5  0x4a17f5f7 in IOP_start_profiles () from /usr/lib/libORBit-2.so.0
+#6  0x4a185765 in ORBit_OAObject_invoke () from /usr/lib/libORBit-2.so.0
+#7  0x4a172b0c in ORBit_small_invoke_adaptor () from /usr/lib/libORBit-2.so.0
+#8  0x4a183326 in ORBit_recv_buffer_return_sys_exception ()
+   from /usr/lib/libORBit-2.so.0
+#9  0x4a1839d2 in ORBit_recv_buffer_return_sys_exception ()
+   from /usr/lib/libORBit-2.so.0
+#10 0x4a184523 in ORBit_skel_class_register () from /usr/lib/libORBit-2.so.0
+#11 0x4a185902 in ORBit_handle_request () from /usr/lib/libORBit-2.so.0
+#12 0x4a16e997 in giop_connection_handle_input ()
+   from /usr/lib/libORBit-2.so.0
+#13 0x4a18c4fd in link_connection_state_changed ()
+   from /usr/lib/libORBit-2.so.0
+#14 0x4a18f3de in link_io_add_watch_fd () from /usr/lib/libORBit-2.so.0
+#15 0x494a3342 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+#16 0x494a631f in g_main_context_check () from /lib/libglib-2.0.so.0
+#17 0x494a6885 in g_main_context_iteration () from /lib/libglib-2.0.so.0
+#18 0x4a18acd7 in link_main_iteration () from /usr/lib/libORBit-2.so.0
+#19 0x4a16e177 in giop_recv_buffer_get () from /usr/lib/libORBit-2.so.0
+#20 0x4a1723bd in ORBit_small_invoke_stub () from /usr/lib/libORBit-2.so.0
+#21 0x4a1725be in ORBit_small_invoke_stub_n () from /usr/lib/libORBit-2.so.0
+#22 0x4a17f822 in ORBit_c_stub_invoke () from /usr/lib/libORBit-2.so.0
+#23 0x4a1d28d7 in ConfigDatabase2_lookup_with_schema_name ()
+   from /usr/lib/libgconf-2.so.4
+#24 0x4a1c915f in gconf_engine_get_fuller () from /usr/lib/libgconf-2.so.4
+#25 0x4a1c93ce in gconf_engine_get_entry () from /usr/lib/libgconf-2.so.4
+#26 0x4a1cd617 in gconf_client_get_default_from_schema ()
+   from /usr/lib/libgconf-2.so.4
+#27 0x4a1cd89e in gconf_client_get_entry () from /usr/lib/libgconf-2.so.4
+#28 0x080a1a2e in GConfConfigurator::get_value (this=0x9e9e188, 
+    key=@0xbfc59358, value=0xbfc59354) at GConfConfigurator.cc:86
+#29 0x080a1310 in GConfConfigurator::get_value (this=0x9e9e188, 
+    key=@0xbfc59394, out=0xbfc59390) at GConfConfigurator.cc:167
+#30 0x080a387e in TimerBoxControl::get_cycle_time (name=@0xbfc593d8)
+    at TimerBoxControl.cc:531
+#31 0x080a3fbb in TimerBoxControl::read_configuration (this=0x9ee8e98)
+    at TimerBoxControl.cc:497
+#32 0x080a450e in TimerBoxControl::init (this=0x9ee8e98)
+    at TimerBoxControl.cc:166
+#33 0x080a455e in TimerBoxControl (this=0x9ee8e98, n=@0xbfc594cc, 
+    v=@0x9ee5ad4) at TimerBoxControl.cc:60
+#34 0x08067001 in MainWindow::init (this=0x9ebec38) at MainWindow.cc:172
+#35 0x08067af4 in MainWindow (this=0x9ebec38) at MainWindow.cc:114
+#36 0x0805f604 in GUI::init_gui (this=0x9e4d530) at GUI.cc:767
+#37 0x08060114 in GUI::main (this=0x9e4d530) at GUI.cc:227
+#38 0x0807e388 in run (argc=3, argv=0xbfc59684) at main.cc:44
+#39 0x0807e3bf in main (argc=) at main.cc:56
+#40 0x490c4dec in __libc_start_main () from /lib/libc.so.6
+#41 0x0805c1b1 in _start ()
+
+Thread 2 (Thread -1210848368 (LWP 5886)):
+#0  0x00409402 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x491725b3 in poll () from /lib/libc.so.6
+No symbol table info available.
+#2  0x4928aa19 in XAddConnectionWatch () from /usr/lib/libX11.so.6
+No symbol table info available.
+#3  0x4928adff in _XRead () from /usr/lib/libX11.so.6
+No symbol table info available.
+#4  0x4928b7c4 in _XReply () from /usr/lib/libX11.so.6
+No symbol table info available.
+#5  0x489caff3 in XRecordEnableContext () from /usr/lib/libXtst.so.6
+No symbol table info available.
+#6  0x080a0b8a in X11InputMonitor::run_xrecord (this=0x9e9e1d0)
+    at X11InputMonitor.cc:498
+No locals.
+#7  0x080a0beb in X11InputMonitor::run (this=0x9e9e1d0)
+    at X11InputMonitor.cc:212
+No locals.
+#8  0x080a4aa0 in Thread::internal_run (this=0x9e9e108) at Thread.cc:116
+No locals.
+#9  0x080a4ac3 in Thread::thread_handler (arg=0x9e9e108) at Thread.cc:33
+No locals.
+#10 0x492222db in start_thread () from /lib/libpthread.so.0
+No symbol table info available.
+#11 0x4917c14e in clone () from /lib/libc.so.6
+No symbol table info available.
+
+Thread 1 (Thread -1208747776 (LWP 5885)):
+#0  0x00409402 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0x49229c5b in __waitpid_nocancel () from /lib/libpthread.so.0
+No symbol table info available.
+#2  0x4d37bc26 in gnome_gtk_module_info_get () from /usr/lib/libgnomeui-2.so.0
+No symbol table info available.
+#3  <signal handler called>
+No symbol table info available.
+#4  0x0807e710 in RemoteControl::set_applet (this=0x9ec1958, 
+    bonobo_applet_control=0x9eedbc8) at AppletControl.hh:87
+No locals.
+#5  0x4a17f5f7 in IOP_start_profiles () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#6  0x4a185765 in ORBit_OAObject_invoke () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#7  0x4a172b0c in ORBit_small_invoke_adaptor () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#8  0x4a183326 in ORBit_recv_buffer_return_sys_exception ()
+   from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#9  0x4a1839d2 in ORBit_recv_buffer_return_sys_exception ()
+   from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#10 0x4a184523 in ORBit_skel_class_register () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#11 0x4a185902 in ORBit_handle_request () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#12 0x4a16e997 in giop_connection_handle_input ()
+   from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#13 0x4a18c4fd in link_connection_state_changed ()
+   from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#14 0x4a18f3de in link_io_add_watch_fd () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#15 0x494a3342 in g_main_context_dispatch () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#16 0x494a631f in g_main_context_check () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#17 0x494a6885 in g_main_context_iteration () from /lib/libglib-2.0.so.0
+No symbol table info available.
+#18 0x4a18acd7 in link_main_iteration () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#19 0x4a16e177 in giop_recv_buffer_get () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#20 0x4a1723bd in ORBit_small_invoke_stub () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#21 0x4a1725be in ORBit_small_invoke_stub_n () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#22 0x4a17f822 in ORBit_c_stub_invoke () from /usr/lib/libORBit-2.so.0
+No symbol table info available.
+#23 0x4a1d28d7 in ConfigDatabase2_lookup_with_schema_name ()
+   from /usr/lib/libgconf-2.so.4
+No symbol table info available.
+#24 0x4a1c915f in gconf_engine_get_fuller () from /usr/lib/libgconf-2.so.4
+No symbol table info available.
+#25 0x4a1c93ce in gconf_engine_get_entry () from /usr/lib/libgconf-2.so.4
+No symbol table info available.
+#26 0x4a1cd617 in gconf_client_get_default_from_schema ()
+   from /usr/lib/libgconf-2.so.4
+No symbol table info available.
+#27 0x4a1cd89e in gconf_client_get_entry () from /usr/lib/libgconf-2.so.4
+No symbol table info available.
+#28 0x080a1a2e in GConfConfigurator::get_value (this=0x9e9e188, 
+    key=@0xbfc59358, value=0xbfc59354) at GConfConfigurator.cc:86
+	ret = <value optimized out>
+	error = (GError *) 0x0
+	full_key = {static npos = 4294967295, 
+  _M_dataplus = {<std::allocator<char>> = {<__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>}, 
+    _M_p = 0x9ee2edc "/apps/workrave/gui/main_window/cycle_time"}}
+#29 0x080a1310 in GConfConfigurator::get_value (this=0x9e9e188, 
+    key=@0xbfc59394, out=0xbfc59390) at GConfConfigurator.cc:167
+	value = (GConfValue *) 0x81029e4
+	ret = <value optimized out>
+#30 0x080a387e in TimerBoxControl::get_cycle_time (name=@0xbfc593d8)
+    at TimerBoxControl.cc:531
+	ret = 166604868
+#31 0x080a3fbb in TimerBoxControl::read_configuration (this=0x9ee8e98)
+    at TimerBoxControl.cc:497
+No locals.
+#32 0x080a450e in TimerBoxControl::init (this=0x9ee8e98)
+    at TimerBoxControl.cc:166
+	core = (ICore *) 0x9e99e4c
+	config = (IConfigurator *) 0x9e9e188
+#33 0x080a455e in TimerBoxControl (this=0x9ee8e98, n=@0xbfc594cc, 
+    v=@0x9ee5ad4) at TimerBoxControl.cc:60
+No locals.
+#34 0x08067001 in MainWindow::init (this=0x9ebec38) at MainWindow.cc:172
+	icons = {<std::_List_base<Glib::RefPtr<Gdk::Pixbuf>,std::allocator<Glib::RefPtr<Gdk::Pixbuf> > >> = {
+    _M_impl = {<std::allocator<std::_List_node<Glib::RefPtr<Gdk::Pixbuf> > >> = {<__gnu_cxx::new_allocator<std::_List_node<Glib::RefPtr<Gdk::Pixbuf> > >> = {<No data fields>}, <No data fields>}, _M_node = {_M_next = 0x9ed7848, 
+        _M_prev = 0x9ed4230}}}, <No data fields>}
+	icon_files = {0x80abd41 "workrave-icon-small.png", 
+  0x80abd59 "workrave-icon-medium.png", 0x80abd72 "workrave-icon-large.png"}
+	icon_list = {plist_ = 0x9ecf450, ownership_ = Glib::OWNERSHIP_SHALLOW}
+	menus = <value optimized out>
+	window = {pCppObject_ = 0x0}
+	leader_window = {pCppObject_ = 0x0}
+	config = <value optimized out>
+#35 0x08067af4 in MainWindow (this=0x9ebec38) at MainWindow.cc:114
+No locals.
+#36 0x0805f604 in GUI::init_gui (this=0x9e4d530) at GUI.cc:767
+No locals.
+#37 0x08060114 in GUI::main (this=0x9e4d530) at GUI.cc:227
+	kit = <incomplete type>
+	display = 0x9e997a8 ""
+#38 0x0807e388 in run (argc=3, argv=0xbfc59684) at main.cc:44
+	gui = (class GUI *) 0x9e4d530
+#39 0x0807e3bf in main (argc=) at main.cc:56
+	ret = 0
+#40 0x490c4dec in __libc_start_main () from /lib/libc.so.6
+No symbol table info available.
+#41 0x0805c1b1 in _start ()
+No symbol table info available.
+#0  0x00409402 in __kernel_vsyscall ()

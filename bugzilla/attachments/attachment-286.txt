@@ -1,0 +1,775 @@
+ProblemType: Crash
+Architecture: i386
+CrashCounter: 1
+Date: Tue Jun  4 08:13:28 2013
+DistroRelease: Ubuntu 12.04
+ExecutablePath: /usr/bin/workrave
+ExecutableTimestamp: 1358082021
+ProcCmdline: /usr/bin/workrave
+ProcCwd: /
+ProcEnviron:
+ SHELL=/bin/bash
+ LC_NAME=en_ZA.UTF-8
+ LC_PAPER=en_ZA.UTF-8
+ LC_MEASUREMENT=en_ZA.UTF-8
+ LC_NUMERIC=en_ZA.UTF-8
+ PATH=(custom, no user)
+ LC_TIME=en_ZA.UTF-8
+ LC_MONETARY=en_ZA.UTF-8
+ LC_IDENTIFICATION=en_ZA.UTF-8
+ LANGUAGE=en_US:en
+ LC_TELEPHONE=en_ZA.UTF-8
+ LC_ADDRESS=en_ZA.UTF-8
+ LANG=en_US.UTF-8
+ProcMaps:
+ 08048000-08186000 r-xp 00000000 08:01 26216195   /usr/bin/workrave
+ 08187000-08189000 r--p 0013e000 08:01 26216195   /usr/bin/workrave
+ 08189000-0818b000 rw-p 00140000 08:01 26216195   /usr/bin/workrave
+ 0818b000-0818c000 rw-p 00000000 00:00 0 
+ 0861a000-0894e000 rw-p 00000000 00:00 0          [heap]
+ b3400000-b3421000 rw-p 00000000 00:00 0 
+ b3421000-b3500000 ---p 00000000 00:00 0 
+ b35a8000-b35ff000 r--p 00000000 08:01 27787663   /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+ b35ff000-b3600000 ---p 00000000 00:00 0 
+ b3600000-b3e00000 rw-p 00000000 00:00 0 
+ b3e00000-b3e21000 rw-p 00000000 00:00 0 
+ b3e21000-b3f00000 ---p 00000000 00:00 0 
+ b3f1b000-b3f2c000 r-xp 00000000 08:01 26348505   /usr/lib/i386-linux-gnu/libdbusmenu-gtk3.so.4.0.13
+ b3f2c000-b3f2d000 r--p 00010000 08:01 26348505   /usr/lib/i386-linux-gnu/libdbusmenu-gtk3.so.4.0.13
+ b3f2d000-b3f2e000 rw-p 00011000 08:01 26348505   /usr/lib/i386-linux-gnu/libdbusmenu-gtk3.so.4.0.13
+ b3f4b000-b3f50000 r-xp 00000000 08:01 27656517   /usr/lib/i386-linux-gnu/gtk-3.0/3.0.0/menuproxies/libappmenu.so
+ b3f50000-b3f51000 r--p 00004000 08:01 27656517   /usr/lib/i386-linux-gnu/gtk-3.0/3.0.0/menuproxies/libappmenu.so
+ b3f51000-b3f52000 rw-p 00005000 08:01 27656517   /usr/lib/i386-linux-gnu/gtk-3.0/3.0.0/menuproxies/libappmenu.so
+ b3f52000-b3f54000 r-xp 00000000 08:01 26477284   /usr/lib/i386-linux-gnu/pango/1.6.0/modules/pango-basic-fc.so
+ b3f54000-b3f55000 r--p 00001000 08:01 26477284   /usr/lib/i386-linux-gnu/pango/1.6.0/modules/pango-basic-fc.so
+ b3f55000-b3f56000 rw-p 00002000 08:01 26477284   /usr/lib/i386-linux-gnu/pango/1.6.0/modules/pango-basic-fc.so
+ b3f56000-b3f57000 r--s 00000000 08:01 14957693   /var/cache/fontconfig/c05880de57d1f5e948fdfacc138775d9-le32d4.cache-3
+ b3f57000-b3f5d000 r--s 00000000 08:01 14952659   /var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le32d4.cache-3
+ b3f5d000-b3f5f000 r--s 00000000 08:01 14957688   /var/cache/fontconfig/99e8ed0e538f840c565b6ed5dad60d56-le32d4.cache-3
+ b3f5f000-b3f64000 r--s 00000000 08:01 14957687   /var/cache/fontconfig/63c7aca0c1b0a3f740ee470c2e28e675-le32d4.cache-3
+ b3f64000-b3f6a000 r--s 00000000 08:01 14957683   /var/cache/fontconfig/a6d8cf8e4ec09cdbc8633c31745a07dd-le32d4.cache-3
+ b3f6a000-b3f6d000 r--s 00000000 08:01 14957682   /var/cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le32d4.cache-3
+ b3f6d000-b3f6e000 r--s 00000000 08:01 14957677   /var/cache/fontconfig/fd9505950c048a77dc4b710eb6a628ed-le32d4.cache-3
+ b3f6e000-b3f70000 r--s 00000000 08:01 14957667   /var/cache/fontconfig/ddc79d3ea06a7c6ffa86ede85f3bb5df-le32d4.cache-3
+ b3f70000-b3f71000 r--s 00000000 08:01 14957665   /var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-le32d4.cache-3
+ b3f71000-b3f72000 r--s 00000000 08:01 14957655   /var/cache/fontconfig/a2ab74764b07279e7c36ddb1d302cf26-le32d4.cache-3
+ b3f72000-b3f74000 r--s 00000000 08:01 14957652   /var/cache/fontconfig/c69f04ab05004e31a6d5e715764f16d8-le32d4.cache-3
+ b3f74000-b3f76000 r--s 00000000 08:01 14945384   /var/cache/fontconfig/b5ea634b0fb353b8ea17632d1f9ef766-le32d4.cache-3
+ b3f76000-b3f77000 r--s 00000000 08:01 14957637   /var/cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le32d4.cache-3
+ b3f77000-b3f79000 r--s 00000000 08:01 14957599   /var/cache/fontconfig/646addb8444faa74ee138aa00ab0b6a0-le32d4.cache-3
+ b3f79000-b3f7d000 r--s 00000000 08:01 14957443   /var/cache/fontconfig/a755afe4a08bf5b97852ceb7400b47bc-le32d4.cache-3
+ b3f7d000-b3f7f000 r--s 00000000 08:01 14957411   /var/cache/fontconfig/20bd79ad97094406f7d1b9654bfbd926-le32d4.cache-3
+ b3f7f000-b3f82000 r--s 00000000 08:01 14957410   /var/cache/fontconfig/9c0624108b9a2ae8552f664125be8356-le32d4.cache-3
+ b3f82000-b3f89000 r--s 00000000 08:01 14957374   /var/cache/fontconfig/6d41288fd70b0be22e8c3a91e032eec0-le32d4.cache-3
+ b3f89000-b3f8c000 r--s 00000000 08:01 14957312   /var/cache/fontconfig/de156ccd2eddbdc19d37a45b8b2aac9c-le32d4.cache-3
+ b3f8c000-b3f8e000 r--s 00000000 08:01 14957300   /var/cache/fontconfig/da1bd5ca8443ffe22927a23ce431d198-le32d4.cache-3
+ b3f8e000-b3f99000 r--s 00000000 08:01 14957295   /var/cache/fontconfig/04aabc0a78ac019cf9454389977116d2-le32d4.cache-3
+ b3f99000-b3f9c000 r--s 00000000 08:01 14957275   /var/cache/fontconfig/385c0604a188198f04d133e54aba7fe7-le32d4.cache-3
+ b3f9c000-b3f9d000 r--s 00000000 08:01 14957272   /var/cache/fontconfig/0f9c9e2562d06548674f482e86e4985f-le32d4.cache-3
+ b3f9d000-b3f9e000 r--s 00000000 08:01 14945082   /var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le32d4.cache-3
+ b3f9e000-b3fa1000 r--s 00000000 08:01 14957225   /var/cache/fontconfig/8801497958630a81b71ace7c5f9b32a8-le32d4.cache-3
+ b3fa1000-b3fc3000 r--s 00000000 08:01 14957221   /var/cache/fontconfig/365b55f210c0a22e9a19e35191240f32-le32d4.cache-3
+ b3fc3000-b3ffb000 r-xp 00000000 08:01 26357516   /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+ b3ffb000-b3ffc000 ---p 00038000 08:01 26357516   /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+ b3ffc000-b3ffe000 r--p 00038000 08:01 26357516   /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+ b3ffe000-b3fff000 rw-p 0003a000 08:01 26357516   /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+ b3fff000-b4000000 ---p 00000000 00:00 0 
+ b4000000-b4800000 rw-p 00000000 00:00 0 
+ b4800000-b4821000 rw-p 00000000 00:00 0 
+ b4821000-b4900000 ---p 00000000 00:00 0 
+ b4902000-b4903000 r--s 00000000 08:01 14957176   /var/cache/fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le32d4.cache-3
+ b4903000-b4904000 r--s 00000000 08:01 14957163   /var/cache/fontconfig/b9d506c9ac06c20b433354fa67a72993-le32d4.cache-3
+ b4904000-b4908000 r--s 00000000 08:01 14957160   /var/cache/fontconfig/b47c4e1ecd0709278f4910c18777a504-le32d4.cache-3
+ b4908000-b490e000 r--s 00000000 08:01 14957156   /var/cache/fontconfig/52f7bdb7ce746bfd7eaa1985bd9cfa93-le32d4.cache-3
+ b490e000-b4910000 r--s 00000000 08:01 14952673   /var/cache/fontconfig/e49e89034d371f0f9de17aab02136486-le32d4.cache-3
+ b4910000-b4911000 r--s 00000000 08:01 14952472   /var/cache/fontconfig/4b14b093aebc79c320de5e86ae1d3314-le32d4.cache-3
+ b4911000-b491e000 r--s 00000000 08:01 14957155   /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le32d4.cache-3
+ b491e000-b4955000 r-xp 00000000 08:01 26357518   /usr/lib/i386-linux-gnu/librsvg-2.so.2.36.1
+ b4955000-b4956000 r--p 00036000 08:01 26357518   /usr/lib/i386-linux-gnu/librsvg-2.so.2.36.1
+ b4956000-b4957000 rw-p 00037000 08:01 26357518   /usr/lib/i386-linux-gnu/librsvg-2.so.2.36.1
+ b495b000-b495f000 r--s 00000000 08:01 14957213   /var/cache/fontconfig/ca37dee8d6057f2a069c1b3d05990269-le32d4.cache-3
+ b495f000-b4963000 r--s 00000000 08:01 14957206   /var/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le32d4.cache-3
+ b4963000-b4974000 r--s 00000000 08:01 14951309   /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le32d4.cache-3
+ b4974000-b4978000 r-xp 00000000 08:01 26350839   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ b4978000-b4979000 r--p 00003000 08:01 26350839   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ b4979000-b497a000 rw-p 00004000 08:01 26350839   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ b497a000-b4999000 r--s 00000000 08:01 26869908   /usr/share/mime/mime.cache
+ b4999000-b49e0000 r-xp 00000000 08:01 24641640   /lib/i386-linux-gnu/libdbus-1.so.3.5.8
+ b49e0000-b49e1000 r--p 00047000 08:01 24641640   /lib/i386-linux-gnu/libdbus-1.so.3.5.8
+ b49e1000-b49e2000 rw-p 00048000 08:01 24641640   /lib/i386-linux-gnu/libdbus-1.so.3.5.8
+ b49e2000-b49e6000 r--s 00000000 08:01 14957151   /var/cache/fontconfig/3f7329c5293ffd510edef78f73874cfd-le32d4.cache-3
+ b49e6000-b49ec000 r--s 00000000 08:01 14957114   /var/cache/fontconfig/a0513722a37733a9dfd54dccd328039d-le32d4.cache-3
+ b49ec000-b49ee000 r--s 00000000 08:01 14957079   /var/cache/fontconfig/099525ddca5eae4f2477b69cf2d7f16d-le32d4.cache-3
+ b49ee000-b49fd000 r-xp 00000000 08:01 26345823   /usr/lib/gtk-3.0/3.0.0/theming-engines/libunico.so
+ b49fd000-b49fe000 r--p 0000e000 08:01 26345823   /usr/lib/gtk-3.0/3.0.0/theming-engines/libunico.so
+ b49fe000-b49ff000 rw-p 0000f000 08:01 26345823   /usr/lib/gtk-3.0/3.0.0/theming-engines/libunico.so
+ b49ff000-b4a00000 ---p 00000000 00:00 0 
+ b4a00000-b5200000 rw-p 00000000 00:00 0 
+ b5200000-b5221000 rw-p 00000000 00:00 0 
+ b5221000-b5300000 ---p 00000000 00:00 0 
+ b5301000-b5303000 r--s 00000000 08:01 14957059   /var/cache/fontconfig/61092ac79d9058a69eda095afa0a78f1-le32d4.cache-3
+ b5303000-b5305000 r--s 00000000 08:01 14957052   /var/cache/fontconfig/a722efc6911bbe16667b1a77497ffd37-le32d4.cache-3
+ b5305000-b5309000 r--s 00000000 08:01 14952286   /var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d4.cache-3
+ b5309000-b5317000 r-xp 00000000 08:01 24645946   /lib/i386-linux-gnu/libudev.so.0.13.0
+ b5317000-b5318000 r--p 0000e000 08:01 24645946   /lib/i386-linux-gnu/libudev.so.0.13.0
+ b5318000-b5319000 rw-p 0000f000 08:01 24645946   /lib/i386-linux-gnu/libudev.so.0.13.0
+ b5319000-b5342000 r-xp 00000000 08:01 26347755   /usr/lib/i386-linux-gnu/gio/modules/libgvfsdbus.so
+ b5342000-b5343000 r--p 00028000 08:01 26347755   /usr/lib/i386-linux-gnu/gio/modules/libgvfsdbus.so
+ b5343000-b5344000 rw-p 00029000 08:01 26347755   /usr/lib/i386-linux-gnu/gio/modules/libgvfsdbus.so
+ b5344000-b534a000 r-xp 00000000 08:01 26349770   /usr/lib/i386-linux-gnu/libogg.so.0.7.1
+ b534a000-b534b000 r--p 00005000 08:01 26349770   /usr/lib/i386-linux-gnu/libogg.so.0.7.1
+ b534b000-b534c000 rw-p 00006000 08:01 26349770   /usr/lib/i386-linux-gnu/libogg.so.0.7.1
+ b534c000-b5375000 r-xp 00000000 08:01 26348124   /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+ b5375000-b5376000 r--p 00028000 08:01 26348124   /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+ b5376000-b5377000 rw-p 00029000 08:01 26348124   /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+ b5377000-b537f000 r-xp 00000000 08:01 26347809   /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+ b537f000-b5380000 r--p 00008000 08:01 26347809   /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+ b5380000-b5381000 rw-p 00009000 08:01 26347809   /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+ b5381000-b5392000 r-xp 00000000 08:01 26349834   /usr/lib/i386-linux-gnu/libtdb.so.1.2.9
+ b5392000-b5393000 r--p 00010000 08:01 26349834   /usr/lib/i386-linux-gnu/libtdb.so.1.2.9
+ b5393000-b5394000 rw-p 00011000 08:01 26349834   /usr/lib/i386-linux-gnu/libtdb.so.1.2.9
+ b5394000-b53a3000 r-xp 00000000 08:01 26347664   /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+ b53a3000-b53a4000 r--p 0000e000 08:01 26347664   /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+ b53a4000-b53a5000 rw-p 0000f000 08:01 26347664   /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+ b53a5000-b53a6000 r--s 00000000 08:01 14957154   /var/cache/fontconfig/75994e804c4bf4eaf913a982c1a8d8e9-le32d4.cache-3
+ b53a6000-b53a8000 r--s 00000000 08:01 14956947   /var/cache/fontconfig/d63fdd8e0f42559533dd777c334fdfcc-le32d4.cache-3
+ b53a8000-b53a9000 r-xp 00000000 08:01 26347641   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+ b53a9000-b53aa000 r--p 00000000 08:01 26347641   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+ b53aa000-b53ab000 rw-p 00001000 08:01 26347641   /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+ b53ab000-b53c0000 r-xp 00000000 08:01 26349861   /usr/lib/i386-linux-gnu/gvfs/libgvfscommon.so
+ b53c0000-b53c1000 r--p 00014000 08:01 26349861   /usr/lib/i386-linux-gnu/gvfs/libgvfscommon.so
+ b53c1000-b53c2000 rw-p 00015000 08:01 26349861   /usr/lib/i386-linux-gnu/gvfs/libgvfscommon.so
+ b53c2000-b53c3000 ---p 00000000 00:00 0 
+ b53c3000-b5bc3000 rw-p 00000000 00:00 0 
+ b5bc3000-b5bce000 r-xp 00000000 08:01 24683509   /lib/i386-linux-gnu/libnss_files-2.15.so
+ b5bce000-b5bcf000 r--p 0000a000 08:01 24683509   /lib/i386-linux-gnu/libnss_files-2.15.so
+ b5bcf000-b5bd0000 rw-p 0000b000 08:01 24683509   /lib/i386-linux-gnu/libnss_files-2.15.so
+ b5bd0000-b5bda000 r-xp 00000000 08:01 24683514   /lib/i386-linux-gnu/libnss_nis-2.15.so
+ b5bda000-b5bdb000 r--p 00009000 08:01 24683514   /lib/i386-linux-gnu/libnss_nis-2.15.so
+ b5bdb000-b5bdc000 rw-p 0000a000 08:01 24683514   /lib/i386-linux-gnu/libnss_nis-2.15.so
+ b5bdc000-b5bf2000 r-xp 00000000 08:01 24683526   /lib/i386-linux-gnu/libnsl-2.15.so
+ b5bf2000-b5bf3000 r--p 00015000 08:01 24683526   /lib/i386-linux-gnu/libnsl-2.15.so
+ b5bf3000-b5bf4000 rw-p 00016000 08:01 24683526   /lib/i386-linux-gnu/libnsl-2.15.so
+ b5bf4000-b5bf6000 rw-p 00000000 00:00 0 
+ b5bf6000-b5bfd000 r-xp 00000000 08:01 24683507   /lib/i386-linux-gnu/libnss_compat-2.15.so
+ b5bfd000-b5bfe000 r--p 00006000 08:01 24683507   /lib/i386-linux-gnu/libnss_compat-2.15.so
+ b5bfe000-b5bff000 rw-p 00007000 08:01 24683507   /lib/i386-linux-gnu/libnss_compat-2.15.so
+ b5bff000-b5c02000 r--s 00000000 08:01 14956366   /var/cache/fontconfig/fac9d1061ce4dddb2143955f84876fd7-le32d4.cache-3
+ b5c02000-b5c03000 r--s 00000000 08:01 26634103   /usr/local/share/mime/mime.cache
+ b5c03000-b5c0b000 r-xp 00000000 08:01 26348126   /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+ b5c0b000-b5c0c000 r--p 00007000 08:01 26348126   /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+ b5c0c000-b5c0d000 rw-p 00008000 08:01 26348126   /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+ b5c0d000-b5c10000 r-xp 00000000 08:01 26347683   /usr/lib/i386-linux-gnu/libcanberra-gtk3.so.0.1.8
+ b5c10000-b5c11000 r--p 00003000 08:01 26347683   /usr/lib/i386-linux-gnu/libcanberra-gtk3.so.0.1.8
+ b5c11000-b5c12000 rw-p 00004000 08:01 26347683   /usr/lib/i386-linux-gnu/libcanberra-gtk3.so.0.1.8
+ b5c12000-b5c1c000 r--p 00000000 08:01 5786268    /home/dseaward925/.config/dconf/user (deleted)
+ b5c1c000-b5c23000 r-xp 00000000 08:01 26347451   /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+ b5c23000-b5c24000 r--p 00006000 08:01 26347451   /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+ b5c24000-b5c25000 rw-p 00007000 08:01 26347451   /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+ b5c25000-b5c50000 r--p 00000000 08:01 27920639   /usr/share/glib-2.0/schemas/gschemas.compiled
+ b5c50000-b5e50000 r--p 00000000 08:01 26357386   /usr/lib/locale/locale-archive
+ b5e50000-b5e55000 rw-p 00000000 00:00 0 
+ b5e55000-b5e7b000 r-xp 00000000 08:01 24669914   /lib/i386-linux-gnu/libexpat.so.1.5.2
+ b5e7b000-b5e7c000 ---p 00026000 08:01 24669914   /lib/i386-linux-gnu/libexpat.so.1.5.2
+ b5e7c000-b5e7e000 r--p 00026000 08:01 24669914   /lib/i386-linux-gnu/libexpat.so.1.5.2
+ b5e7e000-b5e7f000 rw-p 00028000 08:01 24669914   /lib/i386-linux-gnu/libexpat.so.1.5.2
+ b5e7f000-b5e80000 rw-p 00000000 00:00 0 
+ b5e80000-b5e85000 r-xp 00000000 08:01 26349566   /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+ b5e85000-b5e86000 r--p 00004000 08:01 26349566   /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+ b5e86000-b5e87000 rw-p 00005000 08:01 26349566   /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+ b5e87000-b5e89000 r-xp 00000000 08:01 26349789   /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+ b5e89000-b5e8a000 r--p 00001000 08:01 26349789   /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+ b5e8a000-b5e8b000 rw-p 00002000 08:01 26349789   /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+ b5e8b000-b5ec5000 r-xp 00000000 08:01 24642486   /lib/i386-linux-gnu/libpcre.so.3.12.1
+ b5ec5000-b5ec6000 r--p 00039000 08:01 24642486   /lib/i386-linux-gnu/libpcre.so.3.12.1
+ b5ec6000-b5ec7000 rw-p 0003a000 08:01 24642486   /lib/i386-linux-gnu/libpcre.so.3.12.1
+ b5ec7000-b5ecc000 r-xp 00000000 08:01 26356549   /usr/lib/i386-linux-gnu/libffi.so.6.0.0
+ b5ecc000-b5ecd000 r--p 00004000 08:01 26356549   /usr/lib/i386-linux-gnu/libffi.so.6.0.0
+ b5ecd000-b5ece000 rw-p 00005000 08:01 26356549   /usr/lib/i386-linux-gnu/libffi.so.6.0.0
+ b5ece000-b5ecf000 rw-p 00000000 00:00 0 
+ b5ecf000-b5ed7000 r-xp 00000000 08:01 26349864   /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+ b5ed7000-b5ed8000 r--p 00007000 08:01 26349864   /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+ b5ed8000-b5ed9000 rw-p 00008000 08:01 26349864   /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+ b5ed9000-b5ee1000 r-xp 00000000 08:01 26349202   /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+ b5ee1000-b5ee2000 r--p 00008000 08:01 26349202   /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+ b5ee2000-b5ee3000 rw-p 00009000 08:01 26349202   /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+ b5ee3000-b5ee5000 r-xp 00000000 08:01 26349208   /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+ b5ee5000-b5ee6000 r--p 00001000 08:01 26349208   /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+ b5ee6000-b5ee7000 rw-p 00002000 08:01 26349208   /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+ b5ee7000-b5f0f000 r-xp 00000000 08:01 24641641   /lib/i386-linux-gnu/libpng12.so.0.46.0
+ b5f0f000-b5f10000 r--p 00027000 08:01 24641641   /lib/i386-linux-gnu/libpng12.so.0.46.0
+ b5f10000-b5f11000 rw-p 00028000 08:01 24641641   /lib/i386-linux-gnu/libpng12.so.0.46.0
+ b5f11000-b5fa6000 r-xp 00000000 08:01 26362482   /usr/lib/i386-linux-gnu/libfreetype.so.6.8.0
+ b5fa6000-b5faa000 r--p 00094000 08:01 26362482   /usr/lib/i386-linux-gnu/libfreetype.so.6.8.0
+ b5faa000-b5fab000 rw-p 00098000 08:01 26362482   /usr/lib/i386-linux-gnu/libfreetype.so.6.8.0
+ b5fab000-b5fac000 rw-p 00000000 00:00 0 
+ b5fac000-b603f000 r-xp 00000000 08:01 26355882   /usr/lib/i386-linux-gnu/libpixman-1.so.0.24.4
+ b603f000-b6043000 r--p 00092000 08:01 26355882   /usr/lib/i386-linux-gnu/libpixman-1.so.0.24.4
+ b6043000-b6044000 rw-p 00096000 08:01 26355882   /usr/lib/i386-linux-gnu/libpixman-1.so.0.24.4
+ b6044000-b6057000 r-xp 00000000 08:01 24683511   /lib/i386-linux-gnu/libresolv-2.15.so
+ b6057000-b6058000 ---p 00013000 08:01 24683511   /lib/i386-linux-gnu/libresolv-2.15.so
+ b6058000-b6059000 r--p 00013000 08:01 24683511   /lib/i386-linux-gnu/libresolv-2.15.so
+ b6059000-b605a000 rw-p 00014000 08:01 24683511   /lib/i386-linux-gnu/libresolv-2.15.so
+ b605a000-b605c000 rw-p 00000000 00:00 0 
+ b605c000-b6079000 r-xp 00000000 08:01 24642609   /lib/i386-linux-gnu/libselinux.so.1
+ b6079000-b607a000 r--p 0001c000 08:01 24642609   /lib/i386-linux-gnu/libselinux.so.1
+ b607a000-b607b000 rw-p 0001d000 08:01 24642609   /lib/i386-linux-gnu/libselinux.so.1
+ b607b000-b608f000 r-xp 00000000 08:01 24646733   /lib/i386-linux-gnu/libz.so.1.2.3.4
+ b608f000-b6090000 r--p 00013000 08:01 24646733   /lib/i386-linux-gnu/libz.so.1.2.3.4
+ b6090000-b6091000 rw-p 00014000 08:01 24646733   /lib/i386-linux-gnu/libz.so.1.2.3.4
+ b6091000-b6093000 r-xp 00000000 08:01 26349568   /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+ b6093000-b6094000 r--p 00001000 08:01 26349568   /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+ b6094000-b6095000 rw-p 00002000 08:01 26349568   /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+ b6095000-b6096000 rw-p 00000000 00:00 0 
+ b6096000-b6098000 r-xp 00000000 08:01 26350223   /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+ b6098000-b6099000 r--p 00001000 08:01 26350223   /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+ b6099000-b609a000 rw-p 00002000 08:01 26350223   /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+ b609a000-b60a3000 r-xp 00000000 08:01 26349571   /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+ b60a3000-b60a4000 r--p 00008000 08:01 26349571   /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+ b60a4000-b60a5000 rw-p 00009000 08:01 26349571   /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+ b60a5000-b60ac000 r-xp 00000000 08:01 26350432   /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+ b60ac000-b60ad000 r--p 00006000 08:01 26350432   /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+ b60ad000-b60ae000 rw-p 00007000 08:01 26350432   /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+ b60ae000-b60b0000 r-xp 00000000 08:01 26349582   /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+ b60b0000-b60b1000 r--p 00001000 08:01 26349582   /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+ b60b1000-b60b2000 rw-p 00002000 08:01 26349582   /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+ b60b2000-b60e4000 r-xp 00000000 08:01 26349766   /usr/lib/i386-linux-gnu/libfontconfig.so.1.4.4
+ b60e4000-b60e5000 r--p 00032000 08:01 26349766   /usr/lib/i386-linux-gnu/libfontconfig.so.1.4.4
+ b60e5000-b60e6000 rw-p 00033000 08:01 26349766   /usr/lib/i386-linux-gnu/libfontconfig.so.1.4.4
+ b60e6000-b60e7000 rw-p 00000000 00:00 0 
+ b60e7000-b6111000 r-xp 00000000 08:01 26350651   /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3000.0
+ b6111000-b6112000 r--p 00029000 08:01 26350651   /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3000.0
+ b6112000-b6113000 rw-p 0002a000 08:01 26350651   /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3000.0
+ b6113000-b6118000 r-xp 00000000 08:01 26346809   /usr/lib/i386-linux-gnu/libcairo-gobject.so.2.11000.2
+ b6118000-b6119000 r--p 00005000 08:01 26346809   /usr/lib/i386-linux-gnu/libcairo-gobject.so.2.11000.2
+ b6119000-b611a000 rw-p 00006000 08:01 26346809   /usr/lib/i386-linux-gnu/libcairo-gobject.so.2.11000.2
+ b611a000-b611e000 r-xp 00000000 08:01 26347249   /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+ b611e000-b611f000 r--p 00004000 08:01 26347249   /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+ b611f000-b6120000 rw-p 00005000 08:01 26347249   /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+ b6120000-b612e000 r-xp 00000000 08:01 26349626   /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+ b612e000-b612f000 r--p 0000d000 08:01 26349626   /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+ b612f000-b6130000 rw-p 0000e000 08:01 26349626   /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+ b6130000-b613b000 r-xp 00000000 08:01 26348658   /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3000.0
+ b613b000-b613c000 r--p 0000a000 08:01 26348658   /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3000.0
+ b613c000-b613d000 rw-p 0000b000 08:01 26348658   /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3000.0
+ b613d000-b613e000 rw-p 00000000 00:00 0 
+ b613e000-b615b000 r-xp 00000000 08:01 26350828   /usr/lib/i386-linux-gnu/libatk-1.0.so.0.20409.1
+ b615b000-b615d000 r--p 0001c000 08:01 26350828   /usr/lib/i386-linux-gnu/libatk-1.0.so.0.20409.1
+ b615d000-b615e000 rw-p 0001e000 08:01 26350828   /usr/lib/i386-linux-gnu/libatk-1.0.so.0.20409.1
+ b615e000-b626f000 r-xp 00000000 08:01 26345749   /usr/lib/i386-linux-gnu/libgiomm-2.4.so.1.3.0
+ b626f000-b627a000 r--p 00110000 08:01 26345749   /usr/lib/i386-linux-gnu/libgiomm-2.4.so.1.3.0
+ b627a000-b627c000 rw-p 0011b000 08:01 26345749   /usr/lib/i386-linux-gnu/libgiomm-2.4.so.1.3.0
+ b627c000-b629b000 r-xp 00000000 08:01 26346702   /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+ b629b000-b629c000 r--p 0001f000 08:01 26346702   /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+ b629c000-b629d000 rw-p 00020000 08:01 26346702   /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+ b629d000-b62a0000 r-xp 00000000 08:01 24683521   /lib/i386-linux-gnu/libdl-2.15.so
+ b62a0000-b62a1000 r--p 00002000 08:01 24683521   /lib/i386-linux-gnu/libdl-2.15.so
+ b62a1000-b62a2000 rw-p 00003000 08:01 24683521   /lib/i386-linux-gnu/libdl-2.15.so
+ b62a2000-b62a9000 r-xp 00000000 08:01 24683513   /lib/i386-linux-gnu/librt-2.15.so
+ b62a9000-b62aa000 r--p 00006000 08:01 24683513   /lib/i386-linux-gnu/librt-2.15.so
+ b62aa000-b62ab000 rw-p 00007000 08:01 24683513   /lib/i386-linux-gnu/librt-2.15.so
+ b62ab000-b62ac000 rw-p 00000000 00:00 0 
+ b62ac000-b62af000 r-xp 00000000 08:01 26362126   /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.3200.3
+ b62af000-b62b0000 r--p 00002000 08:01 26362126   /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.3200.3
+ b62b0000-b62b1000 rw-p 00003000 08:01 26362126   /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.3200.3
+ b62b1000-b63f8000 r-xp 00000000 08:01 26346001   /usr/lib/i386-linux-gnu/libxml2.so.2.7.8
+ b63f8000-b63fc000 r--p 00147000 08:01 26346001   /usr/lib/i386-linux-gnu/libxml2.so.2.7.8
+ b63fc000-b63fd000 rw-p 0014b000 08:01 26346001   /usr/lib/i386-linux-gnu/libxml2.so.2.7.8
+ b63fd000-b63fe000 rw-p 00000000 00:00 0 
+ b63fe000-b640e000 r-xp 00000000 08:01 26349892   /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+ b640e000-b640f000 r--p 0000f000 08:01 26349892   /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+ b640f000-b6410000 rw-p 00010000 08:01 26349892   /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+ b6410000-b6414000 r-xp 00000000 08:01 24642518   /lib/i386-linux-gnu/libuuid.so.1.3.0
+ b6414000-b6415000 r--p 00003000 08:01 24642518   /lib/i386-linux-gnu/libuuid.so.1.3.0
+ b6415000-b6416000 rw-p 00004000 08:01 24642518   /lib/i386-linux-gnu/libuuid.so.1.3.0
+ b6416000-b65b9000 r-xp 00000000 08:01 24681487   /lib/i386-linux-gnu/libc-2.15.so
+ b65b9000-b65bb000 r--p 001a3000 08:01 24681487   /lib/i386-linux-gnu/libc-2.15.so
+ b65bb000-b65bc000 rw-p 001a5000 08:01 24681487   /lib/i386-linux-gnu/libc-2.15.so
+ b65bc000-b65c0000 rw-p 00000000 00:00 0 
+ b65c0000-b65d7000 r-xp 00000000 08:01 24683515   /lib/i386-linux-gnu/libpthread-2.15.so
+ b65d7000-b65d8000 r--p 00016000 08:01 24683515   /lib/i386-linux-gnu/libpthread-2.15.so
+ b65d8000-b65d9000 rw-p 00017000 08:01 24683515   /lib/i386-linux-gnu/libpthread-2.15.so
+ b65d9000-b65db000 rw-p 00000000 00:00 0 
+ b65db000-b65f7000 r-xp 00000000 08:01 24642468   /lib/i386-linux-gnu/libgcc_s.so.1
+ b65f7000-b65f8000 r--p 0001b000 08:01 24642468   /lib/i386-linux-gnu/libgcc_s.so.1
+ b65f8000-b65f9000 rw-p 0001c000 08:01 24642468   /lib/i386-linux-gnu/libgcc_s.so.1
+ b65f9000-b6623000 r-xp 00000000 08:01 24683517   /lib/i386-linux-gnu/libm-2.15.so
+ b6623000-b6624000 r--p 00029000 08:01 24683517   /lib/i386-linux-gnu/libm-2.15.so
+ b6624000-b6625000 rw-p 0002a000 08:01 24683517   /lib/i386-linux-gnu/libm-2.15.so
+ b6625000-b66fd000 r-xp 00000000 08:01 26348033   /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+ b66fd000-b66fe000 ---p 000d8000 08:01 26348033   /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+ b66fe000-b6702000 r--p 000d8000 08:01 26348033   /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+ b6702000-b6703000 rw-p 000dc000 08:01 26348033   /usr/lib/i386-linux-gnu/libstdc++.so.6.0.16
+ b6703000-b670a000 rw-p 00000000 00:00 0 
+ b670a000-b6801000 r-xp 00000000 08:01 24641757   /lib/i386-linux-gnu/libglib-2.0.so.0.3200.3
+ b6801000-b6802000 r--p 000f6000 08:01 24641757   /lib/i386-linux-gnu/libglib-2.0.so.0.3200.3
+ b6802000-b6803000 rw-p 000f7000 08:01 24641757   /lib/i386-linux-gnu/libglib-2.0.so.0.3200.3
+ b6803000-b6804000 rw-p 00000000 00:00 0 
+ b6804000-b6851000 r-xp 00000000 08:01 26362127   /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.3200.3
+ b6851000-b6852000 r--p 0004c000 08:01 26362127   /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.3200.3
+ b6852000-b6853000 rw-p 0004d000 08:01 26362127   /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.3200.3
+ b6853000-b691a000 r-xp 00000000 08:01 26346379   /usr/lib/i386-linux-gnu/libcairo.so.2.11000.2
+ b691a000-b691b000 r--p 000c7000 08:01 26346379   /usr/lib/i386-linux-gnu/libcairo.so.2.11000.2
+ b691b000-b691c000 rw-p 000c8000 08:01 26346379   /usr/lib/i386-linux-gnu/libcairo.so.2.11000.2
+ b691c000-b691e000 rw-p 00000000 00:00 0 
+ b691e000-b6965000 r-xp 00000000 08:01 26348490   /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3000.0
+ b6965000-b6966000 ---p 00047000 08:01 26348490   /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3000.0
+ b6966000-b6967000 r--p 00047000 08:01 26348490   /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3000.0
+ b6967000-b6968000 rw-p 00048000 08:01 26348490   /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3000.0
+ b6968000-b6987000 r-xp 00000000 08:01 26350848   /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.2600.1
+ b6987000-b6988000 r--p 0001e000 08:01 26350848   /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.2600.1
+ b6988000-b6989000 rw-p 0001f000 08:01 26350848   /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.2600.1
+ b6989000-b6adc000 r-xp 00000000 08:01 26362125   /usr/lib/i386-linux-gnu/libgio-2.0.so.0.3200.3
+ b6adc000-b6ade000 r--p 00153000 08:01 26362125   /usr/lib/i386-linux-gnu/libgio-2.0.so.0.3200.3
+ b6ade000-b6adf000 rw-p 00155000 08:01 26362125   /usr/lib/i386-linux-gnu/libgio-2.0.so.0.3200.3
+ b6adf000-b6ae1000 rw-p 00000000 00:00 0 
+ b6ae1000-b6b59000 r-xp 00000000 08:01 26377409   /usr/lib/i386-linux-gnu/libgdk-3.so.0.400.2
+ b6b59000-b6b5b000 r--p 00077000 08:01 26377409   /usr/lib/i386-linux-gnu/libgdk-3.so.0.400.2
+ b6b5b000-b6b5c000 rw-p 00079000 08:01 26377409   /usr/lib/i386-linux-gnu/libgdk-3.so.0.400.2
+ b6b5c000-b700f000 r-xp 00000000 08:01 26350592   /usr/lib/i386-linux-gnu/libgtk-3.so.0.400.2
+ b700f000-b7013000 r--p 004b2000 08:01 26350592   /usr/lib/i386-linux-gnu/libgtk-3.so.0.400.2
+ b7013000-b7016000 rw-p 004b6000 08:01 26350592   /usr/lib/i386-linux-gnu/libgtk-3.so.0.400.2
+ b7016000-b7017000 rw-p 00000000 00:00 0 
+ b7017000-b7031000 r-xp 00000000 08:01 26356563   /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.13
+ b7031000-b7032000 r--p 00019000 08:01 26356563   /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.13
+ b7032000-b7033000 rw-p 0001a000 08:01 26356563   /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.13
+ b7033000-b7037000 r-xp 00000000 08:01 26345745   /usr/lib/i386-linux-gnu/libsigc-2.0.so.0.0.0
+ b7037000-b7038000 r--p 00003000 08:01 26345745   /usr/lib/i386-linux-gnu/libsigc-2.0.so.0.0.0
+ b7038000-b7039000 rw-p 00004000 08:01 26345745   /usr/lib/i386-linux-gnu/libsigc-2.0.so.0.0.0
+ b7039000-b705b000 r-xp 00000000 08:01 26357267   /usr/lib/i386-linux-gnu/libcairomm-1.0.so.1.4.0
+ b705b000-b705c000 r--p 00021000 08:01 26357267   /usr/lib/i386-linux-gnu/libcairomm-1.0.so.1.4.0
+ b705c000-b705d000 rw-p 00022000 08:01 26357267   /usr/lib/i386-linux-gnu/libcairomm-1.0.so.1.4.0
+ b705d000-b705e000 rw-p 00000000 00:00 0 
+ b705e000-b70c2000 r-xp 00000000 08:01 26346592   /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1.3.0
+ b70c2000-b70c3000 ---p 00064000 08:01 26346592   /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1.3.0
+ b70c3000-b70c4000 r--p 00064000 08:01 26346592   /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1.3.0
+ b70c4000-b70c5000 rw-p 00065000 08:01 26346592   /usr/lib/i386-linux-gnu/libglibmm-2.4.so.1.3.0
+ b70c5000-b70ed000 r-xp 00000000 08:01 26357269   /usr/lib/i386-linux-gnu/libpangomm-1.4.so.1.0.30
+ b70ed000-b70ee000 r--p 00028000 08:01 26357269   /usr/lib/i386-linux-gnu/libpangomm-1.4.so.1.0.30
+ b70ee000-b70ef000 rw-p 00029000 08:01 26357269   /usr/lib/i386-linux-gnu/libpangomm-1.4.so.1.0.30
+ b70ef000-b712a000 r-xp 00000000 08:01 26214913   /usr/lib/libgdkmm-3.0.so.1.1.0
+ b712a000-b712c000 r--p 0003b000 08:01 26214913   /usr/lib/libgdkmm-3.0.so.1.1.0
+ b712c000-b712d000 rw-p 0003d000 08:01 26214913   /usr/lib/libgdkmm-3.0.so.1.1.0
+ b712d000-b716c000 r-xp 00000000 08:01 26347836   /usr/lib/i386-linux-gnu/libatkmm-1.6.so.1.1.0
+ b716c000-b716d000 ---p 0003f000 08:01 26347836   /usr/lib/i386-linux-gnu/libatkmm-1.6.so.1.1.0
+ b716d000-b7170000 r--p 0003f000 08:01 26347836   /usr/lib/i386-linux-gnu/libatkmm-1.6.so.1.1.0
+ b7170000-b7171000 rw-p 00042000 08:01 26347836   /usr/lib/i386-linux-gnu/libatkmm-1.6.so.1.1.0
+ b7171000-b74a4000 r-xp 00000000 08:01 26216441   /usr/lib/libgtkmm-3.0.so.1.1.0
+ b74a4000-b74fc000 r--p 00332000 08:01 26216441   /usr/lib/libgtkmm-3.0.so.1.1.0
+ b74fc000-b7500000 rw-p 0038a000 08:01 26216441   /usr/lib/libgtkmm-3.0.so.1.1.0
+ b7500000-b7501000 rw-p 00000000 00:00 0 
+ b7501000-b7631000 r-xp 00000000 08:01 26349866   /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+ b7631000-b7632000 r--p 0012f000 08:01 26349866   /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+ b7632000-b7634000 rw-p 00130000 08:01 26349866   /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+ b7634000-b7635000 rw-p 00000000 00:00 0 
+ b7635000-b7718000 r-xp 00000000 08:01 26356737   /usr/lib/i386-linux-gnu/libgstreamer-0.10.so.0.30.0
+ b7718000-b771b000 r--p 000e2000 08:01 26356737   /usr/lib/i386-linux-gnu/libgstreamer-0.10.so.0.30.0
+ b771b000-b771c000 rw-p 000e5000 08:01 26356737   /usr/lib/i386-linux-gnu/libgstreamer-0.10.so.0.30.0
+ b771c000-b771d000 rw-p 00000000 00:00 0 
+ b771d000-b775c000 r-xp 00000000 08:01 26216615   /usr/lib/libgdome.so.0.8.1
+ b775c000-b775d000 r--p 0003f000 08:01 26216615   /usr/lib/libgdome.so.0.8.1
+ b775d000-b775e000 rw-p 00040000 08:01 26216615   /usr/lib/libgdome.so.0.8.1
+ b775e000-b7760000 r-xp 00000000 08:01 26356028   /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ b7760000-b7761000 r--p 00001000 08:01 26356028   /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ b7761000-b7762000 rw-p 00002000 08:01 26356028   /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ b7762000-b7767000 r-xp 00000000 08:01 26349576   /usr/lib/i386-linux-gnu/libXtst.so.6.1.0
+ b7767000-b7768000 r--p 00004000 08:01 26349576   /usr/lib/i386-linux-gnu/libXtst.so.6.1.0
+ b7768000-b7769000 rw-p 00005000 08:01 26349576   /usr/lib/i386-linux-gnu/libXtst.so.6.1.0
+ b7769000-b776a000 rw-p 00000000 00:00 0 
+ b776a000-b7780000 r-xp 00000000 08:01 26351616   /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+ b7780000-b7781000 r--p 00015000 08:01 26351616   /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+ b7781000-b7782000 rw-p 00016000 08:01 26351616   /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+ b7782000-b7784000 rw-p 00000000 00:00 0 
+ b7784000-b778b000 r-xp 00000000 08:01 26349521   /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+ b778b000-b778c000 r--p 00006000 08:01 26349521   /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+ b778c000-b778d000 rw-p 00007000 08:01 26349521   /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+ b778d000-b778e000 r--s 00000000 08:01 11010088   /home/dseaward925/.local/share/mime/mime.cache
+ b778e000-b7792000 r-xp 00000000 08:01 26477699   /usr/lib/i386-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+ b7792000-b7793000 r--p 00004000 08:01 26477699   /usr/lib/i386-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+ b7793000-b7794000 rw-p 00005000 08:01 26477699   /usr/lib/i386-linux-gnu/gtk-3.0/modules/libcanberra-gtk3-module.so
+ b7794000-b7795000 r--s 00000000 08:01 5786274    /home/dseaward925/.cache/dconf/user (deleted)
+ b7795000-b77a5000 r-xp 00000000 08:01 26215027   /usr/lib/liboverlay-scrollbar3-0.2.so.0.0.16
+ b77a5000-b77a6000 r--p 00010000 08:01 26215027   /usr/lib/liboverlay-scrollbar3-0.2.so.0.0.16
+ b77a6000-b77a7000 rw-p 00011000 08:01 26215027   /usr/lib/liboverlay-scrollbar3-0.2.so.0.0.16
+ b77a7000-b77a8000 r--p 00000000 08:01 45401      /usr/share/locale-langpack/en/LC_MESSAGES/gtk30.mo
+ b77a8000-b77a9000 r--p 002c5000 08:01 26357386   /usr/lib/locale/locale-archive
+ b77a9000-b77aa000 r--p 0043c000 08:01 26357386   /usr/lib/locale/locale-archive
+ b77aa000-b77ac000 rw-p 00000000 00:00 0 
+ b77ac000-b77ad000 r-xp 00000000 00:00 0          [vdso]
+ b77ad000-b77cd000 r-xp 00000000 08:01 24683518   /lib/i386-linux-gnu/ld-2.15.so
+ b77cd000-b77ce000 r--p 0001f000 08:01 24683518   /lib/i386-linux-gnu/ld-2.15.so
+ b77ce000-b77cf000 rw-p 00020000 08:01 24683518   /lib/i386-linux-gnu/ld-2.15.so
+ bfe9f000-bfec0000 rw-p 00000000 00:00 0          [stack]
+ProcStatus:
+ Name:	workrave
+ State:	D (disk sleep)
+ Tgid:	3628
+ Pid:	3628
+ PPid:	1
+ TracerPid:	0
+ Uid:	1001	1001	1001	1001
+ Gid:	1001	1001	1001	1001
+ FDSize:	256
+ Groups:	4 116 118 124 126 1001 1004 
+ VmPeak:	   73224 kB
+ VmSize:	   73220 kB
+ VmLck:	       0 kB
+ VmPin:	       0 kB
+ VmHWM:	   21148 kB
+ VmRSS:	   21148 kB
+ VmData:	   40348 kB
+ VmStk:	     136 kB
+ VmExe:	    1272 kB
+ VmLib:	   26680 kB
+ VmPTE:	     104 kB
+ VmSwap:	       0 kB
+ Threads:	4
+ SigQ:	0/47588
+ SigPnd:	0000000000000000
+ ShdPnd:	0000000000000000
+ SigBlk:	0000000000000000
+ SigIgn:	0000000000001000
+ SigCgt:	0000000180000000
+ CapInh:	0000000000000000
+ CapPrm:	0000000000000000
+ CapEff:	0000000000000000
+ CapBnd:	ffffffffffffffff
+ Cpus_allowed:	ff
+ Cpus_allowed_list:	0-7
+ Mems_allowed:	1
+ Mems_allowed_list:	0
+ voluntary_ctxt_switches:	359
+ nonvoluntary_ctxt_switches:	42
+Signal: 11
+Uname: Linux 3.2.0-45-generic-pae i686
+UserGroups: adm admin lpadmin sambashare vboxusers
+CoreDump: base64
+
+<snipped binary bit>
+
+ApportVersion: 2.0.1-0ubuntu17.2
+CheckboxSubmission: ac5bdf7440087be08d75549c0ca3adc5
+CheckboxSystem: d00f84de8a555815fa1c4660280da308
+Dependencies:
+ coreutils 8.13-3ubuntu3.2
+ dconf-gsettings-backend 0.12.0-0ubuntu1.1
+ dconf-service 0.12.0-0ubuntu1.1
+ debconf 1.5.42ubuntu1
+ debianutils 4.2.1ubuntu2
+ dpkg 1.16.1.2ubuntu7.1
+ fontconfig 2.8.0-3ubuntu9.1
+ fontconfig-config 2.8.0-3ubuntu9.1
+ gcc-4.6-base 4.6.3-1ubuntu5
+ libacl1 2.2.51-5ubuntu1
+ libatk1.0-0 2.4.0-0ubuntu1
+ libatk1.0-data 2.4.0-0ubuntu1
+ libatkmm-1.6-1 2.22.6-1ubuntu1
+ libattr1 1:2.4.46-5ubuntu1
+ libavahi-client3 0.6.30-5ubuntu2
+ libavahi-common-data 0.6.30-5ubuntu2
+ libavahi-common3 0.6.30-5ubuntu2
+ libbz2-1.0 1.0.6-1
+ libc-bin 2.15-0ubuntu10.4
+ libc6 2.15-0ubuntu10.4
+ libcairo-gobject2 1.10.2-6.1ubuntu3
+ libcairo2 1.10.2-6.1ubuntu3
+ libcairomm-1.0-1 1.10.0-1ubuntu1
+ libcomerr2 1.42-1ubuntu2
+ libcups2 1.5.3-0ubuntu8
+ libdatrie1 0.2.5-3
+ libdb5.1 5.1.25-11build1
+ libdbus-1-3 1.4.18-1ubuntu1.3
+ libdbusmenu-glib4 0.6.2-0ubuntu0.1
+ libdconf0 0.12.0-0ubuntu1.1
+ libexpat1 2.0.1-7.2ubuntu1.1
+ libffi6 3.0.11~rc1-5
+ libfontconfig1 2.8.0-3ubuntu9.1
+ libfreetype6 2.4.8-1ubuntu2.1
+ libgcc1 1:4.6.3-1ubuntu5
+ libgcrypt11 1.5.0-3ubuntu0.1
+ libgdk-pixbuf2.0-0 2.26.1-1
+ libgdk-pixbuf2.0-common 2.26.1-1
+ libgdome2-0 0.8.1+debian-4.1build1
+ libglib2.0-0 2.32.3-0ubuntu1
+ libglibmm-2.4-1c2a 2.32.0-0ubuntu1
+ libgnutls26 2.12.14-5ubuntu3.4
+ libgpg-error0 1.10-2ubuntu1
+ libgssapi-krb5-2 1.10+dfsg~beta1-2ubuntu0.3
+ libgstreamer0.10-0 0.10.36-1ubuntu1
+ libgtk-3-0 3.4.2-0ubuntu0.5
+ libgtk-3-common 3.4.2-0ubuntu0.5
+ libgtkmm-3.0-1 3.4.0-0ubuntu1
+ libice6 2:1.0.7-2build1
+ libjasper1 1.900.1-13
+ libjpeg-turbo8 1.1.90+svn733-0ubuntu4.1
+ libjpeg8 8c-2ubuntu7
+ libk5crypto3 1.10+dfsg~beta1-2ubuntu0.3
+ libkeyutils1 1.5.2-2
+ libkrb5-3 1.10+dfsg~beta1-2ubuntu0.3
+ libkrb5support0 1.10+dfsg~beta1-2ubuntu0.3
+ liblzma5 5.1.1alpha+20110809-3
+ libp11-kit0 0.12-2ubuntu1
+ libpam-modules 1.1.3-7ubuntu2
+ libpam-modules-bin 1.1.3-7ubuntu2
+ libpam0g 1.1.3-7ubuntu2
+ libpango1.0-0 1.30.0-0ubuntu3.1
+ libpangomm-1.4-1 2.28.4-1ubuntu1
+ libpcre3 8.12-4
+ libpixman-1-0 0.24.4-1
+ libpng12-0 1.2.46-3ubuntu4
+ libselinux1 2.1.0-4.1ubuntu1
+ libsigc++-2.0-0c2a 2.2.10-0ubuntu2
+ libsm6 2:1.2.0-2build1
+ libstdc++6 4.6.3-1ubuntu5
+ libtasn1-3 2.10-1ubuntu1.1
+ libthai-data 0.1.16-3
+ libthai0 0.1.16-3
+ libtiff4 3.9.5-2ubuntu1.5
+ libtinfo5 5.9-4
+ libuuid1 2.20.1-1ubuntu3
+ libx11-6 2:1.4.99.1-0ubuntu2
+ libx11-data 2:1.4.99.1-0ubuntu2
+ libxau6 1:1.0.6-4
+ libxcb-render0 1.8.1-1ubuntu0.1
+ libxcb-shm0 1.8.1-1ubuntu0.1
+ libxcb1 1.8.1-1ubuntu0.1
+ libxcomposite1 1:0.4.3-2build1
+ libxcursor1 1:1.1.12-1
+ libxdamage1 1:1.1.3-2build1
+ libxdmcp6 1:1.1.0-4
+ libxext6 2:1.3.0-3build1
+ libxfixes3 1:5.0-4ubuntu4
+ libxft2 2.2.0-3ubuntu2
+ libxi6 2:1.6.0-0ubuntu2
+ libxinerama1 2:1.1.1-3build1
+ libxml2 2.7.8.dfsg-5.1ubuntu4.4
+ libxrandr2 2:1.3.2-2ubuntu0.1
+ libxrender1 1:0.9.6-2build1
+ libxss1 1:1.2.1-2
+ libxtst6 2:1.2.0-4
+ lsb-base 4.0-0ubuntu20.2
+ multiarch-support 2.15-0ubuntu10.4
+ ncurses-bin 5.9-4
+ passwd 1:4.1.4.2+svn3283-3ubuntu5.1
+ perl-base 5.14.2-6ubuntu2.3
+ sed 4.2.1-9
+ sensible-utils 0.0.6ubuntu2
+ shared-mime-info 1.0-0ubuntu4.1
+ tar 1.26-4ubuntu1
+ ttf-dejavu-core 2.33-2ubuntu1
+ tzdata 2012e-0ubuntu0.12.04.1
+ ucf 3.0025+nmu2ubuntu1
+ workrave-data 1.10-ppa1~precise1 [origin: LP-PPA-rob-caelers-workrave]
+ x11-common 1:7.6+12ubuntu2
+ xz-utils 5.1.1alpha+20110809-3
+ zlib1g 1:1.2.3.4.dfsg-3ubuntu4
+Disassembly:
+ => 0xb65c8cb7 <pthread_mutex_lock+23>:	mov    0xc(%esi),%edi
+    0xb65c8cba <pthread_mutex_lock+26>:	call   0xb65c5480 <__i686.get_pc_thunk.bx>
+    0xb65c8cbf <pthread_mutex_lock+31>:	add    $0xf335,%ebx
+    0xb65c8cc5 <pthread_mutex_lock+37>:	mov    %edi,%ecx
+    0xb65c8cc7 <pthread_mutex_lock+39>:	mov    %edi,%eax
+    0xb65c8cc9 <pthread_mutex_lock+41>:	and    $0x7f,%ecx
+    0xb65c8ccc <pthread_mutex_lock+44>:	and    $0x7c,%eax
+    0xb65c8ccf <pthread_mutex_lock+47>:	jne    0xb65c8d17 <pthread_mutex_lock+119>
+    0xb65c8cd1 <pthread_mutex_lock+49>:	mov    %gs:0x68,%ebp
+    0xb65c8cd8 <pthread_mutex_lock+56>:	test   %ecx,%ecx
+    0xb65c8cda <pthread_mutex_lock+58>:	jne    0xb65c8d5b <pthread_mutex_lock+187>
+    0xb65c8cdc <pthread_mutex_lock+60>:	and    $0x80,%edi
+    0xb65c8ce2 <pthread_mutex_lock+66>:	mov    $0x1,%ecx
+    0xb65c8ce7 <pthread_mutex_lock+71>:	xor    %eax,%eax
+    0xb65c8ce9 <pthread_mutex_lock+73>:	lock cmpxchg %ecx,(%esi)
+    0xb65c8ced <pthread_mutex_lock+77>:	jne    0xb65c8ea4 <_L_lock_686>
+InstallationMedia: Ubuntu 11.10 "Oneiric Ocelot" - Release i386 (20111012)
+MarkForUpload: True
+Package: workrave 1.10-ppa1~precise1 [origin: LP-PPA-rob-caelers-workrave]
+PackageArchitecture: i386
+ProcVersionSignature: Ubuntu 3.2.0-45.70-generic-pae 3.2.44
+Registers:
+ eax            0x2	2
+ ecx            0xb4804720	-1266661600
+ edx            0x0	0
+ ebx            0xb6801ff4	-1233117196
+ esp            0xb51fee00	0xb51fee00
+ ebp            0x883fdc8	0x883fdc8
+ esi            0x2	2
+ edi            0xb48039a8	-1266665048
+ eip            0xb65c8cb7	0xb65c8cb7 <pthread_mutex_lock+23>
+ eflags         0x210286	[ PF SF IF RF ID ]
+ cs             0x73	115
+ ss             0x7b	123
+ ds             0x7b	123
+ es             0x7b	123
+ fs             0x0	0
+ gs             0x33	51
+SegvAnalysis:
+ Segfault happened at: 0xb65c8cb7 <pthread_mutex_lock+23>:	mov    0xc(%esi),%edi
+ PC (0xb65c8cb7) ok
+ source "0xc(%esi)" (0x0000000e) not located in a known VMA region (needed readable region)!
+ destination "%edi" ok
+ Stack memory exhausted (SP below stack segment)
+SegvReason: reading NULL VMA
+SourcePackage: workrave
+Stacktrace:
+ #0  0xb65c8cb7 in pthread_mutex_lock () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #1  0xb67903d0 in g_mutex_lock () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #2  0xb674f0d0 in g_source_attach () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #3  0xb6a42e2f in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #4  0xb6a45154 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #5  0xb6a5a90f in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #6  0xb69efba5 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #7  0xb69efccb in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #8  0xb674e850 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #9  0xb6750d86 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #10 0xb6751125 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #11 0xb675156b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #12 0xb6a581ba in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #13 0xb67746b3 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #14 0xb65c6d4c in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #15 0xb6504dde in clone () from /lib/i386-linux-gnu/libc.so.6
+ No symbol table info available.
+StacktraceTop:
+ pthread_mutex_lock () from /lib/i386-linux-gnu/libpthread.so.0
+ g_mutex_lock () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ g_source_attach () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+Tags: precise running-unity third-party-packages
+ThreadStacktrace:
+ .
+ Thread 4 (Thread 0xb5bc2b40 (LWP 3666)):
+ #0  0xb77ac424 in __kernel_vsyscall ()
+ No symbol table info available.
+ #1  0xb64f6690 in poll () from /lib/i386-linux-gnu/libc.so.6
+ No symbol table info available.
+ #2  0xb675ea7b in g_poll () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #3  0xb67510ae in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #4  0xb675156b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #5  0xb5c20134 in ?? () from /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+ No symbol table info available.
+ #6  0xb67746b3 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #7  0xb65c6d4c in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #8  0xb6504dde in clone () from /lib/i386-linux-gnu/libc.so.6
+ No symbol table info available.
+ .
+ Thread 3 (Thread 0xb5e51880 (LWP 3628)):
+ #0  0xb77ac424 in __kernel_vsyscall ()
+ No symbol table info available.
+ #1  0xb65cd5a2 in __lll_lock_wait () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #2  0xb65c8ead in _L_lock_686 () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #3  0xb65c8cf3 in pthread_mutex_lock () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #4  0xb67903d0 in g_mutex_lock () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #5  0xb6790d30 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #6  0xb6774c38 in g_thread_join () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #7  0x081369d9 in Thread::wait() ()
+ No symbol table info available.
+ #8  0x0812ec4e in RecordInputMonitor::~RecordInputMonitor() ()
+ No symbol table info available.
+ #9  0x0812ed32 in RecordInputMonitor::~RecordInputMonitor() ()
+ No symbol table info available.
+ #10 0x0811cfb4 in ActivityMonitor::~ActivityMonitor() ()
+ No symbol table info available.
+ #11 0x0811d042 in ActivityMonitor::~ActivityMonitor() ()
+ No symbol table info available.
+ #12 0x080f9e0b in Core::~Core() ()
+ No symbol table info available.
+ #13 0x080fa0b2 in Core::~Core() ()
+ No symbol table info available.
+ #14 0x080ac8a7 in GUI::~GUI() ()
+ No symbol table info available.
+ #15 0x080aca80 in GUI::~GUI() ()
+ No symbol table info available.
+ #16 0x080d164e in run ()
+ No symbol table info available.
+ #17 0x0809f70b in main ()
+ No symbol table info available.
+ .
+ Thread 2 (Thread 0xb3dffb40 (LWP 3699)):
+ #0  0xb77ac424 in __kernel_vsyscall ()
+ No symbol table info available.
+ #1  0xb65cad13 in pthread_cond_timedwait@@GLIBC_2.3.2 () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #2  0xb67908e0 in g_cond_wait_until () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #3  0xb67240b9 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #4  0xb67248de in g_async_queue_timeout_pop () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #5  0xb6774f7c in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #6  0xb67746b3 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #7  0xb65c6d4c in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #8  0xb6504dde in clone () from /lib/i386-linux-gnu/libc.so.6
+ No symbol table info available.
+ .
+ Thread 1 (Thread 0xb51ffb40 (LWP 3667)):
+ #0  0xb65c8cb7 in pthread_mutex_lock () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #1  0xb67903d0 in g_mutex_lock () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #2  0xb674f0d0 in g_source_attach () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #3  0xb6a42e2f in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #4  0xb6a45154 in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #5  0xb6a5a90f in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #6  0xb69efba5 in g_simple_async_result_complete () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #7  0xb69efccb in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #8  0xb674e850 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #9  0xb6750d86 in g_main_context_dispatch () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #10 0xb6751125 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #11 0xb675156b in g_main_loop_run () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #12 0xb6a581ba in ?? () from /usr/lib/i386-linux-gnu/libgio-2.0.so.0
+ No symbol table info available.
+ #13 0xb67746b3 in ?? () from /lib/i386-linux-gnu/libglib-2.0.so.0
+ No symbol table info available.
+ #14 0xb65c6d4c in start_thread () from /lib/i386-linux-gnu/libpthread.so.0
+ No symbol table info available.
+ #15 0xb6504dde in clone () from /lib/i386-linux-gnu/libc.so.6
+ No symbol table info available.
+Title: workrave crashed with SIGSEGV in pthread_mutex_lock()
+UnreportableReason: This is not an official Ubuntu package. Please remove any third party package and try again.
+UpgradeStatus: Upgraded to precise on 2012-04-29 (400 days ago)
+XsessionErrors:
+ gnome-session[3148]: WARNING: Failed to start app: Unable to start application: Failed to execute child process "/usr/bin/accomplishments-daemon" (No such file or directory)
+ gnome-session[3148]: WARNING: Failed to start app: Unable to start application: Failed to execute child process "~/Documents/vvtest/vv" (No such file or directory)
+ (compiz:3246): GConf-CRITICAL **: gconf_client_add_dir: assertion `gconf_valid_key (dirname, NULL)' failed
+ (cuttlefish:3268): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates_libgtk_only: assertion `window->update_and_descendants_freeze_count > 0' failed
+ (bluetooth-applet:3267): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates_libgtk_only: assertion `window->update_and_descendants_freeze_count > 0' failed
+ 

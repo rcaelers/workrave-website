@@ -1,0 +1,78 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/77/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;77 - Implement DailyLimitWindow</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>VERIFIED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI :: gtkmm</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>unspecified</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>All All</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P3 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>1.0.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Raymond Penners</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8><a href=https://workrave.org/bugzilla/52 style=text-decoration:line-through>52</a></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Sep 14 2002 20:35:28 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Raymond Penners</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Nov 16 2002 04:07:02 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Kees-Jan Dijkzeul</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Kees-Jan Dijkzeul</th><td rowspan=1>Sep 14 2002 20:35:28 UTC</td><td>blocks</td><td></td><td>52</td></tr><tr><th scope=row rowspan=1>Raymond Penners</th><td rowspan=1>Oct 21 2002 12:58:58 UTC</td><td>assigned_to</td><td>Rob Caelers</td><td>Raymond Penners</td></tr><tr><th scope=row rowspan=1>Raymond Penners</th><td rowspan=1>Oct 21 2002 13:00:15 UTC</td><td>status</td><td>NEW</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=1>Raymond Penners</th><td rowspan=1>Oct 22 2002 01:08:10 UTC</td><td>target_milestone</td><td>---</td><td>1.0.0</td></tr><tr><th scope=row rowspan=2>Raymond Penners</th><td rowspan=2>Oct 22 2002 12:39:02 UTC</td><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=2>Kees-Jan Dijkzeul</th><td rowspan=2>Oct 25 2002 07:52:02 UTC</td><td>status</td><td>RESOLVED</td><td>REOPENED</td></tr><tr><td>resolution</td><td>FIXED</td><td></td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Oct 27 2002 13:14:45 UTC</td><td>cc</td><td></td><td>Kees-Jan Dijkzeul</td></tr><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Oct 28 2002 11:17:24 UTC</td><td>status</td><td>REOPENED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=1>Kees-Jan Dijkzeul</th><td rowspan=1>Nov 16 2002 04:07:02 UTC</td><td>status</td><td>RESOLVED</td><td>VERIFIED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Sep 14 2002 20:35:28 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap> </pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 21 2002 13:00:15 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Crude support is in. Still need to do:
+- Sound effects
+- Add some decent text to daily limit window.
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Oct 25 2002 07:52:02 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I like the text! The window could be a bit larger, though.
+
+I have &#34;consider micropauses as activity&#34; turned on. In this case, it means that
+I don&#39;t get the break window until I&#39;ve taken a natural micropause. 
+
+I think an exception should be made here: When displaying a break window, one
+should look at actual activity, not at the micropause timer.
+
+Also, I don&#39;t think this window should have a &#34;skip&#34; button. You typically don&#39;t
+want to skip daily limits, and you don&#39;t want to click it by accident.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 25 2002 08:23:54 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Yes, I want to be able to skip my daily limit.
+Yes, I want to be able to postpone my daily limit.
+I use them regularly :)
+
+I don&#39;t quite understand your other remarks, perhaps Rob does.
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 25 2002 10:58:04 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I agree that &#34;skip&#34; the way it is implemented now, is a bad idea. It&#39;s not
+reversible, and after skip, you can no longer see how long you are overdue. I
+propose increasing the default postpone time to 20 minutes or so (pressing
+&#34;postpone&#34; every 2:30 minute is very annoying and the only reason I use skip). 
+If you really need skip, then your daily limit settings are plain wrong.
+
+&gt;I have &#34;consider micropauses as activity&#34; turned on. In this case, it means
+&gt;that I don&#39;t get the break window until I&#39;ve taken a natural micropause. 
+
+Really? While taking a natural break, the daily limit timer is running. When the
+timer reaches its limit, you (should) get a break window immediately.  After you
+have taken your natural break, the daily limit timer stops running. A timer that
+is not running cannot reach its limit. So you should never get a daily limit
+break when you have taken your natural break. 
+
+&gt; I think an exception should be made here: When displaying a break window, 
+&gt; one should look at actual activity, not at the micropause timer.
+
+So, you suggest that while taking a natural break, the daily limit timer should
+run until you have finished your natural break (i.e. till the micropause timer
+reaches &#34;pause duration&#34; idle time), but when taking a break with a break window
+displayed, the daily limit timer should follow normal activity (instead of
+following the micropause) ? 
+
+This is not consistent. I also don&#39;t see how its related to the problem above.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Raymond Penners&nbsp;&nbsp;Oct 25 2002 11:54:52 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I still am very fond of a skip button. Rationale: there are days when I am
+working late, and on those days, I really want to be able to just skip (as in
+ignore) a daily limit, and not be bugged by the daily limit window anymore. 
+
+I do agree that skipping the daily limit should not reset the timer.
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 27 2002 13:14:45 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>- Skip on Daily Limit no longer resets the timer.
+- Default postpone time of DL increased to 20 minutes.
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 27 2002 13:17:26 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Kees-Jan, I&#39;ve added you to the CC: list, Please have a look at my comments. Thanks.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Oct 27 2002 23:42:11 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Judging from Rob&#39;s comments, my original problem description was not quite
+clear. Let&#39;s try again.
+
+I am working. All of a sudden, the daily limit prelude appears. I immediately
+stop working.
+
+Expected result: I get a daily limit break window within five seconds (the value
+of my &#34;idle time&#34;
+
+Actual result: The micropause timer detects that I&#39;m idle, and acts as if I were
+taking a natural micropause. The daily limit timer is looking at the micropause
+timer, sees that I have not yet completely taken my micropause, and hence
+considers me active. Only after 30 seconds (25 seconds micropause and 5 seconds
+idle time) does the daily limit timer notice that I&#39;m actually Idle. At that
+point, er... I don&#39;t recall. I think my daily limit was automatically postponed
+because I was not idle. Could also be that the prelude window was replaced by a
+break window.
+
+Is this better??</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Oct 28 2002 11:17:24 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Yes! Fixed.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

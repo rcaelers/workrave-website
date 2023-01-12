@@ -1,0 +1,126 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/638/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;638 - workrave crashed with SIGSEGV in _XimServerDestroy()</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED INVALID</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI :: gtkmm</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.4</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8>https://bugs.launchpad.net/ubuntu/+source/workrave/+bug/116100</div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>May 25 2007 09:56:12 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Daniel Holbach</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Sep 19 2007 23:03:28 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Ray Satiro</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:04:07 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr><tr><th scope=row rowspan=3>Ray Satiro</th><td rowspan=3>Sep 19 2007 23:03:28 UTC</td><td>cc</td><td></td><td>Ray Satiro</td></tr><tr><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>INVALID</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;May 25 2007 09:56:12 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Forwarded from: https://bugs.launchpad.net/ubuntu/&#43;source/workrave/&#43;bug/116100
+
+Binary package hint: workrave
+
+I have SCIM installed with the workaround to allow all apps to load...
+
+ProblemType: Crash
+Architecture: i386
+CrashCounter: 1
+Date: Tue May 22 09:47:54 2007
+Disassembly: 0xb5c864c0:
+DistroRelease: Ubuntu 7.04
+ExecutablePath: /usr/bin/workrave
+Package: workrave 1.8.4-1ubuntu3
+PackageArchitecture: i386
+ProcCmdline: /usr/bin/workrave
+ProcCwd: /home/viet
+ProcEnviron:
+ LANGUAGE=en_US:en
+ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+ LANG=en_US.UTF-8
+ SHELL=/bin/bash
+Signal: 11
+SourcePackage: workrave
+Uname: Linux godsbox 2.6.20-15-generic #2 SMP Sun Apr 15 07:36:31 UTC 2007 i686 GNU/Linux
+UserGroups: adm admin audio cdrom dialout dip fax floppy fuse lpadmin netdev plugdev powerdev scanner tape video
+
+
+
+#0  0xb5c864c0 in ?? ()
+#1  0xb6edeca1 in _XimServerDestroy (im_2_destroy=0x82c6e70) at ../../../../modules/im/ximcp/imInt.c:110
+	i = 2
+	im = &lt;value optimized out&gt;
+	ic = &lt;value optimized out&gt;
+#2  0xb6ed47b4 in _XimFilterServerDestroy (d=0x813e980, w=4194305, ev=0x84659e8, client_data=0xb5c864c0 &lt;Address 0xb5c864c0 out of bounds&gt;)
+    at ../../../../modules/im/ximcp/imDefFlt.c:381
+No locals.
+#3  0xb6e9284a in XFilterEvent (ev=0xbffbdd88, window=0) at ../../src/FilterEv.c:100
+	p = (XFilterEventList) 0x846d270
+	win = 4194305
+	mask = 655360
+	ret = &lt;value optimized out&gt;
+#4  0xb7283cad in _gdk_events_queue (display=0x8146098) at gdkevents-x11.c:2239
+	node = (GList *) 0xb6d25ff4
+	event = (GdkEvent *) 0x8146098
+	xevent = {type = 17, xany = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305}, xkey = {type = 17, serial = 29128, send_event = 0, 
+    display = 0x813e980, window = 4194305, root = 4194305, subwindow = 1, time = 61, x = 21, y = 0, x_root = 0, y_root = 0, state = 0, keycode = 1, same_screen = 1}, xbutton = {
+    type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, root = 4194305, subwindow = 1, time = 61, x = 21, y = 0, x_root = 0, y_root = 0, state = 0, 
+    button = 1, same_screen = 1}, xmotion = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, root = 4194305, subwindow = 1, time = 61, x = 21, 
+    y = 0, x_root = 0, y_root = 0, state = 0, is_hint = 1 &#39;\001&#39;, same_screen = 1}, xcrossing = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, 
+    root = 4194305, subwindow = 1, time = 61, x = 21, y = 0, x_root = 0, y_root = 0, mode = 0, detail = 1, same_screen = 1, focus = 0, state = 1040}, xfocus = {type = 17, 
+    serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, mode = 4194305, detail = 1}, xexpose = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, 
+    window = 4194305, x = 4194305, y = 1, width = 61, height = 21, count = 0}, xgraphicsexpose = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, 
+    drawable = 4194305, x = 4194305, y = 1, width = 61, height = 21, count = 0, major_code = 0, minor_code = 0}, xnoexpose = {type = 17, serial = 29128, send_event = 0, 
+    display = 0x813e980, drawable = 4194305, major_code = 4194305, minor_code = 1}, xvisibility = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, 
+    window = 4194305, state = 4194305}, xcreatewindow = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, parent = 4194305, window = 4194305, x = 1, y = 61, 
+    width = 21, height = 0, border_width = 0, override_redirect = 0}, xdestroywindow = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, 
+    window = 4194305}, xunmap = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, window = 4194305, from_configure = 1}, xmap = {type = 17, 
+    serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, window = 4194305, override_redirect = 1}, xmaprequest = {type = 17, serial = 29128, send_event = 0, 
+    display = 0x813e980, parent = 4194305, window = 4194305}, xreparent = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, window = 4194305, 
+    parent = 1, x = 61, y = 21, override_redirect = 0}, xconfigure = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, window = 4194305, x = 1, 
+    y = 61, width = 21, height = 0, border_width = 0, above = 0, override_redirect = 0}, xgravity = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, 
+    event = 4194305, window = 4194305, x = 1, y = 61}, xresizerequest = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, width = 4194305, 
+    height = 1}, xconfigurerequest = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, parent = 4194305, window = 4194305, x = 1, y = 61, width = 21, height = 0, 
+    border_width = 0, above = 0, detail = 0, value_mask = 1}, xcirculate = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, event = 4194305, window = 4194305, 
+    place = 1}, xcirculaterequest = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, parent = 4194305, window = 4194305, place = 1}, xproperty = {type = 17, 
+    serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, atom = 4194305, time = 1, state = 61}, xselectionclear = {type = 17, serial = 29128, send_event = 0, 
+    display = 0x813e980, window = 4194305, selection = 4194305, time = 1}, xselectionrequest = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, owner = 4194305, 
+    requestor = 4194305, selection = 1, target = 61, property = 21, time = 0}, xselection = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, requestor = 4194305, 
+    selection = 4194305, target = 1, property = 61, time = 21}, xcolormap = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, colormap = 4194305, 
+    new = 1, state = 61}, xclient = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, message_type = 4194305, format = 1, data = {
+      b = &#34;=\000\000\000\025&#34;, &#39;\0&#39; &lt;repeats 14 times&gt;, s = {61, 0, 21, 0, 0, 0, 0, 0, 0, 0}, l = {61, 21, 0, 0, 0}}}, xmapping = {type = 17, serial = 29128, send_event = 0, 
+    display = 0x813e980, window = 4194305, request = 4194305, first_keycode = 1, count = 61}, xerror = {type = 17, display = 0x71c8, resourceid = 0, serial = 135522688, 
+    error_code = 1 &#39;\001&#39;, request_code = 0 &#39;\0&#39;, minor_code = 64 &#39;@&#39;}, xkeymap = {type = 17, serial = 29128, send_event = 0, display = 0x813e980, window = 4194305, 
+    key_vector = &#34;\001\000@\000\001\000\000\000=\000\000\000\025&#34;, &#39;\0&#39; &lt;repeats 18 times&gt;}, pad = {17, 29128, 0, 135522688, 4194305, 4194305, 1, 61, 21, 0, 0, 0, 0, 1, 1, 0, 
+    1040, 0, 0, 0, 0, 0, 0, 0}}
+	xdisplay = (Display *) 0x813e980
+#5  0xb72840ff in gdk_event_dispatch (source=0x814fc48, callback=0, user_data=0x0) at gdkevents-x11.c:2312
+	display = (GdkDisplay *) 0x8146098
+	event = &lt;value optimized out&gt;
+#6  0xb6f93df2 in IA__g_main_context_dispatch (context=0x814fc90) at gmain.c:2045
+No locals.
+#7  0xb6f96dcf in g_main_context_iterate (context=0x814fc90, block=1, dispatch=1, self=0x81676d0) at gmain.c:2677
+	got_ownership = &lt;value optimized out&gt;
+	max_priority = 0
+	timeout = 0
+	some_ready = 1
+	nfds = &lt;value optimized out&gt;
+	allocated_nfds = &lt;value optimized out&gt;
+	fds = (GPollFD *) 0x82bb338
+	__PRETTY_FUNCTION__ = &#34;g_main_context_iterate&#34;
+#8  0xb6f97179 in IA__g_main_loop_run (loop=0x82b10c0) at gmain.c:2881
+	got_ownership = -1226513344
+	self = (GThread *) 0x81676d0
+	__PRETTY_FUNCTION__ = &#34;IA__g_main_loop_run&#34;
+#9  0xb749c044 in IA__gtk_main () at gtkmain.c:1177
+	tmp_list = (GList *) 0xbffbdf94
+	functions = (GList *) 0x0
+	init = (GtkInitFunction *) 0x812c138
+	loop = (GMainLoop *) 0x82b10c0
+#10 0xb78fc3d7 in Gtk::Main::run_impl (this=0xbffbdf94) at main.cc:534
+No locals.
+#11 0xb78fc1c2 in Gtk::Main::run () at main.cc:481
+No locals.
+#12 0x080ac555 in GUI::main (this=0x812c138) at GUI.cc:233
+	kit = {&lt;sigc::trackable&gt; = {callback_list_ = 0x0}, _vptr.Main = 0xb7a2bf88, static signal_run_ = {&lt;No data fields&gt;}, static signal_quit_ = {&lt;No data fields&gt;}, 
+  static signal_key_snooper_ = {&lt;No data fields&gt;}, static instance_ = 0xbffbdf94}
+	display = 0x818d9f8 &#34;&#34;
+#13 0x080ca75c in run (argc=1, argv=0xbffbe084) at main.cc:44
+	gui = (class GUI *) 0x812c138
+#14 0x080ca793 in main (argc=) at main.cc:56
+	ret = 138828264</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;May 31 2007 19:06:09 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have&#39;t been able to reproduce this crash. I tried to configure SCIM as described  here: https://help.ubuntu.com/community/SCIM. Any tips on how to reproduce this crash?
+
+I don&#39;t think this bug is workrave specific, see:
+https://bugs.launchpad.net/ubuntu/&#43;source/mail-notification/&#43;bug/99259</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Jun 1 2007 11:11:45 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks a lot for pointing this out. I&#39;m happy for you to close the bug, I&#39;ll ask the submitter how to reproduce the problem.</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

@@ -1,0 +1,4450 @@
+>>> GUI:GUI
+<<< GUI:GUI
+>>> GUI::main
+>>> GUI::init_gnome
+<<< GUI::init_gnome
+>>> System::init
+>>> System::init_kde
+<<< System::init_kde0
+    System::init Locking enabled
+<<< System::init
+>>> Break:Break
+<<< Break:Break
+>>> Break:Break
+<<< Break:Break
+>>> Break:Break
+<<< Break:Break
+>>> Core::Core
+<<< Core::Core
+>>> ActivityMonitor::ActivityMonitor
+<<< ActivityMonitor::ActivityMonitor
+>>> Core::load_monitor_config
+    Core::load_monitor_config Monitor config = 9000 1000 5000
+<<< Core::load_monitor_config
+>>> GConfConfigurator::add_listener monitor
+>>> X11InputMonitor::run
+<<< GConfConfigurator::add_listener
+>>> DistributionSocketLink::init
+>>> X11InputMonitor::run_xrecord
+>>> X11InputMonitor::init_xrecord
+>>> GConfConfigurator::add_listener distribution/tcp
+    X11InputMonitor::init_xrecord use_xrecord= 1
+<<< X11InputMonitor::init_xrecord
+<<< GConfConfigurator::add_listener
+<<< DistributionSocketLink::init
+>>> DistributionSocketLink:set_enabled 0
+<<< DistributionSocketLink:set_enabled
+>>> GConfConfigurator::add_listener distribution
+<<< GConfConfigurator::add_listener
+>>> IdleLogManager::init()
+>>> IdleLogManager::load()
+    IdleLogManager::load() File exists - ok
+    IdleLogManager::load() Size - 20
+    IdleLogManager::load() Version - 2
+    IdleLogManager::load() Version - ok
+    IdleLogManager::load() id = 
+    IdleLogManager::load() Add client 
+<<< IdleLogManager::load()
+>>> IdleLogManager::load_idlelog()
+    IdleLogManager::load_idlelog() loading 9 intervals
+>>> IdleLogManager::fix_idlelog
+    IdleLogManager::fix_idlelog 1 1191392483 1191392483 0
+    IdleLogManager::fix_idlelog 1191393085 1191393157 1191393091 57
+    IdleLogManager::fix_idlelog 1191393157 1191393832 1191393788 42
+    IdleLogManager::fix_idlelog 1191393832 1191393893 1191393872 21
+    IdleLogManager::fix_idlelog 1191393893 1191393908 1191393903 5
+    IdleLogManager::fix_idlelog 1191393908 1191394034 1191393995 39
+    IdleLogManager::fix_idlelog 1191394034 1191395723 1191395658 62
+    IdleLogManager::fix_idlelog 1191397144 1191397164 1191397148 16
+    IdleLogManager::fix_idlelog 1191397164 1191397201 1191397189 12
+<<< IdleLogManager::fix_idlelog
+<<< IdleLogManager::load_idlelog()
+<<< IdleLogManager::init()
+>>> Break::init
+>>> Timer::enable micro_pause0
+>>> Timer::stop_timer micro_pause0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+<<< Timer::enable
+>>> Timer::stop_timer micro_pause2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/micro_pause
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/micro_pause
+<<< GConfConfigurator::add_listener
+<<< Break::init
+>>> Break::init
+>>> Timer::enable rest_break0
+>>> Timer::stop_timer rest_break0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+<<< Timer::enable
+>>> Timer::stop_timer rest_break2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/rest_break
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/rest_break
+<<< GConfConfigurator::add_listener
+<<< Break::init
+>>> Break::init
+>>> Timer::enable daily_limit0
+>>> Timer::stop_timer daily_limit0
+    Timer::stop_timer last_start_time = 0
+    Timer::stop_timer 0
+<<< Timer::stop_timer
+<<< Timer::enable
+>>> Timer::stop_timer daily_limit2
+<<< Timer::stop_timer
+>>> GConfConfigurator::add_listener timers/daily_limit
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/daily_limit
+<<< GConfConfigurator::add_listener
+<<< Break::init
+>>> Statistics::load_current_day
+>>> Statistics::load
+<<< Statistics::load
+<<< Statistics::load_current_day
+>>> Statistics::load_history
+>>> Statistics::load
+<<< Statistics::load
+<<< Statistics::load_history
+>>> Timer::deserialize_state
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+    Timer::deserialize_state elapsed = 0
+>>> Timer::deserialize_state
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+    Timer::deserialize_state elapsed = 246
+>>> Timer::deserialize_state
+    Timer::deserialize_state 0 0 0
+    Timer::deserialize_state 0
+    Timer::deserialize_state elapsed = 0
+>>> BreakControl::stop_break 0
+    BreakControl::stop_break  forced stop = 0
+>>> BreakControl::suspend_break 0
+>>> BreakControl::goto_stage 0 0
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::goto_stage
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::suspend_break
+<<< BreakControl::stop_break
+>>> BreakControl::stop_break 1
+    BreakControl::stop_break  forced stop = 0
+>>> BreakControl::suspend_break 1
+>>> BreakControl::goto_stage 1 0
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::goto_stage
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::suspend_break
+<<< BreakControl::stop_break
+>>> BreakControl::stop_break 2
+    BreakControl::stop_break  forced stop = 0
+>>> BreakControl::suspend_break 2
+>>> BreakControl::goto_stage 2 0
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::goto_stage
+>>> BreakControl::defrost 0
+<<< BreakControl::defrost
+<<< BreakControl::suspend_break
+<<< BreakControl::stop_break
+>>> GUI::init_multihead
+>>> GUI::init_gtk_multihead
+    GUI::init_gtk_multihead screens = 1
+    GUI::init_gtk_multihead num monitors on screen 0 = 1
+    GUI::init_gtk_multihead num monitors on screen 0 = 1
+>>> GUI::init_multihead_mem
+<<< GUI::init_multihead_mem
+    GUI::init_gtk_multihead monitors = 1
+    GUI::init_gtk_multihead Screen #0 Monitor #0  0 0 1920 1200  intersects 0
+    GUI::init_gtk_multihead # Heads = 1
+<<< GUI::init_gtk_multihead
+>>> GUI::init_multihead_desktop
+    GUI::init_multihead_desktop gdk width x height 1920 1200
+    GUI::init_multihead_desktop width x height 1920 1200
+<<< GUI::init_multihead
+>>> MainWindow::init
+>>> Menus::create_menu 0
+<<< Menus::create_menu
+>>> TimerBoxGtkView::init
+<<< TimerBoxGtkView::init
+>>> TimerBoxControl::init
+>>> GConfConfigurator::add_listener gui/main_window
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/micro_pause/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/rest_break/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/daily_limit/enabled
+<<< GConfConfigurator::add_listener
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+<<< TimerBoxControl::init
+>>> TimerBoxGtkView::set_geometry 3 -1
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table s -1 ts 86 o 3 my 0 0 bar61 23 label 16 20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table 1 -1 2 -1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar 40:54
+    TimerBoxGtkView::set_time_bar 246 2700 0
+    TimerBoxGtkView::set_time_bar 600 600 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar 4:00:00
+    TimerBoxGtkView::set_time_bar 0 14400 0
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 1
+    TimerBoxGtkView::init_table s -1 ts 86 o 3 my 86 24 bar61 23 label 16 20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table remove sheep
+    TimerBoxGtkView::init_table 1 1 2 2
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+>>> MainWindow::setup
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 1
+<<< MainWindow::setup
+>>> MainWindow::move_to_start_position
+>>> MainWindow::get_start_position
+    MainWindow::get_start_position 0 25 0
+<<< MainWindow::get_start_position
+    MainWindow::move_to_start_position Main window size 90 27
+    MainWindow::move_to_start_position moving to 0 25
+>>> MainWindow::setup
+    MainWindow::setup enabled 0
+    MainWindow::setup on top 1
+<<< MainWindow::setup
+>>> GConfConfigurator::add_listener gui/main_window
+<<< GConfConfigurator::add_listener
+<<< MainWindow::init
+>>> GConfConfigurator::add_listener gui/applet
+<<< GConfConfigurator::add_listener
+>>> GnomeAppletWindow::init_gnome_applet
+<<< GnomeAppletWindow::init_gnome_applet
+>>> X11SystrayAppletWindow::activate_applet
+
+(workrave:22442): gtkmm-WARNING **: gtkmm: Attempt to call Gtk::manage() on a Gtk::Window, but a Gtk::Window has no parent container to manage its lifetime.
+
+>>> TimerBoxGtkView::init
+<<< TimerBoxGtkView::init
+>>> TimerBoxControl::init
+>>> GConfConfigurator::add_listener gui/applet
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/micro_pause/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/rest_break/enabled
+<<< GConfConfigurator::add_listener
+>>> GConfConfigurator::add_listener gui/breaks/daily_limit/enabled
+<<< GConfConfigurator::add_listener
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+<<< TimerBoxControl::init
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> Menus::create_menu 1
+<<< Menus::create_menu
+>>> TimerBoxGtkView::set_geometry 0 24
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 0
+    TimerBoxGtkView::init_table s 24 ts 24 o 0 my 0 0 bar61 23 label 16 20
+    TimerBoxGtkView::init_table c/r 1 1 0
+    TimerBoxGtkView::init_table 1 -1 1 -1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+<<< X11SystrayAppletWindow::activate_applet
+>>> AppletControl::check_visible
+>>> MainWindow::set_applet_active 1
+<<< MainWindow::set_applet_active
+<<< AppletControl::check_visible
+>>> GnomeAppletWindow::set_menu_active 2 1
+<<< GnomeAppletWindow::set_menu_active
+>>> GnomeAppletWindow::set_menu_active 3 0
+<<< GnomeAppletWindow::set_menu_active
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397249 0 30 -1191397249
+    Timer::Process activity_state = 2
+>>> Timer::disable rest_break1
+>>> Timer::stop_timer rest_break2
+<<< Timer::stop_timer
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 2
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397249 0 2700 -1191397249
+    Timer::Process activity_state = 2
+>>> Timer::disable daily_limit1
+>>> Timer::stop_timer daily_limit2
+<<< Timer::stop_timer
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 2
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397249 0 14400 -1191397249
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 1
+    TimerBoxGtkView::init_table s 24 ts 24 o 0 my 24 24 bar61 23 label 16 20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table remove sheep
+    TimerBoxGtkView::init_table 1 1 2 1
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> MainWindow::on_window_state_event
+<<< MainWindow::on_window_state_event
+>>> MainWindow::on_window_state_event
+<<< MainWindow::on_window_state_event
+>>> MainWindow::on_window_state_event
+<<< MainWindow::on_window_state_event
+>>> MainWindow::on_window_state_event
+<<< MainWindow::on_window_state_event
+>>> MainWindow::on_configure_event 0 25
+>>> MainWindow::locate_window
+    MainWindow::locate_window main window2 = 0 25
+    MainWindow::locate_window main window = 0 25
+<<< MainWindow::locate_window
+<<< MainWindow::on_configure_event
+>>> MainWindow::on_configure_event 5 49
+>>> MainWindow::locate_window
+    MainWindow::locate_window main window2 = 5 49
+    MainWindow::locate_window main window = 5 49
+    MainWindow::locate_window main window head = 5 49
+>>> MainWindow::set_start_position 5 49 0
+<<< MainWindow::set_start_position
+<<< MainWindow::locate_window
+<<< MainWindow::on_configure_event
+>>> X11SystrayAppletWindow::on_embedded
+    X11SystrayAppletWindow::on_embedded Size = 77 24 0
+>>> TimerBoxGtkView::set_geometry 0 24
+>>> TimerBoxGtkView::init_table
+    TimerBoxGtkView::init_table number_of_timers = 1
+    TimerBoxGtkView::init_table s 24 ts 24 o 0 my 77 24 bar61 23 label 16 20
+    TimerBoxGtkView::init_table c/r 2 1 0
+    TimerBoxGtkView::init_table 1 1 2 2
+    TimerBoxGtkView::init_table resize
+<<< TimerBoxGtkView::init_table
+<<< TimerBoxGtkView::set_geometry
+    X11SystrayAppletWindow::on_embedded 24
+>>> AppletControl::check_visible
+>>> MainWindow::set_applet_active 1
+<<< MainWindow::set_applet_active
+<<< AppletControl::check_visible
+<<< X11SystrayAppletWindow::on_embedded
+>>> GConfConfigurator::key_changed 3120562192
+    GConfConfigurator::key_changed /apps/workrave/gui/main_window/x
+    GConfConfigurator::key_changed gui/main_window/x
+>>> Configurator::fire_configurator_event gui/main_window/x
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window/x
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 3053453324
+    GConfConfigurator::key_changed /apps/workrave/gui/main_window/x
+    GConfConfigurator::key_changed gui/main_window/x
+>>> Configurator::fire_configurator_event gui/main_window/x
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window/x
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 3120562192
+    GConfConfigurator::key_changed /apps/workrave/gui/main_window/y
+    GConfConfigurator::key_changed gui/main_window/y
+>>> Configurator::fire_configurator_event gui/main_window/y
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window/y
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> GConfConfigurator::key_changed 3053453324
+    GConfConfigurator::key_changed /apps/workrave/gui/main_window/y
+    GConfConfigurator::key_changed gui/main_window/y
+>>> Configurator::fire_configurator_event gui/main_window/y
+>>> TimerBoxControl::read_configuration
+<<< TimerBoxControl::read_configuration
+>>> MainWindow::config_changed_notify gui/main_window/y
+<<< MainWindow::config_changed_notify
+<<< Configurator::fire_configurator_event
+<<< GConfConfigurator::key_changed
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397250 0 30 -1191397250
+    Timer::Process activity_state = 2
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 2
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397250 0 2700 -1191397250
+    Timer::Process activity_state = 2
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 2
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397250 0 14400 -1191397250
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397251 0 30 -1191397251
+    Timer::Process activity_state = 2
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 2
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397251 0 2700 -1191397251
+    Timer::Process activity_state = 2
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 2
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397251 0 14400 -1191397251
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> ActivityMonitor::get_current_state 2
+<<< ActivityMonitor::get_current_state2
+>>> IdleLogManager::update_all_idlelogs  2
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 2
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397252 0 30 -1191397252
+    Timer::Process activity_state = 2
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 2
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397252 0 2700 -1191397252
+    Timer::Process activity_state = 2
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 2
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397252 0 14400 -1191397252
+    Timer::Process activity_state = 2
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 3
+<<< ActivityMonitor::get_current_state3
+>>> DistributionSocketLink::broadcast_client_message
+>>> DistributionSocketLink::send_packet_broadcast
+>>> DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_broadcast
+<<< DistributionSocketLink::broadcast_client_message
+>>> Core::get_timer_state
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 0
+<<< Timer::get_state_data
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 246
+<<< Timer::get_state_data
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 0
+<<< Timer::get_state_data
+<<< Core::get_timer_state
+>>> DistributionSocketLink::broadcast_client_message
+>>> DistributionSocketLink::send_packet_broadcast
+>>> DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_broadcast
+<<< DistributionSocketLink::broadcast_client_message
+>>> ActivityMonitor::get_current_state 3
+<<< ActivityMonitor::get_current_state3
+>>> IdleLogManager::update_all_idlelogs  3
+>>> IdleLogManager::update_idlelog 2 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 3
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397253 0 30 -1191397253
+    Timer::Process activity_state = 3
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 3
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397253 0 2700 -1191397253
+    Timer::Process activity_state = 3
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 3
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397253 0 14400 -1191397253
+    Timer::Process activity_state = 3
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 20 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1470 5 0
+<<< ActivityMonitor::get_current_state4
+>>> DistributionSocketLink::broadcast_client_message
+>>> DistributionSocketLink::send_packet_broadcast
+>>> DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_broadcast
+<<< DistributionSocketLink::broadcast_client_message
+>>> Core::get_timer_state
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 0
+<<< Timer::get_state_data
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 246
+<<< Timer::get_state_data
+>>> Timer::get_state_data
+    Timer::get_state_data elapsed = 0
+<<< Timer::get_state_data
+<<< Core::get_timer_state
+>>> DistributionSocketLink::broadcast_client_message
+>>> DistributionSocketLink::send_packet_broadcast
+>>> DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_except
+<<< DistributionSocketLink::send_packet_broadcast
+<<< DistributionSocketLink::broadcast_client_message
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1733 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 20
+    Timer::Process elap = 0
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+>>> Timer::start_timer micro_pause2
+    Timer::start_timer !Frozen
+    Timer::start_timer Compute
+<<< Timer::start_timer
+    Timer::Process time, next limit 1191397254 1191397284 30 30
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397254 0 2700 -1191397254
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397254 0 14400 -1191397254
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:30
+    TimerBoxGtkView::set_time_bar 0 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1480 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1535 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 1
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397255 1191397284 30 29
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397255 0 2700 -1191397255
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397255 0 14400 -1191397255
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:29
+    TimerBoxGtkView::set_time_bar 1 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:29
+    TimerBoxGtkView::set_time_bar 1 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.25461 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.25516 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 2
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397256 1191397284 30 28
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397256 0 2700 -1191397256
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397256 0 14400 -1191397256
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:28
+    TimerBoxGtkView::set_time_bar 2 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:28
+    TimerBoxGtkView::set_time_bar 2 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1454 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1510 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 3
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397257 1191397284 30 27
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397257 0 2700 -1191397257
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397257 0 14400 -1191397257
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:27
+    TimerBoxGtkView::set_time_bar 3 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:27
+    TimerBoxGtkView::set_time_bar 3 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1597 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1669 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 4
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397258 1191397284 30 26
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397258 0 2700 -1191397258
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397258 0 14400 -1191397258
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:26
+    TimerBoxGtkView::set_time_bar 4 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:26
+    TimerBoxGtkView::set_time_bar 4 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1441 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1501 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 5
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397259 1191397284 30 25
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397259 0 2700 -1191397259
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397259 0 14400 -1191397259
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:25
+    TimerBoxGtkView::set_time_bar 5 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:25
+    TimerBoxGtkView::set_time_bar 5 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1437 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1519 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 6
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397260 1191397284 30 24
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397260 0 2700 -1191397260
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397260 0 14400 -1191397260
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+>>> Statistics::update
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.2207 5 0
+<<< ActivityMonitor::get_current_state4
+<<< Statistics::update
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:24
+    TimerBoxGtkView::set_time_bar 6 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:24
+    TimerBoxGtkView::set_time_bar 6 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1427 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1488 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 7
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397261 1191397284 30 23
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397261 0 2700 -1191397261
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397261 0 14400 -1191397261
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:23
+    TimerBoxGtkView::set_time_bar 7 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:23
+    TimerBoxGtkView::set_time_bar 7 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1423 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1481 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 8
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397262 1191397284 30 22
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397262 0 2700 -1191397262
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397262 0 14400 -1191397262
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:22
+    TimerBoxGtkView::set_time_bar 8 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:22
+    TimerBoxGtkView::set_time_bar 8 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1579 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1702 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 9
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397263 1191397284 30 21
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397263 0 2700 -1191397263
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397263 0 14400 -1191397263
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:21
+    TimerBoxGtkView::set_time_bar 9 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:21
+    TimerBoxGtkView::set_time_bar 9 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1413 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1497 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 10
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397264 1191397284 30 20
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397264 0 2700 -1191397264
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397264 0 14400 -1191397264
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:20
+    TimerBoxGtkView::set_time_bar 10 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:20
+    TimerBoxGtkView::set_time_bar 10 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1406 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1467 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 11
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397265 1191397284 30 19
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397265 0 2700 -1191397265
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397265 0 14400 -1191397265
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:19
+    TimerBoxGtkView::set_time_bar 11 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:19
+    TimerBoxGtkView::set_time_bar 11 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1398 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1458 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 12
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397266 1191397284 30 18
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397266 0 2700 -1191397266
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397266 0 14400 -1191397266
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:18
+    TimerBoxGtkView::set_time_bar 12 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:18
+    TimerBoxGtkView::set_time_bar 12 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.273403 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.273462 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 13
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397267 1191397284 30 17
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397267 0 2700 -1191397267
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397267 0 14400 -1191397267
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:17
+    TimerBoxGtkView::set_time_bar 13 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:17
+    TimerBoxGtkView::set_time_bar 13 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1501 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1556 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 14
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397268 1191397284 30 16
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397268 0 2700 -1191397268
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397268 0 14400 -1191397268
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:16
+    TimerBoxGtkView::set_time_bar 14 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:16
+    TimerBoxGtkView::set_time_bar 14 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1376 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1431 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 15
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397269 1191397284 30 15
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397269 0 2700 -1191397269
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397269 0 14400 -1191397269
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:15
+    TimerBoxGtkView::set_time_bar 15 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:15
+    TimerBoxGtkView::set_time_bar 15 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1371 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1426 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 16
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397270 1191397284 30 14
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397270 0 2700 -1191397270
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397270 0 14400 -1191397270
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:14
+    TimerBoxGtkView::set_time_bar 16 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:14
+    TimerBoxGtkView::set_time_bar 16 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1363 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1418 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 17
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397271 1191397284 30 13
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397271 0 2700 -1191397271
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397271 0 14400 -1191397271
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:13
+    TimerBoxGtkView::set_time_bar 17 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:13
+    TimerBoxGtkView::set_time_bar 17 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.9359 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.9415 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 18
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397272 1191397284 30 12
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397272 0 2700 -1191397272
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397272 0 14400 -1191397272
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:12
+    TimerBoxGtkView::set_time_bar 18 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:12
+    TimerBoxGtkView::set_time_bar 18 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1507 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1576 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 19
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397273 1191397284 30 11
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397273 0 2700 -1191397273
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397273 0 14400 -1191397273
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:11
+    TimerBoxGtkView::set_time_bar 19 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:11
+    TimerBoxGtkView::set_time_bar 19 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1345 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1400 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 20
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397274 1191397284 30 10
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397274 0 2700 -1191397274
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397274 0 14400 -1191397274
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:10
+    TimerBoxGtkView::set_time_bar 20 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:10
+    TimerBoxGtkView::set_time_bar 20 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1336 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1393 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 21
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397275 1191397284 30 9
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397275 0 2700 -1191397275
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397275 0 14400 -1191397275
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:09
+    TimerBoxGtkView::set_time_bar 21 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:09
+    TimerBoxGtkView::set_time_bar 21 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1330 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1386 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 22
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397276 1191397284 30 8
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397276 0 2700 -1191397276
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397276 0 14400 -1191397276
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:08
+    TimerBoxGtkView::set_time_bar 22 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:08
+    TimerBoxGtkView::set_time_bar 22 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1329 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1385 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 23
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397277 1191397284 30 7
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397277 0 2700 -1191397277
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397277 0 14400 -1191397277
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:07
+    TimerBoxGtkView::set_time_bar 23 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:07
+    TimerBoxGtkView::set_time_bar 23 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1497 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1558 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 24
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397278 1191397284 30 6
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397278 0 2700 -1191397278
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397278 0 14400 -1191397278
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:06
+    TimerBoxGtkView::set_time_bar 24 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:06
+    TimerBoxGtkView::set_time_bar 24 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1314 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1397 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 25
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397279 1191397284 30 5
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397279 0 2700 -1191397279
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397279 0 14400 -1191397279
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:05
+    TimerBoxGtkView::set_time_bar 25 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:05
+    TimerBoxGtkView::set_time_bar 25 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1327 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1386 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 26
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397280 1191397284 30 4
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397280 0 2700 -1191397280
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397280 0 14400 -1191397280
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:04
+    TimerBoxGtkView::set_time_bar 26 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:04
+    TimerBoxGtkView::set_time_bar 26 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1303 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1363 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 27
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397281 1191397284 30 3
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397281 0 2700 -1191397281
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397281 0 14400 -1191397281
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:03
+    TimerBoxGtkView::set_time_bar 27 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:03
+    TimerBoxGtkView::set_time_bar 27 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1310 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1369 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 28
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397282 1191397284 30 2
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397282 0 2700 -1191397282
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397282 0 14400 -1191397282
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:02
+    TimerBoxGtkView::set_time_bar 28 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:02
+    TimerBoxGtkView::set_time_bar 28 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1408 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1464 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 29
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397283 1191397284 30 1
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397283 0 2700 -1191397283
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397283 0 14400 -1191397283
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:01
+    TimerBoxGtkView::set_time_bar 29 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:01
+    TimerBoxGtkView::set_time_bar 29 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1285 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1346 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 30
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397284 1191397284 30 0
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397284 0 2700 -1191397284
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397284 0 14400 -1191397284
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:00
+    TimerBoxGtkView::set_time_bar 30 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar 0:00
+    TimerBoxGtkView::set_time_bar 30 30 0
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1290 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1345 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 31
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397285 1191397434 30 149
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397285 0 2700 -1191397285
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397285 0 14400 -1191397285
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:01
+    TimerBoxGtkView::set_time_bar 31 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:01
+    TimerBoxGtkView::set_time_bar 31 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1269 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1325 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 32
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397286 1191397434 30 148
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397286 0 2700 -1191397286
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397286 0 14400 -1191397286
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:02
+    TimerBoxGtkView::set_time_bar 32 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:02
+    TimerBoxGtkView::set_time_bar 32 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1209 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1265 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 33
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397287 1191397434 30 147
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397287 0 2700 -1191397287
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397287 0 14400 -1191397287
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:03
+    TimerBoxGtkView::set_time_bar 33 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:03
+    TimerBoxGtkView::set_time_bar 33 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.609443 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.609501 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 34
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397288 1191397434 30 146
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397288 0 2700 -1191397288
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397288 0 14400 -1191397288
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:04
+    TimerBoxGtkView::set_time_bar 34 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:04
+    TimerBoxGtkView::set_time_bar 34 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1254 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1315 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 35
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397289 1191397434 30 145
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397289 0 2700 -1191397289
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397289 0 14400 -1191397289
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:05
+    TimerBoxGtkView::set_time_bar 35 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:05
+    TimerBoxGtkView::set_time_bar 35 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1247 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1309 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 36
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397290 1191397434 30 144
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397290 0 2700 -1191397290
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397290 0 14400 -1191397290
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:06
+    TimerBoxGtkView::set_time_bar 36 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxControl::init_table
+<<< TimerBoxControl::init_table
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:06
+    TimerBoxGtkView::set_time_bar 36 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1255 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1316 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 37
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397291 1191397434 30 143
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397291 0 2700 -1191397291
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397291 0 14400 -1191397291
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:07
+    TimerBoxGtkView::set_time_bar 37 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:07
+    TimerBoxGtkView::set_time_bar 37 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1240 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1300 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 38
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397292 1191397434 30 142
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397292 0 2700 -1191397292
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397292 0 14400 -1191397292
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:08
+    TimerBoxGtkView::set_time_bar 38 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:08
+    TimerBoxGtkView::set_time_bar 38 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1338 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.1399 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 39
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397293 1191397434 30 141
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397293 0 2700 -1191397293
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397293 0 14400 -1191397293
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:09
+    TimerBoxGtkView::set_time_bar 39 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:09
+    TimerBoxGtkView::set_time_bar 39 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.209283 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.209341 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 40
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397294 1191397434 30 140
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397294 0 2700 -1191397294
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397294 0 14400 -1191397294
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:10
+    TimerBoxGtkView::set_time_bar 40 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:10
+    TimerBoxGtkView::set_time_bar 40 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 1.209329 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 1.209388 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 41
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397295 1191397434 30 139
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397295 0 2700 -1191397295
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397295 0 14400 -1191397295
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:11
+    TimerBoxGtkView::set_time_bar 41 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:11
+    TimerBoxGtkView::set_time_bar 41 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Core::heartbeat
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.161218 5 0
+<<< ActivityMonitor::get_current_state4
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.161280 5 0
+<<< ActivityMonitor::get_current_state4
+>>> IdleLogManager::update_all_idlelogs  4
+>>> IdleLogManager::update_idlelog 4 1
+<<< IdleLogManager::update_idlelog
+<<< IdleLogManager::update_all_idlelogs
+>>> Core::process_timewarp
+<<< Core::process_timewarp
+>>> Core::process_timers
+>>> Timer::enable micro_pause1
+<<< Timer::enable
+>>> Timer::Process micro_pausemicro_pause 4
+    Timer::Process idle = 0
+    Timer::Process elap = 42
+    Timer::Process enabled = 1
+    Timer::Process last_start_time 1191397254
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397296 1191397434 30 138
+    Timer::Process activity_state = 4
+>>> Timer::disable rest_break0
+<<< Timer::disable
+>>> Timer::Process rest_breakrest_break 4
+    Timer::Process idle = 600
+    Timer::Process elap = 246
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397296 0 2700 -1191397296
+    Timer::Process activity_state = 4
+>>> Timer::disable daily_limit0
+<<< Timer::disable
+>>> Timer::Process daily_limitdaily_limit 4
+    Timer::Process idle = 0
+    Timer::Process elap = 0
+    Timer::Process enabled = 0
+    Timer::Process last_start_time 0
+    Timer::Process is activity sensitive
+    Timer::Process time, next limit 1191397296 0 14400 -1191397296
+    Timer::Process activity_state = 4
+<<< Core::process_timers
+<<< Core::heartbeat
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:12
+    TimerBoxGtkView::set_time_bar 42 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> AppletControl::heartbeat
+>>> AppletWindow::update_applet
+>>> TimerBoxGtkView::set_time_bar 0
+    TimerBoxGtkView::set_time_bar -0:12
+    TimerBoxGtkView::set_time_bar 42 30 2
+    TimerBoxGtkView::set_time_bar 0 20 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 1
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+>>> TimerBoxGtkView::set_time_bar 2
+    TimerBoxGtkView::set_time_bar Wait
+    TimerBoxGtkView::set_time_bar 0 60 1
+    TimerBoxGtkView::set_time_bar 0 0 1
+<<< TimerBoxGtkView::set_time_bar
+<<< AppletWindow::update_applet
+<<< AppletControl::heartbeat
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+>>> Menus::on_menu_quit
+>>> GUI::terminate
+>>> GUI::collect_garbage
+<<< GUI::collect_garbage
+<<< GUI::terminate
+<<< Menus::on_menu_quit
+>>> MainWindow::~MainWindow
+<<< MainWindow::~MainWindow
+>>> TimerBoxGtkView::~TimerBoxGtkView
+<<< TimerBoxGtkView::~TimerBoxGtkView
+>>> X11SystrayAppletWindow::destroy_applet
+>>> X11SystrayAppletWindow::notify_callback
+<<< X11SystrayAppletWindow::notify_callback
+>>> TimerBoxGtkView::~TimerBoxGtkView
+<<< TimerBoxGtkView::~TimerBoxGtkView
+>>> AppletControl::check_visible
+<<< AppletControl::check_visible
+<<< X11SystrayAppletWindow::destroy_applet
+>>> GnomeAppletWindow::deactivate_applet
+<<< GnomeAppletWindow::deactivate_applet
+<<< GUI::main
+>>> GUI:~GUI
+>>> Core::~Core
+>>> ActivityMonitor::terminate
+>>> X11InputMonitor::terminate
+>>> X11InputMonitor::stop_xrecord
+<<< X11InputMonitor::run_xrecord
+<<< X11InputMonitor::run
+<<< X11InputMonitor::stop_xrecord
+<<< X11InputMonitor::terminate
+<<< ActivityMonitor::terminate
+>>> Statistics::update
+>>> ActivityMonitor::get_current_state 4
+    ActivityMonitor::get_current_state Active: 0.15738 5 0
+<<< ActivityMonitor::get_current_state4
+<<< Statistics::update
+>>> ActivityMonitor::~ActivityMonitor
+>>> X11InputMonitor::~X11InputMonitor
+<<< X11InputMonitor::~X11InputMonitor
+<<< ActivityMonitor::~ActivityMonitor
+>>> IdleLogManager::save_index()
+    IdleLogManager::save_index() Saving  
+<<< IdleLogManager::save_index()
+<<< Core::~Core
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Break:~Break
+>>> GUI::hide_break_window
+<<< GUI::hide_break_window
+<<< Break:~Break
+>>> Menus::~Menus
+<<< Menus::~Menus
+>>> GnomeSoundPlayer::~GnomeSoundPlayer
+<<< GnomeSoundPlayer::~GnomeSoundPlayer
+<<< GUI:~GUI

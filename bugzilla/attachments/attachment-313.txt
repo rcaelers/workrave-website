@@ -1,0 +1,249 @@
+Crash log created on 05/02/2016 at 15:49:58.
+
+version = 1.10
+compile date = Jan 13 2013
+compile time = 11:29:23
+features = DISTRIBUTION EXERCISES 
+locale = English
+
+
+code = c0000005
+flags = 0
+address = 6c3475ed
+params = 2
+D:\Program Files (x86)\Workrave\lib\Workrave.exe caused an Access Violation at location 6c3475ed reading from location 00000000
+
+Registers:
+
+eax=00000000 ebx=02699420 ecx=00000000 edx=00021e95 esi=0881e108 edi=0881e068
+eip=6c3475ed esp=0028f870 ebp=0028f878 iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+Stack trace:
+
+PC        Frame     Ret
+6C3475ED  0028F878  6C35F9FB
+6C35F9FB  0028F8E8  00ACA3AF
+00ACA3AF  0028F948  6C364191
+6C364191  0028F9E8  6C364145
+6C364145  0028FA88  6C35F66A
+6C35F66A  0028FAF8  6C36144B
+6C36144B  0028FB38  6C3614BB
+6C3614BB  0028FB48  6C34137C
+6C34137C  0028FB78  685EB663
+685EB663  0028FBF8  685EBE09
+685EBE09  0028FC78  685EC299
+685EC299  0028FCA8  00AC91C4
+00AC91C4  0028FD08  004EAF60
+004EAF60  0028FDE8  004420B6
+004420B6  0028FE68  00442179
+00442179  0028FE98  0075C0AD
+0075C0AD  0028FEB8  004013EA
+004013EA  0028FF88  75BC336A
+75BC336A  0028FF94  772D9882
+772D9882  0028FFD4  772D9855
+772D9855  0028FFEC  00000000
+ D:\Program Files (x86)\Workrave\lib\Workrave.exe handle: 00000000 date: 2013-01-13 10:31:16
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\breaks
+
+key = Software\Workrave\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\general
+  value = operation-mode
+  string data = 0
+
+key = Software\Workrave\gui
+  value = trayicon_enabled
+  string data = 1
+  value = closewarn_enabled
+  string data = 1
+  value = locale
+  string data = 
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 1
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+  value = auto_natural
+  string data = 0
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+  value = auto_natural
+  string data = 0
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 3
+  value = auto_natural
+  string data = 1
+  value = skippable_break
+  string data = 1
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = 256
+  value = y
+  string data = 256
+  value = head
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+  value = always_on_top
+  string data = 1
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+
+key = Software\Workrave\sound
+  value = volume
+  string data = 100
+  value = enabled
+  string data = 1
+  value = device
+  string data = soundcard
+
+key = Software\Workrave\sound\events
+  value = break_prelude_enabled
+  string data = 1
+  value = break_prelude
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\break-prelude.wav
+  value = break_ignored_enabled
+  string data = 1
+  value = break_ignored
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\break-ignored.wav
+  value = rest_break_started_enabled
+  string data = 1
+  value = rest_break_started
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\rest-break-started.wav
+  value = rest_break_ended_enabled
+  string data = 1
+  value = rest_break_ended
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\rest-break-ended.wav
+  value = micro_break_started_enabled
+  string data = 1
+  value = micro_break_started
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\micro-break-started.wav
+  value = micro_break_ended_enabled
+  string data = 1
+  value = micro_break_ended
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\micro-break-ended.wav
+  value = daily_limit_enabled
+  string data = 1
+  value = daily_limit
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\daily-limit.wav
+  value = exercise_ended_enabled
+  string data = 1
+  value = exercise_ended
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\exercise-ended.wav
+  value = exercises_ended_enabled
+  string data = 1
+  value = exercises_ended
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\exercises-ended.wav
+  value = exercise_step
+  string data = D:\Program Files (x86)\Workrave\share\sounds\default\exercise-step.wav
+  value = exercise_step_enabled
+  string data = 1
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 36000
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 900
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3420
+  value = auto_reset
+  string data = 180
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 300
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+

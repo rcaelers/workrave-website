@@ -1,0 +1,293 @@
+Crash log created on 09/01/2013 at 09:56:17.
+
+version = 1.9.2
+compile date = Aug 29 2010
+compile time = 10:09:35
+features = DISTRIBUTION EXERCISES GNET GNET2 
+locale = English
+
+
+code = c0000005
+flags = 0
+address = 29e5ade
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at location 029e5ade reading from location ffffffff
+
+Registers:
+
+eax=019cb7a8 ebx=03d3fdf4 ecx=474e5543 edx=432b2b00 esi=00000008 edi=0199ba48
+eip=029e5ade esp=03d3fdb8 ebp=03d3fe08 iopl=0         nv up ei pl nz na pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010202
+
+Stack trace:
+
+PC        Frame     Ret
+029E5ADE  03D3FE08  006B74C7
+006B74C7  03D3FE28  004648A2
+004648A2  03D3FF18  004650CE
+004650CE  03D3FF88  76FBED6C
+76FBED6C  03D3FF94  7769377B
+7769377B  03D3FFD4  7769374E
+7769374E  03D3FFEC  00000000
+ C:\Program Files\Workrave\lib\Workrave.exe handle: 0x400000 date: 2010-08-29 14:11:36
+ C:\windows\SYSTEM32\ntdll.dll handle: 0x77630000 date: 2011-11-17 05:38:39
+ C:\windows\system32\kernel32.dll handle: 0x76f70000 date: 2012-04-04 09:38:07
+ C:\windows\system32\KERNELBASE.dll handle: 0x75a30000 date: 2012-04-04 09:38:07
+ C:\windows\system32\ADVAPI32.DLL handle: 0x77590000 date: 2010-11-20 08:18:04
+ C:\windows\system32\msvcrt.dll handle: 0x76b10000 date: 2011-12-16 07:52:58
+ C:\windows\SYSTEM32\sechost.dll handle: 0x77770000 date: 2009-07-14 01:16:13
+ C:\windows\system32\RPCRT4.dll handle: 0x77050000 date: 2010-11-20 08:21:04
+ C:\windows\system32\GDI32.dll handle: 0x76e50000 date: 2010-11-20 08:19:06
+ C:\windows\system32\USER32.dll handle: 0x77300000 date: 2010-11-20 08:21:34
+ C:\windows\system32\LPK.dll handle: 0x777c0000 date: 2009-07-14 01:15:36
+ C:\windows\system32\USP10.dll handle: 0x774f0000 date: 2010-11-20 08:21:34
+ C:\windows\system32\OLE32.dll handle: 0x75a80000 date: 2010-11-20 08:20:50
+ C:\windows\system32\SHELL32.DLL handle: 0x75ce0000 date: 2012-06-09 04:24:45
+ C:\windows\system32\SHLWAPI.dll handle: 0x76d60000 date: 2010-11-20 08:21:20
+ C:\windows\system32\WINMM.DLL handle: 0x73040000 date: 2010-11-20 08:21:38
+ C:\windows\system32\wtsapi32.dll handle: 0x74380000 date: 2010-11-20 08:21:40
+ C:\Program Files\Workrave\lib\libatk-1.0-0.dll handle: 0x62940000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libglib-2.0-0.dll handle: 0x685c0000 date: 2010-08-29 14:09:06
+ C:\windows\system32\WS2_32.DLL handle: 0x76930000 date: 2010-11-20 08:21:40
+ C:\windows\system32\NSI.dll handle: 0x77850000 date: 2009-07-14 01:16:11
+ C:\Program Files\Workrave\lib\libgobject-2.0-0.dll handle: 0x63a40000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libcairo-2.dll handle: 0x68dc0000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libfontconfig-1.dll handle: 0x64f80000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libexpat-1.dll handle: 0x68f40000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\freetype6.dll handle: 0x63cc0000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libpng14-14.dll handle: 0x61a00000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\zlib1.dll handle: 0x10000000 date: 2004-10-05 06:08:00
+ C:\windows\system32\MSIMG32.DLL handle: 0x6a680000 date: 2009-07-14 01:15:44
+ C:\windows\system32\dsound.dll handle: 0x673d0000 date: 2009-07-14 01:15:13
+ C:\windows\system32\POWRPROF.dll handle: 0x74950000 date: 2009-07-14 01:16:12
+ C:\windows\system32\SETUPAPI.dll handle: 0x76970000 date: 2010-11-20 08:21:16
+ C:\windows\system32\CFGMGR32.dll handle: 0x75800000 date: 2012-04-04 09:37:25
+ C:\windows\system32\OLEAUT32.dll handle: 0x77460000 date: 2012-04-04 09:38:01
+ C:\windows\system32\DEVOBJ.dll handle: 0x75950000 date: 2009-07-14 01:15:11
+ C:\Program Files\Workrave\lib\libgdk-win32-2.0-0.dll handle: 0x6c340000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libgdk_pixbuf-2.0-0.dll handle: 0x65340000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libgio-2.0-0.dll handle: 0x6d580000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libgmodule-2.0-0.dll handle: 0x6dd00000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libpango-1.0-0.dll handle: 0x65580000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libpangocairo-1.0-0.dll handle: 0x6d4c0000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libpangowin32-1.0-0.dll handle: 0x6b280000 date: 2010-08-29 14:09:06
+ C:\windows\system32\IMM32.DLL handle: 0x77830000 date: 2010-11-20 08:19:24
+ C:\windows\system32\MSCTF.dll handle: 0x76ea0000 date: 2009-07-14 01:15:43
+ C:\Program Files\Workrave\lib\gnet-2.0.dll handle: 0x6bf80000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libgthread-2.0-0.dll handle: 0x65c40000 date: 2010-08-29 14:09:06
+ C:\Program Files\Workrave\lib\libgtk-win32-2.0-0.dll handle: 0x790000 date: 2010-08-29 14:09:06
+ C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\COMCTL32.DLL handle: 0x737b0000 date: 2010-11-20 08:18:24
+ C:\windows\system32\COMDLG32.DLL handle: 0x76dc0000 date: 2010-11-20 08:18:24
+ C:\windows\system32\WINSPOOL.DRV handle: 0x728a0000 date: 2010-11-20 08:16:52
+ C:\Program Files\Workrave\lib\intl.dll handle: 0x69000000 date: 2008-01-25 04:54:48
+ C:\Program Files\Workrave\lib\harpoon.dll handle: 0x3c0000 date: 2010-04-23 23:38:28
+ C:\PROGRA~1\Avecto\PRIVIL~1\PGHook.dll handle: 0x75740000 date: 2012-05-29 15:31:02
+ C:\windows\system32\PSAPI.DLL handle: 0x76bc0000 date: 2009-07-14 01:16:12
+ C:\windows\system32\dbghelp.dll handle: 0x755f0000 date: 2010-11-20 08:18:28
+ C:\windows\system32\CRYPTBASE.dll handle: 0x755d0000 date: 2009-07-14 01:15:07
+ C:\windows\system32\uxtheme.dll handle: 0x73300000 date: 2009-07-14 01:16:17
+ C:\windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b\gdiplus.dll handle: 0x73170000 date: 2012-04-21 04:21:01
+ C:\windows\system32\SspiCli.dll handle: 0x75500000 date: 2011-11-17 05:34:55
+ C:\windows\system32\dwmapi.dll handle: 0x72f90000 date: 2009-07-14 01:15:13
+ C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll handle: 0x743b0000 date: 2010-11-20 07:55:10
+ C:\windows\system32\CLBCatQ.DLL handle: 0x773d0000 date: 2009-07-14 01:15:03
+ C:\windows\system32\propsys.dll handle: 0x74810000 date: 2010-11-20 08:20:58
+ C:\windows\system32\ntmarta.dll handle: 0x74a00000 date: 2009-07-14 01:16:11
+ C:\windows\system32\WLDAP32.dll handle: 0x76d10000 date: 2010-11-20 08:21:38
+ C:\windows\system32\CRYPTSP.dll handle: 0x75560000 date: 2009-07-14 01:15:07
+ C:\windows\system32\rsaenh.dll handle: 0x75520000 date: 2009-07-14 01:17:54
+ C:\windows\System32\MMDevApi.dll handle: 0x74910000 date: 2010-11-20 08:19:40
+ C:\windows\system32\AUDIOSES.DLL handle: 0x72f00000 date: 2010-11-20 08:18:06
+ C:\Program Files\Workrave\lib\gtk-2.0\2.10.0\engines\libwimp.dll handle: 0x62d40000 date: 2010-08-29 14:09:06
+ C:\windows\system32\mscms.dll handle: 0x674c0000 date: 2010-11-20 08:19:46
+ C:\windows\system32\USERENV.dll handle: 0x74ca0000 date: 2010-11-20 08:21:34
+ C:\windows\system32\profapi.dll handle: 0x75780000 date: 2009-07-14 01:16:12
+ C:\windows\system32\icm32.dll handle: 0x67450000 date: 2009-07-14 01:15:27
+ C:\windows\system32\WINSTA.dll handle: 0x74d40000 date: 2010-11-20 08:21:38
+ C:\windows\system32\apphelp.dll handle: 0x75580000 date: 2010-11-20 08:18:04
+ C:\windows\system32\NetworkExplorer.dll handle: 0x646b0000 date: 2010-11-20 08:20:30
+ C:\windows\system32\MPR.dll handle: 0x71df0000 date: 2009-07-14 01:15:41
+ C:\windows\System32\drprov.dll handle: 0x6a7f0000 date: 2009-07-14 01:15:13
+ C:\windows\System32\ntlanman.dll handle: 0x6a7a0000 date: 2010-11-20 08:20:48
+ C:\windows\System32\davclnt.dll handle: 0x6a700000 date: 2011-11-23 05:17:55
+ C:\windows\System32\DAVHLPR.dll handle: 0x6a2f0000 date: 2009-07-14 01:15:08
+ C:\windows\system32\netutils.dll handle: 0x74fb0000 date: 2010-11-20 08:20:30
+ C:\windows\system32\cscapi.dll handle: 0x6bb20000 date: 2010-11-20 08:18:26
+ C:\Program Files\ThinkPad\Bluetooth Software\btmmhook.dll handle: 0x2d90000 date: 2011-10-17 13:49:24
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\breaks
+
+key = Software\Workrave\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+  value = locale
+  string data = en
+  value = trayicon_enabled
+  string data = 1
+  value = operation-mode
+  string data = 0
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 0
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = ignorable_break
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+  value = x
+  string data = -449
+  value = y
+  string data = 208
+  value = head
+  string data = 0
+
+key = Software\Workrave\sound
+  value = volume
+  string data = 88
+  value = enabled
+  string data = 1
+  value = device
+  string data = soundcard
+
+key = Software\Workrave\sound\events
+  value = break_prelude
+  string data = C:\Program Files\Workrave\share\sounds\subtle\break-prelude.wav
+  value = break_ignored
+  string data = C:\Program Files\Workrave\share\sounds\subtle\break-ignored.wav
+  value = rest_break_started
+  string data = C:\Program Files\Workrave\share\sounds\subtle\rest-break-started.wav
+  value = rest_break_ended
+  string data = C:\Program Files\Workrave\share\sounds\subtle\rest-break-ended.wav
+  value = micro_break_started
+  string data = C:\Program Files\Workrave\share\sounds\subtle\micro-break-started.wav
+  value = micro_break_ended
+  string data = C:\Program Files\Workrave\share\sounds\subtle\micro-break-ended.wav
+  value = daily_limit
+  string data = C:\Program Files\Workrave\share\sounds\subtle\daily-limit.wav
+  value = exercise_ended
+  string data = C:\Program Files\Workrave\share\sounds\subtle\exercise-ended.wav
+  value = exercises_ended
+  string data = C:\Program Files\Workrave\share\sounds\subtle\exercises-ended.wav
+  value = exercise_step
+  string data = C:\Program Files\Workrave\share\sounds\subtle\exercise-step.wav
+  value = break_prelude_enabled
+  string data = 1
+  value = break_ignored_enabled
+  string data = 1
+  value = rest_break_started_enabled
+  string data = 1
+  value = rest_break_ended_enabled
+  string data = 1
+  value = micro_break_started_enabled
+  string data = 1
+  value = micro_break_ended_enabled
+  string data = 1
+  value = daily_limit_enabled
+  string data = 1
+  value = exercise_ended_enabled
+  string data = 1
+  value = exercises_ended_enabled
+  string data = 1
+  value = exercise_step_enabled
+  string data = 1
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 1800
+  value = auto_reset
+  string data = 30
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3600
+  value = auto_reset
+  string data = 300
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = monitor
+  string data = 
+  value = activity_sensitive
+  string data = 1
+

@@ -1,0 +1,475 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/460/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;460 - Crash on micro-break or rest break end.</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI :: gtkmm</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC All</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P2 critical</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Jul 3 2005 01:08:25 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>PED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Jul 20 2005 15:40:41 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Bart Golsteijn</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Jay Jennings</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Paul Wagenaars</div></div><div class=row><div class="col-4 text-right font-weight-bold"></div><div class=col-8>Dusty Wilson</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>PED</th><td rowspan=1>Jul 3 2005 01:09:05 UTC</td><td>severity</td><td>normal</td><td>critical</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Jul 4 2005 18:57:50 UTC</td><td>status</td><td>NEW</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=5>Rob Caelers</th><td rowspan=5>Jul 4 2005 21:53:15 UTC</td><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr><tr><td>component</td><td>Build-Env</td><td>GUI :: gtkmm</td></tr><tr><td>op_sys</td><td>Windows 2000</td><td>All</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><td>version</td><td>unspecified</td><td>1.8.0</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Jul 19 2005 14:44:24 UTC</td><td>cc</td><td></td><td>Bart Golsteijn</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Jul 19 2005 14:52:07 UTC</td><td>cc</td><td></td><td>Dusty Wilson</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Jul 19 2005 14:54:24 UTC</td><td>cc</td><td></td><td>Jay Jennings</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Jul 20 2005 15:40:41 UTC</td><td>cc</td><td></td><td>Paul Wagenaars</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>PED&nbsp;&nbsp;Jul 3 2005 01:08:25 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>It crashes whenever a micro-break ends, and if I start a rest break and then
+close the exercises window.
+
+Does it every time.
+
+Here&#39;s the log:
+
+Crash log created on 02/07/2005 at 19:04:51.
+
+version = 1.8.0
+compile date = Jun 30 2005
+compile time = 02:09:40
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 54a8e8
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at
+location 0054a8e8 reading from location 0000002c
+
+Registers:
+
+eax=0000002c ebx=0000002c ecx=01328500 edx=01328510 esi=00000000 edi=00000000
+eip=0054a8e8 esp=0022f38c ebp=0022f394 iopl=0         nv up ei pl nz ac pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=0038  gs=0000             efl=00010212
+
+Stack trace:
+
+PC        Frame     Ret
+0054A8E8  0022F394  0054A91D
+0054A91D  0022F3A4  00417745
+00417745  0022F3F8  004022DB
+004022DB  0022F40C  004037C9
+004037C9  0022F420  0043370D
+0043370D  0022F438  00433A6F
+00433A6F  0022F44C  00433A46
+00433A46  0022F460  00433AED
+00433AED  0022F474  00429A91
+00429A91  0022F490  00402199
+00402199  0022F4A0  0040217B
+0040217B  0022F4AC  0044C4D7
+0044C4D7  0022F4DC  00A52D2B
+00A52D2B  0022F51C  007D3E7F
+007D3E7F  0022F54C  007D3B62
+007D3B62  0022F58C  007E8062
+007E8062  0022F63C  007E74FC
+007E74FC  0022F8BC  007E7708
+007E7708  0022F8DC  00B7473E
+00B7473E  0022F90C  00B74209
+00B74209  0022F93C  00A4F94E
+00A4F94E  0022F97C  0084C04F
+0084C04F  0022F99C  00347738
+00347738  0022F9EC  00348391
+00348391  0022F9FC  00348692
+00348692  0022FA3C  00348D07
+00348D07  0022FA7C  00A4F1AD
+00A4F1AD  0022FA9C  00466F57
+00466F57  0022FAAC  00466D96
+00466D96  0022FABC  00402C55
+00402C55  0022FAE0  0041E30A
+0041E30A  0022FAF4  0041E360
+0041E360  0022FEF8  00558FDA
+00558FDA  0022FF78  004011E7
+004011E7  0022FFB0  00401258
+00401258  0022FFC0  7C59893D
+7C59893D  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 0
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 0
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 0
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 0
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+  value = x
+  string data = 4
+  value = y
+  string data = -79
+  value = head
+  string data = 0
+  value = always_on_top
+  string data = 0
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\sound
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 240
+  value = auto_reset
+  string data = 13
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3000
+  value = auto_reset
+  string data = 480
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 300
+  value = activity_sensitive
+  string data = 1</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Paul Wagenaars&nbsp;&nbsp;Jul 4 2005 16:41:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Same for me. I just installed 1.8.0. Workrave crashes at the end or during a
+microbreak.
+
+Crash log created on 04/07/2005 at 16:34:56.
+
+version = 1.8.0
+compile date = Jun 30 2005
+compile time = 02:09:40
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000005
+flags = 0
+address = 505e71
+params = 2
+C:\Program Files\Workrave\lib\Workrave.exe caused an Access Violation at
+location 00505e71 reading from location 00000018
+
+Registers:
+
+eax=00000018 ebx=00000000 ecx=00000017 edx=0022f818 esi=00000018 edi=0022f868
+eip=00505e71 esp=0022f7ec ebp=0022f7f0 iopl=0         nv up ei pl nz ac pe nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00210212
+
+Stack trace:
+
+PC        Frame     Ret
+00505E71  0022F7F0  00505DF1
+00505DF1  0022F830  004175C0
+004175C0  0022F848  00409D9A
+00409D9A  0022F8B4  0040A185
+0040A185  0022F8C8  00403828
+00403828  0022F8DC  004336C9
+004336C9  0022F8F4  00429C87
+00429C87  0022F910  00402D20
+00402D20  0022F920  00572DCF
+00572DCF  0022F930  0056C9E3
+0056C9E3  0022F93C  0057330A
+0057330A  0022F94C  0053F467
+0053F467  0022F96C  00749913
+00749913  0022F99C  00747738
+00747738  0022F9EC  00748391
+00748391  0022F9FC  00748692
+00748692  0022FA3C  00748D07
+00748D07  0022FA7C  00AEF1AD
+00AEF1AD  0022FA9C  00466F57
+00466F57  0022FAAC  00466D96
+00466D96  0022FABC  00402C55
+00402C55  0022FAE0  0041E30A
+0041E30A  0022FAF4  0041E360
+0041E360  0022FEF8  00558FDA
+00558FDA  0022FF78  004011E7
+004011E7  0022FFB0  00401258
+00401258  0022FFC0  7C816D4F
+7C816D4F  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\rest_break
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+  value = block_mode
+  string data = 0
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 0
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+  value = x
+  string data = 258
+  value = y
+  string data = 253
+  value = head
+  string data = 0
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\sound
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 180
+  value = auto_reset
+  string data = 20
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 1200
+  value = auto_reset
+  string data = 600
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 1
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 4 2005 18:57:50 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I haven&#39;t been able to reproduce this bug yet. The crash seems to be related to
+frame flashing (a new 1.8.0) feature. Do you see a flashing border around the
+windows before crashing?
+
+PC        Frame     Ret
+0054A8E8  0022F394  0054A91D sigc::connection::empty() const
+0054A91D  0022F3A4  00417745 sigc::connection::connected() const
+00417745  0022F3F8  004022DB Frame::set_frame_flashing(int)
+004022DB  0022F40C  004037C9 BreakWindow::stop()
+004037C9  0022F420  0043370D GUI::hide_break_window()
+0043370D  0022F438  00433A6F BreakControl::goto_stage(BreakControl::BreakStage)
+00433A6F  0022F44C  00433A46 BreakControl::suspend_break()
+00433A46  0022F460  00433AED BreakControl::stop_break(bool)
+00433AED  0022F474  00429A91 BreakControl::postpone_break()
+00429A91  0022F490  00402199 Core::postpone_break(BreakId)
+00402199  0022F4A0  0040217B BreakWindow::on_postpone_button_clicked()
+0040217B  0022F4AC  0044C4D7 BreakWindow::on_delete_event(_GdkEventAny*)
+0044C4D7  0022F4DC  00A52D2B
+Gtk::Widget_Class::delete_event_callback(_GtkWidget*, _GdkEventAny*)
+
+PC        Frame     Ret
+00505E71  0022F7F0  00505DF1 Gdk::Color::swap(Gdk::Color&amp;)
+00505DF1  0022F830  004175C0 Gdk::Color::operator=(Gdk::Color const&amp;)
+004175C0  0022F848  00409D9A Frame::set_frame_color(Gdk::Color const&amp;)
+00409D9A  0022F8B4  0040A185 MicroBreakWindow::refresh_time_bar()
+0040A185  0022F8C8  00403828 MicroBreakWindow::refresh()
+00403828  0022F8DC  004336C9 GUI::refresh_break_window()
+004336C9  0022F8F4  00429C87 BreakControl::heartbeat()
+00429C87  0022F910  00402D20 Core::heartbeat()
+00402D20  0022F920  00572DCF GUI::on_timer()
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Paul Wagenaars&nbsp;&nbsp;Jul 4 2005 20:01:25 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>No, I don&#39;t see any flashing borders.
+
+I noticed that Workrave also crashes when I choose Uitstellen (Postpone). I
+started Workrave, rightclick on the trayicon and choose for Rustpauze (Rest
+break), click the Uitstellen (postpone) button, Workrave crashes.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 4 2005 21:53:15 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>The bug only occurs if blocking mode is set to &#39;none&#39;.... Fixed in CVS. Please
+try the next nightly build (20050705).
+
+Thanks!
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Paul Wagenaars&nbsp;&nbsp;Jul 5 2005 14:19:44 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thank you, the problem seems to be solved in the 20050705 build. :-)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 19 2005 14:44:24 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 471 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 19 2005 14:52:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 468 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 19 2005 14:54:24 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 465 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 20 2005 15:40:41 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 463 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

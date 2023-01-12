@@ -1,0 +1,2360 @@
+Window messages created by Winspector
+	WM_NCCREATE
+		lpCreateParams: 0x03c8b720
+		hInstance: 0x00400000
+		hMenu: 0x00000000
+		hwndParent: 0x00010010
+		x: 0
+		y: 0
+		cx: 200
+		cy: 200
+		style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		lpszName: Workrave.exe
+		lpszClass: gdkWindowTemp (ATOM)
+		dwExStyle: WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 04:12:17.0629
+
+	WM_NCCREATE	Return value
+		Return: 0x00000001
+		Message Sent
+		Time: 04:12:17.0629
+
+	WM_NCCALCSIZE
+		Indicate client area: False
+		Proposed area: 0, 0, 200, 200
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_GETTEXTLENGTH
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_GETTEXTLENGTH	Return value
+		Text length: 12
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_GETTEXT
+		Text buffer pointer: 0x0022e32c
+		Text buffer length: 13
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_GETTEXT	Return value
+		Text: Workrave.exe
+		Text length: 12
+		Message Sent
+		Time: 04:12:17.0631
+
+	WM_CREATE
+		lpCreateParams: 0x03c8b720
+		hInstance: 0x00400000
+		hMenu: 0x00000000
+		hwndParent: 0x00010010
+		x: 0
+		y: 0
+		cx: 200
+		cy: 200
+		style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		lpszName: Workrave.exe
+		lpszClass: gdkWindowTemp (ATOM)
+		dwExStyle: WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 04:12:17.0632
+
+	WM_CREATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0632
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 200
+		Height: 200
+		Message Sent
+		Time: 04:12:17.0632
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0633
+
+	WM_MOVE
+		xPos: 0
+		yPos: 0
+		Message Sent
+		Time: 04:12:17.0633
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0633
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0634
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0634
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0635
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0635
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0635
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0635
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0636
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0636
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 381, 345, 643, 423
+		Previous area: 0, 0, 200, 200
+		Client area: 0, 0, 200, 200
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOZORDER | SWP_NOREDRAW | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0636
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0636
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOZORDER | SWP_NOREDRAW | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0636
+
+	WM_MOVE
+		xPos: 381
+		yPos: 345
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 262
+		Height: 78
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_SIZE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_STYLECHANGING
+		Old style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		New style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_STYLECHANGING	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0637
+
+	WM_STYLECHANGED
+		Old style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		New style: WS_OVERLAPPED | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_STYLECHANGED	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 381, 345, 643, 423
+		Previous area: 381, 345, 643, 423
+		Client area: 381, 345, 643, 423
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOREDRAW | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOREDRAW | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0638
+
+	WM_PARENTNOTIFY
+		Message: WM_CREATE
+		Child ID: 0
+		Child hwnd: 0x001e0854
+		Message Sent
+		Time: 04:12:17.0643
+
+	WM_PARENTNOTIFY	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0643
+
+	WM_SHOWWINDOW
+		Showing: true
+		Reason: ShowWindow called
+		Message Sent
+		Time: 04:12:17.0649
+
+	WM_GETTEXTLENGTH
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:17.0651
+
+	WM_GETTEXTLENGTH	Return value
+		Text length: 12
+		Message Sent
+		Time: 04:12:17.0651
+
+	WM_GETTEXT
+		Text buffer pointer: 0x0022e5d4
+		Text buffer length: 13
+		Message Sent
+		Time: 04:12:17.0651
+
+	WM_GETTEXT	Return value
+		Text: Workrave.exe
+		Text length: 12
+		Message Sent
+		Time: 04:12:17.0651
+
+	WM_SHOWWINDOW	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_SHOWWINDOW
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_ERASEBKGND
+		HDC: 0x9e011938
+		Message Sent
+		Time: 04:12:17.0652
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_SHOWWINDOW
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0653
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0654
+
+	WM_SIZE
+		Style: SIZE_RESTORED
+		Width: 200
+		Height: 200
+		Message Posted
+		Time: 04:12:17.0657
+
+	WM_MOVE
+		xPos: 0
+		yPos: 0
+		Message Posted
+		Time: 04:12:17.0657
+
+	WM_MOVE
+		xPos: 0
+		yPos: 0
+		Message Posted
+		Time: 04:12:17.0657
+
+	WM_MOVE
+		xPos: 0
+		yPos: 0
+		Message Posted
+		Time: 04:12:17.0657
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Posted
+		Time: 04:12:17.0657
+
+	WM_STYLECHANGING
+		Old style: WS_OVERLAPPED | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		New style: WS_OVERLAPPED | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_STYLECHANGING	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_STYLECHANGED
+		Old style: WS_OVERLAPPED | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		New style: WS_OVERLAPPED | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_STYLECHANGED	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 381, 345, 643, 423
+		Previous area: 381, 345, 643, 423
+		Client area: 381, 345, 643, 423
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 345
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED | SWP_NOOWNERZORDER
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:17.0778
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:18.0628
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:18.0628
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:18.0629
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:18.0629
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:19.0628
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:19.0628
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:19.0629
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:19.0630
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:20.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:20.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:20.0750
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:20.0751
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 20
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:20.0752
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:20.0753
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:20.0753
+
+	WM_MOVE
+		xPos: 381
+		yPos: 20
+		Message Sent
+		Time: 04:12:20.0753
+
+	WM_MOVE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:20.0753
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:20.0753
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:21.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:21.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:21.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:21.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:22.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:22.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:22.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:22.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:23.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:23.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:23.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:23.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:24.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:24.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:24.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:24.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:25.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:25.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:25.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:25.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:26.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:26.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:26.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:26.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:26.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:26.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:27.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:27.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:27.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:27.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:27.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:27.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:27.0750
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:27.0750
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:28.0249
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:28.0249
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:28.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:28.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:28.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:28.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:28.0750
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:28.0750
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:29.0249
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:29.0249
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:29.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:29.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:29.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:29.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x00100786
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:29.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:29.0749
+
+	WM_STYLECHANGING
+		Old extended style: WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		New extended style: WS_EX_TOPMOST | WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_STYLECHANGING	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_STYLECHANGED
+		Old extended style: WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		New extended style: WS_EX_TOOLWINDOW | WS_EX_LEFT | WS_EX_LTRREADING | WS_EX_RIGHTSCROLLBAR
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_STYLECHANGED	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_FRAMECHANGED
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_NCCALCSIZE
+		Indicate client area: True
+		Proposed area: 381, 20, 643, 98
+		Previous area: 381, 20, 643, 98
+		Client area: 381, 20, 643, 98
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_FRAMECHANGED
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_NCCALCSIZE	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0051
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_ERASEBKGND
+		HDC: 0x4a011212
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_ERASEBKGND	Return value
+		Processed: True
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_ACTIVATEAPP
+		Activated: true
+		Thread ID: 0x00001590
+		Message Sent
+		Time: 04:12:30.0052
+
+	WM_ACTIVATEAPP	Return value
+		Processed: False
+		Message Sent
+		Time: 04:12:30.0053
+
+	WM_NCACTIVATE
+		Draw activated: true
+		Message Sent
+		Time: 04:12:30.0053
+
+	WM_NCACTIVATE	Return value
+		Message Sent
+		Time: 04:12:30.0053
+
+	WM_ACTIVATE
+		Style: WA_ACTIVE
+		Deactivated window: 0x00000000
+		Message Sent
+		Time: 04:12:30.0053
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000001
+		lParam: 0xc000000f
+		Message Sent
+		Time: 04:12:30.0053
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_FRAMECHANGED
+		Message Sent
+		Time: 04:12:30.0054
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0054
+
+	WM_PAINT
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_NCPAINT
+		Draw entire frame: true
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_NCPAINT	Return value
+		Processed: False
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_PAINT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_IME_NOTIFY
+		wParam: 0x00000002
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0055
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0056
+
+	WM_SETFOCUS
+		HWND losing focus: 0x00000000
+		Message Sent
+		Time: 04:12:30.0056
+
+	WM_SETFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0056
+
+	WM_ACTIVATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0056
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:30.0249
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0249
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:30.0249
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0250
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:30.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:30.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:30.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:30.0749
+
+	WM_NCACTIVATE
+		Draw activated: true
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_NCACTIVATE	Return value
+		Proceed with default: true
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_ACTIVATE
+		Style: WA_INACTIVE
+		Activated window: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_ACTIVATE	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_ACTIVATEAPP
+		Activated: false
+		Thread ID: 0x00001590
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_ACTIVATEAPP	Return value
+		Processed: False
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_KILLFOCUS
+		HWND receiving focus: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_KILLFOCUS	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_IME_SETCONTEXT
+		wParam: 0x00000000
+		lParam: 0xc000000f
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_IME_NOTIFY
+		wParam: 0x00000001
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_IME_NOTIFY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_IME_SETCONTEXT	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:30.0975
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:31.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:31.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:31.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:31.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:31.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:31.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:31.0749
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:31.0749
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:32.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:32.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:32.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:32.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:32.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:32.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:32.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:32.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:33.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:33.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:33.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:33.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:33.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:33.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:33.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:33.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:34.0247
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:34.0247
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:34.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:34.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:34.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:34.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:34.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:34.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:35.0246
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:35.0246
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:35.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:35.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:35.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:35.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:35.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:35.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:36.0247
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:36.0247
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:36.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:36.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:36.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:36.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:36.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:36.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:36.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:36.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:37.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:37.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:37.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:37.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:37.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:37.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:37.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:37.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:38.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:38.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:38.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:38.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:38.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:38.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:38.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:38.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:39.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:39.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:39.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:39.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:39.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:39.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:39.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:39.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:40.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:40.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:40.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:40.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:40.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:40.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:40.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:40.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:41.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:41.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:41.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:41.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:41.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:41.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:41.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:41.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:42.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:42.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:42.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:42.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:42.0745
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:42.0745
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:42.0748
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:42.0748
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:43.0248
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:43.0248
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:43.0744
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:43.0744
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:43.0744
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:43.0744
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:43.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:43.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:44.0247
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:44.0247
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:44.0744
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:44.0744
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:44.0744
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:44.0744
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:44.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:44.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:45.0247
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:45.0247
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:45.0743
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:45.0743
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:45.0743
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:45.0743
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:45.0747
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:45.0747
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:46.0247
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:46.0247
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:46.0743
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:46.0743
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:46.0743
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:46.0743
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:46.0746
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:46.0746
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: 0x001507a6
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE
+		Message Sent
+		Time: 04:12:47.0246
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:47.0246
+
+	WM_SHOWWINDOW
+		Showing: false
+		Reason: ShowWindow called
+		Message Sent
+		Time: 04:12:47.0743
+
+	WM_SHOWWINDOW	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:47.0743
+
+	WM_WINDOWPOSCHANGING
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 0, 0
+		Size: 0, 0
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_HIDEWINDOW
+		Message Sent
+		Time: 04:12:47.0743
+
+	WM_WINDOWPOSCHANGING	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:47.0743
+
+	WM_WINDOWPOSCHANGED
+		hwnd: 0x001e08ca
+		hwndInsertAfter: HWND_TOP
+		Position: 381, 20
+		Size: 262, 78
+		SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_HIDEWINDOW
+		Message Sent
+		Time: 04:12:47.0743
+
+	WM_WINDOWPOSCHANGED	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:47.0744
+
+	WM_PARENTNOTIFY
+		Message: WM_DESTROY
+		Child ID: 0
+		Child hwnd: 0x001e0854
+		Message Sent
+		Time: 04:12:47.0746
+
+	WM_PARENTNOTIFY	Return value
+		Continue processing: False
+		Message Sent
+		Time: 04:12:47.0746
+
+	WM_DESTROY
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:47.0754
+
+	WM_DESTROY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:47.0754
+
+	WM_NCDESTROY
+		wParam: 0x00000000
+		lParam: 0x00000000
+		Message Sent
+		Time: 04:12:47.0754
+
+	WM_NCDESTROY	Return value
+		Return: 0x00000000
+		Message Sent
+		Time: 04:12:47.0754
+

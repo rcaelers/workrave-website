@@ -1,0 +1,65 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/944/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;944 - Crash on startup in GIOSocket::write</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.9.2</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P5 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Nov 22 2010 08:55:07 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Carlo de Wolf</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Nov 25 2010 21:46:29 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Nov 25 2010 21:46:29 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Nov 22 2010 08:55:07 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>workrave-1.9.2-1.fc13.i686
+
+#0  0x00789f9a in IA__g_socket_send (socket=0x3a33322e, buffer=0x83b8e98 &#34;&#34;, 
+    size=197, cancellable=0x0, error=0xbfffee78) at gsocket.c:1771
+#1  0x080e0521 in GIOSocket::write (this=0x82574c0, buf=0x83b8e98, count=197, 
+    bytes_written=@0xbfffeecc) at GIOSocketDriver.cc:259
+#2  0x080dc177 in DistributionSocketLink::send_packet_except (this=0x82558f0, 
+    packet=..., client=0x0) at DistributionSocketLink.cc:1003
+#3  0x080dc1ac in DistributionSocketLink::send_packet_broadcast (this=
+    0x82558f0, packet=...) at DistributionSocketLink.cc:978
+#4  0x080deb62 in DistributionSocketLink::broadcast_client_message (this=
+    0x82558f0, dsid=DCM_STATS, buffer=...) at DistributionSocketLink.cc:489
+#5  0x080da3a2 in DistributionManager::broadcast_client_message (this=
+    0x8255568, id=DCM_STATS, buffer=...) at DistributionManager.cc:350
+#6  0x080d729b in Statistics::day_to_remote_history (this=0x825b448, stats=
+    0x825b718) at Statistics.cc:213
+#7  0x080d78c1 in Statistics::start_new_day (this=0x825b448)
+    at Statistics.cc:157
+#8  0x080d07a0 in Core::process_timers (this=0x824dc50) at Core.cc:1107
+#9  0x080d236e in Core::heartbeat (this=0x824dc50) at Core.cc:878
+#10 0x0809c761 in GUI::on_timer (this=0x81daf18) at GUI.cc:300
+#11 0x0809ceab in GUI::main (this=0x81daf18) at GUI.cc:223
+#12 0x080b6c90 in run (argc=1, argv=0xbffff294) at main.cc:62
+#13 0x080b6cdd in main (argc=135137138, argv=0x80e07c4) at main.cc:79</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Nov 23 2010 09:47:50 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I managed to get past the initial crash by disabling networking by setting gconf option apps-&gt;workrave-&gt;distribution-&gt;enabled to false.
+
+Now I deleted all hosts that were in there and I try to re-enable networking by specifying an ip-address. The following is logged, followed by a crash:
+[23/11/2010 09:41:32] Connecting to (null).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Nov 23 2010 09:53:17 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Forgot to mention: using Fedora 13
+
+If I add the hostname to /etc/hosts and use that instead of the ip, I get:
+(workrave:3827): GLib-GIO-CRITICAL **: g_inet_address_get_family: assertion `G_IS_INET_ADDRESS (address)&#39; failed
+
+Plus the &#39;Connecting to (null)&#39;.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Carlo de Wolf&nbsp;&nbsp;Nov 23 2010 10:02:14 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>192.168.1.18 is the machine giving trouble running Fedora 13.
+192.168.1.23 is another machine running Ubuntu 10.04.
+
+[23/11/2010 09:52:57] Connecting to 192.168.1.18:27273.
+[23/11/2010 09:52:57] Client 192.168.1.18:27273 connected.
+[23/11/2010 09:52:57] Client 83fd97fa76f910385422c2da4ceb7bb5:27273 is welcoming us.
+[23/11/2010 09:52:58] Client 83fd97fa76f910385422c2da4ceb7bb5:27273 is now master.
+[23/11/2010 09:52:58] Requesting master status from 83fd97fa76f910385422c2da4ceb7bb5:27273.
+[23/11/2010 09:52:58] Client 192.168.1.23:27273 is now the new master.
+[23/11/2010 09:52:58] I&#39;m now master.
+[23/11/2010 09:53:17] Rejecting master request from client 83fd97fa76f910385422c2da4ceb7bb5:27273.
+[23/11/2010 09:53:22] Acknowledging master request from client 83fd97fa76f910385422c2da4ceb7bb5:27273.
+[23/11/2010 09:53:55] Requesting master status from 83fd97fa76f910385422c2da4ceb7bb5:27273.
+[23/11/2010 09:53:55] Client 192.168.1.23:27273 is now the new master.
+[23/11/2010 09:53:55] I&#39;m now master.
+
+Speaking from complete ignorance it almost looks like IPv6 is getting in the way.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Nov 24 2010 22:28:00 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks for you thorough analysis.
+
+- The &#39;connecting (null)&#39; seems harmless, but is now fixed. 
+- The crash in GIOSocket::write is fixed (uninitialized variable).
+- Workrave now supports ipv6 (Workrave choked on the colons)
+
+One crash remaining in GIOSocket.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Nov 25 2010 21:46:29 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fixed. Thanks!</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

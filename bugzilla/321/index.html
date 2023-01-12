@@ -1,0 +1,264 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/321/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;321 - Rest break can be postponed as often as I want</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>NEW</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.4.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P4 enhancement</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Oct 8 2003 05:40:16 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Hugo Haas</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Aug 27 2007 14:03:39 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=attachments-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#attachments-content aria-expanded=false aria-controls=attachments-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments</button></h5><div class=collapse id=attachments-content aria-labelledby=attachments-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Id</th><th scope=col>Who</th><th scope=col>When</th><th scope=col>Size</th><th scope=col>Type</th></tr></thead><tbody><tr><th scope=row rowspan=2>29</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-29.diff>Core modifications to limit number of preludes & postponing</a><tr><td>Hugo Haas</td><td>Dec 13 2003 08:29:21 UTC</td><td>8141</td><td>text/plain</td></tr><tr><th scope=row rowspan=2>30</th><td colspan=4><a href=https://workrave.org/bugzilla/attachments/attachment-30.diff>Patch implementing max_number_of_postponable_preludes: complete patch, including modification of break control and preference panel</a><tr><td>Hugo Haas</td><td>Dec 14 2003 16:53:21 UTC</td><td>18229</td><td>text/plain</td></tr></tbody></table></div></div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Hugo Haas</th><td rowspan=1>Nov 11 2003 02:30:02 UTC</td><td>severity</td><td>normal</td><td>enhancement</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 27 2007 14:03:39 UTC</td><td>priority</td><td>P2</td><td>P4</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Oct 8 2003 05:40:16 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi.
+
+I have set the number of prompts for rest breaks to 3, and yet, I seem to be
+able to postpone my rest break as many times as I want. It is the same for
+micro-pauses. Setting the maximum to say 1 doesn&#39;t force me to take the break
+after the first prompt.
+
+Basically, it seems that the maximum number of prompts is ignored, even though I
+ have &#34;force break&#34; when maximum number of prompts is reached.
+
+Regards,
+
+Hugo</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Oct 9 2003 00:34:13 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>ah... that&#39;s a feature :-)
+
+Indeed. You can click the postpone button as many times as you want, each time
+postponing the break.
+
+You may have noticed that if a prompt appears, and you continue working the
+prompt goes away again. This is what the number of prompts setting is about: if
+you set it to three, then the prompt will go away two times, but not the third.
+The third time, a break window will be shown (in which you can manually click
+postpone).
+
+So, if I understand you correctly, then the behaviour you described is as
+intended, though admittedly a bit odd.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Oct 9 2003 02:26:32 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I see.
+
+Then, can I request this feature to be implemented?
+
+I would like Workrave to force me to have a break, even if I keep pressing the
+postpone button.
+
+Maybe the number of prompts counter should be increased when the postpone button
+is pressed.
+
+Regards,
+
+Hugo</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Nov 11 2003 02:30:02 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thinking about this feature a bit more, I think that it could be implemented two
+ways:
+- enforce a maximum number of times that one can postpone a break; this counter
+would be incremented both when a prompt disappears because the user hasn&#39;t
+stopped typing and when the user pushes the postpone button;
+- enforce a maximum delaying time: if a break is overdue by more than x minutes,
+then force the user to take his or her break.
+
+Regards,
+
+Hugo</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 12 2003 05:59:05 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Since I am finding myself postponing my breaks more and more, I started having a
+look at this from the angle of changing the code as little as possible.
+
+In BreakControl, final_prelude indicates that the maximum number of preludes has
+been reached. I thought that this could be used as a signal that the break
+cannot be postponed anymore, since, IIUC, everytime the user is asked to take a
+break, prelude_count is increased.
+
+So I was wondering if a sensible way to go with this would be to add, under the
+STAGE_TAKING case in BreakControl::heartbeat(), the following:
+
+        // Final prelude: the break cannot be ignored anymore
+	if (final_prelude) {
+	  set_ignorable_break(false);
+	}
+
+I haven&#39;t managed to test it yet as I am getting a weird segmentation fault in
+TimeBar::set_progress() that I can&#39;t understand at this point, but wanted to at
+least record that, since I have to give up on it for a little while.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 13 2003 08:29:21 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 29
+Core modifications to limit number of preludes &amp; postponing</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 13 2003 08:31:09 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have a patch which implements the limitation I was talking about. It seems to
+be working.
+
+What is missing at this point is the configuration part, as I got last in
+TimerPreferencesPanel.cc...</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 14 2003 08:32:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I have been trying to add some code to the configuration panel in addition with
+the patch I posted yesterday, but I keep getting some weird segmentation faults
+when adding a Gtk::Adjustment. It must be a stupid mistake, but I just don&#39;t see it.
+
+The following makes workrave segfault when bringing up the preference panel:
+
+diff -ur workrave-1.4.1-worky/src/app/gtkmm/TimerPreferencesPanel.cc
+workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.cc
+--- workrave-1.4.1-worky/src/app/gtkmm/TimerPreferencesPanel.cc 2003-10-20
+14:52:10.000000000 -0400
+&#43;&#43;&#43; workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.cc    
+2003-12-14 11:20:52.000000000 -0500
+@@ -44,6 &#43;44,7 @@
+ 
+ TimerPreferencesPanel::TimerPreferencesPanel(BreakId
+t,Glib::RefPtr&lt;Gtk::SizeGroup&gt; size_group)
+   : Gtk::VBox(false, 6),
+&#43;    force_break_limit_adjustment(0, 2, 100),
+     max_prelude_adjustment(0, 1, 100)
+ #ifdef HAVE_EXERCISES
+   ,exercises_adjustment(0, 0, 10)
+diff -ur workrave-1.4.1-worky/src/app/gtkmm/TimerPreferencesPanel.hh
+workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.hh
+--- workrave-1.4.1-worky/src/app/gtkmm/TimerPreferencesPanel.hh 2003-10-20
+14:52:10.000000000 -0400
+&#43;&#43;&#43; workrave-1.4.1-complete-attempt2/src/app/gtkmm/TimerPreferencesPanel.hh    
+2003-12-14 11:19:37.000000000 -0500
+@@ -73,6 &#43;73,7 @@
+   BreakInterface *break_data;
+ 
+   Gtk::CheckButton *ignorable_cb;
+&#43;  Gtk::Adjustment force_break_limit_adjustment;
+   Gtk::CheckButton *monitor_cb;
+   Gtk::CheckButton *prelude_cb;
+   Gtk::CheckButton *has_max_prelude_cb;
+
+I am afraid that I am going to give up, at least for now. Any help with this
+part appreciated.
+
+Basically, the functionnality of the patch I provided is the following: after
+being asked for more than n times to take a break, the postpone and skip buttons
+are hidden in order to force the user to take a break. This is independent from
+prelude_count and final_prelude.
+
+I was going to add a configuration option similar to the one about the preludes
+for it, but I am struggling with it.
+
+Regards,
+
+Hugo</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Dec 14 2003 10:45:15 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks for the patch. I just had a very quick look at it. Some small remarks:
+
+- It seems that the postpone/skip buttons are removed after a configured number
+of prelude windows are shown. For example: If &#39;max_number_of_preludes&#39; is set to
+3 and you ignore 3 prelude windows before taking the break, you will not get a
+postpone button. If you ignore the prelude window twice, you can postpone the
+break window once. Is this intentional? In other words, &#39;max_number_of_preludes&#39;
+represents the maximum number of times you can postpone or ignore a break (not
+only postpone)
+
+- I would rename &#39;max_number_of_preludes&#39; to
+&#39;max_number_of_postponable_preludes&#39; or something. The existing
+&#39;number_of_prelude&#39; chould then be renamed to &#39;max_number_of_preludes&#39;
+
+- It seems that Core.cc always calls stop_break with &#39;forced_stop&#39; == false.
+Perhaps hide the extra parameter from Core.cc (by giving it a default value)
+
+About the Adjustment. No idea why it crashes. Perhaps a problem with your
+dependencies. Did you try a make clean ?
+
+I also tend to postpone break way too often. So, I think this is a good idea.
+However, it means adding yet another configuration option. We don&#39;t want
+workrave to become overly complex. Comment? Raymond :-)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 14 2003 16:52:01 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I finally found the problem. The makefiles are lacking dependencies of the .cc&#39;s
+on the .hh&#39;s, so not everything needed was being rebuilt. I will open another
+bug report about that.
+
+Anyway, I have a working patch, with the configuration panel changed. I have
+integrated your suggestions.
+
+Note that you can disregard my attachment from 2003-12-13.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 10</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 14 2003 16:53:21 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Created attachment 30
+Patch implementing max_number_of_postponable_preludes: complete patch, including modification of break control and preference panel</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 11</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Dec 15 2003 01:46:48 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi,
+
+I&#39;ve been trying to understand what&#39;s being proposed here, but I&#39;m not sure I&#39;m
+succeeding.
+
+Anyway, it looks like the proposal is to have two configuration options. One for
+the maximum number of preludes that can be ignored, and one for the number of
+times one can click postpone. Though if I understand correctly, in the current
+patches there is only one option, for the number of preludes that can be ignored
+and the number of times one can click postpone combined. (How did I do so far?? :-)
+
+The underlying problem seems to be users clicking postpone too often. Though the
+arguments in favour of this new option are very legitimate, there is a trade-off
+to be made here. Originally, the postpone button was added as a feature, to
+avoid wr from being overly intrusive. And now the discussion goes like &#34;Nice
+feature, but I don&#39;t want to be able to hit postpone too often&#34;. Next someone
+will step up claiming &#34;I really like being able to click postpone only two
+times, but in circumstance such and such (boss looking over shoulder or
+somesuch) I want a super-postpone to postpone anyway&#34;.
+
+If you follow this line of reasoning (which is, admittedly and intentionally, a
+bit absurd) you would be making workrave completely responsible for your break
+schedule. From a RSI-prevention point of view, this is undesirable. It&#39;s your
+body, so you take care of it and break in time. Workrave is your friendly guide
+giving some good advise now and then, but it is your responsibility to follow
+the advice. Workrave can&#39;t possibly do that for you.
+
+So if you find yourself clicking postpone too often, then maybe you should just
+stop doing that. Work a day or to without the skip and postpone buttons being
+visible at all to get used to that. If you then feel wr prompts for breaks too
+often, then maybe you should relax your break schedule.
+
+Anyway, there is a point at which you can no longer provide technical solutions,
+and you (as a user) have to take responsibility yourself. I&#39;m not saying this
+one configuration option is beyond that point, though it would be a good
+candidate :-)
+
+Just my 2 cents
+
+Kees-Jan</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 12</div><div class=float-left>Hugo Haas&nbsp;&nbsp;Dec 16 2003 06:59:30 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>&gt; I&#39;ve been trying to understand what&#39;s being proposed here, but I&#39;m not sure I&#39;m
+&gt; succeeding.
+
+In a nutshell: have the possibility of limiting the number of times
+a break is ignored or postponed.
+
+&gt; Anyway, it looks like the proposal is to have two configuration options. One for
+&gt; the maximum number of preludes that can be ignored, and one for the number of
+&gt; times one can click postpone. Though if I understand correctly, in the current
+&gt; patches there is only one option, for the number of preludes that can be ignored
+&gt; and the number of times one can click postpone combined. (How did I do so
+far?? :-)
+
+I originally wanted to monitor the number of times the postpone button
+had been pushed. However, I came to realize that, since preludes can be
+ignored and the window doesn&#39;t appear, limiting the number of times a
+user is asked, i.e. counting preludes and not resetting this count when
+the postpone button is pushed, was probably a better solution.
+
+Now that I am writing this, I realize that my patch may depend on whether
+the user uses preludes, which wasn&#39;t the intent. That may need to be fixed.
+
+&gt; The underlying problem seems to be users clicking postpone too often. Though the
+&gt; arguments in favour of this new option are very legitimate, there is a trade-off
+&gt; to be made here. Originally, the postpone button was added as a feature, to
+&gt; avoid wr from being overly intrusive. And now the discussion goes like &#34;Nice
+&gt; feature, but I don&#39;t want to be able to hit postpone too often&#34;. Next someone
+&gt; will step up claiming &#34;I really like being able to click postpone only two
+&gt; times, but in circumstance such and such (boss looking over shoulder or
+&gt; somesuch) I want a super-postpone to postpone anyway&#34;.
+&gt; 
+&gt; If you follow this line of reasoning (which is, admittedly and intentionally, a
+&gt; bit absurd) you would be making workrave completely responsible for your break
+&gt; schedule. From a RSI-prevention point of view, this is undesirable. It&#39;s your
+&gt; body, so you take care of it and break in time. Workrave is your friendly guide
+&gt; giving some good advise now and then, but it is your responsibility to follow
+&gt; the advice. Workrave can&#39;t possibly do that for you.
+&gt; 
+&gt; So if you find yourself clicking postpone too often, then maybe you should just
+&gt; stop doing that. Work a day or to without the skip and postpone buttons being
+&gt; visible at all to get used to that. If you then feel wr prompts for breaks too
+&gt; often, then maybe you should relax your break schedule.
+&gt; 
+&gt; Anyway, there is a point at which you can no longer provide technical solutions,
+&gt; and you (as a user) have to take responsibility yourself. I&#39;m not saying this
+&gt; one configuration option is beyond that point, though it would be a good
+&gt; candidate :-)
+
+This is a good point, though easier said than done: I think that a
+number of people with RSI have such a condition because they tend to
+do things such as not take breaks when needed. And sometimes, the time
+of a break is inconvenient. The point of my proposal was to say &#34;yes,
+the time of a break can be inconvenient, but after postponing it x
+times, you really need to take it&#34;. I think workrave can help people
+(including me) to do so.
+
+I&#39;d be happy to tweak my patch so that workrave maintainers would feel
+it does something useful.
+
+And if you feel that it&#39;s a feature that you don&#39;t want, I can always
+use my own version.
+
+Regards,
+
+Hugo</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

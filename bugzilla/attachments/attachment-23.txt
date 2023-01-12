@@ -1,0 +1,202 @@
+Crash log created on 24/09/2003 at 03:59:51.
+
+code = c0000005
+flags = 0
+address = 4397ef
+params = 2
+C:\PROGRAM FILES\WORKRAVE\LIB\WORKRAVE.EXE caused an Access Violation at location 004397ef reading from location ffffffff
+
+Registers:
+
+eax=01094860 ebx=00f733e8 ecx=00f946c0 edx=00000000 esi=0109487c edi=00000001
+eip=004397ef esp=00a4faf4 ebp=00a4fb78 iopl=0         nv up ei pl nz ac pe nc
+cs=0177  ss=017f  ds=017f  es=017f  fs=1627  gs=0000             efl=00010212
+
+Stack trace:
+
+PC        Frame     Ret
+004397EF  00A4FB78  0043857B
+0043857B  00A4FBA8  00439B8E
+00439B8E  00A4FBCC  0043A4F2
+0043A4F2  00A4FBF0  0043A86E
+0043A86E  00A4FC0C  6731ED91
+6731ED91  00A4FC2C  672DE67E
+672DE67E  00A4FC7C  672DEC9F
+672DEC9F  00A4FCBC  672DB959
+672DB959  00A4FCFC  6056FF69
+6056FF69  00A4FD1C  0045C901
+0045C901  00A4FD3C  00402FC4
+00402FC4  00A4FD60  0041C426
+0041C426  00A4FD74  0041C493
+0041C493  00A4FD88  004FC76B
+004FC76B  00A4FDF8  00401182
+00401182  00A4FE28  00401038
+00401038  00A4FE38  BFF7B9E4
+BFF7B9E4  00A4FF78  BFF7B896
+BFF7B896  00A4FFF4  BFF7A24F
+BFF7A24F  82FD8FEC  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 150
+  value = auto_reset
+  string data = 30
+  value = snooze
+  string data = 150
+  value = count_activity
+  string data = 1
+  value = restore
+  string data = 1
+  value = reset_pred
+  string data = 
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 600
+  value = auto_reset
+  string data = 300
+  value = snooze
+  string data = 300
+  value = count_activity
+  string data = 1
+  value = restore
+  string data = 1
+  value = reset_pred
+  string data = 
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 14400
+  value = auto_reset
+  string data = 0
+  value = snooze
+  string data = 900
+  value = count_activity
+  string data = 1
+  value = restore
+  string data = 1
+  value = reset_pred
+  string data = day/4:00
+  value = monitor
+  string data = micro_pause
+
+key = Software\Workrave\distribution
+  value = enabled
+  string data = 1
+  value = peers
+  string data = tcp://h-nb-043:27273
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = username
+  string data = kees-jan
+  value = password
+  string data = xxx
+
+key = Software\Workrave\distribution\tcp
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+  value = username
+  string data = kees-jan
+  value = password
+  string data = xxx
+
+key = Software\Workrave\monitor
+  value = noise
+  string data = 9000
+  value = activity
+  string data = 1000
+  value = idle
+  string data = 5000
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\breaks
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = ignorable_break
+  string data = 0
+  value = max_preludes
+  string data = 1
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = force_after_preludes
+  string data = 1
+  value = insist_break
+  string data = 1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = 718
+  value = y
+  string data = 29
+  value = enabled
+  string data = 1
+  value = cycle_time
+  string data = 10
+  value = head_x
+  string data = -82
+  value = head_y
+  string data = 29
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+

@@ -1,0 +1,215 @@
+Crash log created on 25/10/2005 at 16:06:49.
+
+version = 1.8.1
+compile date = Jul 31 2005
+compile time = 11:20:54
+features = DISTRIBUTION EXERCISES GNET GNET2 GTK_MULTIHEAD 
+
+
+code = c0000094
+flags = 0
+address = 4277ce
+params = 0
+C:\Program Files\Workrave\lib\Workrave.exe caused an Integer Divide By Zero at location 004277ceRegisters:
+
+eax=00000001 ebx=013de798 ecx=00c97340 edx=00000000 esi=00000000 edi=00000000
+eip=004277ce esp=0022ed74 ebp=0022ed84 iopl=0         nv up ei pl zr na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010246
+
+Stack trace:
+
+PC        Frame     Ret
+004277CE  0022ED84  00427030
+00427030  0022EE8C  0040E189
+0040E189  0022EEFC  0040DC31
+0040DC31  0022EF0C  00403754
+00403754  0022EF48  00433BBB
+00433BBB  0022EF60  00433839
+00433839  0022EF78  00429960
+00429960  0022EF98  00402BD9
+00402BD9  0022EFAC  005730FB
+005730FB  0022EFBC  00573376
+00573376  0022EFCC  0053C29E
+0053C29E  0022EFEC  008A85C2
+008A85C2  0022F01C  00893B62
+00893B62  0022F05C  008A81AF
+008A81AF  0022F10C  008A7496
+008A7496  0022F38C  008A7708
+008A7708  0022F3AC  00C14849
+00C14849  0022F3DC  00B05A5A
+00B05A5A  0022F40C  00B04BB6
+00B04BB6  0022F44C  00AFC50B
+00AFC50B  0022F46C  0044C283
+0044C283  0022F49C  00AF2D2B
+00AF2D2B  0022F4DC  00893E7F
+00893E7F  0022F50C  00893B62
+00893B62  0022F54C  008A8062
+008A8062  0022F5FC  008A74FC
+008A74FC  0022F87C  008A7708
+008A7708  0022F89C  00C1473E
+00C1473E  0022F8CC  00C14209
+00C14209  0022F8FC  00AF0CDD
+00AF0CDD  0022F93C  00AEFA31
+00AEFA31  0022F97C  0090C04F
+0090C04F  0022F99C  00747738
+00747738  0022F9EC  00748391
+00748391  0022F9FC  00748692
+00748692  0022FA3C  00748D07
+00748D07  0022FA7C  00AEF1AD
+00AEF1AD  0022FA9C  00466F77
+00466F77  0022FAAC  00466DB6
+00466DB6  0022FABC  00402C65
+00402C65  0022FAE0  0041E32A
+0041E32A  0022FAF4  0041E380
+0041E380  0022FEF8  00558FFA
+00558FFA  0022FF78  004011E7
+004011E7  0022FFB0  00401258
+00401258  0022FFC0  7C816D4F
+7C816D4F  0022FFF0  00000000
+
+Registry dump:
+
+key = Software\Workrave
+
+key = Software\Workrave\distribution
+  value = port
+  string data = 27273
+  value = reconnect_attempts
+  string data = 5
+  value = reconnect_interval
+  string data = 15
+
+key = Software\Workrave\gui
+
+key = Software\Workrave\gui\applet
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 1
+
+key = Software\Workrave\gui\applet\daily_limit
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\applet\rest_break
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\breaks
+
+key = Software\Workrave\gui\breaks\daily_limit
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 0
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\micro_pause
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 0
+
+key = Software\Workrave\gui\breaks\rest_break
+  value = max_preludes
+  string data = 3
+  value = max_postpone
+  string data = -1
+  value = ignorable_break
+  string data = 1
+  value = enabled
+  string data = 1
+  value = exercises
+  string data = 3
+
+key = Software\Workrave\gui\main_window
+  value = x
+  string data = 5
+  value = y
+  string data = -114
+  value = head
+  string data = 0
+  value = cycle_time
+  string data = 10
+  value = enabled
+  string data = 0
+
+key = Software\Workrave\gui\main_window\daily_limit
+  value = position
+  string data = 2
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\micro_pause
+  value = position
+  string data = 0
+  value = flags
+  string data = 0
+
+key = Software\Workrave\gui\main_window\rest_break
+  value = position
+  string data = 1
+  value = flags
+  string data = 0
+
+key = Software\Workrave\timers
+
+key = Software\Workrave\timers\daily_limit
+  value = limit
+  string data = 25200
+  value = auto_reset
+  string data = 0
+  value = reset_pred
+  string data = day/4:00
+  value = snooze
+  string data = 1200
+  value = activity_sensitive
+  string data = 1
+  value = monitor
+  string data = micro_pause
+
+key = Software\Workrave\timers\micro_pause
+  value = limit
+  string data = 600
+  value = auto_reset
+  string data = 60
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 150
+  value = activity_sensitive
+  string data = 1
+
+key = Software\Workrave\timers\rest_break
+  value = limit
+  string data = 3000
+  value = auto_reset
+  string data = 600
+  value = reset_pred
+  string data = 
+  value = snooze
+  string data = 180
+  value = activity_sensitive
+  string data = 1
+

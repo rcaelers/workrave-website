@@ -1,0 +1,193 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/609/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;609 - workrave crashed with SIGSEGV in RemoteControl::set_applet()</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI :: gtkmm</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.8.3</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P2 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8>https://beta.launchpad.net/ubuntu/+source/workrave/+bug/96987</div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Mar 27 2007 17:42:49 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Daniel Holbach</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Apr 18 2007 21:11:57 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Tomas Mraz</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Mar 27 2007 20:12:22 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Apr 18 2007 21:11:57 UTC</td><td>cc</td><td></td><td>Tomas Mraz</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Mar 27 2007 17:42:49 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>rashed right after logging into X via gdm.
+
+ProblemType: Crash
+Architecture: i386
+Date: Tue Mar 27 10:55:38 2007
+DistroRelease: Ubuntu 7.04
+ExecutablePath: /usr/bin/workrave
+Package: workrave 1.8.4-1ubuntu1
+PackageArchitecture: i386
+ProcCmdline: /usr/bin/workrave --oaf-activate-iid=OAFIID:GNOME_Workrave_Factory --oaf-ior-fd=35
+ProcCwd: /
+ProcEnviron:
+ LANG=en_US.UTF-8
+ LANGUAGE=en_US:en
+ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games
+ SHELL=/bin/bash
+Signal: 11
+SourcePackage: workrave
+
+#0  0x080caae4 in RemoteControl::set_applet (this=0x819a540, bonobo_applet_control=0x81ec618) at AppletControl.hh:87
+No locals.
+#1  0xb70fc767 in ORBit_POAObject_invoke (pobj=0x81998d8, ret=0x0, args=0xbfb5e4d0, ctx=0xbfb5e548, data=0xbfb5e5c8, ev=0xbfb5e65c) at poa.c:1142
+No locals.
+#2  0xb71028d5 in ORBit_OAObject_invoke (adaptor_obj=0x81998d8, ret=0x0, args=0xbfb5e4d0, ctx=0xbfb5e548, data=0xbfb5e5c8, ev=0xbfb5e65c) at orbit-adaptor.c:338
+No locals.
+#3  0xb70efa1c in ORBit_small_invoke_adaptor (adaptor_obj=0x81998d8, recv_buffer=0x81ec298, m_data=0x8126ce0, data=0xbfb5e5c8, ev=0xbfb5e65c) at orbit-small.c:844
+	a = &lt;value optimized out&gt;
+	ctx = {parent = {interface = 0x8170198, refs = -1223559804}, mappings = 0xb6edf7fc, children = 0xb6edfbf0, 
+  the_name = 0xbfb5e578 &#34;ï¿½åµ¿v\005\020ï¿½ï¿½\230\031\b\230ï¿½\036\bï¿½l\022\bï¿½åµ¿\\æµ¿\005&#34;, parent_ctx = 0x1}
+	args = (gpointer *) 0xbfb5e4d0
+	scratch = (gpointer *) 0xbfb5e4b0
+	pretval = (gpointer) 0x0
+	retval = (gpointer) 0x0
+	send_buffer = &lt;value optimized out&gt;
+	orb = (CORBA_ORB) 0x8170110
+	tc = (CORBA_TypeCode) 0xbfb5e4d0
+	i = &lt;value optimized out&gt;
+#4  0xb7100576 in ORBit_POAObject_handle_request (pobj=0x81998d8, opname=0x81ec344 &#34;set_applet&#34;, ret=0x0, args=0x0, ctx=0x0, recv_buffer=0x81ec298, ev=0xbfb5e65c) at poa.c:1351
+	invoke_data = {small_skel = 0x80d75ef &lt;_ORBIT_skel_small_GNOME_Workrave_WorkraveControl_set_applet&gt;, imp = 0x80cab14}
+	poa = (PortableServer_POA) 0x8170198
+	cookie = (PortableServer_ServantLocator_Cookie) 0x0
+	oid = (PortableServer_ObjectId *) 0x81965a4
+	m_data = (ORBit_IMethod *) 0x8126ce0
+	small_skel = (ORBitSmallSkeleton) 0x80d75ef &lt;_ORBIT_skel_small_GNOME_Workrave_WorkraveControl_set_applet&gt;
+	imp = (gpointer) 0x80cab14
+	__PRETTY_FUNCTION__ = &#34;ORBit_POAObject_handle_request&#34;
+#5  0xb7100c22 in ORBit_POAObject_invoke_incoming_request (pobj=0x81998d8, recv_buffer=0x81ec298, opt_ev=0xbfb5e65c) at poa.c:1421
+	opname = &lt;value optimized out&gt;
+	real_ev = {_id = 0xbfb5e638 &#34;\230æµ¿\223\026\020ï¿½ï¿½\230\031\b\230ï¿½\036\b\\æµ¿\001&#34;, _major = 1, _any = {_type = 0x81998d8, _value = 0xb711dcd0, _release = 112 &#39;p&#39;}}
+	ev = (CORBA_Environment *) 0xbfb5e65c
+#6  0xb7101693 in ORBit_POA_handle_request (poa=0x8170198, recv_buffer=0x81ec298, objkey=0x81ec2b0) at poa.c:1643
+	pobj = (ORBit_POAObject) 0x81998d8
+	env = {_id = 0x0, _major = 0, _any = {_type = 0x0, _value = 0x0, _release = 0 &#39;\0&#39;}}
+	object_id = {_maximum = 8, _length = 8, _buffer = 0x81ec338 &#34;\005&#34;, _release = 0 &#39;\0&#39;}
+	__PRETTY_FUNCTION__ = &#34;ORBit_POA_handle_request&#34;
+#7  0xb7102a72 in ORBit_handle_request (orb=0x8170110, recv_buffer=0x81ec298) at orbit-adaptor.c:298
+	forw_obj = &lt;value optimized out&gt;
+	objkey = (ORBit_ObjectKey *) 0x81ec2b0
+	adaptor = (ORBit_ObjectAdaptor) 0x8170198
+#8  0xb70ebcc7 in giop_connection_handle_input (lcnx=0x8174498) at giop-recv-buffer.c:1308
+	buf = (GIOPRecvBuffer *) 0x81ec298
+	cnx = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;giop_connection_handle_input&#34;
+#9  0xb71096ed in link_connection_io_handler (gioc=0x0, condition=&lt;value optimized out&gt;, data=0x8174498) at linc-connection.c:1387
+	rv = &lt;value optimized out&gt;
+	n = &lt;value optimized out&gt;
+	n_size = &lt;value optimized out&gt;
+	cnx = &lt;value optimized out&gt;
+#10 0xb710c5de in link_source_dispatch (source=0x81e7f08, callback=0xb7109610 &lt;link_connection_io_handler&gt;, user_data=0x8174498) at linc-source.c:159
+No locals.
+#11 0xb701ddf2 in IA__g_main_context_dispatch (context=0x816f3f8) at gmain.c:2045
+No locals.
+#12 0xb7020dcf in g_main_context_iterate (context=0x816f3f8, block=1, dispatch=1, self=0x8166f20) at gmain.c:2677
+	got_ownership = &lt;value optimized out&gt;
+	max_priority = 2147483647
+	timeout = -1
+	some_ready = 1
+	nfds = &lt;value optimized out&gt;
+	allocated_nfds = &lt;value optimized out&gt;
+	fds = (GPollFD *) 0x81ec188
+	__PRETTY_FUNCTION__ = &#34;g_main_context_iterate&#34;
+#13 0xb7021335 in IA__g_main_context_iteration (context=0x816f3f8, may_block=1) at gmain.c:2736
+	retval = &lt;value optimized out&gt;
+#14 0xb7107e57 in link_main_iteration (block_for_reply=1) at linc.c:288
+No locals.
+#15 0xb70eb437 in giop_recv_buffer_get (ent=0xbfb5e91c, timeout=0xbfb5e934) at giop-recv-buffer.c:738
+	tdata = (GIOPThread *) 0x816f478
+	tval = {tv_sec = -1078597135, tv_usec = -1223773205}
+#16 0xb70effab in ORBit_small_invoke_stub (obj=0x8175ca0, m_data=0xb71512a0, ret=0xbfb5ea10, args=0xbfb5e9f8, ctx=0x0, ev=0xbfb5ea64) at orbit-small.c:658
+	completion_status = &lt;value optimized out&gt;
+	cnx = (GIOPConnection *) 0x814c6a0
+	mqe = {buffer = 0x81ec1c8, cnx = 0x814c6a0, msg_type = 1, request_id = 3216370000, src_thread = 0x816f478, async_cb = 0}
+	adaptor_obj = &lt;value optimized out&gt;
+	recv_buffer = (GIOPRecvBuffer *) 0x0
+	xt_proxy = (CORBA_Object) 0x0
+	invoke_policy = (ORBitPolicy *) 0x0
+	timeout = 0
+#17 0xb70f01ce in ORBit_small_invoke_stub_n (object=0x8175ca0, methods=0xb7151324, index=136234520, ret=0xbfb5ea10, args=0xbfb5e9f8, ctx=0x0, ev=0xe0002) at orbit-small.c:575
+No locals.
+#18 0xb70fc992 in ORBit_c_stub_invoke (obj=0x8175ca0, methods=0xb7151324, method_index=0, ret=0xbfb5ea10, args=0xbfb5e9f8, ctx=0x0, ev=0xbfb5ea64, class_id=0, method_offset=4, 
+    skel_impl=0xb7144f70 &lt;_ORBIT_skel_small_ConfigDatabase2_lookup_with_schema_name&gt;) at poa.c:2643
+	method_impl = (gpointer) 0x0
+#19 0xb7147be7 in ConfigDatabase2_lookup_with_schema_name (_obj=0x8175ca0, key=0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;, locale=0x812ff00 &#34;en_US.UTF-8&#34;, 
+    use_schema_default=1 &#39;\001&#39;, schema_name=0xbfb5ea84, value_is_default=0xbfb5ea8b &#34;&#34;, value_is_writable=0xbfb5ea8a &#34;\001&#34;, ev=0xbfb5ea64) at GConfX-stubs.c:210
+	_ORBIT_retval = (ConfigValue *) 0x0
+	_args = {0xbfb5ea24, 0xbfb5ea28, 0xbfb5e9f0, 0xbfb5ea30, 0xbfb5ea34, 0xbfb5ea38}
+#20 0xb713f15f in gconf_engine_get_fuller (conf=0x81736e0, key=0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;, locale=&lt;value optimized out&gt;, use_schema_default=1, 
+    is_default_p=0xbfb5ead4, is_writable_p=0xbfb5ead8, schema_name_p=0xbfb5eacc, err=0xbfb5ead0) at gconf.c:1007
+	locale_list = &lt;value optimized out&gt;
+	tmp_is_default = &lt;value optimized out&gt;
+	tmp_is_writable = &lt;value optimized out&gt;
+	tmp_schema_name = &lt;value optimized out&gt;
+	val = &lt;value optimized out&gt;
+	cv = (ConfigValue *) 0xb6db4ff4
+	ev = {_id = 0x0, _major = 0, _any = {_type = 0x0, _value = 0x0, _release = 0 &#39;\0&#39;}}
+	db = (ConfigDatabase) 0x8175ca0
+	tries = 0
+	is_default = 0 &#39;\0&#39;
+	is_writable = 1 &#39;\001&#39;
+	corba_schema_name = (CORBA_char *) 0x0
+	__PRETTY_FUNCTION__ = &#34;gconf_engine_get_fuller&#34;
+#21 0xb713f3ce in gconf_engine_get_entry (conf=0x81736e0, key=0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;, locale=0x812ff00 &#34;en_US.UTF-8&#34;, use_schema_default=1, 
+    err=0xbfb5eb58) at gconf.c:1110
+	is_writable = 1
+	is_default = 0
+	val = &lt;value optimized out&gt;
+	error = (GError *) 0x0
+	entry = &lt;value optimized out&gt;
+	schema_name = (gchar *) 0x0
+#22 0xb7142957 in get (client=0x816a258, key=0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;, use_default=0, error=0xbfb5eb58) at gconf-client.c:1239
+	entry = (GConfEntry *) 0x0
+	__PRETTY_FUNCTION__ = &#34;get&#34;
+#23 0xb7142bde in gconf_client_get_full (client=0x816a258, key=0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;, locale=&lt;value optimized out&gt;, use_schema_default=0, 
+    err=0xbfb5eb8c) at gconf-client.c:1286
+	error = (GError *) 0x0
+	entry = &lt;value optimized out&gt;
+	retval = &lt;value optimized out&gt;
+	__PRETTY_FUNCTION__ = &#34;gconf_client_get_full&#34;
+#24 0x080edc06 in GConfConfigurator::get_value (this=0x818d908, key=@0xbfb5ebc8, value=0xbfb5ebc4) at GConfConfigurator.cc:86
+	ret = &lt;value optimized out&gt;
+	error = (GError *) 0x0
+	full_key = {static npos = 4294967295, _M_dataplus = {&lt;std::allocator&lt;char&gt;&gt; = {&lt;__gnu_cxx::new_allocator&lt;char&gt;&gt; = {&lt;No data fields&gt;}, &lt;No data fields&gt;}, 
+    _M_p = 0x81ec00c &#34;/apps/workrave/gui/main_window/cycle_time&#34;}}
+#25 0x080ed4f8 in GConfConfigurator::get_value (this=0x818d908, key=@0xbfb5ec04, out=0xbfb5ec00) at GConfConfigurator.cc:167
+	value = (GConfValue *) 0x8127844
+	ret = &lt;value optimized out&gt;
+#26 0x080efa46 in TimerBoxControl::get_cycle_time (name=@0xbfb5ec48) at TimerBoxControl.cc:531
+	ret = 136233260
+#27 0x080f0183 in TimerBoxControl::read_configuration (this=0x81eb640) at TimerBoxControl.cc:497
+No locals.
+#28 0x080f06d6 in TimerBoxControl::init (this=0x81eb640) at TimerBoxControl.cc:166
+	core = (ICore *) 0x818d64c
+	config = (IConfigurator *) 0x818d908
+#29 0x080f0726 in TimerBoxControl (this=0x81eb640, n=@0xbfb5ed3c, v=@0x81e5064) at TimerBoxControl.cc:60
+No locals.
+#30 0x080b3418 in MainWindow::init (this=0x819af48) at MainWindow.cc:172
+	icons = {&lt;std::_List_base&lt;Glib::RefPtr&lt;Gdk::Pixbuf&gt;,std::allocator&lt;Glib::RefPtr&lt;Gdk::Pixbuf&gt; &gt; &gt;&gt; = {
+    _M_impl = {&lt;std::allocator&lt;std::_List_node&lt;Glib::RefPtr&lt;Gdk::Pixbuf&gt; &gt; &gt;&gt; = {&lt;__gnu_cxx::new_allocator&lt;std::_List_node&lt;Glib::RefPtr&lt;Gdk::Pixbuf&gt; &gt; &gt;&gt; = {&lt;No data fields&gt;}, &lt;No data fields&gt;}, _M_node = {_M_next = 0x81d7d40, _M_prev = 0x81d4a50}}}, &lt;No data fields&gt;}
+	icon_files = {0x80f7ee1 &#34;workrave-icon-small.png&#34;, 0x80f7ef9 &#34;workrave-icon-medium.png&#34;, 0x80f7f12 &#34;workrave-icon-large.png&#34;}
+	icon_list = {plist_ = 0x81d3290, ownership_ = Glib::OWNERSHIP_SHALLOW}
+	menus = &lt;value optimized out&gt;
+	window = {pCppObject_ = 0xb77893cc}
+	leader_window = {pCppObject_ = 0x81265bc}
+	config = &lt;value optimized out&gt;
+#31 0x080b3f0c in MainWindow (this=0x819af48) at MainWindow.cc:114
+No locals.
+#32 0x080aba32 in GUI::init_gui (this=0x812c138) at GUI.cc:767
+No locals.
+#33 0x080ac540 in GUI::main (this=0x812c138) at GUI.cc:227
+	kit = {&lt;sigc::trackable&gt; = {callback_list_ = 0x0}, _vptr.Main = 0xb7ab5f88, static signal_run_ = {&lt;No data fields&gt;}, static signal_quit_ = {&lt;No data fields&gt;}, 
+  static signal_key_snooper_ = {&lt;No data fields&gt;}, static instance_ = 0xbfb5ee04}
+	display = 0x818d4c8 &#34;&#34;
+#34 0x080ca75c in run (argc=3, argv=0xbfb5eef4) at main.cc:44
+	gui = (class GUI *) 0x812c138
+#35 0x080ca793 in main (argc=) at main.cc:56
+	ret = 0</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Mar 27 2007 20:12:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fixed.
+
+Changed the initialization order to make sure that the CORBA interface never crashes on NULL pointers...
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Mar 28 2007 10:08:00 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>So it&#39;s just http://workrave.svn.sourceforge.net/viewvc/workrave/workrave/trunk/frontend/gtkmm/src/GUI.cc?r1=1144&amp;r2=1161&amp;view=patch ?
+
+If so, I&#39;d patch that in Ubuntu until the next workrave release gets out.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Mar 28 2007 10:28:59 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Correct. That small patch should fix the crash.
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Daniel Holbach&nbsp;&nbsp;Mar 28 2007 11:18:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Thanks.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 18 2007 21:11:57 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 621 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

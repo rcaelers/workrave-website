@@ -1,0 +1,133 @@
+>>> GUI:GUI
+>>> GUIControl:GUIControl
+<<< GUIControl:GUIControl
+<<< GUI:GUI
+>>> Win32Configurator::Win32Configurator
+>>> GUIControl::verify_config
+    GUIControl::verify_config micro_pause
+>>> Win32Configurator::exists_dir timers/micro_pause
+    GUIControl::verify_config rest_break
+>>> Win32Configurator::exists_dir timers/rest_break
+    GUIControl::verify_config daily_limit
+>>> Win32Configurator::exists_dir timers/daily_limit
+<<< GUIControl::verify_config
+>>> GUI:run
+>>> WindowHints::init
+    WindowHints::init register class returned 49623
+<<< WindowHints::init
+>>> ActivityMonitor::ActivityMonitor
+>>> Win32InputMonitor::init
+<<< ActivityMonitor::ActivityMonitor
+>>> Win32Configurator::get_value monitor/noise,0x22fb50
+>>> Win32Configurator::get_value monitor/activity,0x22fb50
+>>> Win32Configurator::get_value monitor/idle,0x22fb50
+>>> Win32Configurator::set_value monitor/noise,9000
+>>> Configurator::fire_configurator_event monitor/noise
+<<< Configurator::fire_configurator_event
+>>> Win32Configurator::set_value monitor/activity,1000
+>>> Configurator::fire_configurator_event monitor/activity
+<<< Configurator::fire_configurator_event
+>>> Win32Configurator::set_value monitor/idle,5000
+>>> Configurator::fire_configurator_event monitor/idle
+<<< Configurator::fire_configurator_event
+>>> Control::create_timers
+>>> Win32Configurator::get_all_dirs timers
+    Win32Configurator::get_all_dirs Software\Workrave\timers
+    Control::create_timers ID=daily_limit
+>>> Control::configure_timer daily_limit
+>>> Win32Configurator::get_value timers/daily_limit/limit,0x22fa60
+>>> Timer::compute_next_limit_time daily_limit
+<<< Timer::compute_next_limit_time0
+>>> Timer::compute_next_limit_time daily_limit
+<<< Timer::compute_next_limit_time0
+>>> Win32Configurator::get_value timers/daily_limit/auto_reset,0x22fa60
+>>> Win32Configurator::get_value timers/daily_limit/reset_pred,0x22fba0
+>>> Timer::compute_next_predicate_reset_time daily_limit
+<<< Timer::compute_next_predicate_reset_time
+>>> Win32Configurator::get_value timers/daily_limit/snooze,0x22fa60
+>>> Win32Configurator::get_value timers/daily_limit/count_activity,0x22fa60
+>>> Win32Configurator::get_value timers/daily_limit/restore,0x22fa60
+>>> Control::configure_timer_monitor daily_limit
+>>> Win32Configurator::get_value timers/daily_limit/monitor,0x22fac0
+<<< Control::configure_timer_monitor
+<<< Control::configure_timer
+    Control::create_timers ID=micro_pause
+>>> Control::configure_timer micro_pause
+>>> Win32Configurator::get_value timers/micro_pause/limit,0x22fa60
+>>> Timer::compute_next_limit_time micro_pause
+<<< Timer::compute_next_limit_time0
+>>> Timer::compute_next_limit_time micro_pause
+<<< Timer::compute_next_limit_time0
+>>> Win32Configurator::get_value timers/micro_pause/auto_reset,0x22fa60
+>>> Win32Configurator::get_value timers/micro_pause/reset_pred,0x22fba0
+>>> Win32Configurator::get_value timers/micro_pause/snooze,0x22fa60
+>>> Win32Configurator::get_value timers/micro_pause/count_activity,0x22fa60
+>>> Win32Configurator::get_value timers/micro_pause/restore,0x22fa60
+>>> Control::configure_timer_monitor micro_pause
+>>> Win32Configurator::get_value timers/micro_pause/monitor,0x22fac0
+<<< Control::configure_timer_monitor
+<<< Control::configure_timer
+    Control::create_timers ID=rest_break
+>>> Control::configure_timer rest_break
+>>> Win32Configurator::get_value timers/rest_break/limit,0x22fa60
+>>> Timer::compute_next_limit_time rest_break
+<<< Timer::compute_next_limit_time0
+>>> Timer::compute_next_limit_time rest_break
+<<< Timer::compute_next_limit_time0
+>>> Win32Configurator::get_value timers/rest_break/auto_reset,0x22fa60
+>>> Win32Configurator::get_value timers/rest_break/reset_pred,0x22fba0
+>>> Win32Configurator::get_value timers/rest_break/snooze,0x22fa60
+>>> Win32Configurator::get_value timers/rest_break/count_activity,0x22fa60
+>>> Win32Configurator::get_value timers/rest_break/restore,0x22fa60
+>>> Control::configure_timer_monitor rest_break
+>>> Win32Configurator::get_value timers/rest_break/monitor,0x22fac0
+<<< Control::configure_timer_monitor
+<<< Control::configure_timer
+>>> Control::load_state
+<<< Control::load_state
+>>> Control::configure_timer_monitor daily_limit
+>>> Win32Configurator::get_value timers/daily_limit/monitor,0x22fbd0
+<<< Control::configure_timer_monitor
+>>> Timer::compute_next_limit_time daily_limit
+<<< Timer::compute_next_limit_time0
+>>> Control::configure_timer_monitor micro_pause
+>>> Win32Configurator::get_value timers/micro_pause/monitor,0x22fbd0
+<<< Control::configure_timer_monitor
+>>> Timer::compute_next_limit_time micro_pause
+<<< Timer::compute_next_limit_time0
+>>> Control::configure_timer_monitor rest_break
+>>> Win32Configurator::get_value timers/rest_break/monitor,0x22fbd0
+<<< Control::configure_timer_monitor
+>>> Timer::compute_next_limit_time rest_break
+<<< Timer::compute_next_limit_time0
+<<< Control::create_timers
+>>> GUIControl:init
+>>> BreakControl::set_insist_break 1
+<<< BreakControl::set_insist_break
+>>> BreakControl::set_insist_break 1
+<<< BreakControl::set_insist_break
+>>> Statistics::load_current_day
+<<< Statistics::load_current_day
+>>> GUIControl::load_config
+>>> GUIControl::load_break_control_config 0
+>>> Win32Configurator::get_value gui/breaks/micro_pause/max_preludes,0x22fa38
+>>> Win32Configurator::get_value gui/breaks/micro_pause/force_after_preludes,0x22fa38
+>>> Win32Configurator::get_value gui/breaks/micro_pause/insist_break,0x22fa38
+>>> BreakControl::set_insist_break 1
+<<< BreakControl::set_insist_break
+>>> Win32Configurator::get_value gui/breaks/micro_pause/ignorable_break,0x22fa38
+<<< GUIControl::load_break_control_config
+>>> GUIControl::load_break_control_config 1
+>>> Win32Configurator::get_value gui/breaks/rest_break/max_preludes,0x22fa38
+>>> Win32Configurator::get_value gui/breaks/rest_break/force_after_preludes,0x22fa38
+>>> Win32Configurator::get_value gui/breaks/rest_break/insist_break,0x22fa38
+>>> BreakControl::set_insist_break 1
+<<< BreakControl::set_insist_break
+>>> Win32Configurator::get_value gui/breaks/rest_break/ignorable_break,0x22fa38
+<<< GUIControl::load_break_control_config
+>>> GUIControl::load_break_control_config 2
+<<< GUIControl::load_break_control_config
+<<< GUIControl::load_config
+<<< GUIControl:init
+>>> MainWindow::init
+>>> Win32InputMonitor::mouse_hook 512, (323, 513, 0)

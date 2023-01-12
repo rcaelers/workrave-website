@@ -1,0 +1,80 @@
+diff -ur workrave-1.9.4/backend/src/Configurator.cc workrave-1.9.4-patched/backend/src/Configurator.cc
+--- workrave-1.9.4/backend/src/Configurator.cc	2010-01-16 01:41:12.000000000 +0300
++++ workrave-1.9.4-patched/backend/src/Configurator.cc	2011-08-26 21:59:18.315207878 +0400
+@@ -112,7 +112,7 @@
+ 
+   if (now >= auto_save_time)
+     {
+-      save();
++      //save();
+       auto_save_time = 0;
+     }
+ }
+diff -ur workrave-1.9.4/backend/src/Core.cc workrave-1.9.4-patched/backend/src/Core.cc
+--- workrave-1.9.4/backend/src/Core.cc	2011-02-22 21:20:01.000000000 +0300
++++ workrave-1.9.4-patched/backend/src/Core.cc	2011-08-26 00:11:41.000000000 +0400
+@@ -125,6 +125,7 @@
+ {
+   TRACE_ENTER("Core::~Core");
+ 
++  statistics->start_new_day();
+   save_state();
+ 
+   if (monitor != NULL)
+@@ -907,7 +908,7 @@
+   if (current_time % SAVESTATETIME == 0)
+     {
+       statistics->update();
+-      save_state();
++      //save_state();
+     }
+ 
+   // Done.
+@@ -1120,7 +1121,7 @@
+            info.event == TIMER_EVENT_RESET))
+         {
+           statistics->set_counter(Statistics::STATS_VALUE_TOTAL_ACTIVE_TIME, (int) info.elapsed_time);
+-          statistics->start_new_day();
++          //statistics->start_new_day();
+ 
+           daily_reset();
+         }
+diff -ur workrave-1.9.4/backend/src/Statistics.cc workrave-1.9.4-patched/backend/src/Statistics.cc
+--- workrave-1.9.4/backend/src/Statistics.cc	2010-12-05 21:01:31.000000000 +0300
++++ workrave-1.9.4-patched/backend/src/Statistics.cc	2011-08-26 00:10:18.000000000 +0400
+@@ -130,7 +130,7 @@
+     }
+ 
+   update_current_day(state == ACTIVITY_ACTIVE);
+-  save_day(current_day);
++  //save_day(current_day);
+   TRACE_EXIT();
+ }
+ 
+@@ -509,7 +509,7 @@
+ {
+   if (current_day == NULL)
+     {
+-      start_new_day();
++      //start_new_day();
+     }
+ 
+   BreakStats &bs = current_day->break_stats[bt];
+@@ -521,7 +521,7 @@
+ {
+   if (current_day == NULL)
+     {
+-      start_new_day();
++      //start_new_day();
+     }
+ 
+   BreakStats &bs = current_day->break_stats[bt];
+@@ -534,7 +534,7 @@
+ {
+   if (current_day == NULL)
+     {
+-      start_new_day();
++      //start_new_day();
+     }
+ 
+   BreakStats &bs = current_day->break_stats[bt];

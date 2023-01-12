@@ -1,0 +1,168 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/221/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;221 - STR (S3 Suspend to Ram) does not reset/stop timers.</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>Core</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.4.0</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC All</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P3 normal</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Mar 26 2003 02:46:11 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>Jake McLain</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Sep 4 2003 12:04:18 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">CC List:</div><div class=col-8>Adriaan van den Brand</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Apr 3 2003 10:38:31 UTC</td><td>status</td><td>NEW</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Apr 8 2003 12:42:47 UTC</td><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=2>Kees-Jan Dijkzeul</th><td rowspan=2>Jul 7 2003 00:26:58 UTC</td><td>status</td><td>RESOLVED</td><td>REOPENED</td></tr><tr><td>resolution</td><td>FIXED</td><td></td></tr><tr><th scope=row rowspan=3>Rob Caelers</th><td rowspan=3>Jul 7 2003 09:50:55 UTC</td><td>status</td><td>REOPENED</td><td>RESOLVED</td></tr><tr><td>component</td><td>Core :: Win32</td><td>Core</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr><tr><th scope=row rowspan=3>Jake McLain</th><td rowspan=3>Aug 25 2003 11:37:22 UTC</td><td>status</td><td>RESOLVED</td><td>REOPENED</td></tr><tr><td>resolution</td><td>FIXED</td><td></td></tr><tr><td>version</td><td>unspecified</td><td>1.4.0</td></tr><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Aug 28 2003 09:38:39 UTC</td><td>assigned_to</td><td>Raymond Penners</td><td>Rob Caelers</td></tr><tr><td>status</td><td>REOPENED</td><td>NEW</td></tr><tr><th scope=row rowspan=1>Rob Caelers</th><td rowspan=1>Aug 29 2003 04:28:23 UTC</td><td>status</td><td>NEW</td><td>ASSIGNED</td></tr><tr><th scope=row rowspan=1>Kees-Jan Dijkzeul</th><td rowspan=1>Sep 1 2003 01:03:56 UTC</td><td>cc</td><td></td><td>Adriaan van den Brand</td></tr><tr><th scope=row rowspan=2>Raymond Penners</th><td rowspan=2>Sep 4 2003 12:04:18 UTC</td><td>status</td><td>ASSIGNED</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>Jake McLain&nbsp;&nbsp;Mar 26 2003 02:46:11 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hi,
+I frequently use suspend-to-ram (S3 / STR) when I am away from the computer for
+a longer period (and it has nothing to do). The timers are NOT reset or even
+stopped when the computer is in STR. So when I placed my PC in standby and got
+back 2-3 hours later I had work for that time (according to WorkRave), it also
+said I pulled an all-nighter (effectively working ~16 hours from 8.00 am to 8.00
+am, I can assure you, I didn&#39;t) and my rest-period was &gt;9 hours overdue.
+
+My guess is the same goes for S1 and Hibernate, but I do not use those.
+
+Suggested fix (not really a fix, just some thoughts):
+- somehow detect computer goes to standby (mouse and keyboard are not reporting
+any activity).
+- I guess there is some kind of system-wide OS-command, that tells all programs
+the PC is going to standby (or comes back from standby). But I am not sure, and
+absolutely do not know what it is, I could be sadly mistaken. Outlook seems to
+use it (it always sends/receives right after a standby, that is longer than the
+interval).
+- crude method: reset all timers at the day-limit reset time. Not a good method
+(=understatement), since not every standby &#39;passes&#39; that limit, but probably
+very easy to implement.
+
+I hope this info helps.
+
+I said: PC, all windows versions, but I am not sure. Could be just XP (I doubt
+it) and it could very well affect other platforms as well.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Mar 26 2003 03:42:43 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I sometimes use suspend-to-disk (on XP), basically because I&#39;m too lazy to
+restart all my applications when I arrive at work in the morning.
+
+I have not yet seen the behaviour you describe. When I restart the computers all
+timers are always reset exactly the way I expect.
+
+To arrive in suspend-to-disk mode, I use a keybord shortcut on my laptop,
+instead of choosing &#34;shutdown&#34; form the start menu. Hence, at the time of
+suspend-to-disk, wr probably does not consider me active. I do not fully recall
+all the details of activity detection, but this might have something to do with
+it :-)
+
+Any other thoughts??</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 2</div><div class=float-left>Jake McLain&nbsp;&nbsp;Mar 26 2003 05:49:28 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I use the sleep button on my MS-keyboard. But maybe it does work ok with
+suspend-to-disk and only fails with suspend-to-ram? (like I said, I do not use
+hibernate).
+
+I did some extra tests; I think the solution could be simpler than I originally
+thought.
+
+When I go to STR (with the sleep button) with the me being idle the timers DO
+stop (or better: stay &#39;stopped&#39;), but if I&#39;m not idle (or at least not yet ~5
+sec idle), the counters continue to run. Since going to STR takes like 1 second
+that’s not enough to &#39;make me idle&#39;, hibernates probably takes over 5 seconds
+(so you are idle using that).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 3</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Mar 26 2003 07:10:30 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I cannot easily reproduce your problem. I am currently unable to
+&#34;suspend-to-ram&#34;.  No matter what I tell XP to do (either &#34;slaapstand&#34; or
+&#34;standby&#34;), it always suspends to disk.
+
+At one point, I noted some odd behaviour, just after resuming from disk:
+micropause and restbreak timers did show some activity, but otherwise did not run. 
+
+Apparently I was neither active nor inactive (micropause timer didn&#39;t run, but
+also didn&#39;t indicate a natural break). 
+
+After a while of being inactive, wr started to indicate I was taking a natural
+break.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 4</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Mar 26 2003 07:26:30 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I take that back. There is definetly something odd here. For yesterday, I have a
+daily usage (according to the statistics window) of 20:34 hours, yet no overdue
+time (with a daily limit of 2:30 hours :-).
+
+Also, the statistics window reads &#34;Datum: 25-3-2003, van 10:36:00 tot 11:33:00&#34;.
+Apparently this indicates a period of 25 hours. Considering that I left the
+office at about 17:30, that would mean that of those 20:34 hours daily usage, I
+spent 18 hours in &#34;suspend to disk&#34;, and a little under 2:30 hours actual usage,
+which sounds about right.
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 5</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 3 2003 10:38:31 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>See bug #229.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 6</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 8 2003 12:42:47 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Hopefully fixed (again see bug 229)</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 7</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Jul 7 2003 00:26:58 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>There is still something odd here. I suspended to disk last saturday, and
+started up again today. Wr (1.2.3 alpha, I believe), however, is convinced that
+it is still saturday, and is happily adding my activity there.
+
+So when I open the statistics window, the date widget starts at today, but finds
+no recorded history, Then, when I click left arrow, I end up on saturday, seeing
+my activity being increased.
+
+I have not yet succeeded in convincing wr that it is monday (then again, I would
+prefer it being saturday too).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 8</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Jul 7 2003 09:50:55 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Indeed. should be fixed now.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 9</div><div class=float-left>Jake McLain&nbsp;&nbsp;Aug 25 2003 11:37:22 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I am using 1.4.0 now. it does stop the countdown of the timers, but it does not
+reset them (when WR is not idle while suspending).
+
+So if WR is idle it works okey (so did 1.2.2); but if the timers are still
+counting-down they are stopped by suspending but not reset (suspended longer
+than restbreak is not counted as a restbreak, same for minibreaks).
+
+I have not yet tested overnight suspend.
+
+Forwarding the time as in
+http://www.workrave.org/cgi-bin/bugzilla/show_bug.cgi?id=229 has the same effect
+(timers are stopped, but not reset), but in that case it probably is the desired
+effect.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 10</div><div class=float-left>Jake McLain&nbsp;&nbsp;Aug 26 2003 09:59:31 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Correction: it seems the restbreak timer is not reset after standby, even if the
+WR was idle (timers not counting down).
+
+If WR is idle and PC is standby overnight, the timers are reset (I have not yet
+tried overnight standby without WR not standby).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 11</div><div class=float-left>Jake McLain&nbsp;&nbsp;Aug 28 2003 00:40:06 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>I made some errors in previous post (timers on overnight suspend probably were
+reset before suspend, not during).
+
+To make it clear:
+
+* Suspend PC with timers running:
+- Now: timers are stopped but not reset.
+- Expected: timers reset if idle time was longer than breaktime. If suspend was
+not as long as the break it should could as part the break (but this is not as 
+&#39;important&#39; as first remark).
+
+* Suspend PC with timers stopped:
+- Now: timers not reset.
+- Expected: timers reset if idle time was longer than breaktime.
+
+* Suspend PC overnight with timers stopped or running (no difference):
+- Now: only daily limit is reset, restbreak and minibreak are not (they are
+stopped if they were still running).
+- Expected: all timers reset (since my break was long enough).
+
+So there is practically no difference between timers running or stopped (this is
+good), but some improvements can be made. When I want to take a longer break
+(and place my PC in standby) I now have to: wait a restbreak before or after
+that break (otherwise the timers are not reset), or I have to Skip a restbreak.
+Overnight about the same: a restbreak before or after the suspend.</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 12</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Aug 28 2003 09:38:39 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>When workrave detects a gap in time (because of STR or a change of system time)
+Workrave assumes that you became idle at that time and assumes that the skipped
+time never existed. In other words, during this time you are neither active nor
+idle. Although this behaviour is desired if you change the system time, it is
+not if in case of STR.  
+
+I don&#39;t see a way to distinguish STR and a change of system time (unless the
+clock is set back). I propose to change the current behaviour: assume that you
+become idle at the moment the time-gap starts. In case the time is set back, we
+keep the current behaviour. Disadvantage: When you set the clock forward,
+workrave assume you were idle during this time...
+
+Comment? Ideas on how to detect STR/change of system time?</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 13</div><div class=float-left>Jake McLain&nbsp;&nbsp;Aug 28 2003 13:11:56 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Well, since the daily limit IS reset overnight, the other timers could be reset
+as well (at least on overnight suspend). But this will reset the timers for
+people who change the DATE of the PC (but than again changing the date resets
+daily limit also).
+
+About the daily limit: if I set the Date to tomorrow: the daily limit is reset
+if I return to today the daily limit is STILL reset and WR still thinks it is
+tomorrow (even after a restart of WR; I did not restart the PC).</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 14</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Aug 29 2003 01:33:09 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Ideally, you&#39;d want to have a second timer that keeps running during suspends,
+but is not affected by changes of system time. I don&#39;t know much about hardware,
+but I expect such a timer to be there.
+
+Alternatively, you could investigate if windows sends a signal when suspending.
+I bet there is one. Other applications should have similar problems when dealing
+with suspend.
+
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 15</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Aug 29 2003 04:28:23 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>It seems there is an event: WM_POWERBROADCAST. </pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 16</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Aug 30 2003 12:09:03 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>Fixed. Workrave now detect the difference between setting the clock forward and
+powersave. Please try http://workrave.org/files/workrave-1.4.1-pre4.exe (or
+workrave-1.4.1-pre4-debug.exe if you want trace logging)
+
+This is not a full installer. Just copy the executable to \Program
+Files\Workrave\lib and run this executable instead of workrave.exe
+
+About the &#34;set the date to tomorrow and back to today&#34; problem: this is not
+fixed, and probably will never be. I think it&#39;s not worth the trouble. This
+would require workrave to revert quite some things (timers, statistics,
+statistics history...). Just don&#39;t do it :-)
+</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 17</div><div class=float-left>Kees-Jan Dijkzeul&nbsp;&nbsp;Sep 1 2003 01:03:57 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>*** Bug 297 has been marked as a duplicate of this bug. ***</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>

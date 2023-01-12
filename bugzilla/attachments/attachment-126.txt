@@ -1,0 +1,88 @@
+
+Process: Workrave.exe Pid: 4248
+
+Name	Description	Company Name	Version	Path
+ADVAPI32.DLL	Advanced Windows 32 Base API	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\ADVAPI32.DLL
+apphelp.dll	Application Compatibility Client Library	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\apphelp.dll
+audioeng.dll	Audio Engine	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\audioeng.dll
+audioses.dll	Audio Session	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\audioses.dll
+AVRT.dll	Multimedia Realtime Runtime	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\AVRT.dll
+CLBCatQ.DLL	COM+ Configuration Catalog	Microsoft Corporation	2001.12.6930.16386	C:\Windows\syswow64\CLBCatQ.DLL
+COMCTL32.DLL	User Experience Controls Library	Microsoft Corporation	5.82.6000.16386	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.6000.16386_none_87e0cb09378714f1\COMCTL32.DLL
+comctl32.dll	User Experience Controls Library	Microsoft Corporation	6.10.6000.16386	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6000.16386_none_5d07289e07e1d100\comctl32.dll
+COMDLG32.DLL	Common Dialogs DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\COMDLG32.DLL
+CRYPT32.dll	Crypto API32	Microsoft Corporation	6.00.6000.16425	C:\Windows\SysWOW64\CRYPT32.dll
+GDI32.dll	GDI Client DLL	Microsoft Corporation	6.00.6000.20591	C:\Windows\syswow64\GDI32.dll
+gnet-2.0.dll				C:\Program Files (x86)\Workrave\lib\gnet-2.0.dll
+harpoon.dll				C:\Program Files (x86)\Workrave\lib\harpoon.dll
+icm32.dll	Microsoft Color Management Module (CMM)	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\icm32.dll
+iconv.dll	LGPLed libiconv for Windows NT/2000/XP and Windows 95/98/ME	Free Software Foundation	1.09.0000.0000	C:\Program Files (x86)\Workrave\lib\iconv.dll
+imagehlp.dll	Windows NT Image Helper	Microsoft Corporation	6.00.6000.16470	C:\Windows\syswow64\imagehlp.dll
+IMM32.DLL	Multi-User Windows IMM32 API Client DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\IMM32.DLL
+intl.dll	LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME	Free Software Foundation	0.14.0005.0000	C:\Program Files (x86)\Workrave\lib\intl.dll
+kernel32.dll	Windows NT BASE API Client DLL	Microsoft Corporation	6.00.6000.20608	C:\Windows\syswow64\kernel32.dll
+kernel32.dll.mui	Windows NT BASE API Client DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\en-US\kernel32.dll.mui
+ksuser.dll	User CSA Library	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\ksuser.dll
+libatk-1.0-0.dll	atk	Sun Microsystems Inc.	1.10.0003.0000	C:\Program Files (x86)\Workrave\lib\libatk-1.0-0.dll
+libcairo-2.dll				C:\Program Files (x86)\Workrave\lib\libcairo-2.dll
+libgdk_pixbuf-2.0-0.dll	GIMP Toolkit	The GTK developer community	2.10.0003.0000	C:\Program Files (x86)\Workrave\lib\libgdk_pixbuf-2.0-0.dll
+libgdk-win32-2.0-0.dll	GIMP Drawing Kit	The GTK developer community	2.10.0003.0000	C:\Program Files (x86)\Workrave\lib\libgdk-win32-2.0-0.dll
+libglib-2.0-0.dll	GLib	The GLib developer community	2.12.0003.0000	C:\Program Files (x86)\Workrave\lib\libglib-2.0-0.dll
+libgmodule-2.0-0.dll	GModule	The GLib developer community	2.12.0003.0000	C:\Program Files (x86)\Workrave\lib\libgmodule-2.0-0.dll
+libgobject-2.0-0.dll	GObject	The GLib developer community	2.12.0003.0000	C:\Program Files (x86)\Workrave\lib\libgobject-2.0-0.dll
+libgthread-2.0-0.dll	GThread	The GLib developer community	2.12.0003.0000	C:\Program Files (x86)\Workrave\lib\libgthread-2.0-0.dll
+libgtk-win32-2.0-0.dll	GIMP Toolkit	The GTK developer community	2.10.0003.0000	C:\Program Files (x86)\Workrave\lib\libgtk-win32-2.0-0.dll
+libpango-1.0-0.dll	Pango	Red Hat Software	1.14.0003.0000	C:\Program Files (x86)\Workrave\lib\libpango-1.0-0.dll
+libpangocairo-1.0-0.dll				C:\Program Files (x86)\Workrave\lib\libpangocairo-1.0-0.dll
+libpangowin32-1.0-0.dll	PangoWin32	Red Hat Software	1.14.0003.0000	C:\Program Files (x86)\Workrave\lib\libpangowin32-1.0-0.dll
+libpixbufloader-png.dll				C:\Program Files (x86)\Workrave\lib\gtk-2.0\2.10.0\loaders\libpixbufloader-png.dll
+libpng13.dll	LibPng: PNG image compression library	LibPng	1.02.0008.1799	C:\Program Files (x86)\Workrave\lib\libpng13.dll
+libwimp.dll				C:\Program Files (x86)\Workrave\lib\gtk-2.0\2.10.0\engines\libwimp.dll
+locale.nls				C:\Windows\System32\locale.nls
+locale.nls				C:\Windows\System32\locale.nls
+LPK.DLL	Language Pack	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\LPK.DLL
+midimap.dll	Microsoft MIDI Mapper	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\midimap.dll
+MMDevAPI.DLL	MMDevice API	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\MMDevAPI.DLL
+MMDevAPI.dll.mui	MMDevice API	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\en-US\MMDevAPI.dll.mui
+MSACM32.dll	Microsoft ACM Audio Filter	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\MSACM32.dll
+msacm32.drv	Microsoft Sound Mapper	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\msacm32.drv
+MSASN1.dll	ASN.1 Runtime APIs	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\MSASN1.dll
+mscms.dll	Microsoft Color Matching System DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\mscms.dll
+MSCTF.dll	MSCTF Server DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\MSCTF.dll
+msctf.dll.mui	MSCTF Server DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\en-US\msctf.dll.mui
+msimtf.dll	Active IMM Server DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\msimtf.dll
+MSVCRT.dll	Windows NT CRT DLL	Microsoft Corporation	7.00.6000.16386	C:\Windows\syswow64\MSVCRT.dll
+NSI.dll	NSI User-mode interface DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\NSI.dll
+ntdll.dll	NT Layer DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\system32\ntdll.dll
+ntdll.dll	NT Layer DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\ntdll.dll
+OLE32.dll	Microsoft OLE for Windows	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\OLE32.dll
+OLEACC.dll	Active Accessibility Core Component	Microsoft Corporation	4.02.5406.0000	C:\Windows\SysWOW64\OLEACC.dll
+oleaccrc.dll	Active Accessibility Resource DLL	Microsoft Corporation	4.02.5406.0000	C:\Windows\SysWOW64\oleaccrc.dll
+OLEAUT32.dll		Microsoft Corporation	6.00.6000.16609	C:\Windows\syswow64\OLEAUT32.dll
+PROPSYS.dll	Microsoft Property System	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\PROPSYS.dll
+PSAPI.DLL	Process Status Helper	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\PSAPI.DLL
+R000000000002.clb				C:\Windows\Registration\R000000000002.clb
+RPCRT4.dll	Remote Procedure Call Runtime	Microsoft Corporation	6.00.6000.16525	C:\Windows\syswow64\RPCRT4.dll
+Secur32.dll	Security Support Provider Interface	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\Secur32.dll
+SETUPAPI.dll	Windows Setup API	Microsoft Corporation	6.00.6000.16609	C:\Windows\syswow64\SETUPAPI.dll
+setupapi.dll.mui	Windows Setup API	Microsoft Corporation	6.00.6000.16609	C:\Windows\SysWOW64\en-US\setupapi.dll.mui
+shdocvw.dll	Shell Doc Object and Control Library	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\shdocvw.dll
+SHELL32.DLL	Windows Shell Common Dll	Microsoft Corporation	6.00.6000.16513	C:\Windows\syswow64\SHELL32.DLL
+SHLWAPI.dll	Shell Light-weight Utility Library	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\SHLWAPI.dll
+USER32.dll	Multi-User Windows USER API Client DLL	Microsoft Corporation	6.00.6000.16438	C:\Windows\syswow64\USER32.dll
+USERENV.dll	Userenv	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\USERENV.dll
+USP10.dll	Uniscribe Unicode script processor	Microsoft Corporation	1.626.6000.16386	C:\Windows\syswow64\USP10.dll
+uxtheme.dll	Microsoft UxTheme Library	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\uxtheme.dll
+VERSION.dll	Version Checking and File Installation Libraries	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\VERSION.dll
+wdmaud.drv	Winmm  audio system driver	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\wdmaud.drv
+wdmaud.drv.mui	Winmm  audio system driver	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\en-US\wdmaud.drv.mui
+WINMM.DLL	MCI API DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\WINMM.DLL
+winmm.dll.mui	MCI API DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\en-US\winmm.dll.mui
+WINSPOOL.DRV	Windows Spooler Driver	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\WINSPOOL.DRV
+WINTRUST.dll	Microsoft Trust Verification APIs	Microsoft Corporation	6.00.6000.16386	C:\Windows\SysWOW64\WINTRUST.dll
+Workrave.exe				C:\Program Files (x86)\Workrave\lib\Workrave.exe
+wow64.dll	Win32 Emulation on NT64	Microsoft Corporation	6.00.6000.16386	C:\Windows\system32\wow64.dll
+wow64cpu.dll	AMD64 Wow64 CPU 	Microsoft Corporation	6.00.6000.16386	C:\Windows\system32\wow64cpu.dll
+wow64win.dll	Wow64 Console and Win32 API Logging	Microsoft Corporation	6.00.6000.16386	C:\Windows\system32\wow64win.dll
+WS2_32.DLL	Windows Socket 2.0 32-Bit DLL	Microsoft Corporation	6.00.6000.16386	C:\Windows\syswow64\WS2_32.DLL
+zlib1.dll	Zlib: general purpose data compression / decompression library	Zlib	1.02.0003.2027	C:\Program Files (x86)\Workrave\lib\zlib1.dll

@@ -1,0 +1,315 @@
+
+
+
+
+# Definition of the environment
+
+
+
+
+
+
+ImagePath /usr/local/share/icons:/usr/share/icons:/usr/share/pixmaps:/usr/include/X11/pixmaps:/usr/local/share/icons:/usr/share/icons:/usr/include/X11/bitmaps:/usr/X11R6/include/bitmaps
+
+DeskTopSize 3x3
+EdgeScroll 100 100
+EdgeResistance 250 100
+
+DefaultFont -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15
+
+ButtonStyle 6 Vector 5 25x60@0 75x60@0 75x40@0 25x40@1 25x60@1
+
+Style "*" Color Black/DarkGrey
+Style "*" HilightFore MidnightBlue
+Style "*" HilightBack LightSlateGrey
+Style "*" BorderWidth 2
+Style "*" HandleWidth 2
+Style "*" MWMFunctions
+Style "*" MWMBorder
+Style "*" MWMDecor
+Style "*" DecorateTransient
+Style "*" SloppyFocus
+
+
+
+
+
+
+
+
+
+
+
+Style "Fvwm*" NoTitle
+Style "Fvwm*" WindowListSkip
+Style "Fvwm*" CirculateSkip
+Style "FvwmConsole" Title
+Style "FvwmConsole" WindowListHit
+Style "FvwmConsole" CirculateHit
+Style "FvwmIdent" Title
+Style "FvwmIdent" WindowListHit
+Style "FvwmIdent" CirculateHit
+
+Style "Sticky-Bottom" BorderWidth 0, HandleWidth 0, NoIcon, NoHandles, NoTitle, WindowListSkip, CirculateSkip, StaysOnBottom, Sticky
+Style "wmbattery" UseStyle "Sticky-Bottom"
+Style "wmppp" UseStyle "Sticky-Bottom"
+Style "wmtz" UseStyle "Sticky-Bottom"
+Style "wmwave" UseStyle "Sticky-Bottom"
+Style "xbiff" UseStyle "Sticky-Bottom"
+Style "xclock" UseStyle "Sticky-Bottom"
+Style "xsysinfo" UseStyle "Sticky-Bottom"
+Style "xbuffy" UseStyle "Sticky-Bottom"
+Style "xwrits" Sticky
+Style "Workrave" BorderWidth 0, HandleWidth 0, NoIcon, NoHandles, NoTitle, StaysOnTop, Sticky
+
+DestroyFunc InitFunction
+AddToFunc InitFunction
+# Keyboard
++ "I" Exec exec xmodmap /home/hugo/.xmodmap
+# Typing break software
+
+
++ "I" Exec exec nice workrave
+
+# Run some apps
+
++ "I" Exec exec rxvt -xrm '*Page: 0 0 0' -geometry 88x30+0+0
+
+
++ "I" Wait rxvt
+# Background
++ "I" Exec exec xsetroot -solid grey10
+# Clock
++ "I" Exec TZ=GMT exec nice xclock -digital -fg cyan -bg black -update 1 -geometry +0-0 -fn fixed
+# System info
++ "I" Exec exec nice xsysinfo -update 5 -notitle -nolabels -smp -geometry 166x35+0-29 -background black
+# Mail stuff
++ "I" Exec exec nice xbuffy -nobeep -horiz -boxfile /home/hugo/config/mutt/boxfile -geometry +0-64 -fg cyan -bg grey10
+
+# Environment settings
++ "I" Exec exec xset m 3 7
++ "I" Exec exec xset dpms 240 300 600
++ "I" Exec exec xset s off
+
+# Hotkeys
++ "I" Exec exec nice hotkeys -b -Z
+# Screen saver
++ "I" Exec exec xset -dpms
++ "I" Exec exec xset s off
++ "I" Exec exec nice xautolock -time 4 -locker "/usr/local/bin/radeontool light off"
+
+
+
+
+# More apps to start
++ "I" Exec exec rxvt -xrm '*Page: 0 0 1' -geometry 80x40-0+0 -e elinks
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 0 1' -geometry 80x24+0+0
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 0 1'
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 1 2' -geometry 80x40-0+0 -e elinks
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 1 2' -geometry 80x24+0+0
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 1 2'
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 0 2'
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 0 2'
++ "I" Wait rxvt
+
++ "I" Exec exec rxvt -xrm '*Page: 0 0 2'
+
+
++ "I" Wait rxvt
+
++ "I" Exec exec rxvt -xrm '*Page: 0 0 2'
+
+
++ "I" Wait rxvt
+
+
++ "I" Exec exec rxvt -xrm '*Page: 0 0 0' -geometry +0+414
+
++ "I" Wait rxvt
++ "I" Exec exec rxvt -xrm '*Page: 0 0 0' -geometry 80x40-0+0 -e elinks
++ "I" Wait rxvt
+})
+# irssi window
+
++ "I" Exec exec rxvt -xrm '*Page: 0 0 0' -geometry 80x42-0+137
+
+
++ "I" Wait rxvt
++ "I" GotoPage 0 0
+# Docked applications
++ "I" Module FvwmButtons
++ "I" Wait FvwmButtons
+# SSH keys
+# Now using keychain
+#+ "I" Exec exec ssh-add .ssh/identity .ssh/id_dsa < /dev/null
+# Emacs
++ "I" Exec exec emacs -geometry +0+0
+
+DestroyFunc StartFunction
+AddToFunc StartFunction
++ "I" Module FvwmButtons
++ "I" Wait FvwmButtons
+
+Style "FvwmButtons" UseStyle "Sticky-Bottom"
+
+
+
+
+
+
+
+Style "*" IconBox 166 -64 -256 -0
+
+*FvwmButtons: Back grey10
+*FvwmButtons: Fore cyan
+*FvwmButtons: Columns 4
+*FvwmButtons: Rows 1
+*FvwmButtons: Padding 0 0
+*FvwmButtons: Frame 0
+*FvwmButtons: Geometry 256x64-0-0
+
+*FvwmButtons: (Swallow wmppp `Exec exec nice wmppp`)
+*FvwmButtons: (Swallow wmwave `Exec exec nice wmwave -r 2000`)
+
+*FvwmButtons: (Swallow wmtz `Exec exec nice wmtz -geometry +$left+$right`)
+
+*FvwmButtons: (Swallow wmbattery `Exec exec nice wmbattery -w 20 -geometry +$left+$right`)
+
+
+MenuStyle "*" Foreground black, Background grey, Greyed white
+
+Read /etc/X11/fvwm/menudefs.hook Quiet
+
+DestroyMenu Window-Ops
+AddToMenu Window-Ops "Window Ops" Title
++ "Lower"                       Lower
++ "Previous"                    Prev
++ "Move"                        Move
++ "Resize"                      Resize
++ "(De)Iconify"                 Iconify
++ "(Un)Maximize to screen"      Maximize 100 100
++ "Raise"                       Raise
++ "(Un)Stick"                   Stick        
++ "(Un)Maximize vertical"       Maximize 0 100
++ "(Un)Maximize horizontal"     Maximize 100 0
++ "(Un)Shade"                   WindowShade
++ ""                            Nop
++ "FvwmConsole"                 Module FvwmConsole
++ "Destroy"                     Destroy
++ "Close"                       Close
+
+DestroyMenu "/MainMenu"
+AddToMenu "/MainMenu" "Menu" Title Top
++ "Rxvt"	Exec exec rxvt
++ "Mozilla"	Exec exec mozilla
++ "Phoenix"	Exec exec phoenix
++ "Opera"	Exec exec opera
++ "Netscape"	Exec exec netscape
++ "elinks"	Exec exec rxvt -geometry 80x40-0+0 -e elinks
++ "lynx"	Exec exec rxvt -geometry 80x40-0+0 -e lynx
++ "Amaya"	Exec exec amaya
++ "Gnuclient"	Exec exec gnuclient
++ "J-Pilot"	Exec exec jpilot
++ "GnuCash"	Exec exec gnucash
++ "Gnumeric"	Exec exec gnumeric
++ "Lock"	Exec exec nice xlock +description -mode marquee -delay 1500000 -message "Locked" -messagefont '-*-helvetica-*-*-*-*-34-*-*-*-*-*-*-*'
++ ""		Nop
++ "Debian menu" Popup "/Debian"
++  ""            Nop
++  "Exit Fvwm"   Popup Quit-Verify
+
+DestroyMenu Quit-Verify
+AddToMenu Quit-Verify "Really quit FVWM?" Title
++ "No, restart Fvwm"   Restart fvwm -cmd "FvwmM4 -m4-squote { -m4-equote } /home/hugo/config/fvwm/fvwm2rc"
++ ""                   Nop
++ "Yes, really quit"   Quit
+
+Mouse 1   R  A  Menu /MainMenu
+Mouse 2   R  A  Menu Window-Ops
+Mouse 3   R  A  WindowList
+
+Mouse 0 T A move-and-raise-or-raiselower
+Mouse 0 F A resize-or-raiselower
+Mouse 0 S A resize-or-raiselower
+
+Mouse 0 I A move-or-winmenu-or-deiconify
+
+Mouse 0 1 A Popup Window-Ops
+Mouse 0 2 A Maximize 100 100
+Mouse 0 4 A Iconify
+Mouse 0 6 A WindowShade
+
+Mouse 0 WTSF CM  Move
+Mouse 0 WTSF CM2 Move
+
+Key Tab   A    M    Next [CurrentPage !iconic] focus-and-raise
+Key Tab   A    MS   Prev [CurrentPage !iconic] focus-and-raise
+Key Tab   A    CM   Next [CurrentPage] deiconify-and-focus
+Key Tab   A    CMS  Prev [CurrentPage] deiconify-and-focus
+Key F4    WTSF M    Close
+Key F4    WTSF M2   Close
+Key Left  A    CS   Scroll -100 +0
+Key Up    A    CS   Scroll +0 -100
+Key Right A    CS   Scroll +100 +0
+Key Down  A    CS   Scroll +0 +100
+Key Up    WTSF CM   Raise
+Key Down  WTSF CM   Lower
+Key Up    WTSF CM2  Raise
+Key Down  WTSF CM2  Lower
+
+Key Tab   A    CM   Exec rxvt
+Key Tab   A    CM2  Exec rxvt
+
+DestroyFunc move-or-winmenu-or-deiconify
+AddToFunc   move-or-winmenu-or-deiconify
++ "M" Move
++ "C" Popup Window-Ops
++ "D" Iconify
+
+DestroyFunc deiconify-and-focus
+AddToFunc   deiconify-and-focus
++ "I" Iconify -1
++ "I" Focus
+
+DestroyFunc deiconify-and-raise
+AddToFunc   deiconify-and-raise
++ "I" Iconify -1
++ "I" Raise
+
+DestroyFunc focus-and-raise
+AddToFunc   focus-and-raise
++ "I" Focus
++ "I" Raise
+
+DestroyFunc move-or-raiselower
+AddToFunc   move-or-raiselower
++ "M" Move
++ "C" RaiseLower
+
+DestroyFunc move-and-raise-or-raiselower
+AddToFunc   move-and-raise-or-raiselower
++ "M" Move
++ "M" Raise
++ "C" RaiseLower
+
+DestroyFunc move-or-raiselower-or-maximize-vertical
+AddToFunc   move-or-raiselower-or-maximize-vertical
++ "M" Move
++ "C" RaiseLower
++ "D" Maximize 0 100
+
+DestroyFunc resize-or-raiselower
+AddToFunc   resize-or-raiselower
++ "M" Resize
++ "C" RaiseLower
+
+Style "Emacs"       Icon gnu-animal.xpm, MiniIcon emacs.mini.xpm
+Style "XTerm"       Icon xterm-linux.xpm, MiniIcon mini.xterm.xpm
+Style "*"           Icon default.xpm

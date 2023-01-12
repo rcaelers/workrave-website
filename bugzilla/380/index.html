@@ -1,0 +1,125 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=generator content="Hugo 0.109.0"><meta name=robots content="noindex, nofollow"><meta name=description content="Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit. The program runs on GNU/Linux and Microsoft Windows.
+"><link rel="shortcut icon" type=image/x-icon href=/images/favicon.ico><link rel=stylesheet href=https://workrave.org/sass/main.min.ce4ba77d420210f043b2eafed49388defb4f40305be1d398a1ad593d5a932d05.css integrity="sha256-zkunfUICEPBDsur+1JOI3vtPQDBb4dOYoa1ZPVqTLQU=" media=screen><link rel=stylesheet href=https://workrave.org/css/main.min.163e0baf8d5e552480563d39ab81526b5107da66d4ad248880e87497fec53ea8.css integrity="sha256-Fj4Lr41eVSSAVj05q4FSa1EH2mbUrSSIgOh0l/7FPqg=" media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap"><link rel=canonical href=https://workrave.org/bugzilla/380/><title>&#183; Workrave</title></head><body class=bg-light><div class="page-content bg-white"><nav class="navbar fixed-top navbar-expand-lg navbar-light"><div class=container><a class=navbar-brand href=/><img src=/images/workrave-logo.svg alt=Workrave class=page-logo></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#mainNavBar aria-controls=mainNavBar aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=mainNavBar><ul class="navbar-nav ml-auto"><li class=nav-item><a class="nav-link text-uppercase" href=/about>About</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-uppercase" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Get Help</a><div class="dropdown-menu dropdown-menu-right" aria-labelledby=navbarDropdown><a class="dropdown-item text-uppercase" href=/faq/>FAQs</a>
+<a class="dropdown-item text-uppercase" href=/docs/>Documentation</a>
+<a class="dropdown-item text-uppercase" href=/support/>Support</a></div></li><li class=nav-item><a class="nav-link text-uppercase" href=/contribute>Contribute</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/download/>Downloads</a></li><li class=nav-item><a class="nav-link text-uppercase" href=/blog/>Blog</a></li></ul></div></div></nav><div class="jumbotron jumbotron-fluid banner-style-small"></div><div class="container-lg mt-5 bugzilla" style=max-width:1280px><div class=row><div class="h3 col-md-12 bg-light font-weight-bold">Bug&nbsp;380 - segfault when break window should pop up</div></div><div class="row py-5"><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Status:</div><div class=col-8>RESOLVED FIXED</div></div><div class=row><div class="col-4 text-right font-weight-bold">Component:</div><div class=col-8>GUI :: gtkmm</div></div><div class=row><div class="col-4 text-right font-weight-bold">Version:</div><div class=col-8>1.4.1</div></div><div class=row><div class="col-4 text-right font-weight-bold">Hardware:</div><div class=col-8>PC Linux</div></div><div class=row><div class="col-4 text-right font-weight-bold">Importance:</div><div class=col-8>P2 major</div></div><div class=row><div class="col-4 text-right font-weight-bold">Target Milestone:</div><div class=col-8>---</div></div><div class=row><div class="col-4 text-right font-weight-bold">Assignee:</div><div class=col-8>Rob Caelers</div></div><div class=row><div class="col-4 text-right font-weight-bold">URL:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Depends on:</div><div class=col-8></div></div><div class=row><div class="col-4 text-right font-weight-bold">Blocks:</div><div class=col-8></div></div></div><div class=col-6><div class=row><div class="col-4 text-right font-weight-bold">Reported:</div><div class=col-8>Apr 22 2004 10:05:09 UTC</div></div><div class=row><div class="col-4 text-right font-weight-bold">by:</div><div class=col-8>rob</div></div><div class=row><div class="col-4 text-right font-weight-bold">Modified:</div><div class=col-8>Jun 24 2004 12:07:43 UTC</div></div></div></div><div class="row pb-4"><div class=col-12><div class=card><h5 class="card-header p-1" id=history-header><button class="btn btn-light collapsed w-100 text-left" type=button data-toggle=collapse data-target=#history-content aria-expanded=false aria-controls=history-content>
+<i class="fa fa-chevron-down pull-right"></i>&nbsp;history</button></h5><div class="collapse p-0" id=history-content aria-labelledby=history-header><div class="card-body p-0"><table class="table table-dark table-bordered mb-0"><thead><tr><th scope=col>Who</th><th scope=col>When</th><th scope=col>What</th><th scope=col>Removed</th><th scope=col>Added</th></tr></thead><tbody><tr><th scope=row rowspan=2>Rob Caelers</th><td rowspan=2>Jun 24 2004 12:07:43 UTC</td><td>status</td><td>NEW</td><td>RESOLVED</td></tr><tr><td>resolution</td><td></td><td>FIXED</td></tr></tbody></table></div></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Description</div><div class=float-left>rob&nbsp;&nbsp;Apr 22 2004 10:05:09 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>When either the timer determines that a break should start, or you click the
+coffee icon to initiate a break workrave segfaults.
+
+I see two errors, that are possibly related.
+
+The first is:
+(workrave:30112): Bonobo-CRITICAL **: file bonobo-running-context.c: line 427
+(bonobo_running_context_auto_exit_unref): assertion `object != NULL&#39; failed
+
+that I get upon startup.  When running in gdb a new thread spawns and kicks out
+this error.  I&#39;m unsure how to get gdb to follow the problem thread:
+
+GUI::init_nls() (this=0x8ef3760) at GUI.cc:436
+436       bindtextdomain(PACKAGE, locale_dir);
+(gdb) s
+437       bind_textdomain_codeset(PACKAGE, &#34;UTF-8&#34;);
+(gdb) s
+438       textdomain(PACKAGE);
+(gdb) s
+[New Thread 133024688 (LWP 30178)]
+s
+ 
+(workrave:30112): Bonobo-CRITICAL **: file bonobo-running-context.c: line 427
+(bonobo_running_context_auto_exit_unref): assertion `object != NULL&#39; failed
+
+
+regan@shaftoe:bin&gt; gdb workrave
+GNU gdb Red Hat Linux (5.3.90-0.20030710.41rh)
+Copyright 2003 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type &#34;show copying&#34; to see the conditions.
+There is absolutely no warranty for GDB.  Type &#34;show warranty&#34; for details.
+This GDB was configured as &#34;i386-redhat-linux-gnu&#34;...Using host libthread_db
+library &#34;/lib/tls/libthread_db.so.1&#34;.
+ 
+(gdb) r
+Starting program: /usr/pkg-Linux-RH9-i686/workrave/bin/workrave
+[Thread debugging using libthread_db enabled]
+[New Thread -1084896576 (LWP 30799)]
+[New Thread 34577328 (LWP 30800)]
+ 
+(workrave:30799): Bonobo-CRITICAL **: file bonobo-running-context.c: line 427
+(bonobo_running_context_auto_exit_unref): assertion `object != NULL&#39; failed
+ 
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread -1084896576 (LWP 30799)]
+TimeBar::set_progress(int, int) (this=0x0, value=0, max_value=0)
+    at TimeBar.cc:264
+264       bar_value = value;
+(gdb) bt
+#0  TimeBar::set_progress(int, int) (this=0x0, value=0, max_value=0)
+    at TimeBar.cc:264
+#1  0x080885c7 in RestBreakWindow::draw_time_bar() (this=0x86cd640)
+    at RestBreakWindow.cc:156
+#2  0x0808857c in RestBreakWindow::start() (this=0x86cd640)
+    at RestBreakWindow.cc:128
+#3  0x0807dc2c in GUI::start_break_window(BreakId, bool) (this=0x85e1760,
+    break_id=BREAK_ID_REST_BREAK, ignorable=true) at GUI.cc:846
+#4  0x080b8433 in BreakControl::break_window_start() (this=0x861e970)
+    at BreakControl.cc:648
+#5  0x080b80cc in BreakControl::goto_stage(BreakControl::BreakStage) (
+    this=0x861e970, stage=STAGE_TAKING) at BreakControl.cc:298
+#6  0x080b8298 in BreakControl::force_start_break() (this=0x861e970)
+    at BreakControl.cc:445
+#7  0x080a19b6 in Core::force_break(BreakId) (this=0x8616f98,
+    id=BREAK_ID_REST_BREAK) at Core.cc:455
+#8  0x0807cccb in GUI::restbreak_now() (this=0x0) at GUI.cc:173
+#9  0x08094cf3 in SigC::ObjectSlot0_&lt;void, Menus&gt;::proxy(void*) (s=0x0)
+    at object_slot.h:52
+#10 0x00e54035 in Glib::SignalProxyNormal::slot0_void_callback(_GObject*, void*)
+() from /usr/lib/libglibmm-2.0.so.1
+#11 0x00c08051 in g_cclosure_marshal_VOID__VOID ()
+   from /usr/lib/libgobject-2.0.so.0
+---Type &lt;return&gt; to continue, or q &lt;return&gt; to quit---
+#12 0x00bf5cb0 in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0
+#13 0x00c07a7c in g_signal_emit_by_name () from /usr/lib/libgobject-2.0.so.0
+#14 0x00c06c36 in g_signal_emit_valist () from /usr/lib/libgobject-2.0.so.0
+(gdb)
+
+
+I figured out that the reason why it segfaults is because the timebar object has
+not been created.  Simple work-around on RestBreakWindow.cc is:
+regan@shaftoe:src&gt; diff app/gtkmm/RestBreakWindow.cc
+/tmp/orig/workrave-1.4.1/src/app/gtkmm/RestBreakWindow.cc
+156d155
+&lt;   if (!timebar) create_gui();
+
+
+But I can not determine the underlying problem where the create_gui() function
+had not been called before the draw_time_bar() function is called... possibly
+due to the bonobo problem above?
+
+
+
+I&#39;m Running Fedora Core 1.
+I&#39;ve tried this on both the thirdparty redhat fc1 rpm, and compiled the source
+directly myself.
+
+Thanks,
+Rob</pre></div></div></div></div><div class="row pt-2"><div class=col-12><div class=card><div class="card-header h4 p-2"><div class=float-right>Comment 1</div><div class=float-left>Rob Caelers&nbsp;&nbsp;Apr 27 2004 12:11:44 UTC</div></div><div class="card-body p-2"><pre style=white-space:pre-wrap>The bonobo errors are probably caused because workrave cannot find the .server
+files. They are installed in /usr/local/lib/bonobo/servers/. Gnome might not be
+looking in this directory...
+
+When workrave is running, try: 
+  bonobo-activation-run-query &#34;_active == true&#34; | grep Workrave
+
+It should output:
+  OAFIID:GNOME_Workrave_Factory
+  OAFIID:GNOME_Workrave_WorkraveControl
+
+About the crash: well spotted. I think it is already fixed in CVS. Could you try
+a nightly build. 1.6.0 will be release real soon (I hope)..
+</pre></div></div></div></div><div class="row pb-5"></div></div></div><footer class="container bg-light page-footer"><div class="row my-2"><div class="col-12 col-md text-muted"><img src=/images/workrave-logo.svg alt=Workrave style=width:auto;height:20px>
+<small class=d-block>&copy; 2001-2020 Raymond Penners & Rob Caelers</small></div><div class="col-12 col-md text-muted"><small>Unless otherwise stated, all text and images on this website are licensed
+under the General Public License version 3 or later.<br>This website is powered by <a href=https://gohugo.io>Hugo</a></small></div></div></footer><script src=https://code.jquery.com/jquery-3.4.1.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script type=text/javascript src=https://workrave.org/js/main.min.428d5e8643be5482cc6cf2fb1c80b2e5625f8df018f53d6474a9f4d58668e74c58b35e455ed592b933e43659cc50dc11f452e947f61df3fd7b137161a785b411.js integrity="sha512-Qo1ehkO+VILMbPL7HICy5WJfjfAY9T1kdKn01YZo50xYs15FXtWSuTPkNlnMUNwR9FLpR/Yd8/17E3Fhp4W0EQ=="></script></body></html>
