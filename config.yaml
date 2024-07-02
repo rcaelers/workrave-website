@@ -21,11 +21,12 @@ languages:
     contentDir: content/en
     languageName: English
     weight: 1
-    description: >
-      Workrave is a program that assists in the recovery and prevention of
-      Repetitive Strain Injury (RSI). The program frequently alerts you to take
-      micro-pauses, rest breaks and restricts you to your daily limit. The
-      program runs on GNU/Linux and Microsoft Windows.
+    params:
+      description: >
+        Workrave is a program that assists in the recovery and prevention of
+        Repetitive Strain Injury (RSI). The program frequently alerts you to take
+        micro-pauses, rest breaks and restricts you to your daily limit. The
+        program runs on GNU/Linux and Microsoft Windows.
     menu:
       main:
         - identifier: about
