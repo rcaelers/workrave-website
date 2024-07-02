@@ -5,7 +5,11 @@
 {{ hugo.Generator }}
 
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-<meta name="robots" content="index, follow">
+  {{ if eq .Page.Section "snapshots"  }}
+  <meta name="robots" content="noindex, nofollow">
+  {{ else }}
+  <meta name="robots" content="index, follow">
+  {{ end }}
 {{ else }}
 <meta name="robots" content="noindex, nofollow">
 {{ end }}
