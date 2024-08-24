@@ -5,7 +5,7 @@
     </div>
     <ul class="nav nav-pills nav-fill shadow-sm mb-2" id="snapshot-tabs" role="tablist">
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
-        {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+        {{ $id := index (last 1 (split $section.Path "/")) 0 }}
         <li class="nav-item border bg-white font-weight-bold">
             <a class="nav-link{{ if not $section_index }} active{{ end }}" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true">
                 {{ safeHTML $section.Params.iconhtml }} {{ $section.Title }}
@@ -17,12 +17,12 @@
     <div class="tab-content" id="snapshots-tab-content">
         {{ $top := . }}
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
-        {{ $section_id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
+        {{ $section_id := index (last 1 (split $section.Path "/")) 0 }}
 
         {{ $base := "https://snapshots.workrave.org/" }}
         {{ $catalog := getJSON (print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json") }}
 
-        <div class="tab-pane{{ if not $section_index }} show active{{ end }} fade py-4" id="{{ $section_id }}" role="tabpanel" aria-labelledby="{{ $section_id }}-tab}">
+        <div class="tab-pane{{ if not $section_index }} show active{{ end }} fade py-4" id="{{ $section_id }}" role="tabpanel" aria-labelledby="{{ $section_id }}-tab">
             <div class="markdown">
                 {{ $section.Content }}
             </div>
