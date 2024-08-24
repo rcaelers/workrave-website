@@ -78,8 +78,8 @@
         <div class="col-6">
             <div class="row">
                 <div class="col-4 text-right font-weight-bold">Reported:</div>
-                <!--  $d := (time $bug.creation_time)  -->
-                <!-- <div class="col-8"> $d.Format "Jan 2 2006 15:04:05 UTC" </div> -->
+                {{ $d := (time $bug.creation_time) }}
+                <div class="col-8">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
             </div>
             <div class="row">
                 <div class="col-4 text-right font-weight-bold">by:</div>
@@ -87,8 +87,8 @@
             </div>
             <div class="row">
                 <div class="col-4 text-right font-weight-bold">Modified:</div>
-                 $d := (time $bug.last_change_time) 
-                <div class="col-8   "> $d.Format "Jan 2 2006 15:04:05 UTC" </div>
+                {{ $d := (time $bug.last_change_time) }}
+                <div class="col-8   ">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
             </div>
             {{ range $index, $cc := $bug.cc }}
             <div class="row">
@@ -113,6 +113,58 @@
         </div>
     </div>
 
+    {{ if gt (len $bug.attachments) 0}}
+    <div class="row pb-4">
+        <div class="col-12">
+            <div class="card">
+                <h5 class="card-header p-1" id="attachments-header">
+                    <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse" data-target="#attachments-content" aria-expanded="false"
+                        aria-controls="attachments-content">
+                        <i class="fa fa-chevron-down pull-right"></i>&nbsp;Attachments
+                    </button>
+                </h5>
+                <div class="collapse" id="attachments-content" aria-labelledby="attachments-header">
+                    <div class="card-body p-0">
+                        <table class="table table-dark table-bordered mb-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Who</th>
+                                    <th scope="col">When</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{ range $index, $attachment := $bug.attachments }}
+                                <tr>
+
+                                    <th scope="row" rowspan=2>{{ $attachment.id }}</th>
+                                    <td colspan="4">
+                                        <a href="{{ $.Site.BaseURL }}bugzilla/attachments/{{ $attachment.file_name }}">{{ $attachment.summary }}</a>
+                                        {{ if  hasPrefix $attachment.content_type "image/" }}
+                                        <br>
+                                        <img src="{{ $.Site.BaseURL }}bugzilla/attachments/{{ $attachment.file_name }}" class="img-fluid img-thumbnail pt-2"
+                                            alt="{{ $attachment.summary }}">
+                                    </td>
+                                </tr>
+                                {{ end }}
+                                <tr>
+                                    <td>{{ $attachment.creator }}</td>
+                                    {{ $d := (time $attachment.creation_time) }}
+                                    <td>{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</td>
+                                    <td>{{ $attachment.size }}</td>
+                                    <td>{{ $attachment.content_type }}</td>
+                                </tr>
+                                {{ end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
 
     <div class="row pb-4">
         <div class="col-12">
