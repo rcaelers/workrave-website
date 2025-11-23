@@ -10,6 +10,12 @@ The latest version is {{% workrave-meta "version-latest-release" %}}.
 
 [v{{% workrave-meta "version-latest-release" %}} for Windows]({{% workrave-meta "win32-download-link" %}})
 
+## Release Candidate
+
+The latest release candidate version is 1.11 RC1.
+
+[Workrave 1.11 RC1 for Windows](https://github.com/rcaelers/workrave/releases/download/v1_11_0_rc_1/workrave-windows-1.11.0-rc.1.exe)
+
 ## Previous Releases
 
 Previous versions of Workrave are available for download on github:
