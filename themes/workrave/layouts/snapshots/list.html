@@ -20,7 +20,17 @@
         {{ $section_id := index (last 1 (split $section.Path "/")) 0 }}
 
         {{ $base := "https://snapshots.workrave.org/" }}
-        {{ $catalog := getJSON (print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json") }}
+        {{ $catalog := dict }}
+        {{ $url := print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json" }}
+        {{ with try (resources.GetRemote $url) }}
+          {{ with .Err }}
+            {{ errorf "Failed to get catalog: %s" . }}
+          {{ else with .Value }}
+            {{ $catalog = . | transform.Unmarshal }}
+          {{ else }}
+            {{ errorf "Unable to get remote resource %q" $url }}
+          {{ end }}
+        {{ end }}
 
         <div class="tab-pane{{ if not $section_index }} show active{{ end }} fade py-4" id="{{ $section_id }}" role="tabpanel" aria-labelledby="{{ $section_id }}-tab">
             <div class="markdown">

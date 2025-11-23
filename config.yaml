@@ -6,8 +6,9 @@ footnotereturnlinkcontents: ↩
 metaDataFormat: yaml
 theme: workrave
 
-paginate: 5
-paginatePath: "page"
+pagination:
+  pagerSize: 5
+  path: "page"
 
 title: Workrave
 
