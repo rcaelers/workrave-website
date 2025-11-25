@@ -1,11 +1,12 @@
 ---
 author: Rob Caelers
-date: Sat, 22 Nov 2025 11:00:00 +0100
+date: Sat, 24 Nov 2025 11:00:00 +0100
 slug: workrave-1-11-0-rc-2-released
 title: Workrave 1.11.0-rc.2 Released
 categories:
   - release
 ---
+
 Workrave 1.11.0-rc.2 has been released.
 
 <!--more-->
@@ -36,5 +37,3 @@ Changes since Workrave 1.11.0-rc.1:
   - Update Chinese translation ([#645](https://github.com/rcaelers/workrave/issues/645), Sisyphe42)
   - Updated Indonesian translation ([#653](https://github.com/rcaelers/workrave/issues/653), Andika Triwidada)
   - Fix French translation ([#656](https://github.com/rcaelers/workrave/issues/656))
-
-
