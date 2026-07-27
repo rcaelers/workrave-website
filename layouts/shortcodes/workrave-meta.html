@@ -3,7 +3,7 @@
 {{- with (eq $type "win32-download-link") -}}
 {{- $version :=hugo.Data.workrave.version -}}
 {{- $tag := replace $version "." "_" -}}
-https://github.com/rcaelers/workrave/releases/download/v{{ $tag }}/workrave-win32-v{{ $version }}.exe
+https://github.com/rcaelers/workrave/releases/download/v{{ $tag }}/workrave-windows-{{ $version }}.exe
 {{- end -}}
 
 {{- with (eq $type "date-latest-release") -}}
