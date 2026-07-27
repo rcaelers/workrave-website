@@ -24,11 +24,11 @@
         {{ $url := print "https://snapshots.workrave.org/snapshots/" $section.Params.branch "/catalog.json" }}
         {{ with try (resources.GetRemote $url) }}
           {{ with .Err }}
-            {{ errorf "Failed to get catalog: %s" . }}
+            {{ warnf "Failed to get snapshot catalog %q: %s" $url . }}
           {{ else with .Value }}
             {{ $catalog = . | transform.Unmarshal }}
           {{ else }}
-            {{ errorf "Unable to get remote resource %q" $url }}
+            {{ warnf "Unable to get remote resource %q" $url }}
           {{ end }}
         {{ end }}
 
@@ -37,6 +37,9 @@
                 {{ $section.Content }}
             </div>
 
+            {{ if not $catalog.builds }}
+            <p class="text-muted">No development builds are available for this branch right now. Please check back later.</p>
+            {{ end }}
             <div class="accordion" id="accordion-{{ $section_id }}">
                 {{ range $item_index, $item := $catalog.builds }}
                 {{ $item_id := $item_index }}
@@ -65,39 +68,39 @@
                                 <div class="float-end">
                                     {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "release") }}
                                     {{ with $winInstallRelease }}
-                                    <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
+                                    <a href="{{ $base }}{{ .url }}" aria-label="Windows installer"><i class='fab fa-windows fa-3x m-2' aria-hidden="true"></i></a>
                                     {{ end}}
                                     {{ end}}
 
                                     {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "debug") }}
                                     {{ with $winInstallDebug }}
-                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fab fa-windows fa-stack-2x"></i><i
+                                    <a href="{{ $base }}{{ .url }}" aria-label="Windows installer (debug build)"><span class="fa-stack" aria-hidden="true"><i class="fab fa-windows fa-stack-2x"></i><i
                                                 class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
                                     {{ end }}
                                     {{ end }}
 
                                     {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "portable") ".configuration" "release") }}
                                     {{ with $winInstallRelease }}
-                                    <a href="{{ $base }}{{ .url }}"><i class="fas fa-file-archive fa-3x m-2"></i></a>
+                                    <a href="{{ $base }}{{ .url }}" aria-label="Windows portable (zip)"><i class="fas fa-file-archive fa-3x m-2" aria-hidden="true"></i></a>
                                     {{ end}}
                                     {{ end}}
 
                                     {{ range $winInstallDebug := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "portable") ".configuration" "debug") }}
                                     {{ with $winInstallDebug }}
-                                    <a href="{{ $base }}{{ .url }}"><span class="fa-stack"><i class="fas fa-file-archive fa-stack-2x"></i><i
+                                    <a href="{{ $base }}{{ .url }}" aria-label="Windows portable (zip, debug build)"><span class="fa-stack" aria-hidden="true"><i class="fas fa-file-archive fa-stack-2x"></i><i
                                                 class="fas fa-bug fa-stack-1x fa-inverse"></i></span></a>
                                     {{ end }}
                                     {{ end }}
 
                                     {{ range $appImage := first 1 (where (where (where $item.artifacts ".platform" "linux") ".kind" "appimage") ".configuration" "release") }}
                                     {{ with $appImage }}
-                                    <a href="{{ $base }}{{ .url }}"><img class="img-fluid"  src="/images/appimage.svg"/></a>
+                                    <a href="{{ $base }}{{ .url }}"><img class="img-fluid" src="/images/appimage.svg" alt="Linux AppImage"></a>
                                     {{ end }}
                                     {{ end }}
 
                                     {{ range $sources := first 1 (where (where $item.artifacts ".platform" "all") ".kind" "source")  }}
                                     {{ with $sources }}
-                                    <a href="{{ $base }}{{ .url }}"><i class='fas fa-code fa-3x m-2'></i></a>
+                                    <a href="{{ $base }}{{ .url }}" aria-label="Source code"><i class='fas fa-code fa-3x m-2' aria-hidden="true"></i></a>
                                     {{ end }}
                                     {{ end }}
                                 </div>

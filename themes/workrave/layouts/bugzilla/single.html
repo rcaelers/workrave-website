@@ -21,39 +21,39 @@
     <div class="row py-5">
         <div class="col-6">
             <div class="row">
-                <div class="col-4 text-end fw-bold">Status:</div>
+                <div class="col-4 bug-field-label">Status:</div>
                 <div class="col-8">{{ $bug.status }} {{ $bug.resolution }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Component:</div>
+                <div class="col-4 bug-field-label">Component:</div>
                 <div class="col-8">{{ $bug.component }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Version:</div>
+                <div class="col-4 bug-field-label">Version:</div>
                 <div class="col-8">{{ $bug.version }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Hardware:</div>
+                <div class="col-4 bug-field-label">Hardware:</div>
                 <div class="col-8">{{ $bug.platform}} {{ $bug.op_sys }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Importance:</div>
+                <div class="col-4 bug-field-label">Importance:</div>
                 <div class="col-8">{{ $bug.priority}} {{ $bug.severity }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Target Milestone:</div>
+                <div class="col-4 bug-field-label">Target Milestone:</div>
                 <div class="col-8">{{ $bug.target_milestone }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Assignee:</div>
+                <div class="col-4 bug-field-label">Assignee:</div>
                 <div class="col-8">{{ $bug.assigned_to }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">URL:</div>
+                <div class="col-4 bug-field-label">URL:</div>
                 <div class="col-8">{{ $bug.url }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Depends on:</div>
+                <div class="col-4 bug-field-label">Depends on:</div>
                 <div class="col-8">
                     {{ range $index, $dep := $bug.depends_on }}
                     {{ $refbugid := string $dep }}
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Blocks:</div>
+                <div class="col-4 bug-field-label">Blocks:</div>
                 <div class="col-8">
                     {{ range $index, $dep := $bug.blocks }}
                     {{ $refbugid := string $dep }}
@@ -77,25 +77,25 @@
         </div>
         <div class="col-6">
             <div class="row">
-                <div class="col-4 text-end fw-bold">Reported:</div>
+                <div class="col-4 bug-field-label">Reported:</div>
                 {{ $d := (time $bug.creation_time) }}
                 <div class="col-8">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">by:</div>
+                <div class="col-4 bug-field-label">by:</div>
                 <div class="col-8">{{ $bug.creator }}</div>
             </div>
             <div class="row">
-                <div class="col-4 text-end fw-bold">Modified:</div>
+                <div class="col-4 bug-field-label">Modified:</div>
                 {{ $d := (time $bug.last_change_time) }}
-                <div class="col-8   ">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
+                <div class="col-8">{{ $d.Format "Jan 2 2006 15:04:05 UTC" }}</div>
             </div>
             {{ range $index, $cc := $bug.cc }}
             <div class="row">
                 {{ if eq $index 0 }}
-                <div class="col-4 text-end fw-bold">CC List:</div>
+                <div class="col-4 bug-field-label">CC List:</div>
                 {{ else }}
-                <div class="col-4 text-end fw-bold"></div>
+                <div class="col-4 bug-field-label"></div>
                 {{ end }}
                 <div class="col-8">{{ $cc }}</div>
             </div>
@@ -103,9 +103,9 @@
             {{ range $index, $sa := $bug.see_also }}
             <div class="row">
                 {{ if eq $index 0 }}
-                <div class="col-4 text-end fw-bold">See Also:</div>
+                <div class="col-4 bug-field-label">See Also:</div>
                 {{ else }}
-                <div class="col-4 text-end fw-bold"></div>
+                <div class="col-4 bug-field-label"></div>
                 {{ end }}
                 <div class="col-8">{{ $sa }}</div>
             </div>
