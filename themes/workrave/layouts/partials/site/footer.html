@@ -1,5 +1,47 @@
 <footer class="container bg-light page-footer">
-    {{ with .Site.GetPage "/footer" }}
-    {{ .Content }}
-    {{ end }}
+    <div class="row my-2">
+        <div class="col-12 col-md text-muted">
+            <img src="/images/workrave-logo.svg" alt="Workrave" style="width: auto; height: 20px">
+            <small class="d-block">&copy; 2001-2026 Raymond Penners &amp; Rob Caelers</small>
+        </div>
+        <div class="col-12 col-md text-muted">
+            <small>
+                Unless otherwise stated, all text and images on this website are licensed
+                under the General Public License version 3 or later.<br>
+                This website is powered by <a href="https://gohugo.io">Hugo</a>
+            </small>
+        </div>
+        <div class="col-12 col-md text-muted">
+            {{ $repoURL := "https://github.com/rcaelers/workrave" }}
+            {{ $stars := 0 }}
+            {{ with try (resources.GetRemote "https://api.github.com/repos/rcaelers/workrave") }}
+                {{ with .Err }}
+                    {{ warnf "Failed to get GitHub star count: %s" . }}
+                {{ else with .Value }}
+                    {{ $stars = (. | transform.Unmarshal).stargazers_count }}
+                {{ else }}
+                    {{ warnf "Unable to get remote resource %q" "https://api.github.com/repos/rcaelers/workrave" }}
+                {{ end }}
+            {{ end }}
+            {{ $starsDisplay := "" }}
+            {{ if ge $stars 1000 }}
+                {{ $starsDisplay = printf "%.1fk" (div $stars 1000) }}
+            {{ else if gt $stars 0 }}
+                {{ $starsDisplay = printf "%d" (int $stars) }}
+            {{ end }}
+            <a class="github-stars-btn" href="{{ $repoURL }}" aria-label="{{ if $starsDisplay }}{{ $stars }} stars on GitHub{{ else }}View Workrave on GitHub{{ end }}" title="View Workrave on GitHub">
+                <span class="github-stars-btn-segment">
+                    <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+                    <span aria-hidden="true">GitHub</span>
+                </span>
+                {{ if $starsDisplay }}
+                <span class="github-stars-btn-divider" aria-hidden="true"></span>
+                <span class="github-stars-btn-segment">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <span aria-hidden="true">{{ $starsDisplay }}</span>
+                </span>
+                {{ end }}
+            </a>
+        </div>
+    </div>
 </footer>
