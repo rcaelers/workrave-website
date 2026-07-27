@@ -65,7 +65,7 @@ body {
 }
 
 .hero {
-    background: url(/images/hero1.jpg) bottom center no-repeat var(--jumbotron-background-color);
+    background: url(/images/hero1.jpg) bottom center repeat-x var(--jumbotron-background-color);
     background-size: auto auto;
 }
 

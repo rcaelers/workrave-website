@@ -4,7 +4,7 @@
 
 ## Install Prequisites
 
-- Install [Hugo](http://gohugo.io)
+- Install [Hugo 0.164.0](https://gohugo.io)
 
     See the [official install instructions](https://gohugo.io/getting-started/installing/) for more information.
 

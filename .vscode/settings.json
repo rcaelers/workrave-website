@@ -22,5 +22,6 @@
         "xlock",
         "xscreensaver",
         "zypper"
-    ]
+    ],
+    "cSpell.allowCompoundWords": true
 }

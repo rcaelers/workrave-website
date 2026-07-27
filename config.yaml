@@ -6,6 +6,12 @@ footnotereturnlinkcontents: ↩
 metaDataFormat: yaml
 theme: workrave
 
+security:
+  node:
+    permissions:
+      allowread:
+        - "*"
+
 pagination:
   pagerSize: 5
   path: "page"
@@ -16,11 +22,11 @@ taxonomies:
   tag: "tags"
   category: "categories"
 
-languageCode: en-us
+locale: en-us
 languages:
   en:
     contentDir: content/en
-    languageName: English
+    label: English
     weight: 1
     params:
       description: >
@@ -52,7 +58,7 @@ languages:
           weight: 50
   # nl:
   #   contentDir: content/nl
-  #   languageName: Nederlands
+  #   label: Nederlands
   #   weight: 2
   #   description: >
   #     Workrave is een programma dat helpt bij het herstel en de preventie van
