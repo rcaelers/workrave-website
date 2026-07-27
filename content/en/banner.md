@@ -12,7 +12,7 @@ headless: true
         information, it frequently alerts you to take microbreaks, rest breaks and
         restricts you to your daily computer usage.
         </p>
-        <a href="/download" class="btn btn-sm btn-light btn-outline-dark text-uppercase font-weight-bold">Download Workrave</a>
+        <a href="/download" class="btn btn-sm btn-light btn-outline-dark text-uppercase fw-bold">Download Workrave</a>
     </div>
   </div>
 </div>

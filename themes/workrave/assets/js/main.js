@@ -1,47 +1,39 @@
-var scrollTop = $(window).scrollTop();
-if (scrollTop > 20) {
-  $(".navbar").addClass("scrolled");
-  $(".navbar").addClass("hidden");
-  $(".navbar").addClass("notransition");
-}
+(function () {
+  var navbar = document.querySelector(".navbar");
+  if (!navbar) {
+    return;
+  }
 
-$(document).ready(function(e) {
-  var _previousScrollTop = 0;
+  var previousScrollTop = 0;
 
   function checkScroll() {
-    var scrollTop = $(window).scrollTop();
-    // let navbarHeight = $(".navbar").height();
+    var scrollTop = window.scrollY;
 
     if (scrollTop > 20) {
-      $(".navbar").addClass("scrolled");
+      navbar.classList.add("scrolled");
 
-      var scrollDelta = scrollTop - _previousScrollTop;
-      _previousScrollTop = scrollTop;
+      var scrollDelta = scrollTop - previousScrollTop;
+      previousScrollTop = scrollTop;
 
       if (scrollDelta < 0) {
-        $(".navbar").removeClass("hidden");
+        navbar.classList.remove("hidden");
       } else if (scrollDelta > 0) {
-        $(".navbar").addClass("hidden");
-        try {
-          $(".dropdown.show .dropdown-toggle", $(".navbar")).dropdown("toggle");
-        } catch (e) {}
+        navbar.classList.add("hidden");
+        var openToggle = navbar.querySelector(".dropdown.show .dropdown-toggle");
+        if (openToggle && window.bootstrap) {
+          bootstrap.Dropdown.getOrCreateInstance(openToggle).hide();
+        }
       }
     } else {
-      $(".navbar").removeClass("scrolled");
-      $(".navbar").removeClass("hidden");
-      $(".navbar").removeClass("notransition");
+      navbar.classList.remove("scrolled", "hidden", "notransition");
     }
   }
 
-  if ($(".navbar").length > 0) {
-    var scrollTop = $(window).scrollTop();
-    if (scrollTop > 20) {
-      $(".navbar").addClass("scrolled");
-      $(".navbar").addClass("hidden");
-      $(".navbar").addClass("notransition");
-    }
-    $(window).on("scroll load resize", function() {
-      checkScroll();
-    });
+  if (window.scrollY > 20) {
+    navbar.classList.add("scrolled", "hidden", "notransition");
   }
-});
+
+  window.addEventListener("scroll", checkScroll);
+  window.addEventListener("load", checkScroll);
+  window.addEventListener("resize", checkScroll);
+})();

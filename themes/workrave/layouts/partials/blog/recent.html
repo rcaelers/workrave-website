@@ -1,6 +1,6 @@
 <div class="bg-dark recent">
     <div class="container mb-5">
-        <div class="row  no-gutters">
+        <div class="row  g-0">
             {{ range $index, $post := first 4 (sort (where .Site.RegularPages "Section" "blog") "Date" "desc")}}
             <div class="col-lg-3 col-md-6 col-sm-12 {{ if gt $index 1 }}d-none d-lg-block{{ else if gt $index 0 }}d-none d-md-block{{end}}">
                 <a href="{{ .RelPermalink }}" class="small text-decoration-none d-block p-3">

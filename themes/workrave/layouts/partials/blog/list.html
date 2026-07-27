@@ -3,8 +3,8 @@
 <div class="clearfix mb-5">
     <h3 class="text-uppercase letter-spacing-wide">{{ .Title | markdownify }}</h3>
     {{ partial "blog/header.html" . }}
-    <div class="text-left">{{ .Summary }}</div>
-    <a class="btn btn-sm btn-link btn-outline-primary text-uppercase font-weight-bold float-right" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
+    <div class="text-start">{{ .Summary }}</div>
+    <a class="btn btn-sm btn-link btn-outline-primary text-uppercase fw-bold float-end" href="{{ .Permalink }}">{{ i18n "blog_read_more" }}</a>
 </div>
 {{ end }}
 

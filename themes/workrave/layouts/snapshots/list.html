@@ -6,8 +6,8 @@
     <ul class="nav nav-pills nav-fill shadow-sm mb-2" id="snapshot-tabs" role="tablist">
         {{ range $section_index, $section := where (where .Site.Pages "Section" .Page.Section) ".Params.branch" "!=" nil }}
         {{ $id := index (last 1 (split $section.Path "/")) 0 }}
-        <li class="nav-item border bg-white font-weight-bold">
-            <a class="nav-link{{ if not $section_index }} active{{ end }}" id="{{ $id }}-tab" data-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true">
+        <li class="nav-item border bg-white fw-bold">
+            <a class="nav-link{{ if not $section_index }} active{{ end }}" id="{{ $id }}-tab" data-bs-toggle="tab" href="#{{ $id }}" aria-controls="{{ $id }}" aria-selected="true">
                 {{ safeHTML $section.Params.iconhtml }} {{ $section.Title }}
             </a>
         </li>
@@ -42,11 +42,11 @@
                 {{ $item_id := $item_index }}
                 <div class="card mb-3">
                     <div class="card-header p-1" id="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}">
-                        <button class="btn btn-light text-left w-100" type="button" data-toggle="collapse" data-target="#accordion-tab-{{ $section_id }}-content-{{ $item_id }}"
+                        <button class="btn btn-light text-start w-100" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-tab-{{ $section_id }}-content-{{ $item_id }}"
                             aria-expanded="false" aria-controls="accordion-tab-{{ $section_id }}-content-{{ $item_id }}">
 
                             <div class="clearfix card-header-body">
-                                <div class="float-left font-md letter-spacing-wide">
+                                <div class="float-start font-md letter-spacing-wide">
                                     {{ $timestamp := printf $item.date | time }}
                                     <p class="mb-0">{{ $timestamp.Format "Jan 2 2006, 15:04:05 MST" }}</p>
                                     <p class="mb-0">{{ replace $item.tag "_" "." }} {{ if $item.increment }} + {{ $item.increment}} commits {{ end }}</p>
@@ -62,7 +62,7 @@
                                     }
                                 </style>
 
-                                <div class="float-right">
+                                <div class="float-end">
                                     {{ range $winInstallRelease := first 1 (where (where (where $item.artifacts ".platform" "windows") ".kind" "installer") ".configuration" "release") }}
                                     {{ with $winInstallRelease }}
                                     <a href="{{ $base }}{{ .url }}"><i class='fab fa-windows fa-3x m-2'></i></a>
@@ -105,8 +105,8 @@
                         </button>
                     </div>
                     <div class="collapse" id="accordion-tab-{{ $section_id }}-content-{{ $item_id }}" aria-labelledby="accordion-tab-{{ $section_id }}-heading-{{ $item_id }}"
-                        data-parent="#accordion-{{ $section_id }}">
-                        <div class="card-body text-muted text-monospace">
+                        data-bs-parent="#accordion-{{ $section_id }}">
+                        <div class="card-body text-muted font-monospace">
                             {{ range $item.commits }}
                             {{ $ts := int (.commit.author.timestamp) | time }}
                             <div class="border mb-2 p-2">

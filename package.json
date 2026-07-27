@@ -14,17 +14,21 @@
     "author": "",
     "license": "GPL-3.0-or-later",
     "devDependencies": {
-        "autoprefixer": "^10.4.22",
-        "cssnano": "^7.1.2",
-        "eslint": "^9.39.1",
+        "autoprefixer": "^10.5.4",
+        "baseline-browser-mapping": "^2.11.5",
+        "cssnano": "^8.0.2",
+        "eslint": "^10.8.0",
+        "postcss": "^8.5.23",
         "postcss-import": "^16.1.1",
-        "postcss-preset-env": "^9.6.0",
-        "postcss": "^8.5.6"
+        "postcss-preset-env": "^11.3.2"
     },
     "dependencies": {
-        "bootstrap": "^4.6.2",
-        "jquery": "^3.7.1",
+        "bootstrap": "^5.3.8",
+        "jquery": "^4.0.0",
         "popper.js": "^1.16.1",
         "postcss-cli": "^11.0.1"
+    },
+    "allowScripts": {
+        "fsevents@2.3.2": true
     }
 }

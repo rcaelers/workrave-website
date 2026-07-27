@@ -17,13 +17,13 @@
         <div class="col-md-3">
             <ul class="nav nav-pills flex-column shadow-sm mb-2" id="faq-tabs" role="tablist">
                 <li class="nav-item border bg-white">
-                    <a class="nav-link disabled" id="category-tab" data-toggle="tab" href="#tabcategoty" aria-controls="tabcategory" aria-selected="true">
+                    <a class="nav-link disabled" id="category-tab" data-bs-toggle="tab" href="#tabcategoty" aria-controls="tabcategory" aria-selected="true">
                         {{ i18n ( print "faq_category" ) }}
                     </a>
                 </li>
                 {{ range $index, $section := $faq_sections | uniq }}
                 <li class="nav-item border bg-white">
-                    <a class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-toggle="tab" href="#tab{{ $section }}" aria-controls="tab{{ $section }}"
+                    <a class="nav-link{{ if not $index }} active{{ end }}" id="{{ $section }}-tab" data-bs-toggle="tab" href="#tab{{ $section }}" aria-controls="tab{{ $section }}"
                         aria-selected="true">
                         {{ i18n ( print "faq_" $section) }}
                     </a>
@@ -42,14 +42,14 @@
                         {{ $id := index (last 1 (split (delimit (split .Permalink "/") "," "") ",")) 0 }}
                         <div class="card">
                             <h5 class="card-header p-1" id="accordion-tab-{{ $section }}-heading-{{$id}}">
-                                <button class="btn btn-light collapsed w-100 text-left" type="button" data-toggle="collapse"
-                                    data-target="#accordion-tab-{{ $section }}-content-{{$id}}" aria-expanded="false" aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
+                                <button class="btn btn-light collapsed w-100 text-start" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#accordion-tab-{{ $section }}-content-{{$id}}" aria-expanded="false" aria-controls="accordion-tab-{{ $section }}-content-{{$id}}">
                                     <i class="fa fa-chevron-down pull-right"></i>&nbsp;
                                     {{- replace (replace (replaceRE "Q:(.+)(.|\n)*" "$1" $page.Content ) "<p>" "") "</p>" "" | safeHTML -}}
                                 </button>
                             </h5>
                             <div class="collapse" id="accordion-tab-{{ $section }}-content-{{$id}}" aria-labelledby="accordion-tab-{{ $section }}-heading-{{$id}}"
-                                data-parent="#accordion-{{ $section }}">
+                                data-bs-parent="#accordion-{{ $section }}">
                                 <div class="card-body">
                                     {{ replaceRE "(.|\n)*A:((.|\n)+)" "$2" $page.Content | safeHTML}}
                                 </div>
@@ -67,16 +67,22 @@
 
 {{ define "pagescript" }}
 <script>
-    $(document).ready(() => {
+    document.addEventListener("DOMContentLoaded", () => {
         let url = location.href.replace(/\/$/, "");
         console.log('faq:' + url + ' ' + location.hash);
         if (location.hash) {
             const hash = url.split("#");
             const parts = hash[1].split(";");
             console.log('part 0:' + parts[0]);
-            $('#faq-tabs a[href="#tab' + parts[0] + '"]').tab("show");
+            const tabLink = document.querySelector('#faq-tabs a[href="#tab' + parts[0] + '"]');
+            if (tabLink) {
+                bootstrap.Tab.getOrCreateInstance(tabLink).show();
+            }
             if (parts[1]) {
-                $('#accordion-tab-' + parts[0] + '-content-' + parts[1]).collapse("show");
+                const accordionItem = document.querySelector('#accordion-tab-' + parts[0] + '-content-' + parts[1]);
+                if (accordionItem) {
+                    bootstrap.Collapse.getOrCreateInstance(accordionItem, { toggle: false }).show();
+                }
             }
         }
     });
