@@ -1,7 +1,7 @@
 ---
 title: Daily Limit
 screenshot: /images/screenshots/daily.png
-#icon: /images/dailylimit.png
+faicon: fas fa-hourglass-half
 featured: true
 weight: 3
 ---

@@ -1,7 +1,7 @@
 ---
 title: Microbreaks
 screenshot: /images/screenshots/microbreak.png
-#icon: /images/microbreak.png
+faicon: fas fa-mug-hot
 featured: true
 weight: 1
 ---

@@ -1,6 +1,7 @@
 ---
 title: Statistics
 screenshot: /images/screenshots/statistics.png
+faicon: fas fa-chart-bar
 featured: true
 weight: 6
 ---

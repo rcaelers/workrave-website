@@ -6,7 +6,7 @@
     <div class="row py-4">
         {{ range $index, $page := first 6 (sort $features ".Params.weight") }}
         <div class="col-md-6 col-xs-12 order-first py-4">
-            <h3 class="fw-light">{{ with $page.Params.icon }}<img src="{{ . }}" class="pb-3 me-3">{{ end }}{{ $page.Params.title }}</h3>
+            <h3 class="fw-light">{{ with $page.Params.faicon }}<i class="{{ . }} fa-2x text-primary me-3" aria-hidden="true"></i>{{ end }}{{ $page.Params.title }}</h3>
             <div class="fw-light">
                 {{ $page.Summary }}
             </div>

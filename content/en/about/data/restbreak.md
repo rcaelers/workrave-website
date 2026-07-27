@@ -1,7 +1,7 @@
 ---
 title: Rest breaks
 screenshot: /images/screenshots/restbreak.png
-#icon: /images/restbreak.png
+faicon: fas fa-walking
 featured: true
 weight: 2
 ---
