@@ -18,7 +18,7 @@
         "baseline-browser-mapping": "^2.11.5",
         "cssnano": "^8.0.2",
         "eslint": "^10.8.0",
-        "postcss": "^8.5.23",
+        "postcss": "^8.5.24",
         "postcss-preset-env": "^11.3.2"
     },
     "dependencies": {
