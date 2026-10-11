@@ -8,7 +8,7 @@
 
     See the [official install instructions](https://gohugo.io/getting-started/installing/) for more information.
 
-- Install [NodeJS](https://nodejs.org/)
+- Install [Node.js 24](https://nodejs.org/) (24.15.0 or newer)
 
 - Install tools to process CSS by running:
 
