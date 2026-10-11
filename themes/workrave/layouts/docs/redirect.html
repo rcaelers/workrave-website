@@ -1,0 +1,17 @@
+{{ $default := index hugo.Data.documentation.versions 0 }}
+{{ range hugo.Data.documentation.versions }}
+  {{ if eq .id hugo.Data.documentation.default }}{{ $default = . }}{{ end }}
+{{ end }}
+{{ $target := printf "%s/" $default.root | relURL }}
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>Documentation {{ $default.label }} · {{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ $target | absURL }}">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+</head>
+<body>
+  <p><a href="{{ $target }}">Open Workrave {{ $default.label }} documentation</a></p>
+</body>
+</html>

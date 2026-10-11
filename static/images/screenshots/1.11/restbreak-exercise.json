@@ -1,0 +1,84 @@
+{
+  "scene": {
+    "description": "Rest break showing Finger stretch, matching the 1.10 guide",
+    "calls": [
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": 1,
+          "exercise_elapsed": 1
+        }
+      ],
+      [
+        "ShowBreak",
+        {
+          "id": 1,
+          "progress": 30,
+          "duration": 600,
+          "skippable": true,
+          "postponable": true
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 1901360,
+      "title": "Rest break",
+      "window_class": "gdkWindowToplevel",
+      "rect": [
+        1342,
+        780,
+        2482,
+        1544
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1326,
+    764,
+    2498,
+    1560
+  ],
+  "size": [
+    1144,
+    768
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 0.6384251000017684,
+  "workrave_version": "1.12 GTK screenshot preview",
+  "platform": "Windows 11 Pro 26200",
+  "native_pixels": true
+}

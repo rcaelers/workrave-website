@@ -1,0 +1,19 @@
+{{ $version := partial "docs/version.html" . }}
+{{ $page := . }}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    {{ range .Ancestors.Reverse }}
+      {{ if or (eq .Path $version.root) (strings.HasPrefix .Path (printf "%s/" $version.root)) }}
+        {{ if eq .Path $version.root }}
+          {{ if ne $page.Path $version.landing }}
+            {{ $landing := $page.Site.GetPage (default $version.root $version.landing) }}
+            <li class="breadcrumb-item"><a href="{{ $landing.RelPermalink }}">{{ $landing.Title }}</a></li>
+          {{ end }}
+        {{ else }}
+          <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+  </ol>
+</nav>

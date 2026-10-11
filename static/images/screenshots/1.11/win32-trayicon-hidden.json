@@ -1,0 +1,119 @@
+{
+  "platform": "Windows 11 Pro 26200",
+  "workrave_version": "1.12 GTK screenshot preview",
+  "dpi": 192,
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "panel": {
+    "rect": [
+      3195,
+      2082,
+      308,
+      148
+    ],
+    "handle": 1246002,
+    "tree": [
+      {
+        "rect": [
+          3195,
+          2082,
+          154,
+          74
+        ],
+        "name": "",
+        "type": "ControlType.Pane"
+      },
+      {
+        "rect": [
+          3229,
+          2116,
+          80,
+          80
+        ],
+        "name": "Workrave",
+        "type": "ControlType.Button"
+      },
+      {
+        "rect": [
+          3253,
+          2140,
+          32,
+          32
+        ],
+        "name": "",
+        "type": "ControlType.Image"
+      },
+      {
+        "rect": [
+          3309,
+          2116,
+          80,
+          80
+        ],
+        "name": "Windows Security - No actions needed. Windows Security - Actions recommended.",
+        "type": "ControlType.Button"
+      },
+      {
+        "rect": [
+          3333,
+          2140,
+          32,
+          32
+        ],
+        "name": "",
+        "type": "ControlType.Image"
+      },
+      {
+        "rect": [
+          3389,
+          2116,
+          80,
+          80
+        ],
+        "name": "Safely Remove Hardware and Eject Media",
+        "type": "ControlType.Button"
+      },
+      {
+        "rect": [
+          3413,
+          2140,
+          32,
+          32
+        ],
+        "name": "",
+        "type": "ControlType.Image"
+      }
+    ],
+    "class": "TopLevelWindowForOverflowXamlIsland",
+    "button": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "bounds": [
+    3179,
+    2066,
+    3519,
+    2326
+  ],
+  "menu_bounds": [
+    3179,
+    1699,
+    3601,
+    2326
+  ],
+  "source_size": [
+    344,
+    224
+  ],
+  "size": [
+    344,
+    223
+  ],
+  "shadows": false,
+  "postprocessing": "Cast shadows removed; native pixels and antialiased outline retained"
+}

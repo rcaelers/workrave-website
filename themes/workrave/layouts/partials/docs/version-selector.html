@@ -1,0 +1,25 @@
+{{ if not (strings.HasPrefix .Path "/docs/build/") }}
+{{ $page := . }}
+{{ $versions := hugo.Data.documentation.versions }}
+{{ $current := partial "docs/version.html" . }}
+{{ $topic := strings.TrimPrefix $current.root .Path }}
+{{ if eq .Path $current.landing }}{{ $topic = "" }}{{ end }}
+<nav class="docs-version" aria-label="Documentation version">
+  <label class="sr-only" for="documentation-version">Workrave documentation</label>
+  <select id="documentation-version" data-documentation-version>
+    {{ range $versions }}
+      {{ $target := $page.Site.GetPage (printf "%s%s" .root $topic) }}
+      {{ if and (eq $topic "") .landing }}{{ $target = $page.Site.GetPage .landing }}{{ end }}
+      {{ if not $target }}{{ $target = $page.Site.GetPage (default .root .landing) }}{{ end }}
+      {{ $url := $target.RelPermalink }}
+      {{ with index hugo.Data.documentation.alternates .id }}
+        {{ with index . $topic }}{{ $url = . | relURL }}{{ end }}
+      {{ end }}
+      <option value="{{ $url }}"{{ if eq .id $current.id }} selected{{ end }}>{{ .label }}</option>
+    {{ end }}
+  </select>
+  <noscript>
+    {{ range $versions }}<a href="{{ (default .root .landing) | relURL }}">{{ .label }}</a>{{ end }}
+  </noscript>
+</nav>
+{{ end }}

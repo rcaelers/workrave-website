@@ -1,0 +1,10 @@
+{{ $page := . }}
+{{ $versions := hugo.Data.documentation.versions }}
+{{ $current := index $versions (sub (len $versions) 1) }}
+{{ range $versions }}
+  {{ if or (eq $page.Path .root) (strings.HasPrefix $page.Path (printf "%s/" .root)) }}
+    {{ $current = . }}
+    {{ break }}
+  {{ end }}
+{{ end }}
+{{ return $current }}

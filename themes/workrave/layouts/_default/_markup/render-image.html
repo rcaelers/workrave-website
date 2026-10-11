@@ -1,2 +1,11 @@
 {{ $url := urls.Parse .Destination }}
-<img class="img-fluid  {{$url.Fragment }}" src="{{ .Destination }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{ $width := 0 }}
+{{ $height := 0 }}
+{{ if strings.HasPrefix $url.Path "/images/screenshots/1.11/" }}
+  {{ with images.Config (printf "static%s" $url.Path) }}
+    {{/* Windows 11 captures use 200% DPI; display at the archived guide's 100% density. */}}
+    {{ $width = div .Width 2 }}
+    {{ $height = div .Height 2 }}
+  {{ end }}
+{{ end }}
+<img class="img-fluid  {{$url.Fragment }}" src="{{ .Destination }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $width }} width="{{ $width }}" height="{{ $height }}"{{ end }}>

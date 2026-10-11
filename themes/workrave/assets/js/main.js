@@ -37,3 +37,12 @@
   window.addEventListener("load", checkScroll);
   window.addEventListener("resize", checkScroll);
 })();
+
+(function () {
+  var selector = document.querySelector("[data-documentation-version]");
+  if (selector) {
+    selector.addEventListener("change", function () {
+      window.location.assign(selector.value);
+    });
+  }
+})();

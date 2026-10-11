@@ -1,0 +1,72 @@
+{
+  "scene": {
+    "description": "Break window, fixed progress and no exercises",
+    "calls": [
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowBreak",
+        {
+          "id": 2,
+          "progress": 10,
+          "duration": 600,
+          "skippable": true,
+          "postponable": true
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 1245566,
+      "title": "Daily limit",
+      "rect": [
+        1520,
+        996,
+        2304,
+        1330
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1504,
+    980,
+    2320,
+    1346
+  ],
+  "size": [
+    788,
+    338
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "workrave_version": "1.12 GTK screenshot preview",
+  "platform": "Windows 11 Pro 26200",
+  "native_pixels": true
+}

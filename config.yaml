@@ -41,7 +41,7 @@ languages:
           name: About
           weight: 10
         - identifier: help
-          url: /docs/
+          url: /docs/1.11/
           name: Get Help
           weight: 20
         - identifier: contribute

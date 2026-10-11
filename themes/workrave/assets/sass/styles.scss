@@ -2,3 +2,44 @@
 @import "imports/base";
 @import "imports/syntax";
 @import "imports/site";
+
+.docs-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding: .75rem 1rem;
+  border-radius: .375rem;
+  background: #f5f7f8;
+
+  nav[aria-label="breadcrumb"] { flex: 1; min-width: 0; }
+  .breadcrumb { margin: 0; padding: 0; background: transparent; }
+  .breadcrumb-item { min-width: 0; max-width: 100%; }
+  .breadcrumb-item a {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+  }
+}
+
+.docs-version {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 55%;
+  margin-left: auto;
+  select {
+    max-width: 100%;
+    padding: .4rem .75rem;
+    border: 1px solid #adb5bd;
+    border-radius: .25rem;
+    background: white;
+    color: #212529;
+    font: inherit;
+  }
+  select:focus-visible { outline: 2px solid #1769aa; outline-offset: 2px; }
+  noscript { display: flex; gap: .75rem; }
+}

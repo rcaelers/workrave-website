@@ -1,0 +1,107 @@
+{
+  "scene": {
+    "description": "Timer window with fixed active/idle/overdue values",
+    "calls": [
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 0,
+          "elapsed": 308,
+          "limit": 270,
+          "idle": 0,
+          "duration": 30,
+          "enabled": true
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 1,
+          "elapsed": 600,
+          "limit": 2700,
+          "idle": 0,
+          "duration": 600,
+          "enabled": true
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 2,
+          "elapsed": 3600,
+          "limit": 14400,
+          "idle": 0,
+          "duration": 0,
+          "enabled": true
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 0
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 1769858,
+      "title": "Workrave",
+      "rect": [
+        400,
+        350,
+        658,
+        585
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    384,
+    334,
+    674,
+    601
+  ],
+  "size": [
+    238,
+    226
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "workrave_version": "1.12 GTK screenshot preview",
+  "platform": "Windows 11 Pro 26200",
+  "native_pixels": true,
+  "source_size": [
+    294,
+    271
+  ],
+  "shadows": false,
+  "postprocessing": "Cast shadows removed; native pixels and antialiased outline retained"
+}

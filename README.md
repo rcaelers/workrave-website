@@ -4,7 +4,7 @@
 
 ## Install Prequisites
 
-- Install [Hugo 0.164.0](https://gohugo.io)
+- Install [Hugo 0.167.0](https://gohugo.io)
 
     See the [official install instructions](https://gohugo.io/getting-started/installing/) for more information.
 
@@ -48,3 +48,20 @@ License: GPL3
 Copyright (C) 2018 - 2026 Rob Caelers
 
 License: MIT
+
+## Versioned user documentation
+
+`/docs/` opens the default guide, currently 1.11. The original 1.10 guide
+remains available at `/docs/1.10/`; its chapter URLs and screenshots are preserved.
+The 1.11 guide lives in `content/en/docs/1.11/`, with separate images in
+`static/images/screenshots/1.11/`. Shared build instructions remain unversioned.
+
+`data/documentation.yaml` defines the default version, archive landing page,
+version dropdown and topic mappings for
+pages that moved or were removed. Matching topics are kept when switching
+versions; other topics fall back to the selected guide's index.
+
+Application screenshots use GTK Workrave on Windows 11 at the current desktop DPI,
+with transparent backgrounds. Preferences and statistics use 1.11.4; matching
+windows and menus use the 1.12 screenshot interface. See
+`tools/capture-gtk-screenshots.md` for capture provenance and reproduction.

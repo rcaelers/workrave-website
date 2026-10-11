@@ -1,0 +1,71 @@
+{
+  "scene": {
+    "description": "Workrave menu workrave.mode_timed_suspended_menu",
+    "calls": [
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowMenu",
+        {
+          "tray": false,
+          "submenu": "workrave.mode_timed_suspended_menu",
+          "x": 500,
+          "y": 350
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 2097310,
+      "title": "Workrave",
+      "rect": [
+        1000,
+        700,
+        1294,
+        1104
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    984,
+    684,
+    1310,
+    1120
+  ],
+  "size": [
+    298,
+    408
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "workrave_version": "1.12 GTK screenshot preview",
+  "platform": "Windows 11 Pro 26200",
+  "native_pixels": true
+}

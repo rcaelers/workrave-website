@@ -2,9 +2,9 @@
 {{ if hugo.IsServer }}
 {{ $js := resources.Get "js/main.js" }}
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 {{ else }}
 {{ $js := resources.Get "js/main.js" }}
 {{ $secureJS := $js | resources.Minify | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 {{ end }}

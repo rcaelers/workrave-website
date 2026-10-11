@@ -1,0 +1,22 @@
+{
+  "workrave_version": "1.11.4 GTK",
+  "platform": "Windows 11 Pro 26200",
+  "dpi": 192,
+  "native_pixels": true,
+  "profile": "isolated portable copy",
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "alpha": "recovered from matching native green/magenta captures",
+  "source_size": [
+    1380,
+    801
+  ],
+  "size": [
+    1356,
+    788
+  ],
+  "shadows": false,
+  "postprocessing": "Cast shadows removed; native pixels and antialiased outline retained"
+}

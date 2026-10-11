@@ -1,0 +1,72 @@
+{
+  "scene": {
+    "description": "Prelude with a fixed countdown and warning stage",
+    "calls": [
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowPrelude",
+        {
+          "id": 0,
+          "stage": 2,
+          "text": 1,
+          "progress": 10,
+          "duration": 30
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 1573246,
+      "title": "Workrave",
+      "rect": [
+        1664,
+        1084,
+        2160,
+        1240
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1648,
+    1068,
+    2176,
+    1256
+  ],
+  "size": [
+    500,
+    160
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "workrave_version": "1.12 GTK screenshot preview",
+  "platform": "Windows 11 Pro 26200",
+  "native_pixels": true
+}
