@@ -1,0 +1,94 @@
+{
+  "scene": {
+    "description": "Statistics window with deterministic sample counts",
+    "calls": [
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": false
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 2
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 2622240,
+      "title": "Statistics",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        1039,
+        478,
+        2785,
+        1709
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1023,
+    462,
+    2801,
+    1725
+  ],
+  "size": [
+    1728,
+    1223
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 0.42124160000821576,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm"
+}

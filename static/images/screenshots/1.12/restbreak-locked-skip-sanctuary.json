@@ -1,0 +1,107 @@
+{
+  "scene": {
+    "description": "Rest break with fixed button lock progress (Sanctuary appearance)",
+    "calls": [
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": true
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": false,
+          "can_postpone": false,
+          "value": 10,
+          "maximum": 30
+        }
+      ],
+      [
+        "ShowBreak",
+        {
+          "id": 1,
+          "progress": 10,
+          "duration": 600,
+          "skippable": true,
+          "postponable": true
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 4784932,
+      "title": "Workrave Window Preview",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        0,
+        0,
+        3824,
+        2326
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    812,
+    0,
+    3012,
+    2230
+  ],
+  "size": [
+    2084,
+    972
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 1.0944473999988986,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm"
+}

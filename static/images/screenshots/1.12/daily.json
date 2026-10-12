@@ -1,0 +1,98 @@
+{
+  "scene": {
+    "description": "Break window, fixed progress and no exercises",
+    "calls": [
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": false
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowBreak",
+        {
+          "id": 2,
+          "progress": 10,
+          "duration": 600,
+          "skippable": true,
+          "postponable": true
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 1245984,
+      "title": "Workrave Window Preview",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        1352,
+        682,
+        2472,
+        1642
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1336,
+    666,
+    2488,
+    1658
+  ],
+  "size": [
+    884,
+    376
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 0.5625790000049165,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm"
+}

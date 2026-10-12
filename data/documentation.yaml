@@ -1,5 +1,9 @@
 default: "1.11"
 versions:
+  - id: "1.12"
+    label: "1.12 Qt (preliminary)"
+    root: "/docs/1.12"
+    preliminary: true
   - id: "1.11"
     label: "1.11"
     root: "/docs/1.11"
@@ -15,3 +19,7 @@ alternates:
     "/menus/network": "/docs/1.11/whats-new/#features-removed-in-111"
     "/settings/network": "/docs/1.11/whats-new/#features-removed-in-111"
     "/applets/windows": "/docs/1.11/whats-new/#features-removed-in-111"
+  "1.12":
+    "/menus/network": "/docs/1.12/whats-new/#features-removed-since-110"
+    "/settings/network": "/docs/1.12/whats-new/#features-removed-since-110"
+    "/applets/windows": "/docs/1.12/whats-new/#features-removed-since-110"

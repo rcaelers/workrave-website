@@ -1,0 +1,127 @@
+{
+  "scene": {
+    "description": "Timer window with fixed active/idle/overdue values",
+    "calls": [
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": false
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 0,
+          "elapsed": 120,
+          "limit": 270,
+          "idle": 12,
+          "duration": 30,
+          "enabled": true
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 1,
+          "elapsed": 600,
+          "limit": 2700,
+          "idle": 120,
+          "duration": 600,
+          "enabled": true
+        }
+      ],
+      [
+        "SetTimer",
+        {
+          "id": 2,
+          "elapsed": 3600,
+          "limit": 14400,
+          "idle": 0,
+          "duration": 0,
+          "enabled": true
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 0
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 3080996,
+      "title": "Workrave",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        513,
+        628,
+        709,
+        859
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    497,
+    612,
+    725,
+    875
+  ],
+  "size": [
+    176,
+    222
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 1.675035399995977,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm"
+}

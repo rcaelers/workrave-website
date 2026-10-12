@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "description": "Standalone exercise player showing Move the eyes, matching the 1.10 guide",
+    "calls": [
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": true
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": 4,
+          "exercise_elapsed": 4
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 3
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 4195116,
+      "title": "Exercises",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        1219,
+        638,
+        2605,
+        1549
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1203,
+    622,
+    2621,
+    1565
+  ],
+  "size": [
+    1368,
+    903
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 1.1958051000110572,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm",
+  "sanctuary": true,
+  "exercise_elapsed": 4,
+  "manual_selection": {
+    "exercise": "Move the eyes",
+    "elapsed": 4,
+    "method": "Next button in the Qt player, then switch to Sanctuary"
+  }
+}

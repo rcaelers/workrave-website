@@ -1,7 +1,7 @@
 {{ $url := urls.Parse .Destination }}
 {{ $width := 0 }}
 {{ $height := 0 }}
-{{ if strings.HasPrefix $url.Path "/images/screenshots/1.11/" }}
+{{ if or (strings.HasPrefix $url.Path "/images/screenshots/1.11/") (strings.HasPrefix $url.Path "/images/screenshots/1.12/") }}
   {{ with images.Config (printf "static%s" $url.Path) }}
     {{/* Windows 11 captures use 200% DPI; display at the archived guide's 100% density. */}}
     {{ $width = div .Width 2 }}

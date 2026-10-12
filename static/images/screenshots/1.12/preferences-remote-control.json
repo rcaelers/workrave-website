@@ -1,0 +1,110 @@
+{
+  "scene": {
+    "description": "Preferences page timer/microbreak",
+    "calls": [
+      [
+        "SetBoolSetting",
+        {
+          "key": "general/grpc/enabled",
+          "value": true
+        }
+      ],
+      [
+        "SetStringSetting",
+        {
+          "key": "general/grpc/transport",
+          "value": "tcp"
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": false
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 1,
+          "page": "remote-control",
+          "panel": "grpc"
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 2491168,
+      "title": "Workrave \u2014 Preferences",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        1019,
+        438,
+        2805,
+        1749
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1003,
+    422,
+    2821,
+    1765
+  ],
+  "size": [
+    1768,
+    1303
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 0.7131479000090621,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm"
+}

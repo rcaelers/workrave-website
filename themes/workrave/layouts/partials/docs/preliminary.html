@@ -1,0 +1,8 @@
+{{ $version := partial "docs/version.html" . }}
+{{ if $version.preliminary }}
+<aside class="alert alert-warning docs-preliminary" role="note" aria-label="Documentation status">
+  <strong>Workrave {{ $version.id }} Qt — unreleased and preliminary</strong>
+  <p>This manual describes a development version. Features, settings and screenshots may change before release.
+    For the current release, see the <a href="{{ "/docs/1.11/" | relURL }}">Workrave 1.11 manual</a>.</p>
+</aside>
+{{ end }}

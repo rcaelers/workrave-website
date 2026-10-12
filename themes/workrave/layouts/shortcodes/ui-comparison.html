@@ -1,0 +1,12 @@
+{{ $alt := .Get "alt" }}
+<div class="docs-ui-comparison">
+  {{ range slice (dict "label" "Classic" "src" (.Get "classic")) (dict "label" "Sanctuary" "src" (.Get "sanctuary")) }}
+    {{ $size := images.Config (printf "static%s" .src) }}
+    <figure>
+      <figcaption>{{ .label }}</figcaption>
+      <a href="{{ .src | relURL }}" aria-label="{{ $alt }} — {{ .label }}, full-size image">
+        <img class="img-fluid" src="{{ .src | relURL }}" alt="{{ $alt }} — {{ .label }}" width="{{ div $size.Width 2 }}" height="{{ div $size.Height 2 }}" loading="lazy">
+      </a>
+    </figure>
+  {{ end }}
+</div>

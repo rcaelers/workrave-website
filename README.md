@@ -65,3 +65,9 @@ Application screenshots use GTK Workrave on Windows 11 at the current desktop DP
 with transparent backgrounds. Preferences and statistics use 1.11.4; matching
 windows and menus use the 1.12 screenshot interface. See
 `tools/capture-gtk-screenshots.md` for capture provenance and reproduction.
+
+The preliminary Qt 1.12 guide lives in `content/en/docs/1.12/`, with Windows 11
+Qt screenshots in `static/images/screenshots/1.12/`. Its version entry has
+`preliminary: true`, which shows an unreleased/preliminary banner on every page.
+The 1.11 guide remains the default. See `tools/capture-qt-screenshots.md` for
+capture provenance.

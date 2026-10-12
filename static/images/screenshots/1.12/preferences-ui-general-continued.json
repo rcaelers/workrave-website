@@ -1,0 +1,101 @@
+{
+  "scene": {
+    "description": "Preferences page ui/general",
+    "calls": [
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/light_dark_mode",
+          "value": 0
+        }
+      ],
+      [
+        "SetIntSetting",
+        {
+          "key": "gui/display_style",
+          "value": 3
+        }
+      ],
+      [
+        "SetBoolSetting",
+        {
+          "key": "gui/sanctuary_ui_enabled",
+          "value": false
+        }
+      ],
+      [
+        "SetModes",
+        {
+          "operation_mode": 0,
+          "usage_mode": 0
+        }
+      ],
+      [
+        "SetAppearance",
+        {
+          "block_mode": "PREVIEW_BLOCK_MODE_INPUT",
+          "user_active": false,
+          "exercise_index": -1,
+          "exercise_elapsed": 5
+        }
+      ],
+      [
+        "SetButtonLock",
+        {
+          "can_skip": true,
+          "can_postpone": true,
+          "value": 0,
+          "maximum": 0
+        }
+      ],
+      [
+        "ShowWindow",
+        {
+          "window": 1,
+          "page": "ui",
+          "panel": "general"
+        }
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "handle": 5308606,
+      "title": "Workrave \u2014 Preferences",
+      "window_class": "Qt6112QWindowIcon",
+      "rect": [
+        1019,
+        32,
+        2805,
+        2166
+      ],
+      "dpi": 192
+    }
+  ],
+  "bounds": [
+    1003,
+    16,
+    2821,
+    2182
+  ],
+  "size": [
+    1768,
+    2126
+  ],
+  "mattes": [
+    "#00ff00",
+    "#ff00ff"
+  ],
+  "shadows": false,
+  "seconds": 0.7883285999996588,
+  "toolkit": "Qt",
+  "version": "1.12",
+  "source_commit": "69943a423",
+  "platform": "Windows 11",
+  "machine": "win11-vm",
+  "native_window_size": [
+    1786,
+    2134
+  ],
+  "scroll_position": "bottom"
+}
