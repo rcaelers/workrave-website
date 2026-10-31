@@ -13,4 +13,4 @@ During this time you will be reminded to take microbreaks.
 After the first restbreak, the break timers stop until you start using keyboard and mouse again.
 Then it all starts over.
 
-Related to the Reading Node is the [Operation Mode](../operation-mode).
+Related to the Reading Mode is the [Operation Mode](../operation-mode).
